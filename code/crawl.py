@@ -92,8 +92,9 @@ def main():
     parser = argparse.ArgumentParser(description='Process command-line args')
     parser.add_argument("--xml_test", action="store_true", default=False)
     parser.add_argument("--dry_run", action="store_true", default=False)
+    parser.add_argument("--keep_failed", action="store_true", default=False)
+    parser.add_argument("--force_data_branch", action="store_true", default=False)
     args = parser.parse_args()
-    print args
 
     # 1. make a git branch to work in
     branchname = "crawl-" + time.strftime("%Y-%m-%d-%H-%M-%S")
@@ -101,6 +102,9 @@ def main():
     gitrepo = git.Repo(repopath)
     committed = False
     original_branch = gitrepo.active_branch
+    if args.force_data_branch and str(original_branch) != "data":
+        print "In '%s' branch, but must be in 'data' branch. Aborting!" % original_branch
+        return
     try:
         gitrepo.create_head(branchname)
         gitrepo.branches[branchname].checkout()
@@ -139,12 +143,17 @@ def main():
 
     finally:
         original_branch.checkout()
-        if not committed and ("--keep-failed" not in sys.argv):
+        if not committed and not args.keep_failed:
             # We didn't finish the crawl; unless the user asked for it we
-            # won't keep the result
+            # won't keep the result. PS -- who on earth designed this API
             gitrepo.branches[branchname].delete(gitrepo,branchname)
             if branchname in gitrepo.branches:
                 print "Failed to delete crawl branch %s for mysterious reasons" % branchname
-            # PS -- who on earth designed this API
+            # rm rf
+            crawls_dir = os.path.join(CODE_PATH,"..","crawls")
+            shutil.rmtree(crawls_dir)
+            if not os.path.isdir(crawls_dir):
+                os.makedirs(crawls_dir)
+            # todo think about whether "git reset --hard" makes sense
 
 main()
