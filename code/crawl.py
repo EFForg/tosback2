@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 
-import argparse
 import subprocess
 import random
 import git
@@ -12,6 +11,16 @@ from lxml import etree
 
 # TODO(dta) use multiprocessing module
 # at some point in the future
+
+# parse command line args
+xml_test = False
+dry_run = False
+keep_failed = False
+force_data_branch = False
+if "--xml_test" in sys.argv: xml_test = True
+if "--dry_run" in sys.argv: dry_run = True
+if "--keep_failed" in sys.argv: keep_failed = True
+if "--force_data_branch" in sys.argv: force_data_branch = True
 
 GLOBAL_UAS = ["Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.1.3) Gecko/20090824 Firefox/3.5.3 (.NET CLR 3.5.30729)"]
 CODE_PATH = os.path.dirname(sys.argv[0])
@@ -88,21 +97,13 @@ class TOSCrawler(object):
 
 
 def main():
-    # 0. parse command line args for testing
-    parser = argparse.ArgumentParser(description='Process command-line args')
-    parser.add_argument("--xml_test", action="store_true", default=False)
-    parser.add_argument("--dry_run", action="store_true", default=False)
-    parser.add_argument("--keep_failed", action="store_true", default=False)
-    parser.add_argument("--force_data_branch", action="store_true", default=False)
-    args = parser.parse_args()
-
     # 1. make a git branch to work in
     branchname = "crawl-" + time.strftime("%Y-%m-%d-%H-%M-%S")
     repopath=os.path.join(CODE_PATH,"..")
     gitrepo = git.Repo(repopath)
     committed = False
     original_branch = gitrepo.active_branch
-    if args.force_data_branch and str(original_branch) != "data":
+    if force_data_branch and str(original_branch) != "data":
         print "In '%s' branch, but must be in 'data' branch. Aborting!" % original_branch
         return
     try:
@@ -120,7 +121,7 @@ def main():
             print "Reading in XML file %s" % fi
             parsed_xml_files.append(t.read(fi))
 
-        if args.xml_test:
+        if xml_test:
             print "XML test only. Exiting"
             return
 
@@ -129,7 +130,7 @@ def main():
             crawl_paths.append(path)
 
         # 4. commit results
-        if args.dry_run:
+        if dry_run:
             print "Dry run. Not commiting results"
             return
 
@@ -143,7 +144,7 @@ def main():
 
     finally:
         original_branch.checkout()
-        if not committed and not args.keep_failed:
+        if not committed and not keep_failed:
             # We didn't finish the crawl; unless the user asked for it we
             # won't keep the result. PS -- who on earth designed this API
             gitrepo.branches[branchname].delete(gitrepo,branchname)
