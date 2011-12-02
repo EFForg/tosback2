@@ -1,0 +1,338 @@
+--2011-12-02 14:59:58--  http://www.flickr.com/guidelines.gne
+Resolving www.flickr.com (www.flickr.com)... 67.195.141.200, 67.195.141.201, 98.139.126.20, ...
+Connecting to www.flickr.com (www.flickr.com)|67.195.141.200|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `../crawls/flickr.com/Community-Guidelines/raw/www.flickr.com/guidelines.gne.html'
+
+     0K .......... .......... .......... .......... ..........  154K
+    50K .......... ....                                         209K=0.4s
+
+2011-12-02 14:59:59 (164 KB/s) - `../crawls/flickr.com/Community-Guidelines/raw/www.flickr.com/guidelines.gne.html' saved [65769]
+
+--2011-12-02 14:59:59--  http://l.yimg.com/g/images/logo_home.png
+Resolving l.yimg.com (l.yimg.com)... 98.137.88.84, 98.137.88.34, 98.137.88.35, ...
+Connecting to l.yimg.com (l.yimg.com)|98.137.88.84|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1242 (1.2K) [image/png]
+Saving to: `../crawls/flickr.com/Community-Guidelines/raw/l.yimg.com/g/images/logo_home.png'
+
+     0K .                                                     100%  606K=0s
+
+2011-12-02 14:59:59 (606 KB/s) - `../crawls/flickr.com/Community-Guidelines/raw/l.yimg.com/g/images/logo_home.png' saved [1242/1242]
+
+--2011-12-02 14:59:59--  http://l.yimg.com/g/combo/1/3.4.0?j/yui/3.4.0/yui/yui-.E.A.vWNh4&j/yui/3.4.0/.FN/.FN-.E.A.vWNh4
+Reusing existing connection to l.yimg.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 105890 (103K) [application/x-javascript]
+Saving to: `../crawls/flickr.com/Community-Guidelines/raw/l.yimg.com/g/combo/1/3.4.0?j%2Fyui%2F3.4.0%2Fyui%2Fyui-.E.A.vWNh4&j%2Fyui%2F3.4.0%2F.FN%2F.FN-.E.A.vWNh4'
+
+     0K .......... .......... .......... .......... .......... 48% 3.05M 0s
+    50K .......... .......... .......... .......... .......... 96% 4.07M 0s
+   100K ...                                                   100% 1.66M=0.03s
+
+2011-12-02 14:59:59 (3.61 MB/s) - `../crawls/flickr.com/Community-Guidelines/raw/l.yimg.com/g/combo/1/3.4.0?j%2Fyui%2F3.4.0%2Fyui%2Fyui-.E.A.vWNh4&j%2Fyui%2F3.4.0%2F.FN%2F.FN-.E.A.vWNh4' saved [105890/105890]
+
+--2011-12-02 14:59:59--  http://l.yimg.com/g/combo/1/3.4.0?c/c_.X_nav.BC.vXYer&c/c_.J_nav.BC.vYjx2&c/c_.J_.D.BC.vYEVM&c/c_.EM_.D.BC.vYhP2&c/c_community_guidelines_.D.BC.vT5Y8&
+Reusing existing connection to l.yimg.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/css]
+Saving to: `../crawls/flickr.com/Community-Guidelines/raw/l.yimg.com/g/combo/1/3.4.0?c%2Fc_.X_nav.BC.vXYer&c%2Fc_.J_nav.BC.vYjx2&c%2Fc_.J_.D.BC.vYEVM&c%2Fc_.EM_.D.BC.vYhP2&c%2Fc_community_guidelines_.D.BC.vT5Y8&.css'
+
+     0K .......... .......... .......... .......... ........    259K=0.2s
+
+2011-12-02 14:59:59 (259 KB/s) - `../crawls/flickr.com/Community-Guidelines/raw/l.yimg.com/g/combo/1/3.4.0?c%2Fc_.X_nav.BC.vXYer&c%2Fc_.J_nav.BC.vYjx2&c%2Fc_.J_.D.BC.vYEVM&c%2Fc_.EM_.D.BC.vYhP2&c%2Fc_community_guidelines_.D.BC.vT5Y8&.css' saved [49877]
+
+--2011-12-02 14:59:59--  http://l.yimg.com/g/favicon.ico
+Reusing existing connection to l.yimg.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 92854 (91K) [image/vnd.microsoft.icon]
+Saving to: `../crawls/flickr.com/Community-Guidelines/raw/l.yimg.com/g/favicon.ico'
+
+     0K .......... .......... .......... .......... .......... 55% 6.10M 0s
+    50K .......... .......... .......... ..........           100% 9.93M=0.01s
+
+2011-12-02 14:59:59 (7.38 MB/s) - `../crawls/flickr.com/Community-Guidelines/raw/l.yimg.com/g/favicon.ico' saved [92854/92854]
+
+--2011-12-02 14:59:59--  http://geo.yahoo.com/f?s=792600122&t=4d519f421baa0b486afbfc7d3eb55c31&fl_ev=0&lang=en&intl=us
+Resolving geo.yahoo.com (geo.yahoo.com)... 98.136.43.76
+Connecting to geo.yahoo.com (geo.yahoo.com)|98.136.43.76|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 43 [image/gif]
+Saving to: `../crawls/flickr.com/Community-Guidelines/raw/geo.yahoo.com/f?s=792600122&t=4d519f421baa0b486afbfc7d3eb55c31&fl_ev=0&lang=en&intl=us'
+
+     0K                                                       100% 21.0K=0s
+
+2011-12-02 14:59:59 (21.0 KB/s) - `../crawls/flickr.com/Community-Guidelines/raw/geo.yahoo.com/f?s=792600122&t=4d519f421baa0b486afbfc7d3eb55c31&fl_ev=0&lang=en&intl=us' saved [43/43]
+
+--2011-12-02 14:59:59--  http://l.yimg.com/g/images/en-us/flickr-yahoo-logo.png.v4
+Reusing existing connection to l.yimg.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1558 (1.5K) [image/png]
+Saving to: `../crawls/flickr.com/Community-Guidelines/raw/l.yimg.com/g/images/en-us/flickr-yahoo-logo.png.v4'
+
+     0K .                                                     100%  761K=0s
+
+2011-12-02 14:59:59 (761 KB/s) - `../crawls/flickr.com/Community-Guidelines/raw/l.yimg.com/g/images/en-us/flickr-yahoo-logo.png.v4' saved [1558/1558]
+
+--2011-12-02 14:59:59--  http://l.yimg.com/g/images/spaceout.gif
+Reusing existing connection to l.yimg.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 43 [image/gif]
+Saving to: `../crawls/flickr.com/Community-Guidelines/raw/l.yimg.com/g/images/spaceout.gif'
+
+     0K                                                       100% 21.0K=0s
+
+2011-12-02 14:59:59 (21.0 KB/s) - `../crawls/flickr.com/Community-Guidelines/raw/l.yimg.com/g/images/spaceout.gif' saved [43/43]
+
+--2011-12-02 14:59:59--  http://l.yimg.com/ghttp://l.yimg.com/g/images/icon_comment.gif
+Reusing existing connection to l.yimg.com:80.
+HTTP request sent, awaiting response... 404 Not Found
+2011-12-02 14:59:59 ERROR 404: Not Found.
+
+--2011-12-02 14:59:59--  http://l.yimg.com/g/images/flickr-sprite.png.v4
+Connecting to l.yimg.com (l.yimg.com)|98.137.88.84|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 21830 (21K) [image/png]
+Saving to: `../crawls/flickr.com/Community-Guidelines/raw/l.yimg.com/g/images/flickr-sprite.png.v4'
+
+     0K .......... .......... .                               100% 2.60M=0.008s
+
+2011-12-02 14:59:59 (2.60 MB/s) - `../crawls/flickr.com/Community-Guidelines/raw/l.yimg.com/g/images/flickr-sprite.png.v4' saved [21830/21830]
+
+--2011-12-02 14:59:59--  http://l.yimg.com/g/images/progress/balls-24x12-grey.gif
+Reusing existing connection to l.yimg.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 2129 (2.1K) [image/gif]
+Saving to: `../crawls/flickr.com/Community-Guidelines/raw/l.yimg.com/g/images/progress/balls-24x12-grey.gif'
+
+     0K ..                                                    100% 1.02M=0s
+
+2011-12-02 14:59:59 (1.02 MB/s) - `../crawls/flickr.com/Community-Guidelines/raw/l.yimg.com/g/images/progress/balls-24x12-grey.gif' saved [2129/2129]
+
+--2011-12-02 14:59:59--  http://l.yimg.com/g/images/icon_check_small.png
+Reusing existing connection to l.yimg.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 942 [image/png]
+Saving to: `../crawls/flickr.com/Community-Guidelines/raw/l.yimg.com/g/images/icon_check_small.png'
+
+     0K                                                       100%  460K=0s
+
+2011-12-02 14:59:59 (460 KB/s) - `../crawls/flickr.com/Community-Guidelines/raw/l.yimg.com/g/images/icon_check_small.png' saved [942/942]
+
+--2011-12-02 14:59:59--  http://l.yimg.com/g/images/icon_alert.png
+Reusing existing connection to l.yimg.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 324 [image/png]
+Saving to: `../crawls/flickr.com/Community-Guidelines/raw/l.yimg.com/g/images/icon_alert.png'
+
+     0K                                                       100%  158K=0s
+
+2011-12-02 14:59:59 (158 KB/s) - `../crawls/flickr.com/Community-Guidelines/raw/l.yimg.com/g/images/icon_alert.png' saved [324/324]
+
+--2011-12-02 14:59:59--  http://l.yimg.com/g/images/icon_check.png
+Reusing existing connection to l.yimg.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 304 [image/png]
+Saving to: `../crawls/flickr.com/Community-Guidelines/raw/l.yimg.com/g/images/icon_check.png'
+
+     0K                                                       100%  148K=0s
+
+2011-12-02 14:59:59 (148 KB/s) - `../crawls/flickr.com/Community-Guidelines/raw/l.yimg.com/g/images/icon_check.png' saved [304/304]
+
+--2011-12-02 14:59:59--  http://l.yimg.com/g/images/icon_alert_big.png
+Reusing existing connection to l.yimg.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 246 [image/png]
+Saving to: `../crawls/flickr.com/Community-Guidelines/raw/l.yimg.com/g/images/icon_alert_big.png'
+
+     0K                                                       100%  120K=0s
+
+2011-12-02 14:59:59 (120 KB/s) - `../crawls/flickr.com/Community-Guidelines/raw/l.yimg.com/g/images/icon_alert_big.png' saved [246/246]
+
+--2011-12-02 14:59:59--  http://l.yimg.com/g/images/pulser2.gif
+Reusing existing connection to l.yimg.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1600 (1.6K) [image/gif]
+Saving to: `../crawls/flickr.com/Community-Guidelines/raw/l.yimg.com/g/images/pulser2.gif'
+
+     0K .                                                     100%  781K=0s
+
+2011-12-02 14:59:59 (781 KB/s) - `../crawls/flickr.com/Community-Guidelines/raw/l.yimg.com/g/images/pulser2.gif' saved [1600/1600]
+
+--2011-12-02 14:59:59--  http://l.yimg.com/g/images/sharing_sprite.png
+Reusing existing connection to l.yimg.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1265 (1.2K) [image/png]
+Saving to: `../crawls/flickr.com/Community-Guidelines/raw/l.yimg.com/g/images/sharing_sprite.png'
+
+     0K .                                                     100%  618K=0s
+
+2011-12-02 14:59:59 (618 KB/s) - `../crawls/flickr.com/Community-Guidelines/raw/l.yimg.com/g/images/sharing_sprite.png' saved [1265/1265]
+
+--2011-12-02 14:59:59--  http://l.yimg.com/g/images/delete_x_small_sprite.gif
+Reusing existing connection to l.yimg.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 177 [image/gif]
+Saving to: `../crawls/flickr.com/Community-Guidelines/raw/l.yimg.com/g/images/delete_x_small_sprite.gif'
+
+     0K                                                       100% 86.4K=0s
+
+2011-12-02 14:59:59 (86.4 KB/s) - `../crawls/flickr.com/Community-Guidelines/raw/l.yimg.com/g/images/delete_x_small_sprite.gif' saved [177/177]
+
+--2011-12-02 14:59:59--  http://l.yimg.com/g/images/close_x_sprite.png
+Reusing existing connection to l.yimg.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 210 [image/png]
+Saving to: `../crawls/flickr.com/Community-Guidelines/raw/l.yimg.com/g/images/close_x_sprite.png'
+
+     0K                                                       100%  103K=0s
+
+2011-12-02 14:59:59 (103 KB/s) - `../crawls/flickr.com/Community-Guidelines/raw/l.yimg.com/g/images/close_x_sprite.png' saved [210/210]
+
+--2011-12-02 14:59:59--  http://l.yimg.com/g/images/dotted.gif
+Reusing existing connection to l.yimg.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 808 [image/gif]
+Saving to: `../crawls/flickr.com/Community-Guidelines/raw/l.yimg.com/g/images/dotted.gif'
+
+     0K                                                       100%  395K=0s
+
+2011-12-02 14:59:59 (395 KB/s) - `../crawls/flickr.com/Community-Guidelines/raw/l.yimg.com/g/images/dotted.gif' saved [808/808]
+
+--2011-12-02 14:59:59--  http://l.yimg.com/g/images/bb_header_bg.png
+Reusing existing connection to l.yimg.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 186 [image/png]
+Saving to: `../crawls/flickr.com/Community-Guidelines/raw/l.yimg.com/g/images/bb_header_bg.png'
+
+     0K                                                       100% 90.8K=0s
+
+2011-12-02 14:59:59 (90.8 KB/s) - `../crawls/flickr.com/Community-Guidelines/raw/l.yimg.com/g/images/bb_header_bg.png' saved [186/186]
+
+--2011-12-02 14:59:59--  http://l.yimg.com/g/images/browser-upgradge-msg-bkgd.png
+Reusing existing connection to l.yimg.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 35476 (35K) [image/png]
+Saving to: `../crawls/flickr.com/Community-Guidelines/raw/l.yimg.com/g/images/browser-upgradge-msg-bkgd.png'
+
+     0K .......... .......... .......... ....                 100% 4.23M=0.008s
+
+2011-12-02 14:59:59 (4.23 MB/s) - `../crawls/flickr.com/Community-Guidelines/raw/l.yimg.com/g/images/browser-upgradge-msg-bkgd.png' saved [35476/35476]
+
+--2011-12-02 14:59:59--  http://l.yimg.com/g/images/browser-chrome.gif
+Reusing existing connection to l.yimg.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 4409 (4.3K) [image/gif]
+Saving to: `../crawls/flickr.com/Community-Guidelines/raw/l.yimg.com/g/images/browser-chrome.gif'
+
+     0K ....                                                  100% 2.10M=0s
+
+2011-12-02 14:59:59 (2.10 MB/s) - `../crawls/flickr.com/Community-Guidelines/raw/l.yimg.com/g/images/browser-chrome.gif' saved [4409/4409]
+
+--2011-12-02 14:59:59--  http://l.yimg.com/g/images/browser-safari.gif
+Reusing existing connection to l.yimg.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 5527 (5.4K) [image/gif]
+Saving to: `../crawls/flickr.com/Community-Guidelines/raw/l.yimg.com/g/images/browser-safari.gif'
+
+     0K .....                                                 100% 2.64M=0s
+
+2011-12-02 14:59:59 (2.64 MB/s) - `../crawls/flickr.com/Community-Guidelines/raw/l.yimg.com/g/images/browser-safari.gif' saved [5527/5527]
+
+--2011-12-02 14:59:59--  http://l.yimg.com/g/images/browser-firefox_4-9.gif
+Reusing existing connection to l.yimg.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 4851 (4.7K) [image/gif]
+Saving to: `../crawls/flickr.com/Community-Guidelines/raw/l.yimg.com/g/images/browser-firefox_4-9.gif'
+
+     0K ....                                                  100% 2.31M=0s
+
+2011-12-02 14:59:59 (2.31 MB/s) - `../crawls/flickr.com/Community-Guidelines/raw/l.yimg.com/g/images/browser-firefox_4-9.gif' saved [4851/4851]
+
+--2011-12-02 14:59:59--  http://l.yimg.com/g/images/browser-ie.gif
+Reusing existing connection to l.yimg.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 5113 (5.0K) [image/gif]
+Saving to: `../crawls/flickr.com/Community-Guidelines/raw/l.yimg.com/g/images/browser-ie.gif'
+
+     0K ....                                                  100% 2.44M=0s
+
+2011-12-02 14:59:59 (2.44 MB/s) - `../crawls/flickr.com/Community-Guidelines/raw/l.yimg.com/g/images/browser-ie.gif' saved [5113/5113]
+
+--2011-12-02 14:59:59--  http://l.yimg.com/g/images/button-cta-small.png
+Reusing existing connection to l.yimg.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 2065 (2.0K) [image/png]
+Saving to: `../crawls/flickr.com/Community-Guidelines/raw/l.yimg.com/g/images/button-cta-small.png'
+
+     0K ..                                                    100% 1008K=0s
+
+2011-12-02 14:59:59 (1008 KB/s) - `../crawls/flickr.com/Community-Guidelines/raw/l.yimg.com/g/images/button-cta-small.png' saved [2065/2065]
+
+--2011-12-02 14:59:59--  http://l.yimg.com/g/images/button-cta-small-f4f4f4.png
+Reusing existing connection to l.yimg.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 2088 (2.0K) [image/png]
+Saving to: `../crawls/flickr.com/Community-Guidelines/raw/l.yimg.com/g/images/button-cta-small-f4f4f4.png'
+
+     0K ..                                                    100% 1019K=0s
+
+2011-12-02 14:59:59 (1019 KB/s) - `../crawls/flickr.com/Community-Guidelines/raw/l.yimg.com/g/images/button-cta-small-f4f4f4.png' saved [2088/2088]
+
+--2011-12-02 14:59:59--  http://l.yimg.com/g/images/set_case.gif
+Reusing existing connection to l.yimg.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 502 [image/gif]
+Saving to: `../crawls/flickr.com/Community-Guidelines/raw/l.yimg.com/g/images/set_case.gif'
+
+     0K                                                       100%  245K=0s
+
+2011-12-02 14:59:59 (245 KB/s) - `../crawls/flickr.com/Community-Guidelines/raw/l.yimg.com/g/images/set_case.gif' saved [502/502]
+
+--2011-12-02 14:59:59--  http://l.yimg.com/g/images/gallery_case.gif
+Reusing existing connection to l.yimg.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1178 (1.2K) [image/gif]
+Saving to: `../crawls/flickr.com/Community-Guidelines/raw/l.yimg.com/g/images/gallery_case.gif'
+
+     0K .                                                     100%  575K=0s
+
+2011-12-02 14:59:59 (575 KB/s) - `../crawls/flickr.com/Community-Guidelines/raw/l.yimg.com/g/images/gallery_case.gif' saved [1178/1178]
+
+--2011-12-02 14:59:59--  http://l.yimg.com/g/images/badge_preview_bg.gif
+Reusing existing connection to l.yimg.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 170 [image/gif]
+Saving to: `../crawls/flickr.com/Community-Guidelines/raw/l.yimg.com/g/images/badge_preview_bg.gif'
+
+     0K                                                       100% 83.0K=0s
+
+2011-12-02 14:59:59 (83.0 KB/s) - `../crawls/flickr.com/Community-Guidelines/raw/l.yimg.com/g/images/badge_preview_bg.gif' saved [170/170]
+
+--2011-12-02 14:59:59--  http://l.yimg.com/g/images/progress/balls-24x12-white.gif
+Reusing existing connection to l.yimg.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 2129 (2.1K) [image/gif]
+Saving to: `../crawls/flickr.com/Community-Guidelines/raw/l.yimg.com/g/images/progress/balls-24x12-white.gif'
+
+     0K ..                                                    100%  520K=0.004s
+
+2011-12-02 14:59:59 (520 KB/s) - `../crawls/flickr.com/Community-Guidelines/raw/l.yimg.com/g/images/progress/balls-24x12-white.gif' saved [2129/2129]
+
+--2011-12-02 14:59:59--  http://l.yimg.com/g/images/share-this-icons-sprite.png.v3
+Reusing existing connection to l.yimg.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 28923 (28K) [image/png]
+Saving to: `../crawls/flickr.com/Community-Guidelines/raw/l.yimg.com/g/images/share-this-icons-sprite.png.v3'
+
+     0K .......... .......... ........                        100% 6.89M=0.004s
+
+2011-12-02 14:59:59 (6.89 MB/s) - `../crawls/flickr.com/Community-Guidelines/raw/l.yimg.com/g/images/share-this-icons-sprite.png.v3' saved [28923/28923]
+
+FINISHED --2011-12-02 14:59:59--
+Total wall clock time: 1.2s
+Downloaded: 32 files, 429K in 0.6s (667 KB/s)
+Converting ../crawls/flickr.com/Community-Guidelines/raw/www.flickr.com/guidelines.gne.html... 11-56
+Converting ../crawls/flickr.com/Community-Guidelines/raw/l.yimg.com/g/combo/1/3.4.0?c%2Fc_.X_nav.BC.vXYer&c%2Fc_.J_nav.BC.vYjx2&c%2Fc_.J_.D.BC.vYEVM&c%2Fc_.EM_.D.BC.vYhP2&c%2Fc_community_guidelines_.D.BC.vT5Y8&.css... 46-0
+Converted 2 files in 0.004 seconds.

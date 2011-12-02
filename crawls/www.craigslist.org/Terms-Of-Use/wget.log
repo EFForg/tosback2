@@ -1,0 +1,38 @@
+--2011-12-02 15:09:27--  http://www.craigslist.org/about/terms.of.use
+Resolving www.craigslist.org (www.craigslist.org)... 208.82.238.130
+Connecting to www.craigslist.org (www.craigslist.org)|208.82.238.130|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `../crawls/www.craigslist.org/Terms-Of-Use/raw/www.craigslist.org/about/terms.of.use.html'
+
+     0K .......... .......... .........                        3.61M=0.008s
+
+Last-modified header invalid -- time-stamp ignored.
+2011-12-02 15:09:27 (3.61 MB/s) - `../crawls/www.craigslist.org/Terms-Of-Use/raw/www.craigslist.org/about/terms.of.use.html' saved [30320]
+
+--2011-12-02 15:09:27--  http://www.craigslist.org/styles/craigslist.css
+Connecting to www.craigslist.org (www.craigslist.org)|208.82.238.130|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 15138 (15K) [text/css]
+Saving to: `../crawls/www.craigslist.org/Terms-Of-Use/raw/www.craigslist.org/styles/craigslist.css'
+
+     0K .......... ....                                       100% 3.61M=0.004s
+
+2011-12-02 15:09:27 (3.61 MB/s) - `../crawls/www.craigslist.org/Terms-Of-Use/raw/www.craigslist.org/styles/craigslist.css' saved [15138/15138]
+
+--2011-12-02 15:09:27--  http://www.craigslist.org/images/shareSocial.png
+Connecting to www.craigslist.org (www.craigslist.org)|208.82.238.130|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 6622 (6.5K) [image/png]
+Saving to: `../crawls/www.craigslist.org/Terms-Of-Use/raw/www.craigslist.org/images/shareSocial.png'
+
+     0K ......                                                100% 3.16M=0s
+
+2011-12-02 15:09:27 (3.16 MB/s) - `../crawls/www.craigslist.org/Terms-Of-Use/raw/www.craigslist.org/images/shareSocial.png' saved [6622/6622]
+
+FINISHED --2011-12-02 15:09:27--
+Total wall clock time: 0.05s
+Downloaded: 3 files, 51K in 0.01s (4.14 MB/s)
+Converting ../crawls/www.craigslist.org/Terms-Of-Use/raw/www.craigslist.org/about/terms.of.use.html... 1-2
+Converting ../crawls/www.craigslist.org/Terms-Of-Use/raw/www.craigslist.org/styles/craigslist.css... 1-0
+Converted 2 files in 0.004 seconds.

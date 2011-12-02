@@ -1,0 +1,2538 @@
+--2011-12-02 15:09:49--  http://www.whitehouse.gov/privacy/
+Resolving www.whitehouse.gov (www.whitehouse.gov)... 199.239.183.151, 199.239.183.94
+Connecting to www.whitehouse.gov (www.whitehouse.gov)|199.239.183.151|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 74804 (73K) [text/html]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/privacy/index.html'
+
+     0K .......... .......... .......... .......... .......... 68% 3.05M 0s
+    50K .......... .......... ...                             100% 5.63M=0.02s
+
+2011-12-02 15:09:51 (3.57 MB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/privacy/index.html' saved [74804/74804]
+
+--2011-12-02 15:09:51--  https://www.google.com/recaptcha/api/js/recaptcha_ajax.js
+Resolving www.google.com (www.google.com)... 74.125.39.103, 74.125.39.104, 74.125.39.105, ...
+Connecting to www.google.com (www.google.com)|74.125.39.103|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/x-javascript]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.google.com/recaptcha/api/js/recaptcha_ajax.js'
+
+     0K .......... .......... .....                             161K=0.2s
+
+2011-12-02 15:09:52 (161 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.google.com/recaptcha/api/js/recaptcha_ajax.js' saved [25756]
+
+--2011-12-02 15:09:52--  https://s7.addthis.com/js/250/addthis_widget.js
+Resolving s7.addthis.com (s7.addthis.com)... 96.6.220.20
+Connecting to s7.addthis.com (s7.addthis.com)|96.6.220.20|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/x-javascript]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/s7.addthis.com/js/250/addthis_widget.js'
+
+     0K .......... .......... .......... .......... .......... 6.10M
+    50K .......... .......... .......... .......... ..         5.15M=0.02s
+
+2011-12-02 15:09:52 (5.63 MB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/s7.addthis.com/js/250/addthis_widget.js' saved [94393]
+
+--2011-12-02 15:09:52--  http://www.whitehouse.gov/sites/default/themes/whitehouse/favicon.ico
+Connecting to www.whitehouse.gov (www.whitehouse.gov)|199.239.183.151|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1406 (1.4K) [text/plain]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/favicon.ico'
+
+     0K .                                                     100%  686K=0s
+
+2011-12-02 15:09:52 (686 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/favicon.ico' saved [1406/1406]
+
+--2011-12-02 15:09:52--  http://www.whitehouse.gov/sites/default/files/css_injector_13.css?v
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 884 [text/css]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/files/css_injector_13.css?v.css'
+
+     0K                                                       100%  432K=0s
+
+2011-12-02 15:09:52 (432 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/files/css_injector_13.css?v.css' saved [884/884]
+
+--2011-12-02 15:09:52--  http://www.whitehouse.gov/sites/default/files/advagg_css/css_fc8161e170ea40814619194db5401b64_2.css
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/css]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/files/advagg_css/css_fc8161e170ea40814619194db5401b64_2.css'
+
+     0K .......... .......... .......... .......... .......... 95.4K
+    50K .......... .......... .......... .......... ..........  568K
+   100K .......... .......... .......... .......... ..........  121K
+   150K .......... .......... .......... .......... ..........  595K
+   200K .......... .......... .                                10.4M=1.1s
+
+2011-12-02 15:09:54 (200 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/files/advagg_css/css_fc8161e170ea40814619194db5401b64_2.css' saved [226582]
+
+--2011-12-02 15:09:54--  http://www.whitehouse.gov/sites/default/files/advagg_css/css_c95568c523ce75320a9733bf64492f9c_2.css
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 38 [text/css]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/files/advagg_css/css_c95568c523ce75320a9733bf64492f9c_2.css'
+
+     0K                                                       100% 18.6K=0s
+
+2011-12-02 15:09:54 (18.6 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/files/advagg_css/css_c95568c523ce75320a9733bf64492f9c_2.css' saved [38/38]
+
+--2011-12-02 15:09:54--  http://www.whitehouse.gov/sites/default/files/advagg_js/js_24a86d6374b62cf0f9676d0fb910d3f3_2.js
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/x-javascript]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/files/advagg_js/js_24a86d6374b62cf0f9676d0fb910d3f3_2.js'
+
+     0K .......... .......... .......... .......... .......... 58.1K
+    50K .......... .......... .......... .......... .......... 8.61K
+   100K .......... .......... .......... .......... .......... 49.4K
+   150K .......... .......... .......... .......... ..........  223K
+   200K .......... .......... .......... ..                    3.93M=7.9s
+
+2011-12-02 15:10:05 (29.4 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/files/advagg_js/js_24a86d6374b62cf0f9676d0fb910d3f3_2.js' saved [237796]
+
+--2011-12-02 15:10:05--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/clear.gif
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 43 [image/gif]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/clear.gif'
+
+     0K                                                       100% 21.0K=0s
+
+2011-12-02 15:10:05 (21.0 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/clear.gif' saved [43/43]
+
+--2011-12-02 15:10:05--  http://www.whitehouse.gov/sites/default/files/featured_jobs_act.jpg
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 10011 (9.8K) [image/jpeg]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/files/featured_jobs_act.jpg'
+
+     0K .........                                             100% 2.39M=0.004s
+
+2011-12-02 15:10:06 (2.39 MB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/files/featured_jobs_act.jpg' saved [10011/10011]
+
+--2011-12-02 15:10:06--  http://www.whitehouse.gov/sites/default/files/menu_visitor_records.jpg
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 13632 (13K) [image/jpeg]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/files/menu_visitor_records.jpg'
+
+     0K .......... ...                                        100% 3.25M=0.004s
+
+2011-12-02 15:10:06 (3.25 MB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/files/menu_visitor_records.jpg' saved [13632/13632]
+
+--2011-12-02 15:10:06--  http://www.whitehouse.gov/sites/default/files/featured_petitions.jpg
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 8208 (8.0K) [image/jpeg]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/files/featured_petitions.jpg'
+
+     0K ........                                              100% 3.91M=0s
+
+2011-12-02 15:10:06 (3.91 MB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/files/featured_petitions.jpg' saved [8208/8208]
+
+--2011-12-02 15:10:06--  http://www.whitehouse.gov/sites/default/files/featured_images_payroll_calc2.jpg
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 9291 (9.1K) [image/jpeg]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/files/featured_images_payroll_calc2.jpg'
+
+     0K .........                                             100% 4.43M=0s
+
+2011-12-02 15:10:06 (4.43 MB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/files/featured_images_payroll_calc2.jpg' saved [9291/9291]
+
+--2011-12-02 15:10:06--  http://www.whitehouse.gov/sites/default/files/menu_interactive_tour.jpg
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 8670 (8.5K) [image/jpeg]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/files/menu_interactive_tour.jpg'
+
+     0K ........                                              100% 4.13M=0s
+
+2011-12-02 15:10:06 (4.13 MB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/files/menu_interactive_tour.jpg' saved [8670/8670]
+
+--2011-12-02 15:10:06--  http://www.whitehouse.gov/sites/default/files/site-takeover-jobs_calc.jpg
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 33912 (33K) [image/jpeg]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/files/site-takeover-jobs_calc.jpg'
+
+     0K .......... .......... .......... ...                  100% 8.08M=0.004s
+
+2011-12-02 15:10:06 (8.08 MB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/files/site-takeover-jobs_calc.jpg' saved [33912/33912]
+
+--2011-12-02 15:10:06--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-search.gif
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1621 (1.6K) [image/gif]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-search.gif'
+
+     0K .                                                     100%  791K=0s
+
+2011-12-02 15:10:06 (791 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-search.gif' saved [1621/1621]
+
+--2011-12-02 15:10:06--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/sftr-whgov.gif
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1631 (1.6K) [image/gif]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/sftr-whgov.gif'
+
+     0K .                                                     100%  796K=0s
+
+2011-12-02 15:10:06 (796 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/sftr-whgov.gif' saved [1631/1631]
+
+--2011-12-02 15:10:06--  http://www.whitehouse.gov/sites/default/files/blogs_tout_header.jpg
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 6241 (6.1K) [image/jpeg]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/files/blogs_tout_header.jpg'
+
+     0K ......                                                100% 2.98M=0s
+
+2011-12-02 15:10:06 (2.98 MB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/files/blogs_tout_header.jpg' saved [6241/6241]
+
+--2011-12-02 15:10:06--  http://www.whitehouse.gov/misc/tree.png
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 979 [image/png]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/misc/tree.png'
+
+     0K                                                       100%  478K=0s
+
+2011-12-02 15:10:06 (478 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/misc/tree.png' saved [979/979]
+
+--2011-12-02 15:10:06--  http://www.whitehouse.gov/misc/tree-bottom.png
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 976 [image/png]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/misc/tree-bottom.png'
+
+     0K                                                       100%  477K=0s
+
+2011-12-02 15:10:06 (477 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/misc/tree-bottom.png' saved [976/976]
+
+--2011-12-02 15:10:06--  http://www.whitehouse.gov/misc/throbber.gif
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1336 (1.3K) [image/gif]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/misc/throbber.gif'
+
+     0K .                                                     100%  652K=0s
+
+2011-12-02 15:10:06 (652 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/misc/throbber.gif' saved [1336/1336]
+
+--2011-12-02 15:10:06--  http://www.whitehouse.gov/misc/menu-expanded.png
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 106 [image/png]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/misc/menu-expanded.png'
+
+     0K                                                       100% 51.8K=0s
+
+2011-12-02 15:10:06 (51.8 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/misc/menu-expanded.png' saved [106/106]
+
+--2011-12-02 15:10:06--  http://www.whitehouse.gov/misc/menu-collapsed.png
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 108 [image/png]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/misc/menu-collapsed.png'
+
+     0K                                                       100% 52.7K=0s
+
+2011-12-02 15:10:06 (52.7 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/misc/menu-collapsed.png' saved [108/108]
+
+--2011-12-02 15:10:06--  http://www.whitehouse.gov/misc/grippie.png
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 162 [image/png]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/misc/grippie.png'
+
+     0K                                                       100% 79.1K=0s
+
+2011-12-02 15:10:06 (79.1 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/misc/grippie.png' saved [162/162]
+
+--2011-12-02 15:10:06--  http://www.whitehouse.gov/misc/draggable.png
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 349 [image/png]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/misc/draggable.png'
+
+     0K                                                       100%  170K=0s
+
+2011-12-02 15:10:06 (170 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/misc/draggable.png' saved [349/349]
+
+--2011-12-02 15:10:06--  http://www.whitehouse.gov/misc/progress.gif
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 790 [image/gif]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/misc/progress.gif'
+
+     0K                                                       100%  386K=0s
+
+2011-12-02 15:10:06 (386 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/misc/progress.gif' saved [790/790]
+
+--2011-12-02 15:10:06--  http://www.whitehouse.gov/misc/menu-leaf.png
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 194 [image/png]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/misc/menu-leaf.png'
+
+     0K                                                       100% 94.7K=0s
+
+2011-12-02 15:10:06 (94.7 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/misc/menu-leaf.png' saved [194/194]
+
+--2011-12-02 15:10:06--  http://www.whitehouse.gov/sites/default/img/contact-us-main-hero.jpg
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 404 Not Found
+2011-12-02 15:10:07 ERROR 404: Not Found.
+
+--2011-12-02 15:10:07--  http://www.whitehouse.gov/sites/all/modules/ctools/images/status-active.gif
+Connecting to www.whitehouse.gov (www.whitehouse.gov)|199.239.183.151|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 2196 (2.1K) [image/gif]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/all/modules/ctools/images/status-active.gif'
+
+     0K ..                                                    100% 1.05M=0s
+
+2011-12-02 15:10:07 (1.05 MB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/all/modules/ctools/images/status-active.gif' saved [2196/2196]
+
+--2011-12-02 15:10:07--  http://www.whitehouse.gov/sites/all/modules/date/date_popup/themes/images/e6e6e6_40x100_textures_02_glass_75.png
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 211 [image/png]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/all/modules/date/date_popup/themes/images/e6e6e6_40x100_textures_02_glass_75.png'
+
+     0K                                                       100%  103K=0s
+
+2011-12-02 15:10:07 (103 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/all/modules/date/date_popup/themes/images/e6e6e6_40x100_textures_02_glass_75.png' saved [211/211]
+
+--2011-12-02 15:10:07--  http://www.whitehouse.gov/sites/all/modules/date/date_popup/themes/images/dadada_40x100_textures_02_glass_75.png
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 214 [image/png]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/all/modules/date/date_popup/themes/images/dadada_40x100_textures_02_glass_75.png'
+
+     0K                                                       100%  104K=0s
+
+2011-12-02 15:10:07 (104 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/all/modules/date/date_popup/themes/images/dadada_40x100_textures_02_glass_75.png' saved [214/214]
+
+--2011-12-02 15:10:07--  http://www.whitehouse.gov/sites/all/modules/date/date_popup/themes/images/888888_7x7_arrow_left.gif
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 53 [image/gif]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/all/modules/date/date_popup/themes/images/888888_7x7_arrow_left.gif'
+
+     0K                                                       100% 25.9K=0s
+
+2011-12-02 15:10:07 (25.9 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/all/modules/date/date_popup/themes/images/888888_7x7_arrow_left.gif' saved [53/53]
+
+--2011-12-02 15:10:07--  http://www.whitehouse.gov/sites/all/modules/date/date_popup/themes/images/888888_7x7_arrow_right.gif
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 53 [image/gif]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/all/modules/date/date_popup/themes/images/888888_7x7_arrow_right.gif'
+
+     0K                                                       100% 25.9K=0s
+
+2011-12-02 15:10:07 (25.9 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/all/modules/date/date_popup/themes/images/888888_7x7_arrow_right.gif' saved [53/53]
+
+--2011-12-02 15:10:07--  http://www.whitehouse.gov/sites/all/modules/date/date_popup/themes/images/454545_7x7_arrow_left.gif
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 53 [image/gif]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/all/modules/date/date_popup/themes/images/454545_7x7_arrow_left.gif'
+
+     0K                                                       100% 25.9K=0s
+
+2011-12-02 15:10:07 (25.9 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/all/modules/date/date_popup/themes/images/454545_7x7_arrow_left.gif' saved [53/53]
+
+--2011-12-02 15:10:07--  http://www.whitehouse.gov/sites/all/modules/date/date_popup/themes/images/454545_7x7_arrow_right.gif
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 53 [image/gif]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/all/modules/date/date_popup/themes/images/454545_7x7_arrow_right.gif'
+
+     0K                                                       100% 25.9K=0s
+
+2011-12-02 15:10:07 (25.9 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/all/modules/date/date_popup/themes/images/454545_7x7_arrow_right.gif' saved [53/53]
+
+--2011-12-02 15:10:07--  http://www.whitehouse.gov/sites/all/modules/date/date_popup/themes/images/222222_7x7_arrow_left.gif
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 53 [image/gif]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/all/modules/date/date_popup/themes/images/222222_7x7_arrow_left.gif'
+
+     0K                                                       100% 25.9K=0s
+
+2011-12-02 15:10:07 (25.9 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/all/modules/date/date_popup/themes/images/222222_7x7_arrow_left.gif' saved [53/53]
+
+--2011-12-02 15:10:07--  http://www.whitehouse.gov/sites/all/modules/date/date_popup/themes/images/222222_7x7_arrow_right.gif
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 53 [image/gif]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/all/modules/date/date_popup/themes/images/222222_7x7_arrow_right.gif'
+
+     0K                                                       100% 25.9K=0s
+
+2011-12-02 15:10:07 (25.9 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/all/modules/date/date_popup/themes/images/222222_7x7_arrow_right.gif' saved [53/53]
+
+--2011-12-02 15:10:07--  http://www.whitehouse.gov/sites/all/modules/date/date_popup/themes/images/ffffff_40x100_textures_02_glass_65.png
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 207 [image/png]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/all/modules/date/date_popup/themes/images/ffffff_40x100_textures_02_glass_65.png'
+
+     0K                                                       100%  101K=0s
+
+2011-12-02 15:10:07 (101 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/all/modules/date/date_popup/themes/images/ffffff_40x100_textures_02_glass_65.png' saved [207/207]
+
+--2011-12-02 15:10:07--  http://www.whitehouse.gov/sites/all/modules/fivestar/widgets/default/star.gif
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 434 [image/gif]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/all/modules/fivestar/widgets/default/star.gif'
+
+     0K                                                       100%  212K=0s
+
+2011-12-02 15:10:07 (212 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/all/modules/fivestar/widgets/default/star.gif' saved [434/434]
+
+--2011-12-02 15:10:07--  http://www.whitehouse.gov/sites/all/modules/fivestar/widgets/default/delete.gif
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 379 [image/gif]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/all/modules/fivestar/widgets/default/delete.gif'
+
+     0K                                                       100%  185K=0s
+
+2011-12-02 15:10:07 (185 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/all/modules/fivestar/widgets/default/delete.gif' saved [379/379]
+
+--2011-12-02 15:10:07--  http://www.whitehouse.gov/sites/all/modules/fivestar/widgets/wh/star.png
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 392 [image/png]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/all/modules/fivestar/widgets/wh/star.png'
+
+     0K                                                       100%  191K=0s
+
+2011-12-02 15:10:07 (191 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/all/modules/fivestar/widgets/wh/star.png' saved [392/392]
+
+--2011-12-02 15:10:07--  http://www.whitehouse.gov/sites/all/modules/fivestar/widgets/wh/cancel.png
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 413 [image/png]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/all/modules/fivestar/widgets/wh/cancel.png'
+
+     0K                                                       100%  202K=0s
+
+2011-12-02 15:10:07 (202 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/all/modules/fivestar/widgets/wh/cancel.png' saved [413/413]
+
+--2011-12-02 15:10:07--  http://www.whitehouse.gov/sites/all/modules/fivestar/widgets/wh/star-1.png
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 492 [image/png]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/all/modules/fivestar/widgets/wh/star-1.png'
+
+     0K                                                       100%  240K=0s
+
+2011-12-02 15:10:07 (240 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/all/modules/fivestar/widgets/wh/star-1.png' saved [492/492]
+
+--2011-12-02 15:10:07--  http://www.whitehouse.gov/sites/all/modules/fivestar/widgets/wh/star-2.png
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 609 [image/png]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/all/modules/fivestar/widgets/wh/star-2.png'
+
+     0K                                                       100%  297K=0s
+
+2011-12-02 15:10:07 (297 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/all/modules/fivestar/widgets/wh/star-2.png' saved [609/609]
+
+--2011-12-02 15:10:07--  http://www.whitehouse.gov/sites/all/modules/fivestar/widgets/wh/star-3.png
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 661 [image/png]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/all/modules/fivestar/widgets/wh/star-3.png'
+
+     0K                                                       100%  323K=0s
+
+2011-12-02 15:10:07 (323 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/all/modules/fivestar/widgets/wh/star-3.png' saved [661/661]
+
+--2011-12-02 15:10:07--  http://www.whitehouse.gov/sites/all/modules/fivestar/widgets/wh/star-4.png
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 596 [image/png]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/all/modules/fivestar/widgets/wh/star-4.png'
+
+     0K                                                       100%  291K=0s
+
+2011-12-02 15:10:07 (291 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/all/modules/fivestar/widgets/wh/star-4.png' saved [596/596]
+
+--2011-12-02 15:10:07--  http://www.whitehouse.gov/sites/all/modules/fivestar/widgets/wh/star-5.png
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 639 [image/png]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/all/modules/fivestar/widgets/wh/star-5.png'
+
+     0K                                                       100%  312K=0s
+
+2011-12-02 15:10:07 (312 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/all/modules/fivestar/widgets/wh/star-5.png' saved [639/639]
+
+--2011-12-02 15:10:07--  http://www.whitehouse.gov/sites/all/modules/utility_bar/theme/petition/img/bg-utility-bar.gif
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1313 (1.3K) [image/gif]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/all/modules/utility_bar/theme/petition/img/bg-utility-bar.gif'
+
+     0K .                                                     100%  641K=0s
+
+2011-12-02 15:10:07 (641 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/all/modules/utility_bar/theme/petition/img/bg-utility-bar.gif' saved [1313/1313]
+
+--2011-12-02 15:10:07--  http://www.whitehouse.gov/sites/all/modules/utility_bar/theme/petition/img/bg-utility-belt.png
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 404 Not Found
+2011-12-02 15:10:07 ERROR 404: Not Found.
+
+--2011-12-02 15:10:07--  http://www.whitehouse.gov/sites/all/modules/utility_bar/theme/petition/img/bg-belt-divide.gif
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 404 Not Found
+2011-12-02 15:10:07 ERROR 404: Not Found.
+
+--2011-12-02 15:10:07--  http://www.whitehouse.gov/sites/all/modules/utility_bar/theme/petition/img/bg-belt-overlay-top-right.png
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 404 Not Found
+2011-12-02 15:10:08 ERROR 404: Not Found.
+
+--2011-12-02 15:10:08--  http://www.whitehouse.gov/sites/all/modules/utility_bar/theme/petition/img/bg-belt-overlay-top-left.png
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 404 Not Found
+2011-12-02 15:10:08 ERROR 404: Not Found.
+
+--2011-12-02 15:10:08--  http://www.whitehouse.gov/sites/all/modules/utility_bar/theme/petition/img/bg-belt-overlay-btm-right.png
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 404 Not Found
+2011-12-02 15:10:08 ERROR 404: Not Found.
+
+--2011-12-02 15:10:08--  http://www.whitehouse.gov/sites/all/modules/utility_bar/theme/petition/img/bg-belt-overlay-btm-left.png
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 404 Not Found
+2011-12-02 15:10:08 ERROR 404: Not Found.
+
+--2011-12-02 15:10:08--  http://www.whitehouse.gov/sites/all/modules/utility_bar/theme/petition/img/bg-belt-overlay-tile-right.png
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 404 Not Found
+2011-12-02 15:10:08 ERROR 404: Not Found.
+
+--2011-12-02 15:10:08--  http://www.whitehouse.gov/sites/all/modules/utility_bar/theme/petition/img/bg-belt-overlay-tile-left.png
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 404 Not Found
+2011-12-02 15:10:09 ERROR 404: Not Found.
+
+--2011-12-02 15:10:09--  http://www.whitehouse.gov/sites/all/modules/utility_bar/theme/petition/img/icon-close.gif
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1693 (1.7K) [image/gif]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/all/modules/utility_bar/theme/petition/img/icon-close.gif'
+
+     0K .                                                     100%  827K=0s
+
+2011-12-02 15:10:09 (827 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/all/modules/utility_bar/theme/petition/img/icon-close.gif' saved [1693/1693]
+
+--2011-12-02 15:10:09--  http://www.whitehouse.gov/sites/all/modules/utility_bar/theme/petition/img/button-bl-register.gif
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 2513 (2.5K) [image/gif]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/all/modules/utility_bar/theme/petition/img/button-bl-register.gif'
+
+     0K ..                                                    100% 1.20M=0s
+
+2011-12-02 15:10:09 (1.20 MB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/all/modules/utility_bar/theme/petition/img/button-bl-register.gif' saved [2513/2513]
+
+--2011-12-02 15:10:09--  http://www.whitehouse.gov/sites/all/modules/utility_bar/theme/petition/iefix.gif
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 404 Not Found
+2011-12-02 15:10:09 ERROR 404: Not Found.
+
+--2011-12-02 15:10:09--  http://www.whitehouse.gov/sites/all/modules/utility_bar/theme/petition/img/bg-nav-event.gif
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 4262 (4.2K) [image/gif]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/all/modules/utility_bar/theme/petition/img/bg-nav-event.gif'
+
+     0K ....                                                  100% 2.03M=0s
+
+2011-12-02 15:10:09 (2.03 MB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/all/modules/utility_bar/theme/petition/img/bg-nav-event.gif' saved [4262/4262]
+
+--2011-12-02 15:10:09--  http://www.whitehouse.gov/sites/all/modules/utility_bar/theme/petition/img/icon-clock.gif
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1349 (1.3K) [image/gif]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/all/modules/utility_bar/theme/petition/img/icon-clock.gif'
+
+     0K .                                                     100%  659K=0s
+
+2011-12-02 15:10:09 (659 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/all/modules/utility_bar/theme/petition/img/icon-clock.gif' saved [1349/1349]
+
+--2011-12-02 15:10:09--  http://www.whitehouse.gov/sites/all/modules/utility_bar/theme/petition/img/utility-tab-events.png
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1752 (1.7K) [image/png]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/all/modules/utility_bar/theme/petition/img/utility-tab-events.png'
+
+     0K .                                                     100%  855K=0s
+
+2011-12-02 15:10:09 (855 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/all/modules/utility_bar/theme/petition/img/utility-tab-events.png' saved [1752/1752]
+
+--2011-12-02 15:10:09--  http://www.whitehouse.gov/sites/all/modules/utility_bar/theme/petition/img/arrow-white-up.png
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1125 (1.1K) [image/png]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/all/modules/utility_bar/theme/petition/img/arrow-white-up.png'
+
+     0K .                                                     100%  549K=0s
+
+2011-12-02 15:10:09 (549 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/all/modules/utility_bar/theme/petition/img/arrow-white-up.png' saved [1125/1125]
+
+--2011-12-02 15:10:09--  http://www.whitehouse.gov/sites/all/modules/utility_bar/theme/petition/img/bg-utility-block.png
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1015 [image/png]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/all/modules/utility_bar/theme/petition/img/bg-utility-block.png'
+
+     0K                                                       100%  496K=0s
+
+2011-12-02 15:10:09 (496 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/all/modules/utility_bar/theme/petition/img/bg-utility-block.png' saved [1015/1015]
+
+--2011-12-02 15:10:09--  http://www.whitehouse.gov/sites/all/modules/utility_bar/theme/petition/img/bg-fuz-event-on.png
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 958 [image/png]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/all/modules/utility_bar/theme/petition/img/bg-fuz-event-on.png'
+
+     0K                                                       100%  468K=0s
+
+2011-12-02 15:10:09 (468 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/all/modules/utility_bar/theme/petition/img/bg-fuz-event-on.png' saved [958/958]
+
+--2011-12-02 15:10:09--  http://www.whitehouse.gov/sites/all/modules/utility_bar/theme/petition/img/bg-fuz-event.png
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 973 [image/png]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/all/modules/utility_bar/theme/petition/img/bg-fuz-event.png'
+
+     0K                                                       100%  475K=0s
+
+2011-12-02 15:10:09 (475 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/all/modules/utility_bar/theme/petition/img/bg-fuz-event.png' saved [973/973]
+
+--2011-12-02 15:10:09--  http://www.whitehouse.gov/sites/all/modules/utility_bar/theme/petition/img/bg-event-arrow-round.png
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 2214 (2.2K) [image/png]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/all/modules/utility_bar/theme/petition/img/bg-event-arrow-round.png'
+
+     0K ..                                                    100% 1.06M=0s
+
+2011-12-02 15:10:09 (1.06 MB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/all/modules/utility_bar/theme/petition/img/bg-event-arrow-round.png' saved [2214/2214]
+
+--2011-12-02 15:10:09--  http://www.whitehouse.gov/sites/all/modules/utility_bar/theme/petition/img/bg-nav-signin.gif
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 4458 (4.4K) [image/gif]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/all/modules/utility_bar/theme/petition/img/bg-nav-signin.gif'
+
+     0K ....                                                  100% 2.13M=0s
+
+2011-12-02 15:10:09 (2.13 MB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/all/modules/utility_bar/theme/petition/img/bg-nav-signin.gif' saved [4458/4458]
+
+--2011-12-02 15:10:09--  http://www.whitehouse.gov/sites/all/modules/utility_bar/theme/petition/img/sprite-buttons-signin.gif
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 4650 (4.5K) [image/gif]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/all/modules/utility_bar/theme/petition/img/sprite-buttons-signin.gif'
+
+     0K ....                                                  100% 2.22M=0s
+
+2011-12-02 15:10:09 (2.22 MB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/all/modules/utility_bar/theme/petition/img/sprite-buttons-signin.gif' saved [4650/4650]
+
+--2011-12-02 15:10:09--  http://www.whitehouse.gov/sites/all/modules/utility_bar/theme/petition/img/bg-signin.jpg
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 8450 (8.3K) [image/jpeg]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/all/modules/utility_bar/theme/petition/img/bg-signin.jpg'
+
+     0K ........                                              100% 4.03M=0s
+
+2011-12-02 15:10:09 (4.03 MB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/all/modules/utility_bar/theme/petition/img/bg-signin.jpg' saved [8450/8450]
+
+--2011-12-02 15:10:09--  http://www.whitehouse.gov/sites/all/modules/utility_bar/theme/petition/img/bg-fuz-signin.png
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1614 (1.6K) [image/png]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/all/modules/utility_bar/theme/petition/img/bg-fuz-signin.png'
+
+     0K .                                                     100%  788K=0s
+
+2011-12-02 15:10:09 (788 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/all/modules/utility_bar/theme/petition/img/bg-fuz-signin.png' saved [1614/1614]
+
+--2011-12-02 15:10:09--  http://www.whitehouse.gov/sites/all/modules/utility_bar/theme/petition/img/bg-textarea.png
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 0 [image/png]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/all/modules/utility_bar/theme/petition/img/bg-textarea.png'
+
+     0K                                                        0.00 =0s
+
+2011-12-02 15:10:09 (0.00 B/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/all/modules/utility_bar/theme/petition/img/bg-textarea.png' saved [0/0]
+
+--2011-12-02 15:10:09--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-submit.png
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1262 (1.2K) [image/png]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-submit.png'
+
+     0K .                                                     100%  616K=0s
+
+2011-12-02 15:10:09 (616 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-submit.png' saved [1262/1262]
+
+--2011-12-02 15:10:09--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/arrow-blue-next.gif
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 49 [image/gif]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/arrow-blue-next.gif'
+
+     0K                                                       100% 23.9K=0s
+
+2011-12-02 15:10:09 (23.9 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/arrow-blue-next.gif' saved [49/49]
+
+--2011-12-02 15:10:09--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/contact/bg-modal-mid.png
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 184 [image/png]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/contact/bg-modal-mid.png'
+
+     0K                                                       100% 89.8K=0s
+
+2011-12-02 15:10:09 (89.8 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/contact/bg-modal-mid.png' saved [184/184]
+
+--2011-12-02 15:10:09--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/contact/bg-modal-top.png
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1349 (1.3K) [image/png]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/contact/bg-modal-top.png'
+
+     0K .                                                     100%  659K=0s
+
+2011-12-02 15:10:09 (659 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/contact/bg-modal-top.png' saved [1349/1349]
+
+--2011-12-02 15:10:09--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/contact/bg-modal-bottom.png
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 752 [image/png]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/contact/bg-modal-bottom.png'
+
+     0K                                                       100%  367K=0s
+
+2011-12-02 15:10:09 (367 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/contact/bg-modal-bottom.png' saved [752/752]
+
+--2011-12-02 15:10:09--  http://www.whitehouse.gov/sites/default/modules/wh_feedback/images/eagle.jpg
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 5856 (5.7K) [image/jpeg]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/modules/wh_feedback/images/eagle.jpg'
+
+     0K .....                                                 100% 2.79M=0s
+
+2011-12-02 15:10:09 (2.79 MB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/modules/wh_feedback/images/eagle.jpg' saved [5856/5856]
+
+--2011-12-02 15:10:09--  http://www.whitehouse.gov/sites/default/modules/wh_feedback/images/feedback_btn_sprite.png
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 12842 (13K) [image/png]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/modules/wh_feedback/images/feedback_btn_sprite.png'
+
+     0K .......... ..                                         100% 3.06M=0.004s
+
+2011-12-02 15:10:09 (3.06 MB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/modules/wh_feedback/images/feedback_btn_sprite.png' saved [12842/12842]
+
+--2011-12-02 15:10:09--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/icons/icon-close.gif
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 275 [image/gif]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/icons/icon-close.gif'
+
+     0K                                                       100%  134K=0s
+
+2011-12-02 15:10:09 (134 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/icons/icon-close.gif' saved [275/275]
+
+--2011-12-02 15:10:09--  http://www.whitehouse.gov/sites/default/modules/wh_javascript/images/wh_addthis.gif
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 5412 (5.3K) [image/gif]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/modules/wh_javascript/images/wh_addthis.gif'
+
+     0K .....                                                 100% 2.58M=0s
+
+2011-12-02 15:10:09 (2.58 MB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/modules/wh_javascript/images/wh_addthis.gif' saved [5412/5412]
+
+--2011-12-02 15:10:09--  http://www.whitehouse.gov/misc/farbtastic/wheel.png
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 11733 (11K) [image/png]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/misc/farbtastic/wheel.png'
+
+     0K .......... .                                          100% 5.59M=0s
+
+2011-12-02 15:10:09 (5.59 MB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/misc/farbtastic/wheel.png' saved [11733/11733]
+
+--2011-12-02 15:10:09--  http://www.whitehouse.gov/misc/farbtastic/mask.png
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 2020 (2.0K) [image/png]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/misc/farbtastic/mask.png'
+
+     0K .                                                     100%  986K=0s
+
+2011-12-02 15:10:09 (986 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/misc/farbtastic/mask.png' saved [2020/2020]
+
+--2011-12-02 15:10:09--  http://www.whitehouse.gov/misc/farbtastic/marker.png
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 652 [image/png]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/misc/farbtastic/marker.png'
+
+     0K                                                       100%  318K=0s
+
+2011-12-02 15:10:09 (318 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/misc/farbtastic/marker.png' saved [652/652]
+
+--2011-12-02 15:10:09--  http://www.whitehouse.gov/sites/all/modules/views/images/status-active.gif
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 2196 (2.1K) [image/gif]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/all/modules/views/images/status-active.gif'
+
+     0K ..                                                    100% 1.05M=0s
+
+2011-12-02 15:10:09 (1.05 MB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/all/modules/views/images/status-active.gif' saved [2196/2196]
+
+--2011-12-02 15:10:09--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-home-top.jpg
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 31106 (30K) [image/jpeg]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-home-top.jpg'
+
+     0K .......... .......... ..........                      100% 3.71M=0.008s
+
+2011-12-02 15:10:09 (3.71 MB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-home-top.jpg' saved [31106/31106]
+
+--2011-12-02 15:10:09--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-learn-more-grey.gif
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 3780 (3.7K) [image/gif]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-learn-more-grey.gif'
+
+     0K ...                                                   100% 1.80M=0s
+
+2011-12-02 15:10:09 (1.80 MB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-learn-more-grey.gif' saved [3780/3780]
+
+--2011-12-02 15:10:09--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-watch-video-grey.gif
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 4602 (4.5K) [image/gif]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-watch-video-grey.gif'
+
+     0K ....                                                  100% 2.19M=0s
+
+2011-12-02 15:10:09 (2.19 MB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-watch-video-grey.gif' saved [4602/4602]
+
+--2011-12-02 15:10:09--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-watch-stream-grey.gif
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 3863 (3.8K) [image/gif]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-watch-stream-grey.gif'
+
+     0K ...                                                   100% 1.84M=0s
+
+2011-12-02 15:10:09 (1.84 MB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-watch-stream-grey.gif' saved [3863/3863]
+
+--2011-12-02 15:10:09--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-read-remarks-grey.gif
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 4695 (4.6K) [image/gif]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-read-remarks-grey.gif'
+
+     0K ....                                                  100% 2.24M=0s
+
+2011-12-02 15:10:09 (2.24 MB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-read-remarks-grey.gif' saved [4695/4695]
+
+--2011-12-02 15:10:09--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-join-discussion-grey.gif
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 4876 (4.8K) [image/gif]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-join-discussion-grey.gif'
+
+     0K ....                                                  100% 2.32M=0s
+
+2011-12-02 15:10:09 (2.32 MB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-join-discussion-grey.gif' saved [4876/4876]
+
+--2011-12-02 15:10:09--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-view-gallery-grey.gif
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 4526 (4.4K) [image/gif]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-view-gallery-grey.gif'
+
+     0K ....                                                  100% 2.16M=0s
+
+2011-12-02 15:10:09 (2.16 MB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-view-gallery-grey.gif' saved [4526/4526]
+
+--2011-12-02 15:10:09--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-more-info-grey.gif
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 4616 (4.5K) [image/gif]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-more-info-grey.gif'
+
+     0K ....                                                  100% 2.20M=0s
+
+2011-12-02 15:10:09 (2.20 MB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-more-info-grey.gif' saved [4616/4616]
+
+--2011-12-02 15:10:09--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-home-num-divide.png
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 314 [image/png]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-home-num-divide.png'
+
+     0K                                                       100%  153K=0s
+
+2011-12-02 15:10:09 (153 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-home-num-divide.png' saved [314/314]
+
+--2011-12-02 15:10:09--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-home-callout-trans.png
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 2015 (2.0K) [image/png]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-home-callout-trans.png'
+
+     0K .                                                     100%  492K=0.004s
+
+2011-12-02 15:10:09 (492 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-home-callout-trans.png' saved [2015/2015]
+
+--2011-12-02 15:10:09--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/icons/icon-video-home.gif
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 325 [image/gif]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/icons/icon-video-home.gif'
+
+     0K                                                       100%  159K=0s
+
+2011-12-02 15:10:10 (159 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/icons/icon-video-home.gif' saved [325/325]
+
+--2011-12-02 15:10:10--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/icons/icon-audio-home.gif
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 568 [image/gif]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/icons/icon-audio-home.gif'
+
+     0K                                                       100%  277K=0s
+
+2011-12-02 15:10:10 (277 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/icons/icon-audio-home.gif' saved [568/568]
+
+--2011-12-02 15:10:10--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-watch-live.gif
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 2152 (2.1K) [image/gif]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-watch-live.gif'
+
+     0K ..                                                    100% 1.03M=0s
+
+2011-12-02 15:10:10 (1.03 MB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-watch-live.gif' saved [2152/2152]
+
+--2011-12-02 15:10:10--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-listen-live.gif
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1854 (1.8K) [image/gif]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-listen-live.gif'
+
+     0K .                                                     100%  905K=0s
+
+2011-12-02 15:10:10 (905 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-listen-live.gif' saved [1854/1854]
+
+--2011-12-02 15:10:10--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/block-menu-sprite.png
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 24228 (24K) [image/png]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/block-menu-sprite.png'
+
+     0K .......... .......... ...                             100% 5.78M=0.004s
+
+2011-12-02 15:10:10 (5.78 MB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/block-menu-sprite.png' saved [24228/24228]
+
+--2011-12-02 15:10:10--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-mc-controls1.png
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 2891 (2.8K) [image/png]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-mc-controls1.png'
+
+     0K ..                                                    100% 1.38M=0s
+
+2011-12-02 15:10:10 (1.38 MB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-mc-controls1.png' saved [2891/2891]
+
+--2011-12-02 15:10:10--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/arrow-mc-next-sprite.gif
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 2900 (2.8K) [image/gif]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/arrow-mc-next-sprite.gif'
+
+     0K ..                                                    100% 1.38M=0s
+
+2011-12-02 15:10:10 (1.38 MB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/arrow-mc-next-sprite.gif' saved [2900/2900]
+
+--2011-12-02 15:10:10--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/arrow-mc-prev-sprite.gif
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 2888 (2.8K) [image/gif]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/arrow-mc-prev-sprite.gif'
+
+     0K ..                                                    100% 1.38M=0s
+
+2011-12-02 15:10:10 (1.38 MB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/arrow-mc-prev-sprite.gif' saved [2888/2888]
+
+--2011-12-02 15:10:10--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/arrow-show.gif
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 49 [image/gif]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/arrow-show.gif'
+
+     0K                                                       100% 23.9K=0s
+
+2011-12-02 15:10:10 (23.9 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/arrow-show.gif' saved [49/49]
+
+--2011-12-02 15:10:10--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/arrow-hide.gif
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 48 [image/gif]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/arrow-hide.gif'
+
+     0K                                                       100% 23.4K=0s
+
+2011-12-02 15:10:10 (23.4 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/arrow-hide.gif' saved [48/48]
+
+--2011-12-02 15:10:10--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/icons/icon-download-dark.gif
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 187 [image/gif]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/icons/icon-download-dark.gif'
+
+     0K                                                       100% 91.3K=0s
+
+2011-12-02 15:10:10 (91.3 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/icons/icon-download-dark.gif' saved [187/187]
+
+--2011-12-02 15:10:10--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-photo-overlay.png
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 115 [image/png]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-photo-overlay.png'
+
+     0K                                                       100% 56.1K=0s
+
+2011-12-02 15:10:10 (56.1 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-photo-overlay.png' saved [115/115]
+
+--2011-12-02 15:10:10--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/bg-photo-list.jpg
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1594 (1.6K) [image/jpeg]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/bg-photo-list.jpg'
+
+     0K .                                                     100%  778K=0s
+
+2011-12-02 15:10:10 (778 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/bg-photo-list.jpg' saved [1594/1594]
+
+--2011-12-02 15:10:10--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/bg-mc-browse.jpg
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1746 (1.7K) [image/jpeg]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/bg-mc-browse.jpg'
+
+     0K .                                                     100%  852K=0s
+
+2011-12-02 15:10:10 (852 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/bg-mc-browse.jpg' saved [1746/1746]
+
+--2011-12-02 15:10:10--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-categories.gif
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 2446 (2.4K) [image/gif]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-categories.gif'
+
+     0K ..                                                    100% 1.17M=0s
+
+2011-12-02 15:10:10 (1.17 MB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-categories.gif' saved [2446/2446]
+
+--2011-12-02 15:10:10--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-category-drop-left-edge.png
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 514 [image/png]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-category-drop-left-edge.png'
+
+     0K                                                       100%  251K=0s
+
+2011-12-02 15:10:10 (251 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-category-drop-left-edge.png' saved [514/514]
+
+--2011-12-02 15:10:10--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-category-drop-right-edge.png
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1938 (1.9K) [image/png]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-category-drop-right-edge.png'
+
+     0K .                                                     100%  946K=0s
+
+2011-12-02 15:10:10 (946 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-category-drop-right-edge.png' saved [1938/1938]
+
+--2011-12-02 15:10:10--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-search-sm.gif
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1839 (1.8K) [image/gif]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-search-sm.gif'
+
+     0K .                                                     100%  898K=0s
+
+2011-12-02 15:10:10 (898 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-search-sm.gif' saved [1839/1839]
+
+--2011-12-02 15:10:10--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-show-all.gif
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 3969 (3.9K) [image/gif]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-show-all.gif'
+
+     0K ...                                                   100% 1.89M=0s
+
+2011-12-02 15:10:10 (1.89 MB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-show-all.gif' saved [3969/3969]
+
+--2011-12-02 15:10:10--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/icon-share.gif
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 371 [image/gif]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/icon-share.gif'
+
+     0K                                                       100%  181K=0s
+
+2011-12-02 15:10:10 (181 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/icon-share.gif' saved [371/371]
+
+--2011-12-02 15:10:10--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/icon-rss.gif
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 616 [image/gif]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/icon-rss.gif'
+
+     0K                                                       100%  301K=0s
+
+2011-12-02 15:10:10 (301 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/icon-rss.gif' saved [616/616]
+
+--2011-12-02 15:10:10--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-browse-mc.gif
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 222 [image/gif]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-browse-mc.gif'
+
+     0K                                                       100%  108K=0s
+
+2011-12-02 15:10:10 (108 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-browse-mc.gif' saved [222/222]
+
+--2011-12-02 15:10:10--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-sort-active.gif
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 568 [image/gif]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-sort-active.gif'
+
+     0K                                                       100%  277K=0s
+
+2011-12-02 15:10:10 (277 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-sort-active.gif' saved [568/568]
+
+--2011-12-02 15:10:10--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-photo-list-active.gif
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 56 [image/gif]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-photo-list-active.gif'
+
+     0K                                                       100% 27.3K=0s
+
+2011-12-02 15:10:10 (27.3 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-photo-list-active.gif' saved [56/56]
+
+--2011-12-02 15:10:10--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/scrollable/navigator.png
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 325 [image/png]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/scrollable/navigator.png'
+
+     0K                                                       100%  159K=0s
+
+2011-12-02 15:10:10 (159 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/scrollable/navigator.png' saved [325/325]
+
+--2011-12-02 15:10:10--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/arrow-pg-prev.gif
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 53 [image/gif]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/arrow-pg-prev.gif'
+
+     0K                                                       100% 25.9K=0s
+
+2011-12-02 15:10:10 (25.9 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/arrow-pg-prev.gif' saved [53/53]
+
+--2011-12-02 15:10:10--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/arrow-pg-next.gif
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 53 [image/gif]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/arrow-pg-next.gif'
+
+     0K                                                       100% 25.9K=0s
+
+2011-12-02 15:10:10 (25.9 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/arrow-pg-next.gif' saved [53/53]
+
+--2011-12-02 15:10:10--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bkg-podcast.png
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 172 [image/png]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bkg-podcast.png'
+
+     0K                                                       100% 84.0K=0s
+
+2011-12-02 15:10:10 (84.0 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bkg-podcast.png' saved [172/172]
+
+--2011-12-02 15:10:10--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-podcast-rss.png
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1480 (1.4K) [image/png]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-podcast-rss.png'
+
+     0K .                                                     100%  723K=0s
+
+2011-12-02 15:10:10 (723 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-podcast-rss.png' saved [1480/1480]
+
+--2011-12-02 15:10:10--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-podcast-itunes.png
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1591 (1.6K) [image/png]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-podcast-itunes.png'
+
+     0K .                                                     100%  777K=0s
+
+2011-12-02 15:10:10 (777 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-podcast-itunes.png' saved [1591/1591]
+
+--2011-12-02 15:10:10--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-podcast-video.png
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 538 [image/png]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-podcast-video.png'
+
+     0K                                                       100%  263K=0s
+
+2011-12-02 15:10:10 (263 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-podcast-video.png' saved [538/538]
+
+--2011-12-02 15:10:10--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-podcast-audio.png
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 637 [image/png]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-podcast-audio.png'
+
+     0K                                                       100%  311K=0s
+
+2011-12-02 15:10:10 (311 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-podcast-audio.png' saved [637/637]
+
+--2011-12-02 15:10:10--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/icons/icon-facebook-mc.gif
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1858 (1.8K) [image/gif]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/icons/icon-facebook-mc.gif'
+
+     0K .                                                     100%  907K=0s
+
+2011-12-02 15:10:10 (907 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/icons/icon-facebook-mc.gif' saved [1858/1858]
+
+--2011-12-02 15:10:10--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/icons/icon-other-mc.gif
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1508 (1.5K) [image/gif]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/icons/icon-other-mc.gif'
+
+     0K .                                                     100%  736K=0s
+
+2011-12-02 15:10:10 (736 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/icons/icon-other-mc.gif' saved [1508/1508]
+
+--2011-12-02 15:10:10--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-title-wh-live.png
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 2723 (2.7K) [image/png]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-title-wh-live.png'
+
+     0K ..                                                    100% 1.30M=0s
+
+2011-12-02 15:10:10 (1.30 MB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-title-wh-live.png' saved [2723/2723]
+
+--2011-12-02 15:10:10--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/icons/icon-audio-mc.gif
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1057 (1.0K) [image/gif]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/icons/icon-audio-mc.gif'
+
+     0K .                                                     100%  516K=0s
+
+2011-12-02 15:10:10 (516 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/icons/icon-audio-mc.gif' saved [1057/1057]
+
+--2011-12-02 15:10:10--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-main-one-repeat.jpg
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 478 [image/jpeg]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-main-one-repeat.jpg'
+
+     0K                                                       100%  233K=0s
+
+2011-12-02 15:10:10 (233 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-main-one-repeat.jpg' saved [478/478]
+
+--2011-12-02 15:10:10--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/bg-main.jpg
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 50137 (49K) [image/jpeg]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/bg-main.jpg'
+
+     0K .......... .......... .......... .......... ........  100% 5.98M=0.008s
+
+2011-12-02 15:10:10 (5.98 MB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/bg-main.jpg' saved [50137/50137]
+
+--2011-12-02 15:10:10--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/bg-subhdr.jpg
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1637 (1.6K) [image/jpeg]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/bg-subhdr.jpg'
+
+     0K .                                                     100%  799K=0s
+
+2011-12-02 15:10:10 (799 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/bg-subhdr.jpg' saved [1637/1637]
+
+--2011-12-02 15:10:10--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/bg-footer.jpg
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 19421 (19K) [image/jpeg]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/bg-footer.jpg'
+
+     0K .......... ........                                   100% 4.63M=0.004s
+
+2011-12-02 15:10:10 (4.63 MB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/bg-footer.jpg' saved [19421/19421]
+
+--2011-12-02 15:10:10--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/bg-subftr.gif
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 7113 (6.9K) [image/gif]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/bg-subftr.gif'
+
+     0K ......                                                100% 3.39M=0s
+
+2011-12-02 15:10:10 (3.39 MB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/bg-subftr.gif' saved [7113/7113]
+
+--2011-12-02 15:10:10--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/bg-int-col.gif
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 190 [image/gif]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/bg-int-col.gif'
+
+     0K                                                       100% 92.8K=0s
+
+2011-12-02 15:10:10 (92.8 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/bg-int-col.gif' saved [190/190]
+
+--2011-12-02 15:10:10--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/bg-rightrail.jpg
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 13538 (13K) [image/jpeg]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/bg-rightrail.jpg'
+
+     0K .......... ...                                        100% 3.23M=0.004s
+
+2011-12-02 15:10:10 (3.23 MB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/bg-rightrail.jpg' saved [13538/13538]
+
+--2011-12-02 15:10:10--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/bg-mc.gif
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 425 [image/gif]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/bg-mc.gif'
+
+     0K                                                       100%  208K=0s
+
+2011-12-02 15:10:10 (208 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/bg-mc.gif' saved [425/425]
+
+--2011-12-02 15:10:10--  http://www.whitehouse.gov/sites/default/files/properties_fade.png
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 7343 (7.2K) [image/png]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/files/properties_fade.png'
+
+     0K .......                                               100% 3.50M=0s
+
+2011-12-02 15:10:10 (3.50 MB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/files/properties_fade.png' saved [7343/7343]
+
+--2011-12-02 15:10:10--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-home-top-edge.png
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 2690 (2.6K) [image/png]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-home-top-edge.png'
+
+     0K ..                                                    100% 1.28M=0s
+
+2011-12-02 15:10:10 (1.28 MB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-home-top-edge.png' saved [2690/2690]
+
+--2011-12-02 15:10:10--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-home-detail-col.gif
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 166 [image/gif]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-home-detail-col.gif'
+
+     0K                                                       100% 81.0K=0s
+
+2011-12-02 15:10:10 (81.0 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-home-detail-col.gif' saved [166/166]
+
+--2011-12-02 15:10:10--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-home-two-col.png
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 2859 (2.8K) [image/png]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-home-two-col.png'
+
+     0K ..                                                    100% 1.36M=0s
+
+2011-12-02 15:10:10 (1.36 MB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-home-two-col.png' saved [2859/2859]
+
+--2011-12-02 15:10:10--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-landing-top.jpg
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 16183 (16K) [image/jpeg]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-landing-top.jpg'
+
+     0K .......... .....                                      100% 3.86M=0.004s
+
+2011-12-02 15:10:10 (3.86 MB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-landing-top.jpg' saved [16183/16183]
+
+--2011-12-02 15:10:10--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-ms-breadcrumb.png
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 34831 (34K) [image/png]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-ms-breadcrumb.png'
+
+     0K .......... .......... .......... ....                 100% 8.30M=0.004s
+
+2011-12-02 15:10:10 (8.30 MB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-ms-breadcrumb.png' saved [34831/34831]
+
+--2011-12-02 15:10:10--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-ms-breadcrumb-orange.jpg
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 2075 (2.0K) [image/jpeg]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-ms-breadcrumb-orange.jpg'
+
+     0K ..                                                    100% 1013K=0s
+
+2011-12-02 15:10:10 (1013 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-ms-breadcrumb-orange.jpg' saved [2075/2075]
+
+--2011-12-02 15:10:10--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-ms-detail.jpg
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 6558 (6.4K) [image/jpeg]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-ms-detail.jpg'
+
+     0K ......                                                100% 3.13M=0s
+
+2011-12-02 15:10:10 (3.13 MB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-ms-detail.jpg' saved [6558/6558]
+
+--2011-12-02 15:10:10--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-ms-nav.jpg
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 3311 (3.2K) [image/jpeg]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-ms-nav.jpg'
+
+     0K ...                                                   100% 1.58M=0s
+
+2011-12-02 15:10:10 (1.58 MB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-ms-nav.jpg' saved [3311/3311]
+
+--2011-12-02 15:10:10--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-top-edge.png
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 2987 (2.9K) [image/png]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-top-edge.png'
+
+     0K ..                                                    100% 1.42M=0s
+
+2011-12-02 15:10:10 (1.42 MB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-top-edge.png' saved [2987/2987]
+
+--2011-12-02 15:10:10--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-top-edge-no-left.png
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 2054 (2.0K) [image/png]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-top-edge-no-left.png'
+
+     0K ..                                                    100% 1003K=0s
+
+2011-12-02 15:10:10 (1003 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-top-edge-no-left.png' saved [2054/2054]
+
+--2011-12-02 15:10:10--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-ms-open-title.jpg
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1065 (1.0K) [image/jpeg]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-ms-open-title.jpg'
+
+     0K .                                                     100%  520K=0s
+
+2011-12-02 15:10:10 (520 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-ms-open-title.jpg' saved [1065/1065]
+
+--2011-12-02 15:10:10--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-home-live-stream.png
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 2460 (2.4K) [image/png]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-home-live-stream.png'
+
+     0K ..                                                    100% 1.17M=0s
+
+2011-12-02 15:10:10 (1.17 MB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-home-live-stream.png' saved [2460/2460]
+
+--2011-12-02 15:10:10--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-dialog.png
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 118 [image/png]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-dialog.png'
+
+     0K                                                       100% 57.6K=0s
+
+2011-12-02 15:10:10 (57.6 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-dialog.png' saved [118/118]
+
+--2011-12-02 15:10:10--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-main-no-nav.jpg
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 55229 (54K) [image/jpeg]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-main-no-nav.jpg'
+
+     0K .......... .......... .......... .......... .......... 92% 6.10M 0s
+    50K ...                                                   100% 1.92M=0.008s
+
+2011-12-02 15:10:10 (6.58 MB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-main-no-nav.jpg' saved [55229/55229]
+
+--2011-12-02 15:10:10--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-save-vote.jpg
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 5786 (5.7K) [image/jpeg]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-save-vote.jpg'
+
+     0K .....                                                 100% 2.76M=0s
+
+2011-12-02 15:10:10 (2.76 MB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-save-vote.jpg' saved [5786/5786]
+
+--2011-12-02 15:10:10--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/grey-title-block-bg.png
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 274 [image/png]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/grey-title-block-bg.png'
+
+     0K                                                       100%  134K=0s
+
+2011-12-02 15:10:10 (134 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/grey-title-block-bg.png' saved [274/274]
+
+--2011-12-02 15:10:10--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/contact-banner.png
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 43035 (42K) [image/png]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/contact-banner.png'
+
+     0K .......... .......... .......... .......... ..        100% 10.3M=0.004s
+
+2011-12-02 15:10:10 (10.3 MB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/contact-banner.png' saved [43035/43035]
+
+--2011-12-02 15:10:10--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/contact-menu-bg.png
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 16749 (16K) [image/png]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/contact-menu-bg.png'
+
+     0K .......... ......                                     100% 3.99M=0.004s
+
+2011-12-02 15:10:10 (3.99 MB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/contact-menu-bg.png' saved [16749/16749]
+
+--2011-12-02 15:10:10--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-title-fade-white.gif
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 663 [image/gif]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-title-fade-white.gif'
+
+     0K                                                       100%  324K=0s
+
+2011-12-02 15:10:10 (324 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-title-fade-white.gif' saved [663/663]
+
+--2011-12-02 15:10:10--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/blue-gradient-block-header.png
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 299 [image/png]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/blue-gradient-block-header.png'
+
+     0K                                                       100%  146K=0s
+
+2011-12-02 15:10:10 (146 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/blue-gradient-block-header.png' saved [299/299]
+
+--2011-12-02 15:10:10--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-tout-drug-facts.jpg
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 2234 (2.2K) [image/jpeg]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-tout-drug-facts.jpg'
+
+     0K ..                                                    100% 1.07M=0s
+
+2011-12-02 15:10:10 (1.07 MB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-tout-drug-facts.jpg' saved [2234/2234]
+
+--2011-12-02 15:10:10--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-drugfacts-controls.gif
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1647 (1.6K) [image/gif]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-drugfacts-controls.gif'
+
+     0K .                                                     100%  804K=0s
+
+2011-12-02 15:10:10 (804 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-drugfacts-controls.gif' saved [1647/1647]
+
+--2011-12-02 15:10:10--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-tout-state-and-local-info.png
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 15500 (15K) [image/png]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-tout-state-and-local-info.png'
+
+     0K .......... .....                                      100% 7.39M=0s
+
+2011-12-02 15:10:10 (7.39 MB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-tout-state-and-local-info.png' saved [15500/15500]
+
+--2011-12-02 15:10:10--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/icon-rss-grey.gif
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 385 [image/gif]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/icon-rss-grey.gif'
+
+     0K                                                       100%  188K=0s
+
+2011-12-02 15:10:10 (188 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/icon-rss-grey.gif' saved [385/385]
+
+--2011-12-02 15:10:10--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/arrow-blue-back.gif
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 49 [image/gif]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/arrow-blue-back.gif'
+
+     0K                                                       100% 23.9K=0s
+
+2011-12-02 15:10:10 (23.9 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/arrow-blue-back.gif' saved [49/49]
+
+--2011-12-02 15:10:10--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/arrow-right.gif
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 49 [image/gif]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/arrow-right.gif'
+
+     0K                                                       100% 23.9K=0s
+
+2011-12-02 15:10:10 (23.9 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/arrow-right.gif' saved [49/49]
+
+--2011-12-02 15:10:10--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-title-fade.gif
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 976 [image/gif]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-title-fade.gif'
+
+     0K                                                       100%  477K=0s
+
+2011-12-02 15:10:10 (477 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-title-fade.gif' saved [976/976]
+
+--2011-12-02 15:10:10--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-title-fade.png
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 457 [image/png]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-title-fade.png'
+
+     0K                                                       100%  223K=0s
+
+2011-12-02 15:10:10 (223 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-title-fade.png' saved [457/457]
+
+--2011-12-02 15:10:10--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-tout-stay-connected.png
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 4619 (4.5K) [image/png]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-tout-stay-connected.png'
+
+     0K ....                                                  100% 2.20M=0s
+
+2011-12-02 15:10:10 (2.20 MB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-tout-stay-connected.png' saved [4619/4619]
+
+--2011-12-02 15:10:10--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/icons/icons-get-connected.gif
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 6363 (6.2K) [image/gif]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/icons/icons-get-connected.gif'
+
+     0K ......                                                100% 3.03M=0s
+
+2011-12-02 15:10:10 (3.03 MB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/icons/icons-get-connected.gif' saved [6363/6363]
+
+--2011-12-02 15:10:10--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-tout-wh-blogs.png
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 6548 (6.4K) [image/png]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-tout-wh-blogs.png'
+
+     0K ......                                                100% 1.56M=0.004s
+
+2011-12-02 15:10:10 (1.56 MB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-tout-wh-blogs.png' saved [6548/6548]
+
+--2011-12-02 15:10:10--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-tout-open-gov.png
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 8040 (7.9K) [image/png]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-tout-open-gov.png'
+
+     0K .......                                               100% 1.92M=0.004s
+
+2011-12-02 15:10:10 (1.92 MB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-tout-open-gov.png' saved [8040/8040]
+
+--2011-12-02 15:10:10--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-gold-more-info.gif
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 4484 (4.4K) [image/gif]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-gold-more-info.gif'
+
+     0K ....                                                  100% 2.14M=0s
+
+2011-12-02 15:10:11 (2.14 MB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-gold-more-info.gif' saved [4484/4484]
+
+--2011-12-02 15:10:11--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-tout-stay-con-email.png
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 8436 (8.2K) [image/png]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-tout-stay-con-email.png'
+
+     0K ........                                              100% 4.02M=0s
+
+2011-12-02 15:10:11 (4.02 MB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-tout-stay-con-email.png' saved [8436/8436]
+
+--2011-12-02 15:10:11--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-gold-signup.gif
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 3592 (3.5K) [image/gif]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-gold-signup.gif'
+
+     0K ...                                                   100% 1.71M=0s
+
+2011-12-02 15:10:11 (1.71 MB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-gold-signup.gif' saved [3592/3592]
+
+--2011-12-02 15:10:11--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-tout-blog.png
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 35184 (34K) [image/png]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-tout-blog.png'
+
+     0K .......... .......... .......... ....                 100% 8.39M=0.004s
+
+2011-12-02 15:10:11 (8.39 MB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-tout-blog.png' saved [35184/35184]
+
+--2011-12-02 15:10:11--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-gold-read-blog.gif
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 4214 (4.1K) [image/gif]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-gold-read-blog.gif'
+
+     0K ....                                                  100% 2.01M=0s
+
+2011-12-02 15:10:11 (2.01 MB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-gold-read-blog.gif' saved [4214/4214]
+
+--2011-12-02 15:10:11--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-tout-cbb.png
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 19182 (19K) [image/png]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-tout-cbb.png'
+
+     0K .......... ........                                   100% 9.15M=0s
+
+2011-12-02 15:10:11 (9.15 MB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-tout-cbb.png' saved [19182/19182]
+
+--2011-12-02 15:10:11--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-gold-download-pdf.gif
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 4512 (4.4K) [image/gif]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-gold-download-pdf.gif'
+
+     0K ....                                                  100% 2.15M=0s
+
+2011-12-02 15:10:11 (2.15 MB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-gold-download-pdf.gif' saved [4512/4512]
+
+--2011-12-02 15:10:11--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-tout-fiscal.png
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 9417 (9.2K) [image/png]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-tout-fiscal.png'
+
+     0K .........                                             100% 4.49M=0s
+
+2011-12-02 15:10:11 (4.49 MB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-tout-fiscal.png' saved [9417/9417]
+
+--2011-12-02 15:10:11--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-gold-read-report.gif
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 4394 (4.3K) [image/gif]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-gold-read-report.gif'
+
+     0K ....                                                  100% 2.10M=0s
+
+2011-12-02 15:10:11 (2.10 MB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-gold-read-report.gif' saved [4394/4394]
+
+--2011-12-02 15:10:11--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-tout-recovery.png
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 10076 (9.8K) [image/png]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-tout-recovery.png'
+
+     0K .........                                             100% 2.40M=0.004s
+
+2011-12-02 15:10:11 (2.40 MB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-tout-recovery.png' saved [10076/10076]
+
+--2011-12-02 15:10:11--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-tout-strong-mid-class.png
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 8983 (8.8K) [image/png]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-tout-strong-mid-class.png'
+
+     0K ........                                              100% 4.28M=0s
+
+2011-12-02 15:10:11 (4.28 MB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-tout-strong-mid-class.png' saved [8983/8983]
+
+--2011-12-02 15:10:11--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-tout-fy-2010.png
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 8712 (8.5K) [image/png]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-tout-fy-2010.png'
+
+     0K ........                                              100% 4.15M=0s
+
+2011-12-02 15:10:11 (4.15 MB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-tout-fy-2010.png' saved [8712/8712]
+
+--2011-12-02 15:10:11--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-tout-new-era.png
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 9355 (9.1K) [image/png]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-tout-new-era.png'
+
+     0K .........                                             100% 4.46M=0s
+
+2011-12-02 15:10:11 (4.46 MB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-tout-new-era.png' saved [9355/9355]
+
+--2011-12-02 15:10:11--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-tout-fed-web-cookie.png
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 7347 (7.2K) [image/png]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-tout-fed-web-cookie.png'
+
+     0K .......                                               100% 1.75M=0.004s
+
+2011-12-02 15:10:11 (1.75 MB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-tout-fed-web-cookie.png' saved [7347/7347]
+
+--2011-12-02 15:10:11--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-tout-photo-gallery.jpg
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 20977 (20K) [image/jpeg]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-tout-photo-gallery.jpg'
+
+     0K .......... ..........                                 100% 5.00M=0.004s
+
+2011-12-02 15:10:11 (5.00 MB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-tout-photo-gallery.jpg' saved [20977/20977]
+
+--2011-12-02 15:10:11--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-view-gallery.png
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 4601 (4.5K) [image/png]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-view-gallery.png'
+
+     0K ....                                                  100% 2.19M=0s
+
+2011-12-02 15:10:11 (2.19 MB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-view-gallery.png' saved [4601/4601]
+
+--2011-12-02 15:10:11--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-tout-letters.jpg
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 16496 (16K) [image/jpeg]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-tout-letters.jpg'
+
+     0K .......... ......                                     100% 7.87M=0s
+
+2011-12-02 15:10:11 (7.87 MB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-tout-letters.jpg' saved [16496/16496]
+
+--2011-12-02 15:10:11--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-watch-the-video.gif
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 4526 (4.4K) [image/gif]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-watch-the-video.gif'
+
+     0K ....                                                  100% 2.16M=0s
+
+2011-12-02 15:10:11 (2.16 MB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-watch-the-video.gif' saved [4526/4526]
+
+--2011-12-02 15:10:11--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-tout-opl-ope.jpg
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 10684 (10K) [image/jpeg]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-tout-opl-ope.jpg'
+
+     0K ..........                                            100% 5.09M=0s
+
+2011-12-02 15:10:11 (5.09 MB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-tout-opl-ope.jpg' saved [10684/10684]
+
+--2011-12-02 15:10:11--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-read-the-exec-order.gif
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 4961 (4.8K) [image/gif]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-read-the-exec-order.gif'
+
+     0K ....                                                  100% 2.37M=0s
+
+2011-12-02 15:10:11 (2.37 MB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-read-the-exec-order.gif' saved [4961/4961]
+
+--2011-12-02 15:10:11--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/hdr-usa-flag.gif
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1107 (1.1K) [image/gif]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/hdr-usa-flag.gif'
+
+     0K .                                                     100%  540K=0s
+
+2011-12-02 15:10:11 (540 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/hdr-usa-flag.gif' saved [1107/1107]
+
+--2011-12-02 15:10:11--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/nav-sprite.gif
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 12756 (12K) [image/gif]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/nav-sprite.gif'
+
+     0K .......... ..                                         100% 3.04M=0.004s
+
+2011-12-02 15:10:11 (3.04 MB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/nav-sprite.gif' saved [12756/12756]
+
+--2011-12-02 15:10:11--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-nav-left-edge-trans.png
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 3197 (3.1K) [image/png]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-nav-left-edge-trans.png'
+
+     0K ...                                                   100% 1.52M=0s
+
+2011-12-02 15:10:11 (1.52 MB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-nav-left-edge-trans.png' saved [3197/3197]
+
+--2011-12-02 15:10:11--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-nav-featured-right.png
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 4314 (4.2K) [image/png]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-nav-featured-right.png'
+
+     0K ....                                                  100% 2.06M=0s
+
+2011-12-02 15:10:11 (2.06 MB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-nav-featured-right.png' saved [4314/4314]
+
+--2011-12-02 15:10:11--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-nav-featured-left.png
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 7292 (7.1K) [image/png]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-nav-featured-left.png'
+
+     0K .......                                               100% 3.48M=0s
+
+2011-12-02 15:10:11 (3.48 MB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-nav-featured-left.png' saved [7292/7292]
+
+--2011-12-02 15:10:11--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-nav-left-edge-blank.png
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 3053 (3.0K) [image/png]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-nav-left-edge-blank.png'
+
+     0K ..                                                    100% 1.46M=0s
+
+2011-12-02 15:10:11 (1.46 MB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-nav-left-edge-blank.png' saved [3053/3053]
+
+--2011-12-02 15:10:11--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-nav-right-edge-trans2.png
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 5953 (5.8K) [image/png]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-nav-right-edge-trans2.png'
+
+     0K .....                                                 100% 2.84M=0s
+
+2011-12-02 15:10:11 (2.84 MB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-nav-right-edge-trans2.png' saved [5953/5953]
+
+--2011-12-02 15:10:11--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-nav-right-edge-trans.png
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 6158 (6.0K) [image/png]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-nav-right-edge-trans.png'
+
+     0K ......                                                100% 2.94M=0s
+
+2011-12-02 15:10:11 (2.94 MB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-nav-right-edge-trans.png' saved [6158/6158]
+
+--2011-12-02 15:10:11--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/icon-search1.gif
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 338 [image/gif]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/icon-search1.gif'
+
+     0K                                                       100%  165K=0s
+
+2011-12-02 15:10:11 (165 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/icon-search1.gif' saved [338/338]
+
+--2011-12-02 15:10:11--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-learn-more-blue.gif
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 3654 (3.6K) [image/gif]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-learn-more-blue.gif'
+
+     0K ...                                                   100% 1.74M=0s
+
+2011-12-02 15:10:11 (1.74 MB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-learn-more-blue.gif' saved [3654/3654]
+
+--2011-12-02 15:10:11--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-read-remarks-blue.gif
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 4467 (4.4K) [image/gif]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-read-remarks-blue.gif'
+
+     0K ....                                                  100% 2.13M=0s
+
+2011-12-02 15:10:11 (2.13 MB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-read-remarks-blue.gif' saved [4467/4467]
+
+--2011-12-02 15:10:11--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-watch-stream-blue.gif
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 5015 (4.9K) [image/gif]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-watch-stream-blue.gif'
+
+     0K ....                                                  100% 2.39M=0s
+
+2011-12-02 15:10:11 (2.39 MB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-watch-stream-blue.gif' saved [5015/5015]
+
+--2011-12-02 15:10:11--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-watch-video-blue.gif
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 4424 (4.3K) [image/gif]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-watch-video-blue.gif'
+
+     0K ....                                                  100% 2.11M=0s
+
+2011-12-02 15:10:11 (2.11 MB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-watch-video-blue.gif' saved [4424/4424]
+
+--2011-12-02 15:10:11--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-join-discussion-blue.gif
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 4613 (4.5K) [image/gif]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-join-discussion-blue.gif'
+
+     0K ....                                                  100% 2.20M=0s
+
+2011-12-02 15:10:11 (2.20 MB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-join-discussion-blue.gif' saved [4613/4613]
+
+--2011-12-02 15:10:11--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-view-gallery-blue.gif
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 4315 (4.2K) [image/gif]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-view-gallery-blue.gif'
+
+     0K ....                                                  100% 2.06M=0s
+
+2011-12-02 15:10:11 (2.06 MB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-view-gallery-blue.gif' saved [4315/4315]
+
+--2011-12-02 15:10:11--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-more-info-blue.gif
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 4361 (4.3K) [image/gif]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-more-info-blue.gif'
+
+     0K ....                                                  100% 2.08M=0s
+
+2011-12-02 15:10:11 (2.08 MB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-more-info-blue.gif' saved [4361/4361]
+
+--2011-12-02 15:10:11--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-previous-grey-sprite.gif
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 2915 (2.8K) [image/gif]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-previous-grey-sprite.gif'
+
+     0K ..                                                    100% 1.39M=0s
+
+2011-12-02 15:10:11 (1.39 MB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-previous-grey-sprite.gif' saved [2915/2915]
+
+--2011-12-02 15:10:11--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-next-grey-sprite.gif
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 2501 (2.4K) [image/gif]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-next-grey-sprite.gif'
+
+     0K ..                                                    100% 1.19M=0s
+
+2011-12-02 15:10:11 (1.19 MB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-next-grey-sprite.gif' saved [2501/2501]
+
+--2011-12-02 15:10:11--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-pag-active.gif
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 418 [image/gif]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-pag-active.gif'
+
+     0K                                                       100%  204K=0s
+
+2011-12-02 15:10:11 (204 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-pag-active.gif' saved [418/418]
+
+--2011-12-02 15:10:11--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-pag-active2.gif
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 433 [image/gif]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-pag-active2.gif'
+
+     0K                                                       100%  211K=0s
+
+2011-12-02 15:10:11 (211 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-pag-active2.gif' saved [433/433]
+
+--2011-12-02 15:10:11--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-pag-active3.gif
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 445 [image/gif]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-pag-active3.gif'
+
+     0K                                                       100%  217K=0s
+
+2011-12-02 15:10:11 (217 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-pag-active3.gif' saved [445/445]
+
+--2011-12-02 15:10:11--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/icon-video.gif
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1049 (1.0K) [image/gif]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/icon-video.gif'
+
+     0K .                                                     100%  512K=0s
+
+2011-12-02 15:10:11 (512 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/icon-video.gif' saved [1049/1049]
+
+--2011-12-02 15:10:11--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/icon-gallery.gif
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 349 [image/gif]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/icon-gallery.gif'
+
+     0K                                                       100%  170K=0s
+
+2011-12-02 15:10:11 (170 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/icon-gallery.gif' saved [349/349]
+
+--2011-12-02 15:10:11--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/thickbox/tb-mac-overlay.png
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 136 [image/png]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/thickbox/tb-mac-overlay.png'
+
+     0K                                                       100% 66.4K=0s
+
+2011-12-02 15:10:11 (66.4 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/thickbox/tb-mac-overlay.png' saved [136/136]
+
+--2011-12-02 15:10:11--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/thickbox/tb-btn-close.gif
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 599 [image/gif]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/thickbox/tb-btn-close.gif'
+
+     0K                                                       100%  292K=0s
+
+2011-12-02 15:10:11 (292 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/thickbox/tb-btn-close.gif' saved [599/599]
+
+--2011-12-02 15:10:11--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/change_serve_gov.jpg
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 41488 (41K) [image/jpeg]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/change_serve_gov.jpg'
+
+     0K .......... .......... .......... ..........           100% 9.89M=0.004s
+
+2011-12-02 15:10:11 (9.89 MB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/change_serve_gov.jpg' saved [41488/41488]
+
+--2011-12-02 15:10:11--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/change_serve_gov_button.jpg
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 3164 (3.1K) [image/jpeg]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/change_serve_gov_button.jpg'
+
+     0K ...                                                   100% 1.51M=0s
+
+2011-12-02 15:10:11 (1.51 MB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/change_serve_gov_button.jpg' saved [3164/3164]
+
+--2011-12-02 15:10:11--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-sort-tab-active.gif
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1175 (1.1K) [image/gif]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-sort-tab-active.gif'
+
+     0K .                                                     100%  574K=0s
+
+2011-12-02 15:10:11 (574 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-sort-tab-active.gif' saved [1175/1175]
+
+--2011-12-02 15:10:11--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-phase-completed.gif
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1554 (1.5K) [image/gif]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-phase-completed.gif'
+
+     0K .                                                     100%  759K=0s
+
+2011-12-02 15:10:11 (759 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-phase-completed.gif' saved [1554/1554]
+
+--2011-12-02 15:10:11--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-ogi-featured.jpg
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 6306 (6.2K) [image/jpeg]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-ogi-featured.jpg'
+
+     0K ......                                                100% 3.01M=0s
+
+2011-12-02 15:10:11 (3.01 MB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-ogi-featured.jpg' saved [6306/6306]
+
+--2011-12-02 15:10:11--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-change-pass.png
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 5182 (5.1K) [image/png]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-change-pass.png'
+
+     0K .....                                                 100% 2.47M=0s
+
+2011-12-02 15:10:11 (2.47 MB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-change-pass.png' saved [5182/5182]
+
+--2011-12-02 15:10:11--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/pass_verify_header.png
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 102334 (100K) [image/png]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/pass_verify_header.png'
+
+     0K .......... .......... .......... .......... .......... 50% 12.2M 0s
+    50K .......... .......... .......... .......... ......... 100% 6.09M=0.01s
+
+2011-12-02 15:10:11 (8.13 MB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/pass_verify_header.png' saved [102334/102334]
+
+--2011-12-02 15:10:11--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-star-required.gif
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 538 [image/gif]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-star-required.gif'
+
+     0K                                                       100%  263K=0s
+
+2011-12-02 15:10:11 (263 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-star-required.gif' saved [538/538]
+
+--2011-12-02 15:10:11--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-form-item.png
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 142 [image/png]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-form-item.png'
+
+     0K                                                       100% 69.3K=0s
+
+2011-12-02 15:10:11 (69.3 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-form-item.png' saved [142/142]
+
+--2011-12-02 15:10:11--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/icons/icon-warning.gif
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1054 (1.0K) [image/gif]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/icons/icon-warning.gif'
+
+     0K .                                                     100%  515K=0s
+
+2011-12-02 15:10:11 (515 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/icons/icon-warning.gif' saved [1054/1054]
+
+--2011-12-02 15:10:11--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-textarea.png
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 144 [image/png]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-textarea.png'
+
+     0K                                                       100% 70.3K=0s
+
+2011-12-02 15:10:11 (70.3 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/bg-textarea.png' saved [144/144]
+
+--2011-12-02 15:10:11--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/ogi-rule-301.gif
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 61 [image/gif]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/ogi-rule-301.gif'
+
+     0K                                                       100% 29.8K=0s
+
+2011-12-02 15:10:11 (29.8 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/backgrounds/ogi-rule-301.gif' saved [61/61]
+
+--2011-12-02 15:10:11--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/inno-prev.gif
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1171 (1.1K) [image/gif]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/inno-prev.gif'
+
+     0K .                                                     100%  572K=0s
+
+2011-12-02 15:10:11 (572 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/inno-prev.gif' saved [1171/1171]
+
+--2011-12-02 15:10:11--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/inno-next.gif
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1165 (1.1K) [image/gif]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/inno-next.gif'
+
+     0K .                                                     100%  569K=0s
+
+2011-12-02 15:10:11 (569 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/inno-next.gif' saved [1165/1165]
+
+--2011-12-02 15:10:11--  http://www.whitehouse.gov/sites/default/files/ogi/stage-bg2.png
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 46784 (46K) [image/png]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/files/ogi/stage-bg2.png'
+
+     0K .......... .......... .......... .......... .....     100% 11.2M=0.004s
+
+2011-12-02 15:10:11 (11.2 MB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/files/ogi/stage-bg2.png' saved [46784/46784]
+
+--2011-12-02 15:10:11--  http://www.whitehouse.gov/sites/default/files/ogi/dot-sprite.gif
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 346 [image/gif]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/files/ogi/dot-sprite.gif'
+
+     0K                                                       100%  169K=0s
+
+2011-12-02 15:10:11 (169 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/files/ogi/dot-sprite.gif' saved [346/346]
+
+--2011-12-02 15:10:11--  http://www.whitehouse.gov/sites/default/files/ogi/tip-shadow.png
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 4263 (4.2K) [image/png]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/files/ogi/tip-shadow.png'
+
+     0K ....                                                  100% 2.03M=0s
+
+2011-12-02 15:10:11 (2.03 MB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/files/ogi/tip-shadow.png' saved [4263/4263]
+
+--2011-12-02 15:10:11--  http://www.whitehouse.gov/sites/default/files/ogi/tip-pointer.png
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 543 [image/png]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/files/ogi/tip-pointer.png'
+
+     0K                                                       100%  265K=0s
+
+2011-12-02 15:10:11 (265 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/files/ogi/tip-pointer.png' saved [543/543]
+
+--2011-12-02 15:10:11--  http://www.whitehouse.gov/sites/default/files/ogi/tip-body.png
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1015 [image/png]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/files/ogi/tip-body.png'
+
+     0K                                                       100%  496K=0s
+
+2011-12-02 15:10:11 (496 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/files/ogi/tip-body.png' saved [1015/1015]
+
+--2011-12-02 15:10:11--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-next-back-vote.gif
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 3081 (3.0K) [image/gif]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-next-back-vote.gif'
+
+     0K ...                                                   100% 1.47M=0s
+
+2011-12-02 15:10:12 (1.47 MB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn-next-back-vote.gif' saved [3081/3081]
+
+--2011-12-02 15:10:12--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn_view_results.gif
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 2135 (2.1K) [image/gif]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn_view_results.gif'
+
+     0K ..                                                    100% 1.02M=0s
+
+2011-12-02 15:10:12 (1.02 MB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/buttons/btn_view_results.gif' saved [2135/2135]
+
+--2011-12-02 15:10:12--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/contact/emailIcon-blu.png
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 507 [image/png]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/contact/emailIcon-blu.png'
+
+     0K                                                       100%  248K=0s
+
+2011-12-02 15:10:12 (248 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/contact/emailIcon-blu.png' saved [507/507]
+
+--2011-12-02 15:10:12--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/contact/emailIcon-lt.png
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 355 [image/png]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/contact/emailIcon-lt.png'
+
+     0K                                                       100%  173K=0s
+
+2011-12-02 15:10:12 (173 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/contact/emailIcon-lt.png' saved [355/355]
+
+--2011-12-02 15:10:12--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/contact/contactIcon-blu.png
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 268 [image/png]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/contact/contactIcon-blu.png'
+
+     0K                                                       100%  131K=0s
+
+2011-12-02 15:10:12 (131 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/contact/contactIcon-blu.png' saved [268/268]
+
+--2011-12-02 15:10:12--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/contact/contactIcon-lt.png
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 262 [image/png]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/contact/contactIcon-lt.png'
+
+     0K                                                       100%  128K=0s
+
+2011-12-02 15:10:12 (128 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/contact/contactIcon-lt.png' saved [262/262]
+
+--2011-12-02 15:10:12--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/contact/eagleThankYou-gold.png
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 5856 (5.7K) [image/png]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/contact/eagleThankYou-gold.png'
+
+     0K .....                                                 100% 2.79M=0s
+
+2011-12-02 15:10:12 (2.79 MB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/contact/eagleThankYou-gold.png' saved [5856/5856]
+
+--2011-12-02 15:10:12--  http://www.whitehouse.gov/sites/default/modules/wh_schedule/images/blue-arrow-down.gif
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 49 [image/gif]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/modules/wh_schedule/images/blue-arrow-down.gif'
+
+     0K                                                       100% 23.9K=0s
+
+2011-12-02 15:10:12 (23.9 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/modules/wh_schedule/images/blue-arrow-down.gif' saved [49/49]
+
+--2011-12-02 15:10:12--  http://www.whitehouse.gov/sites/default/modules/wh_schedule/images/blue-arrow-up.gif
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 48 [image/gif]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/modules/wh_schedule/images/blue-arrow-up.gif'
+
+     0K                                                       100% 23.4K=0s
+
+2011-12-02 15:10:12 (23.4 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/modules/wh_schedule/images/blue-arrow-up.gif' saved [48/48]
+
+--2011-12-02 15:10:12--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/vs-bg-gray.png
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1499 (1.5K) [image/png]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/vs-bg-gray.png'
+
+     0K .                                                     100%  732K=0s
+
+2011-12-02 15:10:12 (732 KB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/vs-bg-gray.png' saved [1499/1499]
+
+--2011-12-02 15:10:12--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/fhs-indexes.png
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 4988 (4.9K) [image/png]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/fhs-indexes.png'
+
+     0K ....                                                  100% 2.38M=0s
+
+2011-12-02 15:10:12 (2.38 MB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/fhs-indexes.png' saved [4988/4988]
+
+--2011-12-02 15:10:12--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/fhs-nav.png
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 7564 (7.4K) [image/png]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/fhs-nav.png'
+
+     0K .......                                               100% 1.80M=0.004s
+
+2011-12-02 15:10:12 (1.80 MB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/fhs-nav.png' saved [7564/7564]
+
+--2011-12-02 15:10:12--  http://www.whitehouse.gov/sites/default/themes/whitehouse/css/img/bg-navtabs.png
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 404 Not Found
+2011-12-02 15:10:12 ERROR 404: Not Found.
+
+--2011-12-02 15:10:12--  http://www.whitehouse.gov/sites/default/themes/whitehouse/css/img/tabright.png
+Connecting to www.whitehouse.gov (www.whitehouse.gov)|199.239.183.151|:80... connected.
+HTTP request sent, awaiting response... 404 Not Found
+2011-12-02 15:10:13 ERROR 404: Not Found.
+
+--2011-12-02 15:10:13--  http://www.whitehouse.gov/sites/default/themes/whitehouse/css/img/tableft.png
+Connecting to www.whitehouse.gov (www.whitehouse.gov)|199.239.183.151|:80... connected.
+HTTP request sent, awaiting response... 404 Not Found
+2011-12-02 15:10:13 ERROR 404: Not Found.
+
+--2011-12-02 15:10:13--  http://www.whitehouse.gov/sites/default/themes/whitehouse/css/img/btn-make-changes.png
+Connecting to www.whitehouse.gov (www.whitehouse.gov)|199.239.183.151|:80... connected.
+HTTP request sent, awaiting response... 404 Not Found
+2011-12-02 15:10:13 ERROR 404: Not Found.
+
+--2011-12-02 15:10:13--  http://www.whitehouse.gov/sites/default/themes/whitehouse/css/img/btn-login.png
+Connecting to www.whitehouse.gov (www.whitehouse.gov)|199.239.183.151|:80... connected.
+HTTP request sent, awaiting response... 404 Not Found
+2011-12-02 15:10:14 ERROR 404: Not Found.
+
+--2011-12-02 15:10:14--  http://www.whitehouse.gov/sites/default/themes/whitehouse/css/img/icons-login-options.png
+Connecting to www.whitehouse.gov (www.whitehouse.gov)|199.239.183.151|:80... connected.
+HTTP request sent, awaiting response... 404 Not Found
+2011-12-02 15:10:15 ERROR 404: Not Found.
+
+--2011-12-02 15:10:15--  http://www.whitehouse.gov/sites/default/themes/whitehouse/css/img/icon-openID.gif
+Connecting to www.whitehouse.gov (www.whitehouse.gov)|199.239.183.151|:80... connected.
+HTTP request sent, awaiting response... 404 Not Found
+2011-12-02 15:10:16 ERROR 404: Not Found.
+
+--2011-12-02 15:10:16--  http://www.whitehouse.gov/sites/default/themes/whitehouse/css/img/btn-login-grey.png
+Connecting to www.whitehouse.gov (www.whitehouse.gov)|199.239.183.151|:80... connected.
+HTTP request sent, awaiting response... 404 Not Found
+2011-12-02 15:10:16 ERROR 404: Not Found.
+
+--2011-12-02 15:10:16--  http://www.whitehouse.gov/sites/default/themes/whitehouse/css/img/bg-form-item.png
+Connecting to www.whitehouse.gov (www.whitehouse.gov)|199.239.183.151|:80... connected.
+HTTP request sent, awaiting response... 404 Not Found
+2011-12-02 15:10:16 ERROR 404: Not Found.
+
+--2011-12-02 15:10:16--  http://www.whitehouse.gov/sites/default/themes/whitehouse/css/img/btn-create-new-account.gif
+Connecting to www.whitehouse.gov (www.whitehouse.gov)|199.239.183.151|:80... connected.
+HTTP request sent, awaiting response... 404 Not Found
+2011-12-02 15:10:17 ERROR 404: Not Found.
+
+--2011-12-02 15:10:17--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/button-edit-profile-change-password.gif
+Connecting to www.whitehouse.gov (www.whitehouse.gov)|199.239.183.151|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 3536 (3.5K) [image/gif]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/button-edit-profile-change-password.gif'
+
+     0K ...                                                   100% 1.69M=0s
+
+2011-12-02 15:10:17 (1.69 MB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/button-edit-profile-change-password.gif' saved [3536/3536]
+
+--2011-12-02 15:10:17--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/button-save-changes.gif
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 2596 (2.5K) [image/gif]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/button-save-changes.gif'
+
+     0K ..                                                    100% 1.24M=0s
+
+2011-12-02 15:10:17 (1.24 MB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/button-save-changes.gif' saved [2596/2596]
+
+--2011-12-02 15:10:17--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/thank-you-bg.png
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 3870 (3.8K) [image/png]
+Saving to: `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/thank-you-bg.png'
+
+     0K ...                                                   100% 1.85M=0s
+
+2011-12-02 15:10:17 (1.85 MB/s) - `../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/themes/whitehouse/img/thank-you-bg.png' saved [3870/3870]
+
+--2011-12-02 15:10:17--  http://www.whitehouse.gov/sites/default/themes/whitehouse/img/blog_author_text_shadow_bg.jpg
+Reusing existing connection to www.whitehouse.gov:80.
+HTTP request sent, awaiting response... 404 Not Found
+2011-12-02 15:10:17 ERROR 404: Not Found.
+
+FINISHED --2011-12-02 15:10:17--
+Total wall clock time: 28s
+Downloaded: 241 files, 1.8M in 9.3s (195 KB/s)
+Converting ../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/privacy/index.html... 37-224
+Converting ../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/files/css_injector_13.css?v.css... 1-0
+Converting ../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/files/advagg_css/css_fc8161e170ea40814619194db5401b64_2.css... 395-43
+Converting ../crawls/www.whitehouse.gov/Privacy-Policy/raw/www.whitehouse.gov/sites/default/files/advagg_css/css_c95568c523ce75320a9733bf64492f9c_2.css... nothing to do.
+Converted 4 files in 0.02 seconds.

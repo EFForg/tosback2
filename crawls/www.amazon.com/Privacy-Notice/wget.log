@@ -1,0 +1,486 @@
+--2011-12-02 15:00:32--  http://www.amazon.com/gp/help/customer/display.html/ref=hp_551434_privacy?nodeId=468496
+Resolving www.amazon.com (www.amazon.com)... 72.21.211.176
+Connecting to www.amazon.com (www.amazon.com)|72.21.211.176|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `../crawls/www.amazon.com/Privacy-Notice/raw/www.amazon.com/gp/help/customer/display.html/ref=hp_551434_privacy?nodeId=468496.html'
+
+     0K .......... .......... .......... .......... ..........  219K
+    50K .......... .......... .......... .......... ..........  625K
+   100K .......... .......... .......                           344K=0.4s
+
+2011-12-02 15:00:33 (329 KB/s) - `../crawls/www.amazon.com/Privacy-Notice/raw/www.amazon.com/gp/help/customer/display.html/ref=hp_551434_privacy?nodeId=468496.html' saved [130572]
+
+--2011-12-02 15:00:33--  http://z-ecx.images-amazon.com/images/G/01/browser-scripts/fruitCSS/US-combined-1479236252.css._V164307877_.css
+Resolving z-ecx.images-amazon.com (z-ecx.images-amazon.com)... 216.156.213.24, 216.156.213.16
+Connecting to z-ecx.images-amazon.com (z-ecx.images-amazon.com)|216.156.213.24|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 12150 (12K) [text/css]
+Saving to: `../crawls/www.amazon.com/Privacy-Notice/raw/z-ecx.images-amazon.com/images/G/01/browser-scripts/fruitCSS/US-combined-1479236252.css._V164307877_.css'
+
+     0K .......... .                                          100% 2.90M=0.004s
+
+2011-12-02 15:00:33 (2.90 MB/s) - `../crawls/www.amazon.com/Privacy-Notice/raw/z-ecx.images-amazon.com/images/G/01/browser-scripts/fruitCSS/US-combined-1479236252.css._V164307877_.css' saved [12150/12150]
+
+--2011-12-02 15:00:33--  http://z-ecx.images-amazon.com/images/G/01/x-locale/cs/help/css/help_3.0.8._V153917636_.css
+Reusing existing connection to z-ecx.images-amazon.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 18912 (18K) [text/css]
+Saving to: `../crawls/www.amazon.com/Privacy-Notice/raw/z-ecx.images-amazon.com/images/G/01/x-locale/cs/help/css/help_3.0.8._V153917636_.css'
+
+     0K .......... ........                                   100% 4.51M=0.004s
+
+2011-12-02 15:00:33 (4.51 MB/s) - `../crawls/www.amazon.com/Privacy-Notice/raw/z-ecx.images-amazon.com/images/G/01/x-locale/cs/help/css/help_3.0.8._V153917636_.css' saved [18912/18912]
+
+--2011-12-02 15:00:33--  http://z-ecx.images-amazon.com/images/G/01/browser-scripts/us-site-wide-css-quirks/site-wide-3527593236.css._V162874846_.css
+Reusing existing connection to z-ecx.images-amazon.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 30947 (30K) [text/css]
+Saving to: `../crawls/www.amazon.com/Privacy-Notice/raw/z-ecx.images-amazon.com/images/G/01/browser-scripts/us-site-wide-css-quirks/site-wide-3527593236.css._V162874846_.css'
+
+     0K .......... .......... ..........                      100% 7.38M=0.004s
+
+2011-12-02 15:00:33 (7.38 MB/s) - `../crawls/www.amazon.com/Privacy-Notice/raw/z-ecx.images-amazon.com/images/G/01/browser-scripts/us-site-wide-css-quirks/site-wide-3527593236.css._V162874846_.css' saved [30947/30947]
+
+--2011-12-02 15:00:33--  http://g-ecx.images-amazon.com/images/G/01/javascripts/lib/popover/images/po_left_17._V248144977_.png
+Resolving g-ecx.images-amazon.com (g-ecx.images-amazon.com)... 205.251.253.193, 205.251.253.199, 205.251.253.217, ...
+Connecting to g-ecx.images-amazon.com (g-ecx.images-amazon.com)|205.251.253.193|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 166 [image/png]
+Saving to: `../crawls/www.amazon.com/Privacy-Notice/raw/g-ecx.images-amazon.com/images/G/01/javascripts/lib/popover/images/po_left_17._V248144977_.png'
+
+     0K                                                       100% 81.0K=0s
+
+2011-12-02 15:00:33 (81.0 KB/s) - `../crawls/www.amazon.com/Privacy-Notice/raw/g-ecx.images-amazon.com/images/G/01/javascripts/lib/popover/images/po_left_17._V248144977_.png' saved [166/166]
+
+--2011-12-02 15:00:33--  http://g-ecx.images-amazon.com/images/G/01/javascripts/lib/popover/images/po_right_17._V248144979_.png
+Reusing existing connection to g-ecx.images-amazon.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 172 [image/png]
+Saving to: `../crawls/www.amazon.com/Privacy-Notice/raw/g-ecx.images-amazon.com/images/G/01/javascripts/lib/popover/images/po_right_17._V248144979_.png'
+
+     0K                                                       100% 84.0K=0s
+
+2011-12-02 15:00:33 (84.0 KB/s) - `../crawls/www.amazon.com/Privacy-Notice/raw/g-ecx.images-amazon.com/images/G/01/javascripts/lib/popover/images/po_right_17._V248144979_.png' saved [172/172]
+
+--2011-12-02 15:00:33--  http://g-ecx.images-amazon.com/images/G/01/javascripts/lib/popover/images/po_top_left._V265110087_.png
+Reusing existing connection to g-ecx.images-amazon.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 819 [image/png]
+Saving to: `../crawls/www.amazon.com/Privacy-Notice/raw/g-ecx.images-amazon.com/images/G/01/javascripts/lib/popover/images/po_top_left._V265110087_.png'
+
+     0K                                                       100%  400K=0s
+
+2011-12-02 15:00:33 (400 KB/s) - `../crawls/www.amazon.com/Privacy-Notice/raw/g-ecx.images-amazon.com/images/G/01/javascripts/lib/popover/images/po_top_left._V265110087_.png' saved [819/819]
+
+--2011-12-02 15:00:33--  http://g-ecx.images-amazon.com/images/G/01/javascripts/lib/popover/images/po_top_right._V265110087_.png
+Reusing existing connection to g-ecx.images-amazon.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 948 [image/png]
+Saving to: `../crawls/www.amazon.com/Privacy-Notice/raw/g-ecx.images-amazon.com/images/G/01/javascripts/lib/popover/images/po_top_right._V265110087_.png'
+
+     0K                                                       100%  463K=0s
+
+2011-12-02 15:00:33 (463 KB/s) - `../crawls/www.amazon.com/Privacy-Notice/raw/g-ecx.images-amazon.com/images/G/01/javascripts/lib/popover/images/po_top_right._V265110087_.png' saved [948/948]
+
+--2011-12-02 15:00:33--  http://g-ecx.images-amazon.com/images/G/01/javascripts/lib/popover/images/po_top._V265110086_.png
+Reusing existing connection to g-ecx.images-amazon.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 181 [image/png]
+Saving to: `../crawls/www.amazon.com/Privacy-Notice/raw/g-ecx.images-amazon.com/images/G/01/javascripts/lib/popover/images/po_top._V265110086_.png'
+
+     0K                                                       100% 88.4K=0s
+
+2011-12-02 15:00:33 (88.4 KB/s) - `../crawls/www.amazon.com/Privacy-Notice/raw/g-ecx.images-amazon.com/images/G/01/javascripts/lib/popover/images/po_top._V265110086_.png' saved [181/181]
+
+--2011-12-02 15:00:33--  http://g-ecx.images-amazon.com/images/G/01/javascripts/lib/popover/images/po_bottom_left._V265110084_.png
+Reusing existing connection to g-ecx.images-amazon.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1154 (1.1K) [image/png]
+Saving to: `../crawls/www.amazon.com/Privacy-Notice/raw/g-ecx.images-amazon.com/images/G/01/javascripts/lib/popover/images/po_bottom_left._V265110084_.png'
+
+     0K .                                                     100%  563K=0s
+
+2011-12-02 15:00:33 (563 KB/s) - `../crawls/www.amazon.com/Privacy-Notice/raw/g-ecx.images-amazon.com/images/G/01/javascripts/lib/popover/images/po_bottom_left._V265110084_.png' saved [1154/1154]
+
+--2011-12-02 15:00:33--  http://g-ecx.images-amazon.com/images/G/01/javascripts/lib/popover/images/po_bottom_right._V265110087_.png
+Reusing existing connection to g-ecx.images-amazon.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1142 (1.1K) [image/png]
+Saving to: `../crawls/www.amazon.com/Privacy-Notice/raw/g-ecx.images-amazon.com/images/G/01/javascripts/lib/popover/images/po_bottom_right._V265110087_.png'
+
+     0K .                                                     100%  558K=0s
+
+2011-12-02 15:00:33 (558 KB/s) - `../crawls/www.amazon.com/Privacy-Notice/raw/g-ecx.images-amazon.com/images/G/01/javascripts/lib/popover/images/po_bottom_right._V265110087_.png' saved [1142/1142]
+
+--2011-12-02 15:00:33--  http://g-ecx.images-amazon.com/images/G/01/javascripts/lib/popover/images/po_bottom._V265110084_.png
+Reusing existing connection to g-ecx.images-amazon.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 210 [image/png]
+Saving to: `../crawls/www.amazon.com/Privacy-Notice/raw/g-ecx.images-amazon.com/images/G/01/javascripts/lib/popover/images/po_bottom._V265110084_.png'
+
+     0K                                                       100%  103K=0s
+
+2011-12-02 15:00:33 (103 KB/s) - `../crawls/www.amazon.com/Privacy-Notice/raw/g-ecx.images-amazon.com/images/G/01/javascripts/lib/popover/images/po_bottom._V265110084_.png' saved [210/210]
+
+--2011-12-02 15:00:33--  http://g-ecx.images-amazon.com/images/G/01/javascripts/lib/popover/images/light/sprite-v._V219326283_.png
+Reusing existing connection to g-ecx.images-amazon.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 181 [image/png]
+Saving to: `../crawls/www.amazon.com/Privacy-Notice/raw/g-ecx.images-amazon.com/images/G/01/javascripts/lib/popover/images/light/sprite-v._V219326283_.png'
+
+     0K                                                       100% 88.4K=0s
+
+2011-12-02 15:00:33 (88.4 KB/s) - `../crawls/www.amazon.com/Privacy-Notice/raw/g-ecx.images-amazon.com/images/G/01/javascripts/lib/popover/images/light/sprite-v._V219326283_.png' saved [181/181]
+
+--2011-12-02 15:00:33--  http://g-ecx.images-amazon.com/images/G/01/javascripts/lib/popover/images/light/sprite-h._V219326280_.png
+Reusing existing connection to g-ecx.images-amazon.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 4359 (4.3K) [image/png]
+Saving to: `../crawls/www.amazon.com/Privacy-Notice/raw/g-ecx.images-amazon.com/images/G/01/javascripts/lib/popover/images/light/sprite-h._V219326280_.png'
+
+     0K ....                                                  100% 1.04M=0.004s
+
+2011-12-02 15:00:33 (1.04 MB/s) - `../crawls/www.amazon.com/Privacy-Notice/raw/g-ecx.images-amazon.com/images/G/01/javascripts/lib/popover/images/light/sprite-h._V219326280_.png' saved [4359/4359]
+
+--2011-12-02 15:00:33--  http://g-ecx.images-amazon.com/images/G/01/javascripts/lib/popover/images/light/sprite-arrow-v._V219326286_.png
+Reusing existing connection to g-ecx.images-amazon.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 2407 (2.4K) [image/png]
+Saving to: `../crawls/www.amazon.com/Privacy-Notice/raw/g-ecx.images-amazon.com/images/G/01/javascripts/lib/popover/images/light/sprite-arrow-v._V219326286_.png'
+
+     0K ..                                                    100% 1.15M=0s
+
+2011-12-02 15:00:33 (1.15 MB/s) - `../crawls/www.amazon.com/Privacy-Notice/raw/g-ecx.images-amazon.com/images/G/01/javascripts/lib/popover/images/light/sprite-arrow-v._V219326286_.png' saved [2407/2407]
+
+--2011-12-02 15:00:33--  http://g-ecx.images-amazon.com/images/G/01/gno/images/orangeBlue/navPackedSprites-US-22._V183711641_.png
+Reusing existing connection to g-ecx.images-amazon.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 7279 (7.1K) [image/png]
+Saving to: `../crawls/www.amazon.com/Privacy-Notice/raw/g-ecx.images-amazon.com/images/G/01/gno/images/orangeBlue/navPackedSprites-US-22._V183711641_.png'
+
+     0K .......                                               100% 3.47M=0s
+
+2011-12-02 15:00:33 (3.47 MB/s) - `../crawls/www.amazon.com/Privacy-Notice/raw/g-ecx.images-amazon.com/images/G/01/gno/images/orangeBlue/navPackedSprites-US-22._V183711641_.png' saved [7279/7279]
+
+--2011-12-02 15:00:33--  http://g-ecx.images-amazon.com/images/G/01/gno/popover/sprites-h2._V173407700_.gif
+Reusing existing connection to g-ecx.images-amazon.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 134 [image/gif]
+Saving to: `../crawls/www.amazon.com/Privacy-Notice/raw/g-ecx.images-amazon.com/images/G/01/gno/popover/sprites-h2._V173407700_.gif'
+
+     0K                                                       100% 65.4K=0s
+
+2011-12-02 15:00:34 (65.4 KB/s) - `../crawls/www.amazon.com/Privacy-Notice/raw/g-ecx.images-amazon.com/images/G/01/gno/popover/sprites-h2._V173407700_.gif' saved [134/134]
+
+--2011-12-02 15:00:34--  http://g-ecx.images-amazon.com/images/G/01/gno/popover/sprites-v2._V173407313_.gif
+Reusing existing connection to g-ecx.images-amazon.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 136 [image/gif]
+Saving to: `../crawls/www.amazon.com/Privacy-Notice/raw/g-ecx.images-amazon.com/images/G/01/gno/popover/sprites-v2._V173407313_.gif'
+
+     0K                                                       100% 66.4K=0s
+
+2011-12-02 15:00:34 (66.4 KB/s) - `../crawls/www.amazon.com/Privacy-Notice/raw/g-ecx.images-amazon.com/images/G/01/gno/popover/sprites-v2._V173407313_.gif' saved [136/136]
+
+--2011-12-02 15:00:34--  http://g-ecx.images-amazon.com/images/G/01/x-locale/common/transparent-pixel._V192234675_.gif
+Reusing existing connection to g-ecx.images-amazon.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 43 [image/gif]
+Saving to: `../crawls/www.amazon.com/Privacy-Notice/raw/g-ecx.images-amazon.com/images/G/01/x-locale/common/transparent-pixel._V192234675_.gif'
+
+     0K                                                       100% 21.0K=0s
+
+2011-12-02 15:00:34 (21.0 KB/s) - `../crawls/www.amazon.com/Privacy-Notice/raw/g-ecx.images-amazon.com/images/G/01/x-locale/common/transparent-pixel._V192234675_.gif' saved [43/43]
+
+--2011-12-02 15:00:34--  http://g-ecx.images-amazon.com/images/G/01/gno/images/holiday11/gno-holiday-2011._V165217436_.gif
+Reusing existing connection to g-ecx.images-amazon.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 16343 (16K) [image/gif]
+Saving to: `../crawls/www.amazon.com/Privacy-Notice/raw/g-ecx.images-amazon.com/images/G/01/gno/images/holiday11/gno-holiday-2011._V165217436_.gif'
+
+     0K .......... .....                                      100%  285K=0.06s
+
+2011-12-02 15:00:34 (285 KB/s) - `../crawls/www.amazon.com/Privacy-Notice/raw/g-ecx.images-amazon.com/images/G/01/gno/images/holiday11/gno-holiday-2011._V165217436_.gif' saved [16343/16343]
+
+--2011-12-02 15:00:34--  http://g-ecx.images-amazon.com/images/G/01/x-locale/cs/help/customer/buttons/button-search-help._V192250720_.gif
+Reusing existing connection to g-ecx.images-amazon.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1741 (1.7K) [image/gif]
+Saving to: `../crawls/www.amazon.com/Privacy-Notice/raw/g-ecx.images-amazon.com/images/G/01/x-locale/cs/help/customer/buttons/button-search-help._V192250720_.gif'
+
+     0K .                                                     100%  850K=0s
+
+2011-12-02 15:00:34 (850 KB/s) - `../crawls/www.amazon.com/Privacy-Notice/raw/g-ecx.images-amazon.com/images/G/01/x-locale/cs/help/customer/buttons/button-search-help._V192250720_.gif' saved [1741/1741]
+
+--2011-12-02 15:00:34--  http://ecx.images-amazon.com/images/G/01/x-locale/common/transparent-pixel._V192234675_.gif
+Resolving ecx.images-amazon.com (ecx.images-amazon.com)... 216.156.213.58, 216.156.213.81
+Connecting to ecx.images-amazon.com (ecx.images-amazon.com)|216.156.213.58|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 43 [image/gif]
+Saving to: `../crawls/www.amazon.com/Privacy-Notice/raw/ecx.images-amazon.com/images/G/01/x-locale/common/transparent-pixel._V192234675_.gif'
+
+     0K                                                       100% 21.0K=0s
+
+2011-12-02 15:00:34 (21.0 KB/s) - `../crawls/www.amazon.com/Privacy-Notice/raw/ecx.images-amazon.com/images/G/01/x-locale/common/transparent-pixel._V192234675_.gif' saved [43/43]
+
+--2011-12-02 15:00:34--  http://g-ecx.images-amazon.com/images/G/01/x-locale/communities/beta._V192251332_.gif
+Connecting to g-ecx.images-amazon.com (g-ecx.images-amazon.com)|205.251.253.193|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 244 [image/gif]
+Saving to: `../crawls/www.amazon.com/Privacy-Notice/raw/g-ecx.images-amazon.com/images/G/01/x-locale/communities/beta._V192251332_.gif'
+
+     0K                                                       100%  119K=0s
+
+2011-12-02 15:00:34 (119 KB/s) - `../crawls/www.amazon.com/Privacy-Notice/raw/g-ecx.images-amazon.com/images/G/01/x-locale/communities/beta._V192251332_.gif' saved [244/244]
+
+--2011-12-02 15:00:34--  http://g-ecx.images-amazon.com/images/G/01/x-locale/cs/help/customer/buttons/cs-customer-service-btn._V192250723_.gif
+Reusing existing connection to g-ecx.images-amazon.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1870 (1.8K) [image/gif]
+Saving to: `../crawls/www.amazon.com/Privacy-Notice/raw/g-ecx.images-amazon.com/images/G/01/x-locale/cs/help/customer/buttons/cs-customer-service-btn._V192250723_.gif'
+
+     0K .                                                     100%  913K=0s
+
+2011-12-02 15:00:34 (913 KB/s) - `../crawls/www.amazon.com/Privacy-Notice/raw/g-ecx.images-amazon.com/images/G/01/x-locale/cs/help/customer/buttons/cs-customer-service-btn._V192250723_.gif' saved [1870/1870]
+
+--2011-12-02 15:00:34--  http://g-ecx.images-amazon.com/images/G/01/gno/images/general/navAmazonLogoFooter._V169459313_.gif
+Reusing existing connection to g-ecx.images-amazon.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1216 (1.2K) [image/gif]
+Saving to: `../crawls/www.amazon.com/Privacy-Notice/raw/g-ecx.images-amazon.com/images/G/01/gno/images/general/navAmazonLogoFooter._V169459313_.gif'
+
+     0K .                                                     100%  594K=0s
+
+2011-12-02 15:00:34 (594 KB/s) - `../crawls/www.amazon.com/Privacy-Notice/raw/g-ecx.images-amazon.com/images/G/01/gno/images/general/navAmazonLogoFooter._V169459313_.gif' saved [1216/1216]
+
+--2011-12-02 15:00:34--  http://z-ecx.images-amazon.com/images/G/01/browser-scripts/us-site-wide-js-1.2.6/site-wide-4187703703.js._V163044614_.js
+Connecting to z-ecx.images-amazon.com (z-ecx.images-amazon.com)|216.156.213.24|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/x-javascript]
+Saving to: `../crawls/www.amazon.com/Privacy-Notice/raw/z-ecx.images-amazon.com/images/G/01/browser-scripts/us-site-wide-js-1.2.6/site-wide-4187703703.js._V163044614_.js'
+
+     0K .......... .......... .......... .......... .......... 6.10M
+    50K .......... .......... .......... .......... .......... 6.10M
+   100K .......... .......... .......... .......               9.22M=0.02s
+
+2011-12-02 15:00:34 (6.73 MB/s) - `../crawls/www.amazon.com/Privacy-Notice/raw/z-ecx.images-amazon.com/images/G/01/browser-scripts/us-site-wide-js-1.2.6/site-wide-4187703703.js._V163044614_.js' saved [141064]
+
+--2011-12-02 15:00:34--  http://z-ecx.images-amazon.com/images/G/01/help/js/autocomplete-2.0-min._V173016790_.js
+Reusing existing connection to z-ecx.images-amazon.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 6427 (6.3K) [application/x-javascript]
+Saving to: `../crawls/www.amazon.com/Privacy-Notice/raw/z-ecx.images-amazon.com/images/G/01/help/js/autocomplete-2.0-min._V173016790_.js'
+
+     0K ......                                                100% 3.06M=0s
+
+2011-12-02 15:00:34 (3.06 MB/s) - `../crawls/www.amazon.com/Privacy-Notice/raw/z-ecx.images-amazon.com/images/G/01/help/js/autocomplete-2.0-min._V173016790_.js' saved [6427/6427]
+
+--2011-12-02 15:00:34--  http://z-ecx.images-amazon.com/images/G/01/msa/vowels/vowels-new._V164565324_.js
+Reusing existing connection to z-ecx.images-amazon.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 12025 (12K) [application/x-javascript]
+Saving to: `../crawls/www.amazon.com/Privacy-Notice/raw/z-ecx.images-amazon.com/images/G/01/msa/vowels/vowels-new._V164565324_.js'
+
+     0K .......... .                                          100% 5.73M=0s
+
+2011-12-02 15:00:34 (5.73 MB/s) - `../crawls/www.amazon.com/Privacy-Notice/raw/z-ecx.images-amazon.com/images/G/01/msa/vowels/vowels-new._V164565324_.js' saved [12025/12025]
+
+--2011-12-02 15:00:34--  http://www.amazon.com/gp/uedata/182-6630351-1049538?noscript&id=0D3707NR9A7ZANJC38DF
+Connecting to www.amazon.com (www.amazon.com)|72.21.211.176|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [image/gif]
+Saving to: `../crawls/www.amazon.com/Privacy-Notice/raw/www.amazon.com/gp/uedata/182-6630351-1049538?noscript&id=0D3707NR9A7ZANJC38DF'
+
+     0K                                                        21.0K=0s
+
+2011-12-02 15:00:34 (21.0 KB/s) - `../crawls/www.amazon.com/Privacy-Notice/raw/www.amazon.com/gp/uedata/182-6630351-1049538?noscript&id=0D3707NR9A7ZANJC38DF' saved [43]
+
+--2011-12-02 15:00:34--  http://g-ecx.images-amazon.com/images/G/01/common/sprites/sprite-site-wide-2._V155328293_.png
+Connecting to g-ecx.images-amazon.com (g-ecx.images-amazon.com)|205.251.253.193|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 14584 (14K) [image/png]
+Saving to: `../crawls/www.amazon.com/Privacy-Notice/raw/g-ecx.images-amazon.com/images/G/01/common/sprites/sprite-site-wide-2._V155328293_.png'
+
+     0K .......... ....                                       100%  254K=0.06s
+
+2011-12-02 15:00:34 (254 KB/s) - `../crawls/www.amazon.com/Privacy-Notice/raw/g-ecx.images-amazon.com/images/G/01/common/sprites/sprite-site-wide-2._V155328293_.png' saved [14584/14584]
+
+--2011-12-02 15:00:34--  http://g-ecx.images-amazon.com/images/G/01/common/sprites/sprite-communities._V163826568_.png
+Reusing existing connection to g-ecx.images-amazon.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 12142 (12K) [image/png]
+Saving to: `../crawls/www.amazon.com/Privacy-Notice/raw/g-ecx.images-amazon.com/images/G/01/common/sprites/sprite-communities._V163826568_.png'
+
+     0K .......... .                                          100% 5.79M=0s
+
+2011-12-02 15:00:34 (5.79 MB/s) - `../crawls/www.amazon.com/Privacy-Notice/raw/g-ecx.images-amazon.com/images/G/01/common/sprites/sprite-communities._V163826568_.png' saved [12142/12142]
+
+--2011-12-02 15:00:34--  http://z-ecx.images-amazon.com/images/G/01/x-locale/cs/help/sprites/step-arrow.gif
+Connecting to z-ecx.images-amazon.com (z-ecx.images-amazon.com)|216.156.213.24|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 49 [image/gif]
+Saving to: `../crawls/www.amazon.com/Privacy-Notice/raw/z-ecx.images-amazon.com/images/G/01/x-locale/cs/help/sprites/step-arrow.gif'
+
+     0K                                                       100% 23.9K=0s
+
+2011-12-02 15:00:34 (23.9 KB/s) - `../crawls/www.amazon.com/Privacy-Notice/raw/z-ecx.images-amazon.com/images/G/01/x-locale/cs/help/sprites/step-arrow.gif' saved [49/49]
+
+--2011-12-02 15:00:34--  http://z-ecx.images-amazon.com/images/G/01/x-locale/cs/help/sprites/process_count.gif
+Reusing existing connection to z-ecx.images-amazon.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 3845 (3.8K) [image/gif]
+Saving to: `../crawls/www.amazon.com/Privacy-Notice/raw/z-ecx.images-amazon.com/images/G/01/x-locale/cs/help/sprites/process_count.gif'
+
+     0K ...                                                   100% 1.83M=0s
+
+2011-12-02 15:00:34 (1.83 MB/s) - `../crawls/www.amazon.com/Privacy-Notice/raw/z-ecx.images-amazon.com/images/G/01/x-locale/cs/help/sprites/process_count.gif' saved [3845/3845]
+
+--2011-12-02 15:00:34--  http://z-ecx.images-amazon.com/images/G/01/x-locale/cs/help/sprites/help-logo.gif
+Reusing existing connection to z-ecx.images-amazon.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1542 (1.5K) [image/gif]
+Saving to: `../crawls/www.amazon.com/Privacy-Notice/raw/z-ecx.images-amazon.com/images/G/01/x-locale/cs/help/sprites/help-logo.gif'
+
+     0K .                                                     100%  753K=0s
+
+2011-12-02 15:00:34 (753 KB/s) - `../crawls/www.amazon.com/Privacy-Notice/raw/z-ecx.images-amazon.com/images/G/01/x-locale/cs/help/sprites/help-logo.gif' saved [1542/1542]
+
+--2011-12-02 15:00:34--  http://z-ecx.images-amazon.com/images/G/01/x-locale/cs/help/sprites/step-back-arrow.gif
+Reusing existing connection to z-ecx.images-amazon.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 49 [image/gif]
+Saving to: `../crawls/www.amazon.com/Privacy-Notice/raw/z-ecx.images-amazon.com/images/G/01/x-locale/cs/help/sprites/step-back-arrow.gif'
+
+     0K                                                       100% 23.9K=0s
+
+2011-12-02 15:00:34 (23.9 KB/s) - `../crawls/www.amazon.com/Privacy-Notice/raw/z-ecx.images-amazon.com/images/G/01/x-locale/cs/help/sprites/step-back-arrow.gif' saved [49/49]
+
+--2011-12-02 15:00:34--  http://z-ecx.images-amazon.com/images/G/01/x-locale/cs/help/sprites/main-area.gif
+Reusing existing connection to z-ecx.images-amazon.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 112 [image/gif]
+Saving to: `../crawls/www.amazon.com/Privacy-Notice/raw/z-ecx.images-amazon.com/images/G/01/x-locale/cs/help/sprites/main-area.gif'
+
+     0K                                                       100% 54.7K=0s
+
+2011-12-02 15:00:35 (54.7 KB/s) - `../crawls/www.amazon.com/Privacy-Notice/raw/z-ecx.images-amazon.com/images/G/01/x-locale/cs/help/sprites/main-area.gif' saved [112/112]
+
+--2011-12-02 15:00:35--  http://z-ecx.images-amazon.com/images/G/01/x-locale/cs/help/sprites/expander.gif
+Reusing existing connection to z-ecx.images-amazon.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 385 [image/gif]
+Saving to: `../crawls/www.amazon.com/Privacy-Notice/raw/z-ecx.images-amazon.com/images/G/01/x-locale/cs/help/sprites/expander.gif'
+
+     0K                                                       100%  188K=0s
+
+2011-12-02 15:00:35 (188 KB/s) - `../crawls/www.amazon.com/Privacy-Notice/raw/z-ecx.images-amazon.com/images/G/01/x-locale/cs/help/sprites/expander.gif' saved [385/385]
+
+--2011-12-02 15:00:35--  http://z-ecx.images-amazon.com/images/G/01/x-locale/cs/help/sprites/blue-bar.gif
+Reusing existing connection to z-ecx.images-amazon.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 344 [image/gif]
+Saving to: `../crawls/www.amazon.com/Privacy-Notice/raw/z-ecx.images-amazon.com/images/G/01/x-locale/cs/help/sprites/blue-bar.gif'
+
+     0K                                                       100%  168K=0s
+
+2011-12-02 15:00:35 (168 KB/s) - `../crawls/www.amazon.com/Privacy-Notice/raw/z-ecx.images-amazon.com/images/G/01/x-locale/cs/help/sprites/blue-bar.gif' saved [344/344]
+
+--2011-12-02 15:00:35--  http://z-ecx.images-amazon.com/images/G/01/x-locale/cs/help/personalized/help_watermark_clipped.gif
+Reusing existing connection to z-ecx.images-amazon.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 5553 (5.4K) [image/gif]
+Saving to: `../crawls/www.amazon.com/Privacy-Notice/raw/z-ecx.images-amazon.com/images/G/01/x-locale/cs/help/personalized/help_watermark_clipped.gif'
+
+     0K .....                                                 100% 1.32M=0.004s
+
+2011-12-02 15:00:35 (1.32 MB/s) - `../crawls/www.amazon.com/Privacy-Notice/raw/z-ecx.images-amazon.com/images/G/01/x-locale/cs/help/personalized/help_watermark_clipped.gif' saved [5553/5553]
+
+--2011-12-02 15:00:35--  http://g-ecx.images-amazon.com/images/G/01/ui/loadIndicators/loading-small._V192238939_.gif
+Connecting to g-ecx.images-amazon.com (g-ecx.images-amazon.com)|205.251.253.193|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1338 (1.3K) [image/gif]
+Saving to: `../crawls/www.amazon.com/Privacy-Notice/raw/g-ecx.images-amazon.com/images/G/01/ui/loadIndicators/loading-small._V192238939_.gif'
+
+     0K .                                                     100%  653K=0s
+
+2011-12-02 15:00:35 (653 KB/s) - `../crawls/www.amazon.com/Privacy-Notice/raw/g-ecx.images-amazon.com/images/G/01/ui/loadIndicators/loading-small._V192238939_.gif' saved [1338/1338]
+
+--2011-12-02 15:00:35--  http://g-ecx.images-amazon.com/images/G/01/x-locale/personalization/shoveler/left-arrow-semi-rd._V17361814_.gif
+Reusing existing connection to g-ecx.images-amazon.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 999 [image/gif]
+Saving to: `../crawls/www.amazon.com/Privacy-Notice/raw/g-ecx.images-amazon.com/images/G/01/x-locale/personalization/shoveler/left-arrow-semi-rd._V17361814_.gif'
+
+     0K                                                       100%  488K=0s
+
+2011-12-02 15:00:35 (488 KB/s) - `../crawls/www.amazon.com/Privacy-Notice/raw/g-ecx.images-amazon.com/images/G/01/x-locale/personalization/shoveler/left-arrow-semi-rd._V17361814_.gif' saved [999/999]
+
+--2011-12-02 15:00:35--  http://g-ecx.images-amazon.com/images/G/01/x-locale/personalization/shoveler/right-arrow-semi-rd._V17361809_.gif
+Reusing existing connection to g-ecx.images-amazon.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1008 [image/gif]
+Saving to: `../crawls/www.amazon.com/Privacy-Notice/raw/g-ecx.images-amazon.com/images/G/01/x-locale/personalization/shoveler/right-arrow-semi-rd._V17361809_.gif'
+
+     0K                                                       100%  492K=0s
+
+2011-12-02 15:00:35 (492 KB/s) - `../crawls/www.amazon.com/Privacy-Notice/raw/g-ecx.images-amazon.com/images/G/01/x-locale/personalization/shoveler/right-arrow-semi-rd._V17361809_.gif' saved [1008/1008]
+
+--2011-12-02 15:00:35--  http://g-ecx.images-amazon.com/images/G/01/x-locale/personalization/yourstore/box/sliced_box_fill/sliced-box-tbevel._V47082452_.gif
+Reusing existing connection to g-ecx.images-amazon.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 332 [image/gif]
+Saving to: `../crawls/www.amazon.com/Privacy-Notice/raw/g-ecx.images-amazon.com/images/G/01/x-locale/personalization/yourstore/box/sliced_box_fill/sliced-box-tbevel._V47082452_.gif'
+
+     0K                                                       100%  162K=0s
+
+2011-12-02 15:00:35 (162 KB/s) - `../crawls/www.amazon.com/Privacy-Notice/raw/g-ecx.images-amazon.com/images/G/01/x-locale/personalization/yourstore/box/sliced_box_fill/sliced-box-tbevel._V47082452_.gif' saved [332/332]
+
+--2011-12-02 15:00:35--  http://g-ecx.images-amazon.com/images/G/01/x-locale/personalization/yourstore/box/sliced_box_fill/sliced-box-tl._V6007502_.gif
+Reusing existing connection to g-ecx.images-amazon.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1178 (1.2K) [image/gif]
+Saving to: `../crawls/www.amazon.com/Privacy-Notice/raw/g-ecx.images-amazon.com/images/G/01/x-locale/personalization/yourstore/box/sliced_box_fill/sliced-box-tl._V6007502_.gif'
+
+     0K .                                                     100%  575K=0s
+
+2011-12-02 15:00:35 (575 KB/s) - `../crawls/www.amazon.com/Privacy-Notice/raw/g-ecx.images-amazon.com/images/G/01/x-locale/personalization/yourstore/box/sliced_box_fill/sliced-box-tl._V6007502_.gif' saved [1178/1178]
+
+--2011-12-02 15:00:35--  http://g-ecx.images-amazon.com/images/G/01/x-locale/personalization/yourstore/box/sliced_box_fill/sliced-box-tr._V6007499_.gif
+Reusing existing connection to g-ecx.images-amazon.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1175 (1.1K) [image/gif]
+Saving to: `../crawls/www.amazon.com/Privacy-Notice/raw/g-ecx.images-amazon.com/images/G/01/x-locale/personalization/yourstore/box/sliced_box_fill/sliced-box-tr._V6007499_.gif'
+
+     0K .                                                     100%  574K=0s
+
+2011-12-02 15:00:35 (574 KB/s) - `../crawls/www.amazon.com/Privacy-Notice/raw/g-ecx.images-amazon.com/images/G/01/x-locale/personalization/yourstore/box/sliced_box_fill/sliced-box-tr._V6007499_.gif' saved [1175/1175]
+
+--2011-12-02 15:00:35--  http://g-ecx.images-amazon.com/images/G/01/x-locale/personalization/yourstore/box/sliced-box-bl._V47082482_.gif
+Reusing existing connection to g-ecx.images-amazon.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 643 [image/gif]
+Saving to: `../crawls/www.amazon.com/Privacy-Notice/raw/g-ecx.images-amazon.com/images/G/01/x-locale/personalization/yourstore/box/sliced-box-bl._V47082482_.gif'
+
+     0K                                                       100%  314K=0s
+
+2011-12-02 15:00:35 (314 KB/s) - `../crawls/www.amazon.com/Privacy-Notice/raw/g-ecx.images-amazon.com/images/G/01/x-locale/personalization/yourstore/box/sliced-box-bl._V47082482_.gif' saved [643/643]
+
+--2011-12-02 15:00:35--  http://g-ecx.images-amazon.com/images/G/01/x-locale/personalization/yourstore/box/sliced-box-br._V47062575_.gif
+Reusing existing connection to g-ecx.images-amazon.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 641 [image/gif]
+Saving to: `../crawls/www.amazon.com/Privacy-Notice/raw/g-ecx.images-amazon.com/images/G/01/x-locale/personalization/yourstore/box/sliced-box-br._V47062575_.gif'
+
+     0K                                                       100%  313K=0s
+
+2011-12-02 15:00:35 (313 KB/s) - `../crawls/www.amazon.com/Privacy-Notice/raw/g-ecx.images-amazon.com/images/G/01/x-locale/personalization/yourstore/box/sliced-box-br._V47062575_.gif' saved [641/641]
+
+FINISHED --2011-12-02 15:00:35--
+Total wall clock time: 3.4s
+Downloaded: 47 files, 429K in 0.5s (794 KB/s)
+Converting ../crawls/www.amazon.com/Privacy-Notice/raw/www.amazon.com/gp/help/customer/display.html/ref=hp_551434_privacy?nodeId=468496.html... 55-223
+Converting ../crawls/www.amazon.com/Privacy-Notice/raw/z-ecx.images-amazon.com/images/G/01/x-locale/cs/help/css/help_3.0.8._V153917636_.css... 8-0
+Converting ../crawls/www.amazon.com/Privacy-Notice/raw/z-ecx.images-amazon.com/images/G/01/browser-scripts/us-site-wide-css-quirks/site-wide-3527593236.css._V162874846_.css... 8-0
+Converting ../crawls/www.amazon.com/Privacy-Notice/raw/z-ecx.images-amazon.com/images/G/01/browser-scripts/fruitCSS/US-combined-1479236252.css._V164307877_.css... 5-0
+Converted 4 files in 0.01 seconds.

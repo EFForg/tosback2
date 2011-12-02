@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+
+.col_930 {
+				float:left;
+				padding-left:10px;
+				width:930px;
+			}			
+			div.longList {
+				padding-left:10px;
+			}
+			.content_630 {
+				margin-top:15px;
+				padding-right:10px;
+			}						
+			.content_310 {
+				margin-top:20px;
+				border-left:solid 1px #ccc;
+				height:auto;
+				margin-bottom:15px;
+			}			
+			
+			.mod_border {
+				border:1px solid #CCCCCC;
+				margin-bottom:10px;
+				overflow:hidden;
+				float:left;
+				padding-top:5px;
+			}

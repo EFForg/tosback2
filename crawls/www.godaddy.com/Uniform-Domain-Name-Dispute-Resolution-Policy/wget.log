@@ -1,0 +1,729 @@
+--2011-12-02 15:10:28--  http://www.godaddy.com/gdshop/legal_agreements/show_doc.asp?plvid=1&pageid=uniform_domain
+Resolving www.godaddy.com (www.godaddy.com)... 97.74.104.201
+Connecting to www.godaddy.com (www.godaddy.com)|97.74.104.201|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: /Agreements/ShowDoc.aspx?plvid=1&pageid=uniform_domain [following]
+--2011-12-02 15:10:28--  http://www.godaddy.com/Agreements/ShowDoc.aspx?plvid=1&pageid=uniform_domain
+Reusing existing connection to www.godaddy.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 25348 (25K) [text/html]
+Saving to: `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/www.godaddy.com/gdshop/legal_agreements/show_doc.asp?plvid=1&pageid=uniform_domain.html'
+
+     0K .......... .......... ....                            100%  326K=0.08s
+
+2011-12-02 15:10:29 (326 KB/s) - `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/www.godaddy.com/gdshop/legal_agreements/show_doc.asp?plvid=1&pageid=uniform_domain.html' saved [25348/25348]
+
+--2011-12-02 15:10:29--  http://img2.wsimg.com/fos/css/1/sales_http_20111109.css
+Resolving img2.wsimg.com (img2.wsimg.com)... 96.6.216.229
+Connecting to img2.wsimg.com (img2.wsimg.com)|96.6.216.229|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/css]
+Saving to: `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img2.wsimg.com/fos/css/1/sales_http_20111109.css'
+
+     0K .......... .......... .......... .......... .......... 4.07M
+    50K .......... .......... ...                              5.79M=0.02s
+
+2011-12-02 15:10:29 (4.50 MB/s) - `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img2.wsimg.com/fos/css/1/sales_http_20111109.css' saved [75479]
+
+--2011-12-02 15:10:29--  http://img3.wsimg.com/AtlantisScripts/jquery/jquery-1.3.1.min.js
+Resolving img3.wsimg.com (img3.wsimg.com)... 96.6.216.229
+Reusing existing connection to img2.wsimg.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/x-javascript]
+Saving to: `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img3.wsimg.com/AtlantisScripts/jquery/jquery-1.3.1.min.js'
+
+     0K .......... .......... .......... .......... .......... 6.10M
+    50K ...                                                    1.94M=0.008s
+
+2011-12-02 15:10:29 (6.59 MB/s) - `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img3.wsimg.com/AtlantisScripts/jquery/jquery-1.3.1.min.js' saved [55272]
+
+--2011-12-02 15:10:29--  http://img.godaddy.com/JS_Lib/traffic.js
+Resolving img.godaddy.com (img.godaddy.com)... 97.74.104.49
+Connecting to img.godaddy.com (img.godaddy.com)|97.74.104.49|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 8240 (8.0K) [application/x-javascript]
+Saving to: `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img.godaddy.com/JS_Lib/traffic.js'
+
+     0K ........                                              100%  168K=0.05s
+
+2011-12-02 15:10:29 (168 KB/s) - `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img.godaddy.com/JS_Lib/traffic.js' saved [8240/8240]
+
+--2011-12-02 15:10:29--  http://img.godaddy.com/image.aspx?sitename=www.godaddy.com&server=M1PWCORPWEB153&privatelabelid=1&status=200&rand=0.230147541142138&page=%2fAgreements%2fShowDoc.aspx&split=23&querystring=plvid%3d1%26pageid%3duniform_domain
+Reusing existing connection to img.godaddy.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 43 [image/gif]
+Saving to: `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img.godaddy.com/image.aspx?sitename=www.godaddy.com&server=M1PWCORPWEB153&privatelabelid=1&status=200&rand=0.230147541142138&page=%2FAgreements%2FShowDoc.aspx&split=23&querystring=plvid=1&pageid=uniform_domain'
+
+     0K                                                       100% 21.0K=0s
+
+2011-12-02 15:10:29 (21.0 KB/s) - `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img.godaddy.com/image.aspx?sitename=www.godaddy.com&server=M1PWCORPWEB153&privatelabelid=1&status=200&rand=0.230147541142138&page=%2FAgreements%2FShowDoc.aspx&split=23&querystring=plvid=1&pageid=uniform_domain' saved [43/43]
+
+--2011-12-02 15:10:29--  http://www.godaddy.com/WebResource.axd?d=F0MmiDMi7o2D-UfXRo9pw2J1DXoxzs6-7yk1z7LK9YUgSLZzmJaoUL5Yj074V77yMBRqAmhnmVw5t5T2V8ABYZesJks1&t=634244902920000000
+Connecting to www.godaddy.com (www.godaddy.com)|97.74.104.201|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 20794 (20K) [application/x-javascript]
+Saving to: `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/www.godaddy.com/WebResource.axd?d=F0MmiDMi7o2D-UfXRo9pw2J1DXoxzs6-7yk1z7LK9YUgSLZzmJaoUL5Yj074V77yMBRqAmhnmVw5t5T2V8ABYZesJks1&t=634244902920000000'
+
+     0K .......... ..........                                 100%  267K=0.08s
+
+2011-12-02 15:10:29 (267 KB/s) - `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/www.godaddy.com/WebResource.axd?d=F0MmiDMi7o2D-UfXRo9pw2J1DXoxzs6-7yk1z7LK9YUgSLZzmJaoUL5Yj074V77yMBRqAmhnmVw5t5T2V8ABYZesJks1&t=634244902920000000' saved [20794/20794]
+
+--2011-12-02 15:10:29--  http://www.godaddy.com/ScriptResource.axd?d=07PJCVFyCyUq301XvnZa1A1dhohl3iEi0ZrL4DpsO6fyHoRLkOFrNUL8IQWRL3P7qzX3I54gowvQdrQXAqjcbAMSsmSMfoLa0dRWNZ1XNU-L20j3HfpFYJYZmrBy1BExj1oA-3kW82X-EH8w4f-U2rvi7NxqUvbUYAoer38JjDQaCpyL0&t=fffffffff9d85fa6
+Reusing existing connection to www.godaddy.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 99445 (97K) [application/x-javascript]
+Saving to: `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/www.godaddy.com/ScriptResource.axd?d=07PJCVFyCyUq301XvnZa1A1dhohl3iEi0ZrL4DpsO6fyHoRLkOFrNUL8IQWRL3P7qzX3I54gowvQdrQXAqjcbAMSsmSMfoLa0dRWNZ1XNU-L20j3HfpFYJYZmrBy1BExj1oA-3kW82X-EH8w4f-U2rvi7NxqUvbUYAoer38JjDQaCpyL0&t=fffffffff9d85fa6'
+
+     0K .......... .......... .......... .......... .......... 51% 1.74M 0s
+    50K .......... .......... .......... .......... .......   100% 1.64M=0.06s
+
+2011-12-02 15:10:29 (1.69 MB/s) - `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/www.godaddy.com/ScriptResource.axd?d=07PJCVFyCyUq301XvnZa1A1dhohl3iEi0ZrL4DpsO6fyHoRLkOFrNUL8IQWRL3P7qzX3I54gowvQdrQXAqjcbAMSsmSMfoLa0dRWNZ1XNU-L20j3HfpFYJYZmrBy1BExj1oA-3kW82X-EH8w4f-U2rvi7NxqUvbUYAoer38JjDQaCpyL0&t=fffffffff9d85fa6' saved [99445/99445]
+
+--2011-12-02 15:10:29--  http://www.godaddy.com/ScriptResource.axd?d=wSQ5o5xxQDc0G4nxirZlyKxBIDDj3ZN1OgZgRbdEOfTqPA7J0w93jXBYAW1xm1WDB8uempXmxYs-zUmMuX_1hpeSMX8RkhOW1Ln1bLWzMzGD0Q-2LNvfnH6JXT8qTFDGh4ahzs7_WF2u5z37DjK4nalFwgKPszGaA1U11ehuSwfHJ7w20&t=fffffffff9d85fa6
+Reusing existing connection to www.godaddy.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 32254 (31K) [application/x-javascript]
+Saving to: `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/www.godaddy.com/ScriptResource.axd?d=wSQ5o5xxQDc0G4nxirZlyKxBIDDj3ZN1OgZgRbdEOfTqPA7J0w93jXBYAW1xm1WDB8uempXmxYs-zUmMuX_1hpeSMX8RkhOW1Ln1bLWzMzGD0Q-2LNvfnH6JXT8qTFDGh4ahzs7_WF2u5z37DjK4nalFwgKPszGaA1U11ehuSwfHJ7w20&t=fffffffff9d85fa6'
+
+     0K .......... .......... .......... .                    100% 7.69M=0.004s
+
+2011-12-02 15:10:29 (7.69 MB/s) - `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/www.godaddy.com/ScriptResource.axd?d=wSQ5o5xxQDc0G4nxirZlyKxBIDDj3ZN1OgZgRbdEOfTqPA7J0w93jXBYAW1xm1WDB8uempXmxYs-zUmMuX_1hpeSMX8RkhOW1Ln1bLWzMzGD0Q-2LNvfnH6JXT8qTFDGh4ahzs7_WF2u5z37DjK4nalFwgKPszGaA1U11ehuSwfHJ7w20&t=fffffffff9d85fa6' saved [32254/32254]
+
+--2011-12-02 15:10:29--  http://img3.wsimg.com/fastball/js_lib/FastballLibrary0006.js?version=2
+Connecting to img3.wsimg.com (img3.wsimg.com)|96.6.216.229|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 6976 (6.8K) [application/x-javascript]
+Saving to: `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img3.wsimg.com/fastball/js_lib/FastballLibrary0006.js?version=2'
+
+     0K ......                                                100% 1.66M=0.004s
+
+2011-12-02 15:10:29 (1.66 MB/s) - `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img3.wsimg.com/fastball/js_lib/FastballLibrary0006.js?version=2' saved [6976/6976]
+
+--2011-12-02 15:10:29--  http://img3.wsimg.com/fos/script/sales16.min.js
+Reusing existing connection to img3.wsimg.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 18355 (18K) [application/x-javascript]
+Saving to: `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img3.wsimg.com/fos/script/sales16.min.js'
+
+     0K .......... .......                                    100% 4.38M=0.004s
+
+2011-12-02 15:10:29 (4.38 MB/s) - `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img3.wsimg.com/fos/script/sales16.min.js' saved [18355/18355]
+
+--2011-12-02 15:10:29--  http://img1.wsimg.com/fos/base/1/base_img.gif
+Resolving img1.wsimg.com (img1.wsimg.com)... 96.6.216.229
+Reusing existing connection to img3.wsimg.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 641 [image/gif]
+Saving to: `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/fos/base/1/base_img.gif'
+
+     0K                                                       100%  313K=0s
+
+2011-12-02 15:10:29 (313 KB/s) - `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/fos/base/1/base_img.gif' saved [641/641]
+
+--2011-12-02 15:10:29--  http://img1.wsimg.com/aaa/sb/2dots.gif
+Reusing existing connection to img3.wsimg.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 44 [image/gif]
+Saving to: `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/aaa/sb/2dots.gif'
+
+     0K                                                       100% 21.5K=0s
+
+2011-12-02 15:10:29 (21.5 KB/s) - `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/aaa/sb/2dots.gif' saved [44/44]
+
+--2011-12-02 15:10:29--  http://img1.wsimg.com/fos/bul/bul_arrow_ff6600.gif
+Reusing existing connection to img3.wsimg.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 54 [image/gif]
+Saving to: `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/fos/bul/bul_arrow_ff6600.gif'
+
+     0K                                                       100% 26.4K=0s
+
+2011-12-02 15:10:29 (26.4 KB/s) - `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/fos/bul/bul_arrow_ff6600.gif' saved [54/54]
+
+--2011-12-02 15:10:29--  http://img1.wsimg.com/fos/bul/bul_arrow_2c6ea1.gif
+Reusing existing connection to img3.wsimg.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 54 [image/gif]
+Saving to: `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/fos/bul/bul_arrow_2c6ea1.gif'
+
+     0K                                                       100% 26.4K=0s
+
+2011-12-02 15:10:29 (26.4 KB/s) - `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/fos/bul/bul_arrow_2c6ea1.gif' saved [54/54]
+
+--2011-12-02 15:10:29--  http://img1.wsimg.com/aaa/common/bul_bul.gif
+Reusing existing connection to img3.wsimg.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 50 [image/gif]
+Saving to: `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/aaa/common/bul_bul.gif'
+
+     0K                                                       100% 24.4K=0s
+
+2011-12-02 15:10:29 (24.4 KB/s) - `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/aaa/common/bul_bul.gif' saved [50/50]
+
+--2011-12-02 15:10:29--  http://img1.wsimg.com/aaa/common/1/bul_li_sized.gif
+Reusing existing connection to img3.wsimg.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 49 [image/gif]
+Saving to: `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/aaa/common/1/bul_li_sized.gif'
+
+     0K                                                       100% 23.9K=0s
+
+2011-12-02 15:10:29 (23.9 KB/s) - `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/aaa/common/1/bul_li_sized.gif' saved [49/49]
+
+--2011-12-02 15:10:29--  http://img1.wsimg.com/fos/bul/1/bul_li_sized_alt.gif
+Reusing existing connection to img3.wsimg.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 813 [image/gif]
+Saving to: `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/fos/bul/1/bul_li_sized_alt.gif'
+
+     0K                                                       100%  397K=0s
+
+2011-12-02 15:10:29 (397 KB/s) - `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/fos/bul/1/bul_li_sized_alt.gif' saved [813/813]
+
+--2011-12-02 15:10:29--  http://img1.wsimg.com/fos/icn/icn_notavail_gray.gif
+Reusing existing connection to img3.wsimg.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 188 [image/gif]
+Saving to: `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/fos/icn/icn_notavail_gray.gif'
+
+     0K                                                       100% 91.8K=0s
+
+2011-12-02 15:10:29 (91.8 KB/s) - `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/fos/icn/icn_notavail_gray.gif' saved [188/188]
+
+--2011-12-02 15:10:29--  http://img1.wsimg.com/fos/bdr/shadow_nw.png
+Reusing existing connection to img3.wsimg.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 318 [image/png]
+Saving to: `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/fos/bdr/shadow_nw.png'
+
+     0K                                                       100%  155K=0s
+
+2011-12-02 15:10:29 (155 KB/s) - `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/fos/bdr/shadow_nw.png' saved [318/318]
+
+--2011-12-02 15:10:29--  http://img1.wsimg.com/fos/bdr/shadow_top.png
+Reusing existing connection to img3.wsimg.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 141 [image/png]
+Saving to: `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/fos/bdr/shadow_top.png'
+
+     0K                                                       100% 68.8K=0s
+
+2011-12-02 15:10:29 (68.8 KB/s) - `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/fos/bdr/shadow_top.png' saved [141/141]
+
+--2011-12-02 15:10:29--  http://img1.wsimg.com/fos/bdr/shadow_ne.png
+Reusing existing connection to img3.wsimg.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 375 [image/png]
+Saving to: `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/fos/bdr/shadow_ne.png'
+
+     0K                                                       100%  183K=0s
+
+2011-12-02 15:10:29 (183 KB/s) - `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/fos/bdr/shadow_ne.png' saved [375/375]
+
+--2011-12-02 15:10:29--  http://img1.wsimg.com/fos/bdr/shadow_left.png
+Reusing existing connection to img3.wsimg.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 130 [image/png]
+Saving to: `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/fos/bdr/shadow_left.png'
+
+     0K                                                       100% 63.5K=0s
+
+2011-12-02 15:10:29 (63.5 KB/s) - `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/fos/bdr/shadow_left.png' saved [130/130]
+
+--2011-12-02 15:10:29--  http://img1.wsimg.com/fos/bdr/shadow_right.png
+Reusing existing connection to img3.wsimg.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 135 [image/png]
+Saving to: `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/fos/bdr/shadow_right.png'
+
+     0K                                                       100% 65.9K=0s
+
+2011-12-02 15:10:29 (65.9 KB/s) - `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/fos/bdr/shadow_right.png' saved [135/135]
+
+--2011-12-02 15:10:29--  http://img1.wsimg.com/fos/bdr/shadow_sw.png
+Reusing existing connection to img3.wsimg.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 329 [image/png]
+Saving to: `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/fos/bdr/shadow_sw.png'
+
+     0K                                                       100%  161K=0s
+
+2011-12-02 15:10:29 (161 KB/s) - `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/fos/bdr/shadow_sw.png' saved [329/329]
+
+--2011-12-02 15:10:29--  http://img1.wsimg.com/fos/bdr/shadow_bottom.png
+Reusing existing connection to img3.wsimg.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 134 [image/png]
+Saving to: `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/fos/bdr/shadow_bottom.png'
+
+     0K                                                       100% 65.4K=0s
+
+2011-12-02 15:10:29 (65.4 KB/s) - `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/fos/bdr/shadow_bottom.png' saved [134/134]
+
+--2011-12-02 15:10:29--  http://img1.wsimg.com/fos/bdr/shadow_se.png
+Reusing existing connection to img3.wsimg.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 351 [image/png]
+Saving to: `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/fos/bdr/shadow_se.png'
+
+     0K                                                       100%  171K=0s
+
+2011-12-02 15:10:29 (171 KB/s) - `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/fos/bdr/shadow_se.png' saved [351/351]
+
+--2011-12-02 15:10:29--  http://img1.wsimg.com/aaa/compare/1/img_standardsslcharttab.gif
+Reusing existing connection to img3.wsimg.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1071 (1.0K) [image/gif]
+Saving to: `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/aaa/compare/1/img_standardsslcharttab.gif'
+
+     0K .                                                     100%  523K=0s
+
+2011-12-02 15:10:29 (523 KB/s) - `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/aaa/compare/1/img_standardsslcharttab.gif' saved [1071/1071]
+
+--2011-12-02 15:10:29--  http://img1.wsimg.com/fos/base/1/base_sb_bk.png
+Reusing existing connection to img3.wsimg.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 2575 (2.5K) [image/png]
+Saving to: `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/fos/base/1/base_sb_bk.png'
+
+     0K ..                                                    100%  629K=0.004s
+
+2011-12-02 15:10:29 (629 KB/s) - `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/fos/base/1/base_sb_bk.png' saved [2575/2575]
+
+--2011-12-02 15:10:29--  http://img1.wsimg.com/fos/base/1/base_sb_btns_2.png
+Reusing existing connection to img3.wsimg.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 58739 (57K) [image/png]
+Saving to: `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/fos/base/1/base_sb_btns_2.png'
+
+     0K .......... .......... .......... .......... .......... 87% 4.07M 0s
+    50K .......                                               100% 3.59M=0.01s
+
+2011-12-02 15:10:29 (4.67 MB/s) - `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/fos/base/1/base_sb_btns_2.png' saved [58739/58739]
+
+--2011-12-02 15:10:29--  http://img1.wsimg.com/fos/sb/1/ban_prodadvsr.png
+Reusing existing connection to img3.wsimg.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 8429 (8.2K) [image/png]
+Saving to: `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/fos/sb/1/ban_prodadvsr.png'
+
+     0K ........                                              100% 4.02M=0s
+
+2011-12-02 15:10:29 (4.02 MB/s) - `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/fos/sb/1/ban_prodadvsr.png' saved [8429/8429]
+
+--2011-12-02 15:10:29--  http://img1.wsimg.com/fos/base/1/base_hdr5.png
+Reusing existing connection to img3.wsimg.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 6716 (6.6K) [image/png]
+Saving to: `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/fos/base/1/base_hdr5.png'
+
+     0K ......                                                100% 3.20M=0s
+
+2011-12-02 15:10:29 (3.20 MB/s) - `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/fos/base/1/base_hdr5.png' saved [6716/6716]
+
+--2011-12-02 15:10:29--  http://img1.wsimg.com/fos/sb/1/img_celebs_lsb3.gif
+Reusing existing connection to img3.wsimg.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 7726 (7.5K) [image/gif]
+Saving to: `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/fos/sb/1/img_celebs_lsb3.gif'
+
+     0K .......                                               100% 3.68M=0s
+
+2011-12-02 15:10:29 (3.68 MB/s) - `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/fos/sb/1/img_celebs_lsb3.gif' saved [7726/7726]
+
+--2011-12-02 15:10:29--  http://img1.wsimg.com/fos/ban/1/ban_bobblog_lsb.gif
+Reusing existing connection to img3.wsimg.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 5822 (5.7K) [image/gif]
+Saving to: `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/fos/ban/1/ban_bobblog_lsb.gif'
+
+     0K .....                                                 100% 2.78M=0s
+
+2011-12-02 15:10:29 (2.78 MB/s) - `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/fos/ban/1/ban_bobblog_lsb.gif' saved [5822/5822]
+
+--2011-12-02 15:10:29--  http://img1.wsimg.com/fos/base/1/base_qb.png
+Reusing existing connection to img3.wsimg.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 3033 (3.0K) [image/png]
+Saving to: `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/fos/base/1/base_qb.png'
+
+     0K ..                                                    100% 1.45M=0s
+
+2011-12-02 15:10:29 (1.45 MB/s) - `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/fos/base/1/base_qb.png' saved [3033/3033]
+
+--2011-12-02 15:10:29--  http://img1.wsimg.com/fos/base/1/base_tabs_line.png
+Reusing existing connection to img3.wsimg.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 126 [image/png]
+Saving to: `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/fos/base/1/base_tabs_line.png'
+
+     0K                                                       100% 61.5K=0s
+
+2011-12-02 15:10:29 (61.5 KB/s) - `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/fos/base/1/base_tabs_line.png' saved [126/126]
+
+--2011-12-02 15:10:29--  http://img1.wsimg.com/fos/bkg/1/tab_right_grey.gif
+Reusing existing connection to img3.wsimg.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 159 [image/gif]
+Saving to: `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/fos/bkg/1/tab_right_grey.gif'
+
+     0K                                                       100% 77.6K=0s
+
+2011-12-02 15:10:29 (77.6 KB/s) - `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/fos/bkg/1/tab_right_grey.gif' saved [159/159]
+
+--2011-12-02 15:10:29--  http://img1.wsimg.com/fos/bkg/1/tab_left_grey.gif
+Reusing existing connection to img3.wsimg.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 158 [image/gif]
+Saving to: `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/fos/bkg/1/tab_left_grey.gif'
+
+     0K                                                       100% 77.1K=0s
+
+2011-12-02 15:10:29 (77.1 KB/s) - `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/fos/bkg/1/tab_left_grey.gif' saved [158/158]
+
+--2011-12-02 15:10:29--  http://img1.wsimg.com/fos/bkg/1/tab_right.gif
+Reusing existing connection to img3.wsimg.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 159 [image/gif]
+Saving to: `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/fos/bkg/1/tab_right.gif'
+
+     0K                                                       100% 77.6K=0s
+
+2011-12-02 15:10:29 (77.6 KB/s) - `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/fos/bkg/1/tab_right.gif' saved [159/159]
+
+--2011-12-02 15:10:29--  http://img1.wsimg.com/fos/bkg/1/tab_left.gif
+Reusing existing connection to img3.wsimg.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 158 [image/gif]
+Saving to: `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/fos/bkg/1/tab_left.gif'
+
+     0K                                                       100% 77.1K=0s
+
+2011-12-02 15:10:29 (77.1 KB/s) - `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/fos/bkg/1/tab_left.gif' saved [158/158]
+
+--2011-12-02 15:10:29--  http://img1.wsimg.com/fos/ban/1/ban_sale.png
+Reusing existing connection to img3.wsimg.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 2177 (2.1K) [image/png]
+Saving to: `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/fos/ban/1/ban_sale.png'
+
+     0K ..                                                    100%  531K=0.004s
+
+2011-12-02 15:10:29 (531 KB/s) - `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/fos/ban/1/ban_sale.png' saved [2177/2177]
+
+--2011-12-02 15:10:29--  http://img1.wsimg.com/fos/ban/1/24265_bkg_trialpay.png
+Reusing existing connection to img3.wsimg.com:80.
+HTTP request sent, awaiting response... 404 Not Found
+2011-12-02 15:10:29 ERROR 404: Not Found.
+
+--2011-12-02 15:10:29--  http://img1.wsimg.com/assets/registrar/comsale/bkg_plv_special.gif
+Reusing existing connection to img3.wsimg.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 151 [image/gif]
+Saving to: `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/assets/registrar/comsale/bkg_plv_special.gif'
+
+     0K                                                       100% 73.7K=0s
+
+2011-12-02 15:10:29 (73.7 KB/s) - `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/assets/registrar/comsale/bkg_plv_special.gif' saved [151/151]
+
+--2011-12-02 15:10:29--  http://img1.wsimg.com/fos/hp/pagecast/icon_close.gif
+Reusing existing connection to img3.wsimg.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 223 [image/gif]
+Saving to: `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/fos/hp/pagecast/icon_close.gif'
+
+     0K                                                       100%  109K=0s
+
+2011-12-02 15:10:30 (109 KB/s) - `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/fos/hp/pagecast/icon_close.gif' saved [223/223]
+
+--2011-12-02 15:10:30--  http://img1.wsimg.com/fos/hp/pagecast/bk_silver_btn.gif
+Reusing existing connection to img3.wsimg.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 131 [image/gif]
+Saving to: `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/fos/hp/pagecast/bk_silver_btn.gif'
+
+     0K                                                       100% 64.0K=0s
+
+2011-12-02 15:10:30 (64.0 KB/s) - `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/fos/hp/pagecast/bk_silver_btn.gif' saved [131/131]
+
+--2011-12-02 15:10:30--  http://img1.wsimg.com/fos/hp/pagecast/sm_top_left_ie7_start.png
+Reusing existing connection to img3.wsimg.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 20681 (20K) [image/png]
+Saving to: `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/fos/hp/pagecast/sm_top_left_ie7_start.png'
+
+     0K .......... ..........                                 100% 4.93M=0.004s
+
+2011-12-02 15:10:30 (4.93 MB/s) - `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/fos/hp/pagecast/sm_top_left_ie7_start.png' saved [20681/20681]
+
+--2011-12-02 15:10:30--  http://img1.wsimg.com/fos/hp/pagecast/sm_top_left_ie6_start.gif
+Reusing existing connection to img3.wsimg.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 11609 (11K) [image/gif]
+Saving to: `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/fos/hp/pagecast/sm_top_left_ie6_start.gif'
+
+     0K .......... .                                          100% 5.54M=0s
+
+2011-12-02 15:10:30 (5.54 MB/s) - `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/fos/hp/pagecast/sm_top_left_ie6_start.gif' saved [11609/11609]
+
+--2011-12-02 15:10:30--  http://img1.wsimg.com/fos/hp/pagecast/sm_top_left.png
+Reusing existing connection to img3.wsimg.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 18653 (18K) [image/png]
+Saving to: `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/fos/hp/pagecast/sm_top_left.png'
+
+     0K .......... ........                                   100% 8.89M=0s
+
+2011-12-02 15:10:30 (8.89 MB/s) - `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/fos/hp/pagecast/sm_top_left.png' saved [18653/18653]
+
+--2011-12-02 15:10:30--  http://img1.wsimg.com/fos/hp/pagecast/sm_top_left.gif
+Reusing existing connection to img3.wsimg.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 16214 (16K) [image/gif]
+Saving to: `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/fos/hp/pagecast/sm_top_left.gif'
+
+     0K .......... .....                                      100% 7.73M=0s
+
+2011-12-02 15:10:30 (7.73 MB/s) - `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/fos/hp/pagecast/sm_top_left.gif' saved [16214/16214]
+
+--2011-12-02 15:10:30--  http://img1.wsimg.com/fos/hp/pagecast/sm_top_right.png
+Reusing existing connection to img3.wsimg.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 18418 (18K) [image/png]
+Saving to: `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/fos/hp/pagecast/sm_top_right.png'
+
+     0K .......... .......                                    100% 8.78M=0s
+
+2011-12-02 15:10:30 (8.78 MB/s) - `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/fos/hp/pagecast/sm_top_right.png' saved [18418/18418]
+
+--2011-12-02 15:10:30--  http://img1.wsimg.com/fos/hp/pagecast/sm_top_right.gif
+Reusing existing connection to img3.wsimg.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 16232 (16K) [image/gif]
+Saving to: `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/fos/hp/pagecast/sm_top_right.gif'
+
+     0K .......... .....                                      100% 3.87M=0.004s
+
+2011-12-02 15:10:30 (3.87 MB/s) - `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/fos/hp/pagecast/sm_top_right.gif' saved [16232/16232]
+
+--2011-12-02 15:10:30--  http://img1.wsimg.com/fos/hp/pagecast/sm_bottom_left.png
+Reusing existing connection to img3.wsimg.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 18562 (18K) [image/png]
+Saving to: `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/fos/hp/pagecast/sm_bottom_left.png'
+
+     0K .......... ........                                   100% 8.85M=0s
+
+2011-12-02 15:10:30 (8.85 MB/s) - `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/fos/hp/pagecast/sm_bottom_left.png' saved [18562/18562]
+
+--2011-12-02 15:10:30--  http://img1.wsimg.com/fos/hp/pagecast/sm_bottom_left.gif
+Reusing existing connection to img3.wsimg.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 16206 (16K) [image/gif]
+Saving to: `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/fos/hp/pagecast/sm_bottom_left.gif'
+
+     0K .......... .....                                      100% 7.73M=0s
+
+2011-12-02 15:10:30 (7.73 MB/s) - `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/fos/hp/pagecast/sm_bottom_left.gif' saved [16206/16206]
+
+--2011-12-02 15:10:30--  http://img1.wsimg.com/fos/hp/pagecast/sm_bottom_right.png
+Reusing existing connection to img3.wsimg.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 18590 (18K) [image/png]
+Saving to: `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/fos/hp/pagecast/sm_bottom_right.png'
+
+     0K .......... ........                                   100% 8.86M=0s
+
+2011-12-02 15:10:30 (8.86 MB/s) - `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/fos/hp/pagecast/sm_bottom_right.png' saved [18590/18590]
+
+--2011-12-02 15:10:30--  http://img1.wsimg.com/fos/hp/pagecast/sm_bottom_right.gif
+Reusing existing connection to img3.wsimg.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 16248 (16K) [image/gif]
+Saving to: `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/fos/hp/pagecast/sm_bottom_right.gif'
+
+     0K .......... .....                                      100% 7.75M=0s
+
+2011-12-02 15:10:30 (7.75 MB/s) - `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/fos/hp/pagecast/sm_bottom_right.gif' saved [16248/16248]
+
+--2011-12-02 15:10:30--  http://img1.wsimg.com/fos/btn/1/btn_close.gif
+Reusing existing connection to img3.wsimg.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1000 [image/gif]
+Saving to: `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/fos/btn/1/btn_close.gif'
+
+     0K                                                       100%  488K=0s
+
+2011-12-02 15:10:30 (488 KB/s) - `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/fos/btn/1/btn_close.gif' saved [1000/1000]
+
+--2011-12-02 15:10:30--  http://img1.wsimg.com/fos/bdr/bdr_sdw_nw.png
+Reusing existing connection to img3.wsimg.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 182 [image/png]
+Saving to: `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/fos/bdr/bdr_sdw_nw.png'
+
+     0K                                                       100% 88.9K=0s
+
+2011-12-02 15:10:30 (88.9 KB/s) - `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/fos/bdr/bdr_sdw_nw.png' saved [182/182]
+
+--2011-12-02 15:10:30--  http://img1.wsimg.com/fos/bdr/bdr_sdw_n.png
+Reusing existing connection to img3.wsimg.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 230 [image/png]
+Saving to: `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/fos/bdr/bdr_sdw_n.png'
+
+     0K                                                       100%  112K=0s
+
+2011-12-02 15:10:30 (112 KB/s) - `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/fos/bdr/bdr_sdw_n.png' saved [230/230]
+
+--2011-12-02 15:10:30--  http://img1.wsimg.com/fos/bdr/bdr_sdw_ne.png
+Reusing existing connection to img3.wsimg.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 204 [image/png]
+Saving to: `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/fos/bdr/bdr_sdw_ne.png'
+
+     0K                                                       100% 99.6K=0s
+
+2011-12-02 15:10:30 (99.6 KB/s) - `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/fos/bdr/bdr_sdw_ne.png' saved [204/204]
+
+--2011-12-02 15:10:30--  http://img1.wsimg.com/fos/bdr/bdr_sdw_w.png
+Reusing existing connection to img3.wsimg.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 199 [image/png]
+Saving to: `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/fos/bdr/bdr_sdw_w.png'
+
+     0K                                                       100% 97.2K=0s
+
+2011-12-02 15:10:30 (97.2 KB/s) - `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/fos/bdr/bdr_sdw_w.png' saved [199/199]
+
+--2011-12-02 15:10:30--  http://img1.wsimg.com/fos/bdr/bdr_sdw_e.png
+Reusing existing connection to img3.wsimg.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 200 [image/png]
+Saving to: `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/fos/bdr/bdr_sdw_e.png'
+
+     0K                                                       100% 97.7K=0s
+
+2011-12-02 15:10:30 (97.7 KB/s) - `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/fos/bdr/bdr_sdw_e.png' saved [200/200]
+
+--2011-12-02 15:10:30--  http://img1.wsimg.com/fos/bdr/bdr_sdw_sw.png
+Reusing existing connection to img3.wsimg.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 197 [image/png]
+Saving to: `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/fos/bdr/bdr_sdw_sw.png'
+
+     0K                                                       100% 96.2K=0s
+
+2011-12-02 15:10:30 (96.2 KB/s) - `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/fos/bdr/bdr_sdw_sw.png' saved [197/197]
+
+--2011-12-02 15:10:30--  http://img1.wsimg.com/fos/bdr/bdr_sdw_s.png
+Reusing existing connection to img3.wsimg.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 225 [image/png]
+Saving to: `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/fos/bdr/bdr_sdw_s.png'
+
+     0K                                                       100% 54.9K=0.004s
+
+2011-12-02 15:10:30 (54.9 KB/s) - `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/fos/bdr/bdr_sdw_s.png' saved [225/225]
+
+--2011-12-02 15:10:30--  http://img1.wsimg.com/fos/bdr/bdr_sdw_se.png
+Reusing existing connection to img3.wsimg.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 211 [image/png]
+Saving to: `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/fos/bdr/bdr_sdw_se.png'
+
+     0K                                                       100%  103K=0s
+
+2011-12-02 15:10:30 (103 KB/s) - `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/fos/bdr/bdr_sdw_se.png' saved [211/211]
+
+--2011-12-02 15:10:30--  http://img1.wsimg.com/fos/bkg/sprite_tables-bkgrs2.gif
+Reusing existing connection to img3.wsimg.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1802 (1.8K) [image/gif]
+Saving to: `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/fos/bkg/sprite_tables-bkgrs2.gif'
+
+     0K .                                                     100%  880K=0s
+
+2011-12-02 15:10:30 (880 KB/s) - `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/fos/bkg/sprite_tables-bkgrs2.gif' saved [1802/1802]
+
+--2011-12-02 15:10:30--  http://img1.wsimg.com/fos/icn/ajax-spinner-med.gif
+Reusing existing connection to img3.wsimg.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 3208 (3.1K) [image/gif]
+Saving to: `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/fos/icn/ajax-spinner-med.gif'
+
+     0K ...                                                   100% 1.53M=0s
+
+2011-12-02 15:10:30 (1.53 MB/s) - `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/fos/icn/ajax-spinner-med.gif' saved [3208/3208]
+
+--2011-12-02 15:10:30--  http://img1.wsimg.com/fos/btn/1/btn_go_on_light_yellow.gif
+Reusing existing connection to img3.wsimg.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1606 (1.6K) [image/gif]
+Saving to: `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/fos/btn/1/btn_go_on_light_yellow.gif'
+
+     0K .                                                     100%  784K=0s
+
+2011-12-02 15:10:30 (784 KB/s) - `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/fos/btn/1/btn_go_on_light_yellow.gif' saved [1606/1606]
+
+--2011-12-02 15:10:30--  http://img1.wsimg.com/fos/btn/1/63271_DPP_sprite_buttons.png
+Reusing existing connection to img3.wsimg.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 21922 (21K) [image/png]
+Saving to: `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/fos/btn/1/63271_DPP_sprite_buttons.png'
+
+     0K .......... .......... .                               100% 5.23M=0.004s
+
+2011-12-02 15:10:30 (5.23 MB/s) - `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/fos/btn/1/63271_DPP_sprite_buttons.png' saved [21922/21922]
+
+--2011-12-02 15:10:30--  http://img1.wsimg.com/fos/btn/1/63271_g_DPP_sprite_buttons.png
+Reusing existing connection to img3.wsimg.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 24963 (24K) [image/png]
+Saving to: `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/fos/btn/1/63271_g_DPP_sprite_buttons.png'
+
+     0K .......... .......... ....                            100% 11.9M=0s
+
+2011-12-02 15:10:30 (11.9 MB/s) - `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/fos/btn/1/63271_g_DPP_sprite_buttons.png' saved [24963/24963]
+
+--2011-12-02 15:10:30--  http://img1.wsimg.com/fos/btn/1/express-checkout-carts.gif
+Reusing existing connection to img3.wsimg.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1583 (1.5K) [image/gif]
+Saving to: `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/fos/btn/1/express-checkout-carts.gif'
+
+     0K .                                                     100%  773K=0s
+
+2011-12-02 15:10:30 (773 KB/s) - `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/fos/btn/1/express-checkout-carts.gif' saved [1583/1583]
+
+--2011-12-02 15:10:30--  http://img1.wsimg.com/fos/btn/blue-reflection.png
+Reusing existing connection to img3.wsimg.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 154 [image/png]
+Saving to: `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/fos/btn/blue-reflection.png'
+
+     0K                                                       100% 75.2K=0s
+
+2011-12-02 15:10:30 (75.2 KB/s) - `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/fos/btn/blue-reflection.png' saved [154/154]
+
+--2011-12-02 15:10:30--  http://img1.wsimg.com/fos/btn/green-reflection.png
+Reusing existing connection to img3.wsimg.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 158 [image/png]
+Saving to: `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/fos/btn/green-reflection.png'
+
+     0K                                                       100% 77.1K=0s
+
+2011-12-02 15:10:30 (77.1 KB/s) - `../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img1.wsimg.com/fos/btn/green-reflection.png' saved [158/158]
+
+--2011-12-02 15:10:30--  http://img2.wsimg.com/fos/css/1/images/abic-sprt.png
+Reusing existing connection to img3.wsimg.com:80.
+HTTP request sent, awaiting response... 404 Not Found
+2011-12-02 15:10:30 ERROR 404: Not Found.
+
+FINISHED --2011-12-02 15:10:30--
+Total wall clock time: 1.5s
+Downloaded: 70 files, 657K in 0.3s (1.96 MB/s)
+Converting ../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/www.godaddy.com/gdshop/legal_agreements/show_doc.asp?plvid=1&pageid=uniform_domain.html... 10-0
+Converting ../crawls/www.godaddy.com/Uniform-Domain-Name-Dispute-Resolution-Policy/raw/img2.wsimg.com/fos/css/1/sales_http_20111109.css... 72-1
+Converted 2 files in 0.008 seconds.

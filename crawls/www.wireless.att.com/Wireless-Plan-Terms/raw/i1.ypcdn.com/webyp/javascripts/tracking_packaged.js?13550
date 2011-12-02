@@ -1,0 +1,22 @@
+function BaseLogs(req_types){this.request_types=req_types;var log_vars={},log_queries=[],image_id=0,logged_vars=[];this.logged_vars=logged_vars;this.reset=function(){log_vars={};log_queries=[];}
+this.set=function(variables){var var_name;for(var_name in variables){log_vars[var_name]=variables[var_name];}
+return this;}
+this.withQuery=function(query){log_queries.push(query);return this;}
+function verifyCondition(condition){if(condition==false)return false;return true;}
+function setImageId(){log_vars["cb"]=(new Date()).getTime()+"-"+image_id;image_id++;}
+this.callLogRequest=function(request_info){var i,keys,params=log_queries;logged_vars.push({target:request_info,variables:log_vars,queries:log_queries});keys=request_info["params"];for(i=0;i<keys.length;i++){key=keys[i];value=log_vars[key];if(!value&&value!=0)value="";params.push(key+"="+value);}
+var url=request_info["url"]+"?"+params.join("&");this.loggingImage=new Image();this.loggingImage.src=url;};this.valid=function(vars){return true;};this.callClick=function(condition){if(this.valid(log_vars)&&verifyCondition(condition)){setImageId();this.callLogRequest(this.request_types["click"]);}
+this.reset();}
+this.callLinkClick=function(condition){if(this.valid(log_vars)&&verifyCondition(condition)){setImageId();this.callLogRequest(this.request_types["link_click"]);}
+this.reset();}
+this.callPage=function(condition){if(!verifyCondition(condition))return;this.callLogRequest(this.request_types["page"]);this.reset();}
+this.callImpression=function(condition){if(!verifyCondition(condition))return;this.callLogRequest(this.request_types["impression_encoded"]);this.reset();}
+this.callNImpression=function(condition){if(!verifyCondition(condition))return;this.callLogRequest(this.request_types["impression"]);this.reset();}
+this.callThirdPartyImpression=function(condition){if(!verifyCondition(condition))return;this.callLogRequest(this.request_types["third_party_impression"]);this.reset();}}
+ypc_logs=new BaseLogs({click:{params:["rid","iid","tol","lt","cb","pf","itid","t"],url:"/images/logging_clicks.gif"},page:{params:["rid","tos","s","v","ge","gsc","gss","gsz","gsa","gssa","gssr","el","hc","dir","pn","rt","rv","aff","src","d"],url:"/images/logging_requests.gif"},impression_encoded:{params:[],url:"/images/li.gif"},impression:{params:["rid","lid","iid","slid","pid","tol","hc","dir","moi","poi"],url:"/images/lni.gif"},third_party_impression:{params:["rid","iid","cp","lip","tld","poi","moi","lid","t"],url:"/images/logging_impressions.gif"}});ypc_logs.valid=function(params){return!!params['lt'];};var ypcst_base_url=(typeof(Yacht)=="undefined")?"http://sandbox-r.ypcdn.com":Yacht.ypcst_base_url;var aid=(typeof(Yacht)=="undefined")?"webyp":Yacht.ypcst_aid;atti_logs=new BaseLogs({click:{params:["rid","ptid","iid","lt","cb","vrid"],url:ypcst_base_url+"/2/c/"+aid},link_click:{params:["rid","ptid","lt","cb"],url:ypcst_base_url+"/2/lc/"+aid},third_party_impression:{params:["rid","iid","ypid","poi","moi","lid"],url:ypcst_base_url+"/2/i/"+aid}});atti_logs.attiClick=function(params){if(params.nav&&params.nav!=''){atti_logs.set(params).callLinkClick();}
+else{if(params.nav===false||(params.iid&&params.lid&&params.iid!=''&&params.lid!='')){atti_logs.set(params).callClick();}else{atti_logs.set(params).callLinkClick();}}};atti_logs.valid=function(params){return!!params['lt'];};var ga_onclick=function(link){function _uGC(l,n,s){if(!l||l==""||!n||n==""||!s||s=="")return"-";var i,i2,i3,c="-";i=l.indexOf(n);i3=n.indexOf("=")+1;if(i>-1){i2=l.indexOf(s,i);if(i2<0){i2=l.length;}
+c=l.substring((i+i3),i2);}
+return c;}
+var z=_uGC(document.cookie,'__utmz=',';');z=unescape(z);var source=_uGC(z,'utmcsr=','|');var medium=_uGC(z,'utmcmd=','|');var term=_uGC(z,'utmctr=','|');var content=_uGC(z,'utmcct=','|');var campaign=_uGC(z,'utmccn=','|');var gclid=_uGC(z,'utmgclid=','|');if(source=="-"){source=""};if(medium=="-"){medium=""};if(term=="-"){term=""};if(content=="-"){content=""};if(campaign=="-"){campaign=""};if(gclid!=="-"){source='google';medium='cpc';}
+var theURL=link.href;theURL+=!/\?/.test(theURL)?"?":"&";if(source=='cpc'){theURL=theURL+"utm_source=YPR_"+source+"_"+term;}else{theURL=theURL+"utm_source=YPR_"+source;}
+theURL=theURL+"&utm_campaign=YPR_"+campaign;theURL=theURL+"&utm_medium=YPR_"+medium;theURL=theURL+"&utm_term=YPR_"+term;document.location.href=theURL;}

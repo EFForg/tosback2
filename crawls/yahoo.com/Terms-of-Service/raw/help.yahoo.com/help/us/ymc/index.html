@@ -1,0 +1,355 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Yahoo! Marketing Communication | Yahoo! Marketing Communication Help</title>
+<!-- CSS -->
+<link rel="stylesheet" type="text/css" href="../../../../l.yimg.com/d/lib/common/css/grids_2.1.2.css">
+<link rel="stylesheet" type="text/css" href="../../../../l.yimg.com/kx/l/utils/y/css/yahoo_browse_2008-min.css"/>
+
+<link rel="stylesheet" type="text/css" href="../../../../l.yimg.com/a/lib/s5/miniassist_200908201638.css">
+<script type="text/javascript" src="http://yui.yahooapis.com/combo?2.7.0/build/yahoo-dom-event/yahoo-dom-event.js&2.7.0/build/connection/connection-min.js&2.7.0/build/datasource/datasource-min.js&2.7.0/build/autocomplete/autocomplete-min.js&2.7.0/build/container/container-min.js&2.7.0/build/menu/menu-min.js&2.7.0/build/get/get-min.js"></script> 
+<script>
+YAHOO.namespace("yhelp");
+var yhelpCallback = {};
+var yhelpCrumb = "mmTpKFYkMLX";
+var yhelpPostData = "";
+var yhelpRequestUrl = "";
+var yhelpRequest = "";
+var yhelpPropertyDirectory = "us/yahoo/ymc/";
+
+var yhelpSetMyhelpStateCallback = {};
+
+function yhelp_set_myhelp_state(part, state, dir, block){
+	yhelpPostData = "crumb=" + encodeURIComponent(yhelpCrumb);
+	yhelpPostData = yhelpPostData + "&state=" + encodeURIComponent(state); 
+	yhelpPostData = yhelpPostData + "&part=" + encodeURIComponent(part); 
+	yhelpPostData = yhelpPostData + "&dir=" + encodeURIComponent(dir); 
+	yhelpPostData = yhelpPostData + "&block=" + encodeURIComponent(block); 
+	yhelpRequestUrl = "/js/setmyhelpstate.html";
+	yhelpRequest = YAHOO.util.Connect.asyncRequest('POST', yhelpRequestUrl, yhelpSetMyhelpStateCallback, yhelpPostData);
+}
+
+/* Functions to support Help blocks */
+
+/* inIdPrefixIdIdxStr is in the form {id prefix}|{id index} */
+function flipHelpBlock(inIdPrefixIdIdxStr) {
+	var argArr = inIdPrefixIdIdxStr.split('|');
+
+	var idPrefix = argArr[0];
+	var idIdx = argArr[1];
+
+	var helpHeaderDiv = document.getElementById(idPrefix+'Header'+idIdx);
+	var helpBlockDiv = document.getElementById(idPrefix+'Block'+idIdx);
+
+	if (helpHeaderDiv.className=='contntblck-collaps') {
+		/* The block is collapsed so expand it */
+		helpHeaderDiv.className='contntblck-expnd';
+		helpBlockDiv.style.display = 'block';
+		yhelp_set_myhelp_state("helpblock", "1", yhelpPropertyDirectory, idPrefix+'Block'+idIdx);
+	} else {
+		/* The block is expanded so collapse it */
+		helpHeaderDiv.className='contntblck-collaps';
+		helpBlockDiv.style.display = 'none';
+		yhelp_set_myhelp_state("helpblock", "0", yhelpPropertyDirectory, idPrefix+'Block'+idIdx);
+	}
+}
+
+</script><style>
+.yui-ac-content {width:349px;}
+.hlp_ts { font-size:66%; color:#888888; padding-left:15px;font-family:arial;}
+</style>
+<style>
+.myhelpcount {font-weight:bold; font-family:arial; font-size:100%; color:#3d68ad;}
+</style>
+	</head>
+	<body>
+		<div id="doc2">
+			<div id="hd"><script type='text/javascript' src='../../../../yui.yahooapis.com/3.2.0/build/yui/yui-min.js'></script><link type='text/css' rel='stylesheet' href='../../../../l.yimg.com/zz/combo%3Fkx%252Fucs%252Fuh%252Fcss%252F245%252Fyunivhead-min.css&amp;kx%252Fucs%252Fuh%252Fcss%252F221%252Flogo-min.css&amp;kx%252Fucs%252Fsearch%252Fcss%252F190%252Fsearch_all-min.css&amp;kx%252Fucs%252Fsearch%252Fcss%252F190%252Fsearch_buttons-min.css'/><style></style><div id="yUnivHead" class="yucs-en-us">    <a href="index.html#yuhead-search" class="yucs-skipto-search yucs-activate">Skip to search.</a>        <div id="yuhead-hd" class="yuhead-clearfix">        <div id="yuhead-mepanel-cont">            <ul id="yuhead-mepanel"><li class="yuhead-me yuhead-nodivide yuhead-nopad">    <a class="yuhead-signup" href="https://us.lrd.yahoo.com/_ylt=AhzXRpd_Xrw4_2X8pRdXOxNaYCN4/SIG=1783h73eg/EXP=1324076387/**https%3A//edit.yahoo.com/config/eval_register%3F.src=yhelp%26.intl=us%26.lang=en-US%26.done=http%3A//help.yahoo.com/l/us/yahoo/ymc/index.html%253fpir=DsTwW6FibUkda6pXBaKP3JBh.Ui2K_0Obs3k0xkZv6KNfrRpm0O_2.R0CPsmfF4-" target="_top" rel="nofollow">    <em>New User?</em> Register</a></li><li class="yuhead-me">        <a href="https://us.lrd.yahoo.com/_ylt=Akm9ngTeSkDwYq5.XOdUTINaYCN4/SIG=17147onev/EXP=1324076387/**https%3A//login.yahoo.com/config/login%3F.src=yhelp%26.intl=us%26.lang=en-US%26.done=http%3A//help.yahoo.com/l/us/yahoo/ymc/index.html%253fpir=DsTwW6FibUkda6pXBaKP3JBh.Ui2K_0Obs3k0xkZv6KNfrRpm0O_2.R0CPsmfF4-"  target="_top" rel="nofollow">    <em>Sign In</em></a></li><li class="yuhead-me">	<a href="http://us.lrd.yahoo.com/_ylt=AmyGoDuP6EuvrFBjUgYzHo1aYCN4/SIG=121ctr3n6/EXP=1324076387/**http%3A//help.yahoo.com/l/us/yahoo/helpcentral/">		Help	</a></li></ul>        </div>        <div id="yuhead-promo"><a id="ygmatoolbar" href="http://us.lrd.yahoo.com/_ylt=Atl9OOwtu9WHrex_L9h5kblaYCN4/SIG=11rl3lfeg/EXP=1324076387/**http%3A//toolbar.yahoo.com/%3F.cpdl=ushdl" target="_top"rel="nofollow">Preview Mail w/ Y! Toolbar</a></div>        <div id="yuhead-com-links-cont">            <ul id="yuhead-com-links">                                <li class="yuhead-com-link-item">    <a class="sp yuhead-ico-mail" href="http://us.lrd.yahoo.com/_ylt=AoGGV_GCYKDEEJTye6fj379aYCN4/SIG=123s189sb/EXP=1324076387/**http%3A//mail.yahoo.com/%3F.intl=us%26.lang=en-US" rel="nofollow" target="_top">Mail</a></li><li class="yuhead-com-link-item">    <a href="http://my.yahoo.com/;_ylt=Amzsz6W2SgGF1gSsoLrnfuRaYCN4"     rel="nofollow"     target="_top">   My Y!    </a></li><li id="yuhead-com-home"><a class="sp yuhead-ico-home" href="http://us.lrd.yahoo.com/_ylt=AjnuMH0ObyFpgdll2yrBePNaYCN4/SIG=119165ru8/EXP=1324076387/**http%3A//www.yahoo.com/" rel="nofollow" target="_top">Yahoo!</a></li>            </ul>        </div>    </div>    <div id="yuhead-bd" class="yuhead-clearfix">        <div class="yuhead-logo">   <style>      .yuhead-logo h2{         width:213px;         height:36px;         background-image:url(../../../../l.yimg.com/a/i/brand/purplelogo/uh/us/20/help/help.png);         _background-image:url(../../../../l.yimg.com/a/i/brand/purplelogo/uh/us/20/help/help-ffffff.gif);      }      .yuhead-logo a{         width:213px;         height:36px;      }      .yuhead-logo div.yuhead-comarketing {       width:213px;      }         </style>   <h2>      <a href="http://us.lrd.yahoo.com/_ylt=AtfCjBjo5tEUreZNVlzWHahaYCN4/SIG=121ctr3n6/EXP=1324076387/**http%3A//help.yahoo.com/l/us/yahoo/helpcentral/"       target="_top">         Yahoo! Help      </a>   </h2>   <!-- comarketing component --></div>        <div id="yuhead-search">        <div id="yuhead-sform-cont" class="yuhead-s-web yuhead-search-form">        <form role="search" class="yucs-search yucs-activate" action="http://search.yahoo.com/search;_ylt=Almxg8NCHlle0U7L3qI79xFaYCN4" method="get"><table role="presentation">   <tbody role="presentation"><tr role="presentation"><td class="yucs-form-input" role="presentation"> <label for="yuhead-sform-searchfield">     <span>Search</span>             </label>                 <input autocomplete="off" type="text" class="sp yuhead-ico-mglass yuhead-search-hint yucs-search-hint-color yucs-search-field" name="p"                  data-sh="Search"                  data-satype="rich"                  data-gosurl=""                  id="yuhead-sform-searchfield"                 data-pubid="" /></td><td NOWRAP class="yucs-form-btn" role="presentation"><div class="yucs-btn-wrap">    <button class="yucs-sweb-btn" type="submit">Search Web</button></div>            </td>         </tr>        </tbody></table><input type="hidden" id="fr" name="fr" value="ush-help" /></form>            </div>    </div>    </div>                <!-- s2s --></div><script type='text/javascript' charset='utf-8'> YUI().use('node','event','event-mouseenter','substitute','oop','node-focusmanager','node','event','event-custom','event-valuechange','classnamemanager', function(Y) {});</script><script type='text/javascript' src='http://l.yimg.com/zz/combo?kx/ucs/common/js/1/setup-min.js&kx/ucs/sts/js/83/skip-min.js&kx/ucs/menu_utils/js/148/menu_utils_v2-min.js&kx/ucs/username/js/33/user_menu-min.js&kx/ucs/help/js/35/help_menu-min.js&kx/ucs/utility_link/js/15/utility_menu-min.js&kx/ucs/common/js/127/logo_debug-min.js&kx/ucs/common/js/1/setup-min.js&kx/ucs/search/js/199/search-min.js&kx/ucs/search/js/199/search_text_dir-min.js'></script></div>
+			<div id="bd" class="wrapper">
+				<!-- Begin Top Nav -->
+				<div id="nav" class="nav">
+					<div class="bd">
+					<ul class="firt-of-type">						<li class="tb selected">
+							<span class="hometbon">
+								<a href="http://help.yahoo.com/l/us/yahoo/ymc/;_ylt=Aqy0HZbb8ZGvdU7n72zBbodaYCN4">&nbsp;&nbsp;</a>
+							</span>
+						</li>						<li id="helptopicsnav" class="tb">
+							<span class="unselecteddown">
+								<a href="index.html#">Yahoo! Marketing Communication Help Topics</a>
+							</span>
+						</li>
+	
+	<script>
+YAHOO.util.Event.onContentReady("nav", function () {
+	var oMenuBar = new YAHOO.widget.MenuBar("nav",{
+		autosubmenudisplay: true,
+		submenualignment: ["tl", "bl"],
+		hidedelay: 750,
+		lazyload: true }
+	);	var aSubmenuData = [
+	{
+		id: "hlpmenu",
+		itemdata:[
+			{ text: "General",url: "/l/us/yahoo/ymc/general/;_ylt=ApuahP29s0s3OEFxHKAOPspaYCN4",classname: "mi" },{ text: "Managing Subscriptions",url: "/l/us/yahoo/ymc/subscriptions/;_ylt=ArQNP2KzVJugMuCQBMGveEZaYCN4",classname: "mi" },{ text: "Spam",url: "/l/us/yahoo/ymc/spam/;_ylt=AsK8e_PYSQRM9nJcduOpqGFaYCN4",classname: "mi" }
+		]
+	}];
+	oMenuBar.subscribe("beforeRender", function(){
+		if(this.getRoot() == this){
+			this.getItem(1).cfg.setProperty("submenu", aSubmenuData[0]);
+		}
+	});
+
+	oMenuBar.subscribe("beforeShow", function(){
+		if(document.getElementById('helptopicsnav').offsetWidth > 150){
+			el = YAHOO.util.Dom.getFirstChild(YAHOO.util.Dom.getFirstChild(document.getElementById('hlpmenu')));
+			el.style.width = document.getElementById('helptopicsnav').offsetWidth + "px"; 
+		}
+	});	oMenuBar.render();
+});
+</script>						<li class="tb">
+							<span class="contactunselected">
+								<a href="http://us.lrd.yahoo.com/_ylt=Ame4cvnBrbxVDbST0jP5KldaYCN4/SIG=142f3isd5/EXP=1324076387/**http%3A//help.yahoo.com/l/us/yahoo/ymc/general.html%3Flast_url=http%3A//help.yahoo.com/l/us/yahoo/ymc/index.html" onclick="captureAction('07');">Contact Us</a>
+							</span>
+						</li><!-- Go back button suppressed -->
+					</ul>
+					</div><!-- class="bd" -->
+				</div> <!-- id="nav" class="nav" -->
+				<!-- End Top Nav -->				<!-- Begin Search Bar -->
+				<div id="hlphomesrch">
+				<div id="srchwrap">
+					<div class="prptyimg"><img width="100" height="130" alt="image" src="../../../l/utils/y/images/img_lifeprsrvr.png"/></div>
+					<div class="grtng"><h1>Hi there!  Find your answer now.</h1> 
+					<form name="question_form" id="question_form" method="GET" action="http://help.yahoo.com/l/us/yahoo/ymc/vsp.html;_ylt=AtITHGbSxmaTiuGSxuYmgz1aYCN4">
+						<div role="application">
+							<input type="text" size="50" id="query" name="query" value="" class="srchbox" autocomplete="off" />
+							<input type="submit" id="search" class="srchbtn" name="Ask" value="Search Help"/>
+							<div id="helpsat"></div>
+<script type="text/javascript" src="../../../../l.yimg.com/a/lib/s5/miniassist_200908201638.js"></script>
+<script type="text/javascript">
+
+(function () {
+var sa = new YAHOO.Search.MiniAssist('query', 'helpsat');
+sa.setConfigValue('spaceid', '2142478948');
+sa.gossip.setConfigValue('pubid', 105);
+})();
+
+</script>
+
+						</div>
+						<input type="hidden" name="lang" value="us"/>
+						<input type="hidden" name="prop" value="ymc"/>						<input type="hidden" name=".p" value="yahoo"/>
+					</form>
+				</div>
+				</div><!-- helpsrch -->
+				</div><!-- id="hlphomesrch" -->
+				<!-- End Search Bar -->				<!-- Maincontent begins -->
+				<div class="yui-t6">     
+					<!-- 3 columns begins -->
+					<div class="prophome">
+						<div class="yui-gb">
+
+		<!-- Begin Browse Help Topics -->
+		<div class="yui-u first">
+			<div class="contntblck homemdl">
+				<h2>Yahoo! Marketing Communication Help Topics</h2>
+				<ul>
+<li><a href="http://help.yahoo.com/l/us/yahoo/ymc/general/;_ylt=AgD0sFAPDDTZ48.cTI1jANtaYCN4">General</a></li>
+<li><a href="http://help.yahoo.com/l/us/yahoo/ymc/subscriptions/;_ylt=Am1udJ204gk7nVpWW3pJ4TJaYCN4">Managing Subscriptions</a></li>
+<li><a href="http://help.yahoo.com/l/us/yahoo/ymc/spam/;_ylt=AjyhSvyPKfT_gmxIb1A8bgRaYCN4">Spam</a></li>
+
+				</ul>
+			</div> <!-- class="contntblck homemdl" -->
+		</div> <!-- class="yui-u first" -->
+		<!-- End Browse Help Topics -->							<div class="yui-u">
+	<!-- Begin Top Questions -->
+		<div class="contntblck homemdl">
+			<h2>Top Questions</h2>
+<ul class="bb-list">
+<li><a href="http://us.lrd.yahoo.com/_ylt=AnPPJirknNrmhauiveg66hZaYCN4/SIG=12jnq1hdo/EXP=1324076387/**http%3A//help.yahoo.com/l/us/yahoo/ymc/subscriptions/ymc-01.html/" class="bb-url">I don't want to receive any email from Yahoo!. How do I unsubscribe?</a></li>
+<li><a href="http://us.lrd.yahoo.com/_ylt=AvyzNhwlk9Fn3KiUZpceHnZaYCN4/SIG=12dlvfjf7/EXP=1324076387/**http%3A//help.yahoo.com/l/us/yahoo/ymc/general/ymc-03.html/" class="bb-url">What are Marketing Preferences?</a></li>
+<li><a href="http://us.lrd.yahoo.com/_ylt=Al3Kz._BbcMEDxj45c_bCgJaYCN4/SIG=12j4j40u8/EXP=1324076387/**http%3A//help.yahoo.com/l/us/yahoo/ymc/subscriptions/ymc-04.html/" class="bb-url">How do I edit my Marketing Preferences?</a></li>
+<li><a href="http://us.lrd.yahoo.com/_ylt=AtWWF9U77BYtmiDlcN3YxTJaYCN4/SIG=12j4vpb1j/EXP=1324076387/**http%3A//help.yahoo.com/l/us/yahoo/ymc/subscriptions/ymc-02.html/" class="bb-url">I unsubscribed from Yahoo! email, but I received something new. Why did I get this email?</a></li>
+<li><a href="http://us.lrd.yahoo.com/_ylt=AsB4XYK6oAR4MqqCoHVvcq1aYCN4/SIG=12df6iq9o/EXP=1324076387/**http%3A//help.yahoo.com/l/us/yahoo/ymc/general/ymc-06.html/" class="bb-url">Does Yahoo! abide by the Federal Trade Commission’s Do Not Call list?</a></li>
+</ul>
+		</div> <!-- class="contntblck homemdl" -->
+	<!--End Top Questions -->							</div> <!-- class="yui-u" -->
+							<div class="yui-u">
+
+	<!-- Begin My Help -->
+	<div id="myhlp" class="Box home"> 
+		
+		<div class="myacct signedin home">
+			<h2>My Help</h2>
+			<span class="forgot"><a href="https://us.lrd.yahoo.com/_ylt=Aq4iWbZW.lnHZhITbaDBCYpaYCN4/SIG=1781crbqa/EXP=1324076387/**https%3A//edit.yahoo.com/forgot%3Fnew=1%26.src=help%26partner=%26.intl=us%26pkg=%26stepid=%26.pd=help_ver%26c=%26.ab=%26.last=%26.done=http%253A%252F%252Fhelp.yahoo.com%252Fl%252Fus%252Fyahoo%252Fymc%252Findex.html">Forgot your ID or password?</a></span>
+			<h3><a href="https://us.lrd.yahoo.com/_ylt=AmnkXbr3NLv0Ds.N87Qc0QtaYCN4/SIG=157ptadr1/EXP=1324076387/**https%3A//login.yahoo.com/config/login%3F.src=help%26.intl=us%26.done=http%253A%252F%252Fhelp.yahoo.com%252Fl%252Fus%252Fyahoo%252Fymc%252Findex.html">Sign In</a></h3>
+			<span class="small">Sign in to see your account information saved articles and more.</span> 
+		</div><!-- class="myacct signedin home" -->
+		<span class="mystored sub home">
+			<ol>
+				<li>
+					<p class="head" id="click2flip_searches"><span id="flip_searches" class="collaps">Recent Searches&nbsp;(<span id="myhelpcount_searches" class="myhelpcount">0</span>)</span></p>
+					<div id="recent_searches" class="recent"  style="display:none;" >
+						<div id="recent_searches_listing">
+							No recent searches
+						</div>
+						<p id="recent_searches_clear" class="clear"  style='display:none;' ><a id="clear_recent_searches" href="index.html#">Clear all</a></p>
+					</div><!-- class="recent" -->
+				</li>				<li>
+					<p class="head" id="click2flip_articles"><span id="flip_articles" class="collaps">Recently Viewed&nbsp;(<span id="myhelpcount_articles" class="myhelpcount">0</span>)</span></p>
+					<div id="recent_articles" class="recent saved"  style="display:none;" >
+						<div id="recent_articles_listing">
+							No Recently Viewed Articles
+						</div>
+						<p id="recent_views_clear" class="clear"  style='display:none;' ><a id="clear_recent_views" href="index.html#">Clear all</a></p>
+					</div><!-- class="recent" -->
+				</li>			</ol>
+		</span><!-- class="mystored sub home" -->
+	</div><!-- id="myhlp" class="Box home" -->
+	<!-- End My Help -->
+<script>
+
+	function flip_searches(){
+		var el_flip_searches = document.getElementById('flip_searches');
+		var el_recent_searches = document.getElementById('recent_searches');
+		if(el_flip_searches.className == "expnd"){
+			el_recent_searches.style.display = 'none';
+			el_flip_searches.className = 'collaps';
+			yhelp_set_myhelp_state("search", "0", "", "");
+		}else{
+			el_recent_searches.style.display = 'block';
+			el_flip_searches.className = "expnd";
+			yhelp_set_myhelp_state("search", "1", "", "");
+		}
+	}
+	function flip_articles(){
+		var el_flip_articles = document.getElementById('flip_articles');
+		var el_recent_articles = document.getElementById('recent_articles');
+		if(el_flip_articles.className == "expnd"){
+			el_recent_articles.style.display= 'none';
+			el_flip_articles.className = 'collaps';
+			yhelp_set_myhelp_state("articles", "0", "", "");
+		}else{
+			el_recent_articles.style.display= 'block';
+			el_flip_articles.className = "expnd";
+			yhelp_set_myhelp_state("articles", "1", "", "");
+		}
+	}
+
+	var yhelpClearRecentViewsSuccess = function(o) {
+		document.getElementById('recent_articles_listing').innerHTML = "No Recently Viewed Articles";
+		document.getElementById('myhelpcount_articles').innerHTML = "0";
+		document.getElementById('recent_views_clear').style.display="none";
+		document.getElementById('recent_articles').style.display="none";
+		document.getElementById('flip_articles').className = "collaps";
+	}
+
+	var yhelpClearRecentViewsCallback = { success:yhelpClearRecentViewsSuccess };
+
+	function yhelp_clear_recent_views(){
+		yhelpPostData = "crumb=" + encodeURIComponent(yhelpCrumb);
+		yhelpRequestUrl = "/js/clearrecentviews.html";
+		yhelpRequest = YAHOO.util.Connect.asyncRequest('POST', yhelpRequestUrl, yhelpClearRecentViewsCallback, yhelpPostData);
+	}
+
+	var yhelpClearSaveSuccess = function(o) {
+		document.getElementById('recent_articles_listing').innerHTML = "No saved articles.";
+		document.getElementById('myhelpcount_articles').innerHTML = "0";
+		document.getElementById('recent_articles_clear').style.display="none";
+		document.getElementById('recent_articles').style.display="none";
+		document.getElementById('flip_articles').className = "collaps";
+	}
+
+	var yhelpClearSaveCallback = { success:yhelpClearSaveSuccess };
+
+	function yhelp_clear_saved(){
+		yhelpPostData = "crumb=" + encodeURIComponent(yhelpCrumb);
+		yhelpRequestUrl = "/js/clearsavedarticles.html";
+		yhelpRequest = YAHOO.util.Connect.asyncRequest('POST', yhelpRequestUrl, yhelpClearSaveCallback, yhelpPostData);
+	}
+
+	var yhelpClearSearchesSuccess = function(o) {
+		document.getElementById('recent_searches_listing').innerHTML = "No recent searches";
+		document.getElementById('myhelpcount_searches').innerHTML = "0";
+		document.getElementById('recent_searches_clear').style.display="none";
+		document.getElementById('recent_searches').style.display="none";
+		document.getElementById('flip_searches').className = "collaps";
+	}
+
+	var yhelpClearSearchesCallback = { success:yhelpClearSearchesSuccess };
+
+	function yhelp_clear_searches(){
+		yhelpPostData = "crumb=" + encodeURIComponent(yhelpCrumb);
+		yhelpRequestUrl = "/js/clearrecentsearches.html";
+		yhelpRequest = YAHOO.util.Connect.asyncRequest('POST', yhelpRequestUrl, yhelpClearSearchesCallback, yhelpPostData);
+	}
+
+	YAHOO.util.Event.addListener("click2flip_searches", "click", flip_searches);
+	YAHOO.util.Event.addListener("click2flip_articles", "click", flip_articles);
+	if(document.getElementById('clear_recent_searches'))
+	{
+		YAHOO.util.Event.addListener("clear_recent_searches", "click", yhelp_clear_searches);
+	}
+	if(document.getElementById('clear_recent_articles'))
+	{
+		YAHOO.util.Event.addListener("clear_recent_articles", "click", yhelp_clear_saved);
+	}
+	if(document.getElementById('clear_recent_views'))
+	{
+		YAHOO.util.Event.addListener("clear_recent_views", "click", yhelp_clear_recent_views);
+	}
+</script>		<!-- Begin Quick Links block -->
+		<div class="contntblck homemdl opt">
+	<h2>Related Links</h2>
+	<ul class="bb-list">
+<li><a href="http://us.lrd.yahoo.com/_ylt=AhdkipnWeCXZd6UaJVpEv8RaYCN4/SIG=11q2rcj3r/EXP=1324076387/**http%3A//help.yahoo.com/l/us/yahoo/edit/" class="bb-url">Sign-in and Registration Help</a></li>
+<li><a href="http://us.lrd.yahoo.com/_ylt=AnjPdEuRXmU0e9_Uj7JsTrdaYCN4/SIG=11u721jc8/EXP=1324076387/**http%3A//help.yahoo.com/l/us/yahoo/security/" class="bb-url">Account Security</a></li>
+<li><a href="http://us.lrd.yahoo.com/_ylt=AsDmjkHwZqQvU8vwDHDou_paYCN4/SIG=128ah21gi/EXP=1324076387/**http%3A//info.yahoo.com/privacy/us/yahoo/details.html/" class="bb-url">Privacy Policy</a></li>
+<li><a href="http://us.lrd.yahoo.com/_ylt=AqYz.oWZewbljVIZWX8KO8BaYCN4/SIG=121e93tvb/EXP=1324076387/**http%3A//www.yahoo.com/bin/set%3Fy%26amp;ocs=0/" class="bb-url">Make Yahoo! Your Home Page</a></li>
+</ul>
+		</div> <!-- class="contntblck homemdl opt" -->
+		<!-- End Quick Links block -->							</div><!-- class="yui-u" -->
+						</div> <!-- class="yui-u first" -->
+					</div> <!-- class="yui-gb" -->
+					<!-- 3 Columns End -->
+					<!-- Maincontent ends -->
+				</div> <!-- class="prophome" -->
+			</div> <!-- class="yui-t6" -->
+		</div> <!-- id="bd" class="wrapper" -->
+		<div id="ft">
+<font size="-2" face="arial"><span class=sbody>Copyright &copy; 2011 Yahoo! All rights reserved. <a href="http://global.ard.yahoo.com/SIG=15ncvrm8f/M=224039.1982531.3586300.9262555/D=site/S=2015584346:FOOT/Y=YAHOO/EXP=1322873987/L=g4jSIDIxNi4cHMMcRXFLgx.8OTguMU7ZWGOfv.HI/B=ajT_Etj8ek8-/J=1322866787914231/K=zhhv_OvNd9oWM88m50RzIA/A=1123556/R=0/SIG=1163rhhok/*http://privacy.yahoo.com/privacy/us/">Privacy Policy</a> - <a href="http://global.ard.yahoo.com/SIG=15ncvrm8f/M=224039.1982531.3586300.9262555/D=site/S=2015584346:FOOT/Y=YAHOO/EXP=1322873987/L=g4jSIDIxNi4cHMMcRXFLgx.8OTguMU7ZWGOfv.HI/B=ajT_Etj8ek8-/J=1322866787914231/K=zhhv_OvNd9oWM88m50RzIA/A=1123556/R=1/SIG=11475d5s1/*http://info.yahoo.com/relevantads/">About Our Ads</a> - <a href="http://global.ard.yahoo.com/SIG=15ncvrm8f/M=224039.1982531.3586300.9262555/D=site/S=2015584346:FOOT/Y=YAHOO/EXP=1322873987/L=g4jSIDIxNi4cHMMcRXFLgx.8OTguMU7ZWGOfv.HI/B=ajT_Etj8ek8-/J=1322866787914231/K=zhhv_OvNd9oWM88m50RzIA/A=1123556/R=2/SIG=1136qnvkg/*http://docs.yahoo.com/info/terms/">Terms of Service</a> - <a href=http://global.ard.yahoo.com/SIG=15ncvrm8f/M=224039.1982531.3586300.9262555/D=site/S=2015584346:FOOT/Y=YAHOO/EXP=1322873987/L=g4jSIDIxNi4cHMMcRXFLgx.8OTguMU7ZWGOfv.HI/B=ajT_Etj8ek8-/J=1322866787914231/K=zhhv_OvNd9oWM88m50RzIA/A=1123556/R=3/SIG=11lp7krrc/*http://docs.yahoo.com/info/copyright/copyright.html>Copyright/IP Policy</a> </span></font><!-- SpaceID=2015584346 loc=FR05 noad -->
+<!--QYZ ,;;;2015584346;;-->		</div> <!-- id="ft" -->
+	<!-- Yahoo! Web Analytics - All rights reserved -->
+<script type="text/javascript" src="../../../../d.yimg.com/mi/ywa.js"></script>
+<script type="text/javascript">
+
+function captureAction(actionnumber) {
+var YWATracker = YWA.getTracker("1000379873063");
+	YWATracker.setAction(actionnumber);
+	YWATracker.submit_action();
+}
+
+/*globals YWA*/
+var YWATracker = YWA.getTracker("1000379873063");
+YWATracker.setUrl("http://help.yahoo.com/l/us/yahoo/ymc/index.html");
+
+YWATracker.setDocumentGroup("us/yahoo/ymc/");
+
+YWATracker.setReferrer("http://info.yahoo.com/legal/us/yahoo/utos/");
+
+YWATracker.setCF(1, "lorax");
+YWATracker.setCF(8, "ymc");
+YWATracker.setCF(9, "");
+YWATracker.setCF(10, "Americas"); 
+YWATracker.setCF(11, "us");
+YWATracker.setCF(12, "lorax");
+
+
+YWATracker.submit();
+</script>
+<noscript>
+<div><img src="../../../../a.analytics.yahoo.com/p.pl%3Fa=1000379873063&amp;js=no" width="1" height="1" alt="" /></div>
+</noscript>
+	</body>
+</html>
+<!-- w3.help.sp2.yahoo.com uncompressed/chunked Fri Dec  2 22:59:47 UTC 2011 -->

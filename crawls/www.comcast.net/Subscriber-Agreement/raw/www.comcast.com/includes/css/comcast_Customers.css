@@ -1,0 +1,34 @@
+h1,
+div#content h1,
+div#content h3
+{ color:#444444!important; }
+
+div#content span.heading1,
+div#content span.heading3 { color:#15c4ed; }
+
+table#gateway tr.bottomHalf a { background-image:url(../../images/buttons/gateway_go_customers.gif); }
+
+div#content ul#Tabs li { background:#15c4ed; padding-left:10px; }
+
+font.eco
+{
+	color: #8cc641;
+	font-weight:bold;
+}
+font.bill
+{
+	color: #9ea1a3;
+	font-weight:bold;
+}
+div#content ul
+{
+	padding:0 0 0 10px;
+	list-style: none none outside;
+}
+
+div#content ul li
+{
+	padding-left:20px;
+	background:transparent url(../../images/bullet_grey_dark.gif) no-repeat;
+	background-position: 0px  5px;
+}

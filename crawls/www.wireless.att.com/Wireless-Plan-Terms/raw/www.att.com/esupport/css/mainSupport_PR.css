@@ -1,0 +1,490 @@
+@charset "utf-8";
+/* Point Release added CSS Document */
+.width300 {width:300px;}
+.width350 {width:350px !important;}
+.width116 {width:116px !important;}
+.width200 {width:200px !important; vertical-align:middle;}
+.topPad3 {padding-top:3px !important}
+.topPad30 {padding-top:30px !important}
+.rtPad30 {padding-right:30px !important}
+.leftPad20 {padding-left:20px !important}
+.botPad0 {padding-bottom:0px !important}
+
+.PadLR0 {padding-left:0 !important; padding-right:0 !important;}
+.pad-5-5-5-5 {padding:5px;}
+.marLR5 {margin-left:5px !important; margin-right:5px !important}
+
+.min135					{ min-height:132px; padding:10px}
+.min135.nopad			{ min-height:132px }
+	#ie6 .min135			{ height: 120px }
+
+
+
+.email_icn {vertical-align:middle;}
+
+/* BEGIN: Breadcrumb CSS */
+
+ul#breadcrumbs li { padding-bottom: 3px; margin-bottom: 10px; float: left; position: relative; }
+ul#breadcrumbs li div.tips-container {  display: none; position: absolute; top: -50px; left: 0; width: 700px; }
+ul#breadcrumbs li div.tips-container div { float: left; }
+div.tips-left {
+	background: #fff url('../images/breadcrumbs/left-side-left.gif') top left no-repeat;
+	width: 21px;
+	height: 44px;
+}
+
+div.tips-middle {
+	background: #fff url('../images/breadcrumbs/middle-content-area.gif') top left repeat-x;
+	height: 25px;
+	padding-top: 20px;
+}
+
+div.tips-right {
+	background: #fff url('../images/breadcrumbs/right-side-left.gif') top left no-repeat;
+	width: 7px;
+	height: 44px;
+}
+
+/* END: Breadcrumb CSS */
+
+/* BEGIN: Superstitial code */
+
+table.support-profile-table {
+	border: 0;
+	padding: 0;
+}
+
+table.support-profile-table td {
+	padding: 3px;
+}
+
+table.support-profile-table-services td {
+	padding: 3px;
+	vertical-align: middle;
+   /* height: 35px;*/
+}
+
+span.AttOrange {
+	color: #ff7200;
+	/* change as per new UI change 
+	padding-left: 13px;*/
+	padding-left:20px;
+}
+
+select.tabSelects {
+	width: 230px;
+}
+/*
+div#modalContainer {
+	width: 480px;
+}*/
+div#buttonContainer img {
+	float: right;
+	margin: 10px 0 10px 10px;
+}
+
+#serviceContentDiv, #settingsContentDiv {
+	border:1px solid #ccc;
+	clear:both;
+	padding: 10px;
+}
+
+#settingsContentDiv { display: none; }	
+
+/* END: Superstitial code */
+
+.first_110 {
+	clear:left;
+	display:inline;
+	float:left;
+	margin-bottom:10px;
+	position:relative;
+	width:110px;
+	padding-top:10px;
+}
+
+.col_340 {
+	display:inline;
+	float:left;
+	margin-bottom:10px;
+	margin-left:10px;
+	position:relative;
+	width:320px;
+	padding-top:10px;
+}
+
+
+.supportTopics_showPg_lft {
+		float:left;
+		font-size:11px;
+		line-height:1.55em;
+		margin-top:0;
+		padding-bottom:5px;
+		padding-left:18px;
+		width:300px;
+}
+.kiosk_3tile 
+{
+	height:234px;
+	background:url("../images/background/bg_three_tiles.gif") repeat-x scroll 100% 100% transparent;
+	text-align:center;
+}
+
+.kiosk_3tile_lg
+{
+	height:234px;
+	background:url("../images/background/bg_three_tiles_lg.gif") repeat-x scroll 100% 100% transparent;
+	text-align:center;
+}
+
+.kiosk_2tile 
+{
+	height:234px;
+	background:url("../../images/eSupport/Backgrounds/bg_two_tiles_AA000PK7.gif") repeat-x scroll 100% 100% transparent;
+	text-align:center;
+}
+
+.kiosk_icn_pad {
+/* UI Change
+height:92px; */
+height:95px; text-align:center;}
+/* hiding for UI Change 
+.kiosk_header {padding-top:20px;}
+div.kiosk_header h2 { color:#ff7200; font-size: 14px; line-height:16px; font-weight:bold; margin-bottom:11px; height: 35px; } */
+
+/* ECAR1102-292 ( Per Itoro ) */
+/* .kiosk_header {padding-top:20px;} */
+div.kiosk_header h2 { color:#000; font-size: 14px; line-height:16px; font-weight:bold; margin-bottom:11px; margin-left: 11px;height: 35px; }
+/* End of fix for ECAR1102-292 */
+
+.kiosk_tile_connection { background:url("http://www.att.com/esupport/images/background/bg_connection_icn.png") no-repeat scroll 100% 100% transparent; position:relative;}
+.kiosk_tile_email { background:url("http://www.att.com/esupport/images/background/bg_email_icn.gif") no-repeat scroll 100% 100% transparent;}
+.kiosk_tile_service { background:url("http://www.att.com/esupport/images/background/bg_service_icn.gif") no-repeat scroll 100% 100% transparent;}
+
+.supportTopics_eCart_lft {
+		float:left;
+		font-size:11px;
+		line-height:1.55em;
+		margin-top:0;
+		padding-bottom:5px;
+		width:150px;
+}
+
+.supportTopics_eCart_rt {
+		float:right;
+		font-size:11px;
+		line-height:1.55em;
+		margin-top:0;
+		padding-top:13px;
+		padding-bottom:5px;
+		width:30px;
+}
+
+
+#submitbox a.feed {
+	background:url("../images/buttons/btn_blue_arrow.gif") no-repeat scroll 100% transparent;
+	float:right;
+	height:16px;
+	line-height:16px;
+	padding-right:18px;
+}
+
+.rt_support_link {
+	padding-top:10px;
+	padding-bottom:10px;
+	float:left;
+	width:350px;
+	line-height:16px;
+}
+
+.pageMessage {
+	border-bottom:1px solid #CCCCCC;
+	font-size:11px;
+	padding-left: 5px;
+	padding-right:5px;
+}
+
+.desclftNav {
+	float:left;
+	width:185px;
+}
+
+a.lt_nav_feed {
+	background:url("../images/acc-arrow-right.gif") no-repeat scroll 100% 50% transparent;
+	float:left;
+	height:20px;
+	line-height:18px;
+	padding-right:10px;
+}
+
+.lt_nav_topics {
+	padding-top:10px;
+	min-height:120px;
+}
+
+
+/* Ask a Question DropDown Styles Begin */
+	form#ask_a_QuestionForm .text { margin-right: 0; }
+	#ie form#ask_a_QuestionForm .text { margin-right: -8px; }
+	label#askInputLabel { color: #ff7200; font-size: 11px; font-weight: bold; line-height: 14px; margin-bottom: 5px; }
+	div#subtitleID { position: relative; }
+	form#ask_a_QuestionForm { right: 18px; }
+/* Hiding after global Nav integration start 
+	img#searchOptions { position: absolute; right: 0; top: 5px; }
+	#ie img#searchOptions { top: 6px; }
+	#ie6 img#searchOptions { top: 6px; left: 682px; }
+	Hiding after global Nav integration End */
+	div#search_options_container { 
+		display: none;
+		background: transparent url(../images/background/search_bg.gif) top left no-repeat;
+        height: 110px; 
+		width: 120px;
+		z-index: 99999;
+		position: absolute;
+		right: 0;
+		top: 23px;
+		padding: 30px 0 0 10px;
+	}
+	
+	div#search_options_container p {
+		font-weight: bold;
+	}
+	
+	div#search_options_container ul#searchList li a {
+		color: #999;
+	}
+	
+	div#search_options_container ul#searchList li a:hover {
+		color: #067ab4;
+	}
+	
+	div.col_230_border_none, div.col_230_border_none div.first_230 {
+		position: static;
+	}
+	
+	#ask_a_QuestionForm .text {
+		color:#333;
+	}
+	div#search_options_container ul#searchList li a.setSearchText { color: #067ab4; }
+/*  Ask a Question DropDown styles End */
+
+#floatNotesLt
+{
+	float:left;
+	width:50%; 
+	font-style:italic;
+	padding-left:10px;
+	padding-top:10px;
+}
+
+#floatNotesRt
+{
+	float: right; 
+	padding-top:10px; 
+	padding-right:10px;
+}
+
+#icon_links a:link 
+{
+	color:#0A94D6;
+	text-decoration:none;
+}
+
+#icon_links p, #icon_links a, #icon_links li, #icon_links span, #icon_links td, #icon_links th, #icon_links strong, #icon_links span, #icon_links select
+{
+	font-size:11px;;
+}
+
+#icon_links .printLinkIcn 
+{
+	background:url("../images/ico_print.gif") no-repeat scroll left 50% transparent;
+	padding-left:20px;
+	text-align:left;
+}
+
+#icon_links .emailLinkIcn 
+{
+	background:url("../images/ico_email.gif") no-repeat scroll left 50% transparent;
+	padding-left:20px;
+	text-align:left;
+}
+
+.emailLinkIcn2 
+{
+	background:url("../images/buttons/btn_share_Email.gif") no-repeat left;
+	z-index:10000;
+	padding-left:20px;
+	
+}
+
+#icon_links .facebookIcn {
+	background:url("../images/buttons/btn_share_FB.gif") no-repeat scroll left 50% transparent;
+	padding-left:20px;
+	text-align:left;
+}
+
+
+#icon_links .twitLinkIcn {
+	background:url("../images/buttons/btn_share_Tweet.gif") no-repeat scroll left 50% transparent;
+	padding-left:20px;
+	text-align:left;
+}
+
+#icon_links .lnkdLinkIcn {
+	background:url("http://www.att.com/esupport/images/buttons/btn_share_Linked.gif") no-repeat scroll left 50% transparent;
+	padding-left:20px;
+	text-align:left;
+}
+
+#icon_links .delLinkIcn {
+	background:url("../images/buttons/btn_share_Del.gif") no-repeat scroll left 50% transparent;
+	padding-left:20px;
+	text-align:left;
+}
+
+#icon_links .diggLinkIcn {
+	background:url("../images/buttons/btn_share_Digg.gif") no-repeat scroll left 50% transparent;
+	padding-left:20px;
+	text-align:left;
+}
+
+#icon_links .bkMrkLinkIcn {
+	background:url("../images/buttons/btn_share_BM.jpg") no-repeat scroll left 50% transparent;
+	padding-left:20px;
+	text-align:left;
+}
+
+.vAlignTB {vertical-align:text-bottom !important} /* Text Bottom */
+.vAlignMid {vertical-align:middle !important}
+.topPad15_sp {
+	padding-top:15px !important;
+}
+
+#ie .topPad15_sp {
+	padding-top:0px !important;
+}
+
+/* BEGIN: social bookmarking code */
+
+div#shareContainer { position: none; }
+div#socialIcons { display: block; position:absolute; background-color: #fff; width:160px; }
+#ie div#socialIcons { display: block; position:absolute; background-color: #fff; width:160px;}
+
+/* END: social bookmarking code */
+.bullet {
+list-style-type:none;
+margin:0;
+padding:0;
+float:left;
+}
+/* My Support Profile PopUp */
+.buttonContainer {
+	/* changing for UI Change
+	float: right!important;
+	padding-right: 20px!important; */
+
+	position:relative;
+	text-align:right;
+	right:20px;
+	}
+.buttonContainer input{vertical-align:top!important}
+ #navContainer li.active a, .navContainer li.active a.outline {
+	outline:none!important
+}
+.buttonContainer img {
+	margin:0 17px 10px;
+}
+
+div#left-column-container {
+	width: 710px;
+	float: left;
+}
+
+.col_680 { 
+	width:710px;
+	border:1px solid #ccc;
+	margin-bottom: 0 10px 10px 0;
+}
+
+.min255 {
+	min-height:205px;
+	padding:10px;
+}
+
+div#view-more {
+	width: 160px;
+}
+
+div#view-more a.feed {
+	background:url("../images/acc-arrow-right.gif") no-repeat scroll 100% 50% transparent;
+	float:right;
+	height: 19px;
+	line-height: 16px;
+	padding-right: 15px;
+}
+
+div#email-cart-column {
+	height: 503px;
+}
+
+#ie div#email-cart-column {
+	height: 524px;
+}
+
+div#email-cart-bg {
+	height: 483px;
+}
+
+#ie div#email-cart-bg {
+	height: 523px;
+}
+
+div#large_subkiosk { background: url("../images/background/subkiosk_bg_708x234.gif") no-repeat left top; height: 234px; width: 708px; }
+
+ul#subkioskList { margin-top: 10px; width: 475px; }
+
+ul#subkioskList li { width: 100%; background: url("../images/buttons/btn-small-white-caged-arrow.gif") no-repeat scroll 0 3px transparent; padding-bottom: 0.6em; padding-left: 18px; border-bottom: 1px dotted #ccc; }
+
+.col_560 { display:inline; float:left; margin-bottom:10px; margin-left:10px; padding-top:10px; position:relative; width:560px; }
+/* UI Change for new UI 23-02-2011 Start For articleEmail.jsp */
+.error{color:#D8000C;font-size:0.8em;}
+label.error{margin-left:10px;}
+td.pr-tr span{border:0px solid;display:block;font-weight:bold;height:11px;margin-top:0;padding-bottom:8px;padding-right:5px;padding-top:0;text-align:right;width:200px;}
+td.teeny{padding-left:10px;}
+.chk-style{color:#067AB4; font-weight:bold;}
+/* UI Change for new UI 23-02-2011 End */
+
+/* This 2 classes are for Virtual Expert */
+.showSlot {display:block;}
+.hideSlot {display:none;}
+/* End code for Virtual Expert */
+
+/** BEGIN: CSS Code for B2C-91415 **/
+
+.min186 					{ min-height:164px; padding:10px}
+.min186.nopad 			{ min-height:184px }
+	#ie6 .min186			{ height:164px; }
+	#ie6 .min186.nopad		{ height:184px }
+
+
+ul#icon_bullet_chat li {
+	background:url("../images/bullet-3x3.gif") no-repeat scroll 6px 6px transparent;
+	font-size:11px;
+	line-height:1.45em !important;
+	padding-left:20px;
+}
+ul#icon_bullet_chat li.chatIcon {
+	background:url("../../images/eSupport/Chat/icn_chat-att_AA000M2E.gif") no-repeat scroll 0 2px transparent;
+	padding-left:20px;
+}
+ul#icon_bullet_chat li.repairIcon {
+        background:url("../images/ico_wrench_16x15.gif") no-repeat scroll 0 0 transparent;
+        padding-left:20px;
+}
+
+
+.min105					{ min-height: 83px; padding:10px}
+.min105.nopad			{ min-height:103px }
+	#ie6 .min105			{ height: 83px; }
+	
+/** END: CSS Code for B2C-91415 **/

@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+	<title>Flickr Community Guidelines</title>
+
+
+	
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="keywords" content="photography, digital photography, cameraphones, camera, hobby photography, photo, digital camera, compactflash, smartmedia, cameras, canon, nikon, olympus, fujifilm, video">
+	<meta name="description" content="Flickr is almost certainly the best online photo management and sharing application in the world. Show off your favorite photos and videos to the world, securely and privately show content to your friends and family, or blog the photos and videos you take with a cameraphone.">
+	<meta http-equiv="imagetoolbar" content="no">
+	<link href="http://www.flickr.com/apple-touch-icon.png" rel="apple-touch-icon-precomposed">
+
+	<meta name="viewport" content="width=1036">
+
+	<script>
+		
+	F = window.F || {};
+
+				
+(function(wipe_msg, root_url, bust_gis) {
+
+var w=window,d=document,top_loc=top.location,self_loc=self.location,referrer=d.referrer,flickr_regex=/^[A-Za-z]+:\/{2,3}(?:[0-9\-A-Za-z]+\.)*flickr\.(?:(?:com)|(?:net))(?::\d+)?(?:\/[^?#]*)?(?:\?[^#]*)?(?:#.*)?$/i,self_is_offline=(self_loc.protocol&&self_loc.protocol.indexOf('http')<0),self_is_flickr=flickr_regex.test(self_loc),self_url=self_is_flickr?self_loc.href:root_url+'/',photo_page_re_result=self_is_flickr&&/\/photos\/[^\/]+\/(\d+)/i.exec(self_loc.pathname),photo_id=photo_page_re_result&&parseInt(photo_page_re_result[1],10),frame_whitelist_regex=/^[A-Za-z]+:\/{2,3}(?:[0-9\-A-Za-z]+\.)*(?:(?:flickr\.(?:(?:com)|(?:net)))|(?:yahoo\.(?:(?:com)|(?:net)|(?:(?:com?\.)?[A-Za-z]{2})))|(?:creativecommons\.org)|(?:eyewonderlabs\.com)|(?:stumbleupon\.com)|(?:su\.pr)|(?:bing\.com)|(?:google\.(?:(?:com)|(?:(?:com?\.)?[A-Za-z]{2}))))(?::\d+)?(?:\/[^?#]*)?(?:\?[^#]*)?(?:#.*)?$/i,self_whitelist_regex=/^[A-Za-z]+:\/{2,3}(?:[0-9\-A-Za-z]+\.)*(?:(?:flickr\.(?:(?:com)|(?:net)))|(?:yahoo\.(?:(?:com)|(?:net)|(?:(?:com?\.)?[A-Za-z]{2})))|(?:translate\.google\.com)|(?:translate\.googleusercontent\.com))(?::\d+)?(?:\/[^?#]*)?(?:\?[^#]*)?(?:#.*)?$/i,gis_regex=/^[A-Za-z]+:\/{2,3}(?:[0-9\-A-Za-z]+\.)*(?:google\.(?:(?:com)|(?:(?:com?\.)?[A-Za-z]{2})))(?::\d+)?(?:\/[^?#]*)?(?:\?[^#]*)?(?:#.*)?$/i,referrer_is_flickr=flickr_regex.test(referrer),referrer_is_whitelisted=frame_whitelist_regex.test(referrer),referrer_is_gis=gis_regex.test(referrer),faq_url=root_url+'/frame_redir.gne?source='+encodeURIComponent(referrer)+'&dest='+encodeURIComponent(root_url+'/help/blogging/#1392237'),redir_url=root_url+'/frame_redir.gne?source='+encodeURIComponent(referrer)+'&dest='+encodeURIComponent(self_url),should_bust,should_wipe,base;if(self_is_flickr&&self_loc===top_loc){return;} function redirect(){w.onerror=function(){return true;};if(typeof top_loc.replace==='function'){top_loc.replace(redir_url);}else{top_loc.href=redir_url;}} function wipe(){var logo_w,font_size,win_width,html,msg;w.onerror=function(){return true;};logo_w=162;font_size='12px';setInterval(function(){if(d&&d.body){if(d.body.lastChild&&d.body.lastChild.className&&d.body.lastChild.className==='wipe-msg'){}else{msg=wipe_msg.replace('{url}',redir_url).replace('{faq}',faq_url);if(typeof w.innerWidth==='number'){win_width=w.innerWidth;}else if(d.body.clientWidth){win_width=d.body.clientWidth;} if(win_width&&win_width<162){logo_w=win_width;font_size='10px';} html='<div class="wipe-msg" style="font-size:'+font_size+';text-align:left;"><div style="margin-bottom:3px;"><img alt="Flickr" width="'+logo_w+'" src="../l.yimg.com/g/images/logo_home.png"></div><div style="padding-left:5px;line-height:1.2em;">'+msg+'</div></div>';d.body.style.margin='0';d.body.innerHTML=html;}}},200);} function get_frame_depth(){var win=self,frame_depth=0;while(win!==win.parent){frame_depth+=1;win=win.parent;} return frame_depth;} if(self_is_offline){}else if(!self_is_flickr&&!self_whitelist_regex.test(self_loc)){should_wipe=true;}else if(bust_gis&&photo_id&&referrer_is_gis){should_bust=true;}else if(referrer&&!referrer_is_whitelisted){should_wipe=true;}else if(!referrer_is_flickr&&get_frame_depth()>1){should_wipe=true;} if(should_bust){setTimeout(function(){w.onbeforeunload=w.onunload=null;redirect();},1000);setTimeout(wipe,2000);redirect();}else if(should_wipe){wipe();}else if(referrer_is_whitelisted&&!referrer_is_flickr){base=document.createElement('base');base.target='_top';document.getElementsByTagName('head')[0].appendChild(base);}
+
+}('We\'re sorry, Flickr <a href="http://www.flickr.com/{faq}" target="_top">doesn\'t allow embedding within frames</a>.<br><br>If you\'d like to view this content, <a href="http://www.flickr.com/{url}" target="_top">please click here</a>.', 'http://www.flickr.com', true));
+
+	
+		(function(F){var el,w,d,n,ua,ae,is_away_from_tab,de,disabled=false,assigned_events=false;w=window;d=w.document;n=w.navigator;ua=n&&n.userAgent;function doF(e,me){if(is_away_from_tab&&e.target===w){is_away_from_tab=false;}else{el=e.target||me;}} function doB(e){if(el!==w&&e.target===w){is_away_from_tab=true;}else{el=undefined;}} function get(){var nt,in_doc;if(el&&(nt=el.nodeType)){if(d.contains){if((ua&&ua.match(/Opera[\s\/]([^\s]*)/))||nt===1){in_doc=d.contains(el);}else{while(el){if(d===el){in_doc=true;} el=el.parentNode;}}}else if(d.compareDocumentPosition){if(d===el||!!(d.compareDocumentPosition(el)&16)){in_doc=true;}}else{var myEl=el;while(myEl){if(d===myEl){in_doc=true;} myEl=myEl.parentNode;}}} return in_doc?el:undefined;} function isInput(){var n=get(),nn;if(!n){return false;} nn=n.nodeName.toLowerCase();return(nn==='input'||nn==='textarea');} function instrumentInputs(){if(!assigned_events){var i,me,inputs=document.getElementsByTagName('input'),tas=document.getElementsByTagName('textarea'),nInputs=inputs.length,nTextAreas=tas.length;if(nInputs||nTextAreas){for(i=0;i<nTextAreas;i++){me=tas[i];tas[i].attachEvent('onfocusin',function(e){if(!disabled){doF(e,me);}});} for(i=0;i<nInputs;i++){me=inputs[i];inputs[i].attachEvent('onfocusin',function(e){if(!disabled){doF(e,me);}});} assigned_events=true;}}} function destroy(){disabled=true;if(de=w.removeEventListener){de('focus',doF,true);de('blur',doB,true);}else if(de=d.removeEvent){de('blur',doB);}} function dom_onready(onready_handler){if(typeof onready_handler==='undefined'){return false;} if(document.readyState==='complete'){onready_handler();}else{if(document.addEventListener){DOMContentLoaded=function(){document.removeEventListener('DOMContentLoaded',DOMContentLoaded,false);onready_handler();};}else if(document.attachEvent){DOMContentLoaded=function(){if(document.readyState==='complete'){document.detachEvent('onreadystatechange',DOMContentLoaded);onready_handler();}};} if(document.addEventListener){document.addEventListener('DOMContentLoaded',onready_handler,false);}else if(document.attachEvent){document.attachEvent('onreadystatechange',onready_handler);}}} if(ae=w.addEventListener){ae('focus',doF,true);ae('blur',doB,true);}else if(ae=d.attachEvent){dom_onready(instrumentInputs);ae('onfocusout',doB);} F.focus_tracker={get:get,isInput:isInput,destroy:destroy};}(F));	
+		(function(){var mod='imageChecker',imgs={},i=0;function stamp(node){return node.id||(node.id=mod+'-'+new Date().getTime()+i++);} F[mod]={load:function(node){imgs[stamp(node)]=true;},error:function(node){imgs[stamp(node)]=false;},check:function(node){return imgs[stamp(node)];}};}());
+	
+	</script>
+
+
+					
+		
+		<script src="../l.yimg.com/g/combo/1/3.4.0%3Fj%252Fyui%252F3.4.0%252Fyui%252Fyui-.E.A.vWNh4&amp;j%252Fyui%252F3.4.0%252F.FN%252F.FN-.E.A.vWNh4"></script>
+
+			
+
+
+
+
+
+
+
+	<link rel="stylesheet" href="../l.yimg.com/g/combo/1/3.4.0%3Fc%252Fc_.X_nav.BC.vXYer&amp;c%252Fc_.J_nav.BC.vYjx2&amp;c%252Fc_.J_.D.BC.vYEVM&amp;c%252Fc_.EM_.D.BC.vYhP2&amp;c%252Fc_community_guidelines_.D.BC.vT5Y8&amp;.css" type="text/css">
+
+
+
+
+
+
+
+
+	<link rel="shortcut icon" type="image/ico" href="../l.yimg.com/g/favicon.ico">
+
+	<link rel="search" type="application/opensearchdescription+xml" href="http://www.flickr.com/opensearch.xml" title="Flickr">
+
+
+</head><body class="zeus en-us new-footer signed-out">
+
+<script>(function(){var b=document.body,ua=typeof YUI==='function'&&YUI()&&YUI().UA,os=ua&&(ua.os?ua.os.replace(/\s/g,''):'')||(ua.ios?'ios':'')||(ua.android?'android':'');function make_class(browser){return(os&&ua[browser])?'ua-'+os+'-'+browser+' '+'ua-'+os+'-'+browser+'-'+Math.floor(ua[browser]):'';} b.className=[b.className,'js',make_class('webkit')||make_class('ie')||make_class('gecko')].join(' ');}());</script>
+		
+<noscript>
+	<div id="beacon"><img src="../geo.yahoo.com/f%3Fs=792600122&amp;t=4d519f421baa0b486afbfc7d3eb55c31&amp;fl_ev=0&amp;lang=en&amp;intl=us" width="0" height="0" alt="" /></div>
+</noscript>
+	
+		
+	<a name="top"></a>
+
+
+
+	
+	
+
+	
+	
+
+
+
+
+
+
+	<div id="head" role="banner">
+
+		<div id="head-top">
+			<div id="head-logo">
+									<a tabindex="-1" data-track="home-logo" href="http://www.flickr.com/"><img src="../l.yimg.com/g/images/en-us/flickr-yahoo-logo.png.v4" width="180" height="30" alt="Flickr logo. If you click it, you'll go home"></a>
+									</div>
+			<div id="head-status">
+			    
+								You aren't signed in
+					&nbsp;&nbsp;&nbsp;
+					<a data-track="signin" id="head-signin-link" href="http://www.flickr.com/signin/" class="ywa-track signin-popup" data-ywa-name="Sign in (top)">Sign In</a>
+
+					&nbsp;&nbsp;
+					<a data-track="help" href="http://www.flickr.com/help/">Help</a>
+						</div>
+		</div>
+
+		<div id="head-nav-bar">
+							
+
+
+
+<div id="search_header_container">
+
+         
+	<form action="http://www.flickr.com/search/" method="get" id="headersearchform" class="nav-selecta" role="search">
+		<input name="q" id="nav-selecta-field" aria-label="Search" type="text" tabindex="5" class="Box" autocomplete="off" value="">
+		<input value="Search" type="submit" tabindex="5" id="nav-selecta-search-button">
+	</form>
+
+	</div>				
+
+<div id="flickr_nav" class="flickr_nav no_js clearfix">
+	<ul role="navigation">
+
+		<li class="no_menu_li"><span><a href="http://www.flickr.com/" data-track="toto">Home</a></span></li>
+				
+		
+		<li class="no_menu_li">
+			<span><a href="http://www.flickr.com/tour/" title="Take the Flickr tour" class="ywa-track" data-ywa-name="Tour">The Tour</a></span>
+		</li>
+		
+		<li class="no_menu_li">
+			<span><a data-track="signup" id="head-sign-up" href="http://www.flickr.com/signup/" title="Sign Up for a Free Account" class="ywa-track" data-ywa-name="Sign up (top)">Sign Up</a></span>
+		</li>
+
+
+
+		<li class="menu_li ywa-track" data-ywa-name="Explore" id="flickr_nav_button_explore">
+		
+			<span>
+				<a href="http://www.flickr.com/explore/" data-track="explore-top-link" title="Explore Flickr">Explore</a> <a href="guidelines.gne.html#flickr_nav_button_explore" data-track="explore_menu" title="More options" onclick="if (F.actionQueue) {F.actionQueue.queue_click('flickr-nav', event);} return false" class="nav_more"><img src="../l.yimg.com/g/images/spaceout.gif" class="nav_button_caret" width="18" height="15" alt="More options"></a>
+			</span>
+
+			<ul class="flickr_nav_menu" id="flickr_nav_menu_explore">
+
+				<li>
+					<a data-track="explore" href="http://www.flickr.com/explore/">Explore Page</a>
+				</li>
+				
+				
+				<li>
+					<a href="http://www.flickr.com/explore/interesting/7days/">Last 7 Days Interesting</a>
+				</li>
+			
+				<li>
+					<a href="http://www.flickr.com/photos/tags/">Popular Tags</a>
+				</li>
+			
+				<li>
+					<a data-track="interesting-calendar" href="http://www.flickr.com/explore/interesting/2011/12/">Calendar</a>
+				</li>
+			
+				<li>
+					<a href="http://www.flickr.com/photos/">Most Recent Uploads</a>
+				</li>
+			
+				<li>
+					<a href="http://www.flickr.com/explore/video/">Video on Flickr</a>
+				</li>
+			
+									<li>
+						<a href="http://www.flickr.com/galleries/">Galleries</a>
+					</li>
+							
+							
+								
+				<li>
+					<a href="http://www.flickr.com/gettyimages" title="Getty Images">Getty Images</a>
+				</li>
+			
+							
+									<li>
+						<hr />
+						<a href="http://www.flickr.com/map/" title="Photos and videos on a map">World Map</a>
+					</li>
+							
+									<li>
+						<a href="http://www.flickr.com/places/">Places</a>
+					</li>
+							
+				<li>
+					<hr />
+					<a href="http://www.flickr.com/commons/">The Commons</a>
+				</li>
+			
+				<li>
+					<a href="http://www.flickr.com/creativecommons/">Creative Commons</a>
+				</li>
+			
+				<li>
+					<hr />
+					<a href="http://blog.flickr.com/">FlickrBlog</a>
+				</li>
+			
+				<li>
+					<a href="http://code.flickr.com/">code.flickr</a>
+				</li>
+			
+				<li>
+					<a href="http://www.flickr.com/services/">The App Garden</a>
+				</li>
+
+									<li>
+						<a href="http://www.flickr.com/cameras/">Camera Finder</a>
+					</li>
+								
+				
+				<li>
+					<a href="http://www.flickr.com/mobile">Flickr for mobile</a>
+				</li>	
+					
+
+			</ul>
+		</li>
+
+
+		<li class="no_menu_li last_item"><span><a id="head-upload-link" href="http://www.flickr.com/photos/upload/">Upload</a></span></li>
+
+	</ul>
+</div>					</div>
+	</div>
+
+
+		
+	<div id="main" class="clearfix" role="main">
+		
+	
+
+<div id="content">
+	
+	<h1>Flickr Community Guidelines</h1>
+
+	<p><strong>Flickr accounts are intended for members to share original photos and video that they themselves have created.</strong></p>
+	
+	<div id="guidelines">
+		<p>The following Community Guidelines are here to help you understand what it means to be a member of Flickr. Don't forget that your use of Flickr is subject to these Guidelines and our <a href="http://www.flickr.com/terms.gne" onclick="window.open(this.href,'TOC','status=yes,scrollbars=yes,resizable=yes,width=600,height=480'); return false">Terms of Service</a>.</p>
+
+		<h2>What to do</h2>
+
+		<ul>
+
+		<li><strong>Do play nice.</strong><br>
+		We're a global community of many types of people, who all have the right to feel comfortable and who may not think what you think, believe what you believe or see what you see. So, be polite and respectful in your interactions with other members.</li>
+
+		<li><strong>Do upload content that you've created.</strong><br>
+		Respect the copyright of others. This means don't steal photos or videos that other people have shared and pass them off as your own. (That’s what favorites are for.)</li>
+
+		<li><strong>Do moderate your content.</strong><br>
+		<strong>All</strong> content on Flickr, public and private, has to be appropriately moderated as “safe,” “moderate,” or “restricted” using our safety and <a href="http://www.flickr.com/help/filters/#258">content filters</a>. If your judgment proves to be poor, we’ll moderate your account to match appropriate ratings for safe search and/or content type and send you a warning.</li>
+
+		<li><strong>Do link back to Flickr when you post your Flickr content elsewhere.</strong><br>
+		Flickr makes it possible to post content hosted on Flickr to other web sites. However, pages on other web sites that display content hosted on flickr.com must provide a link from each photo or video back to its page on Flickr. This provides a way to get more information about the content and the photographer.</li>
+
+		<li><strong>Do enjoy Flickr!</strong><br>
+		See the world through others’ eyes, participate, find your muse, and expand your horizons!</li>
+
+		</ul>
+
+		<h2>What <em>not</em> to do</h2>
+
+		<p><strong>Here’s the deal: We like to give second chances. However, stepping across any of the lines listed below may result in account deletion with or without warning.</strong></p>
+
+
+		<ul>
+
+			<li><strong>Don’t upload anything that isn't yours.</strong><br>
+			This includes other people's photos, video, and/or stuff you've copied or collected from around the Internet. Accounts that consist primarily of such collections may be deleted at any time.</li>
+
+			<li><strong>Don’t forget the children.</strong><br>
+			If you would hesitate to show your photos or videos to a child, your mum, or Uncle Bob, that means you need to set the appropriate <a href="http://www.flickr.com/help/filters/#258">content filter</a> setting. If you don’t, your account will be moderated and possibly deleted by Flickr staff.</li>
+
+			<li><strong>Don’t show nudity in your buddy icon.</strong><br>
+			Only content considered <a href="http://www.flickr.com/help/filters/#258">"safe"</a> is appropriate for your buddy icon. If we find that you've uploaded a buddy icon that contains inappropriate content, we'll remove the buddy icon, mark your account as “restricted” and send you a warning. If we find you doing it again, we’ll delete your account.</li>
+
+			<li><strong>Don’t upload content that is illegal or prohibited.</strong><br>
+			If we find you doing that, your account will be deleted and we'll take appropriate action, which may include reporting you to the authorities.</li>
+
+			<li><strong>Don’t vent your frustrations, rant, or bore the brains out of other members.</strong><br>
+			Flickr is not a venue for you to harass, abuse, impersonate, or intimidate others. If we receive a valid complaint about your conduct, we’ll send you a warning or delete your account.</li>
+
+			<li><strong>Don’t be creepy.</strong><br>
+			You know the guy. Don't be that guy.</li>
+
+			<li><strong>Don’t use your account to host web graphics, like logos and banners.</strong><br>
+			If we find you using your account to host graphic elements of web page designs, logos, icons, and other non-photographic elements on other web sites, we will warn you or delete your account.</li>
+
+			<li><strong>Don’t use Flickr to sell.</strong><br>
+			If we find you engaging in commercial activity, we will warn you or delete your account. Some examples include selling products, services, or yourself through your photostream or in a group, using your account solely as a product catalog, or linking to commercial sites in your photostream. If you engage in commercial activity elsewhere on the internets or in the real world, you’re still welcome on Flickr—in fact, we’ve even set up some <a href="http://www.flickr.com/bestpractices/">best practices</a> especially for you.</li>
+
+		</ul>
+
+		<h2>Here are some other things to keep in mind:</h2>
+
+		<p><strong>Other People (their content, their behavior)</strong><br>
+		You will see all sorts of things on Flickr, some of which may offend you. If you are offended by a photo or video you can either click away or you can mark it as poorly moderated by clicking on the "Flag this photo" link on a photo page. If you think there's immediate cause for concern, you can report content and/or someone's behavior to Flickr staff via the “Report Abuse” link that’s available in the footer of every page. Note: Please report from the specific page that the offensive content appears—this gives us all the information we need to take action.</p>
+
+		<p><strong>Copyright Infringement</strong><br>
+		If you see photos or videos that you’ve created in another member’s photostream, don't panic. This is probably just a misunderstanding and not malicious. A good first step is to contact them via FlickrMail and politely ask them to remove it. If that doesn't work, please file a Notice of Infringement with the <a href="http://docs.yahoo.com/info/copyright/copyright.html">Yahoo! Copyright Team</a> who will take it from there. Check out the “Copyright/IP Policy” link in the footer of every page for more information.</p>
+
+		<p>You may be tempted to post an entry on your photostream or in our public forum about what's happening, but that's not the best way to resolve a possible copyright problem. We don't encourage singling out individuals like this on Flickr as it could be seen as harassment which is against our guidelines.</p>
+
+		<p><strong>In Conclusion</strong><br>
+		If you don't feel that you can abide by our Community Guidelines as outlined above, maybe Flickr isn't for you. We’ve crafted these guidelines to ensure that everyone within the Flickr community has the experience they want.</p>
+
+		<p>You may also want to check out our <a href="http://www.flickr.com/help/faq/">FAQs</a> and <a href="http://www.flickr.com/privacy_policy.gne">Privacy Policy</a>. If you ever have any questions or comments, we'd love to hear from you. Please feel free to drop us a line through <a href="http://www.flickr.com/help/contact/">Help by Email</a>.</p>	
+
+		<p><strong><em>The Flickreenos</em></strong></p>
+	</div>
+	<div id="help_sidebar"></div>
+
+</div>
+
+
+    	</div>
+
+
+
+
+
+
+ 	 	<div id="foot" class="new-foot" role="contentinfo">
+		<div id="foot-wrap" class="clearfix">
+		 			<div id="foot-nav" class="clearfix">
+	<div class="foot-nav-col-new">
+		<dl>
+			
+			<dt>About Flickr</dt>
+			<dd><a href="http://www.flickr.com/about/">Who we are</a></dd>
+			<dd><a href="http://www.flickr.com/tour/">Take the tour</a></dd>
+			<dd><a href="http://blog.flickr.net/">Flickr blog</a></dd>
+			<dd><a href="http://www.flickr.com/jobs/">Jobs</a></dd>
+		</dl>
+	</div>
+	<div class="foot-nav-col-new">
+		<dl>
+			<dt>Community</dt> 
+			<dd><a href="guidelines.gne.html">Community Guidelines</a></dd>
+			<dd><a id="ft-report-abuse" href="http://www.flickr.com/report_abuse.gne">Report abuse</a></dd>
+		</dl>
+	</div>
+	<div class="foot-nav-col-new">
+		<dl>
+			<dt>Help</dt>
+			<dd><a href="http://www.flickr.com/help/">Need help? Start here!</a></dd>
+			<dd><a href="http://www.flickr.com/help/forum/">Help forum</a></dd>
+			<dd><a href="http://www.flickr.com/help/faq/">FAQs</a></dd>
+			<dd><a href="http://info.yahoo.com/relevantads" target="_blank">About Our Ads</a></dd>		</dl>
+	</div>
+	<div class="foot-nav-col-new">
+		<dl>
+			<dt>Apps and the API</dt>
+			<dd><a href="http://www.flickr.com/mobile">Flickr for mobile</a></dd>
+			<dd><a href="http://www.flickr.com/services/">App Garden</a></dd>
+			<dd><a href="http://www.flickr.com/services/api/">API documentation</a></dd>
+			<dd><a href="http://code.flickr.com/">Developer blog</a></dd>
+			<dd><a href="http://www.flickr.com/services/developer/">Developer Guide</a></dd>
+		</dl>
+	</div>
+	<div class="foot-nav-col-new last">
+		<dl>			<dd><a class="ft-twitter" title="Twitter" href="http://twitter.com/flickr"><span class="icon"></span><span class="link-text">Follow us</span></a></dd>
+			<dd><a class="ft-facebook" title="Facebook" href="http://facebook.com/flickr"><span class="icon"></span><span class="link-text">Like us</span></a></dd>
+			
+		</dl>
+	</div>
+	
+</div>					<div id="foot-lang">
+						<ul>
+			<li><a href="http://www.flickr.com/change_language.gne?lang=zh-hk&amp;magic_cookie=d7d3719b54fe0fd197a4f110ef7ba426" class="image_link" id="lang_zh-hk"><img src="../l.yimg.com/g/images/spaceout.gif" width="45" height="13" id="langselect_zh-hk" alt="繁體中文"></a></li>
+			<li><a href="http://www.flickr.com/change_language.gne?lang=de-de&amp;magic_cookie=d7d3719b54fe0fd197a4f110ef7ba426">Deutsch</a></li>
+			<li><a href="http://www.flickr.com/change_language.gne?lang=en-us&amp;magic_cookie=d7d3719b54fe0fd197a4f110ef7ba426" class="selected">English</a></li>
+			<li><a href="http://www.flickr.com/change_language.gne?lang=es-us&amp;magic_cookie=d7d3719b54fe0fd197a4f110ef7ba426">Espa&#241;ol</a></li>
+			<li><a href="http://www.flickr.com/change_language.gne?lang=fr-fr&amp;magic_cookie=d7d3719b54fe0fd197a4f110ef7ba426">Fran&#231;ais</a></li>
+			<li><a href="http://www.flickr.com/change_language.gne?lang=ko-kr&amp;magic_cookie=d7d3719b54fe0fd197a4f110ef7ba426" class="image_link" id="lang_ko-kr"><img src="../l.yimg.com/g/images/spaceout.gif" width="23" height="13" id="langselect_ko-kr" alt="한글"></a></li>
+			<li><a href="http://www.flickr.com/change_language.gne?lang=it-it&amp;magic_cookie=d7d3719b54fe0fd197a4f110ef7ba426">Italiano</a></li>
+			<li><a href="http://www.flickr.com/change_language.gne?lang=pt-br&amp;magic_cookie=d7d3719b54fe0fd197a4f110ef7ba426">Portugu&#234;s</a></li>
+			<li><a href="http://www.flickr.com/change_language.gne?lang=vn-vn&amp;magic_cookie=d7d3719b54fe0fd197a4f110ef7ba426">Tiếng Việt</a></li>			<li class="last"><a href="http://www.flickr.com/change_language.gne?lang=id-id&amp;magic_cookie=d7d3719b54fe0fd197a4f110ef7ba426">Bahasa Indonesia</a></li>					</ul>
+			</div>
+			<div id="foot-legalsleeze">
+				<div>
+					<a href="http://www.flickr.com/terms.gne">Terms of Use</a> <span style="color: #eee;">|</span> 
+					<a href="http://www.flickr.com/privacy_policy.gne">Your privacy</a> <span style="color: #eee;">|</span>
+					<a href="http://safely.yahoo.com">Yahoo! Safely</a>					 <span style="color: #eee;">|</span> <a href="http://docs.yahoo.com/info/copyright/copyright.html">Copyright/IP Policy</a>				</div>
+				<div>
+					Copyright &copy; 2011 Yahoo! Inc. All rights reserved.				</div>
+			</div>
+				</div>
+	</div>
+	 <div id="global-dialog-background"></div>
+
+
+
+
+
+<div id="page-gen"><!-- page generated by www56 (in mud) at 14:59:58 12/02/11 in 53ms --></div>
+
+
+ 
+
+
+
+
+			
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<script>
+	(function() {
+				
+
+	
+		
+	
+F.intl = 'en-us';
+
+var yconf = {"flickr":{"flags":{"enable_grease":true,"enable_advanced_gestures":true,"enable_advanced_gestures_lightbox":true,"enable_fave_keyboard_shortcut":true,"enable_sets_keyboard_shortcut":true,"enable_faves_manage":true,"enable_galleries_context":true,"enable_rapid_tracking":true,"enable_groups_keyboard_shortcut":true,"enable_gallery_keyboard_shortcut":true,"enable_addperson_keyboard_shortcut":true,"enable_tags_keyboard_shortcut":true,"enable_comments_keyboard_shortcut":true,"enable_sitekey_fetcher":true,"enable_keyboard_shortcut_legend":true,"enable_keyboard_shortcut_legend_keyboard_layouts":true,"enable_keyboard_shortcuts":true,"enable_faves_page_flanal":true,"enable_viewing_party_ie9_support_messages":true,"enable_touch_lightbox_searchified":true,"enable_exif_thumbs":true},"is_zeus":true,"lang":"en-us","photo_root":"http:\/\/farm.staticflickr.com\/","site_root":"http:\/\/www.flickr.com","images_root":"http:\/\/l.yimg.com\/g\/images","intl_images_root":"http:\/\/l.yimg.com\/g\/images\/en-us","search":{"search_default":"","textsearch_enabled":true,"search_scope":"all"},"photos":[],"contact_limit":3000,"server_timestamp":1322866798,"magic_cookie":"d7d3719b54fe0fd197a4f110ef7ba426","filmstrips":{"preload_page_count":2,"photos_per_page":4,"container":"#sidebar"},"notes":{"can_add_note":false,"can_add_person":false,"ratio":0,"count":0,"max_count":100},"video_player_version":"109786","lightbox":{"enable":false,"enable_comments":true,"node_prune_threshold":50,"node_prune_amount":10,"position_preload_limit":10,"position_preload_threshold":5,"image_preload_limit":2,"hd_default":false,"video_autoplay":true,"enable_mobile_lightbox":true,"enable_mobile_lightbox_pinch_zoom":true},"max_photo_ids_per_api_call":20,"iphone_debug":{"url":"$$$www.flickr.com\/guidelines.gneheader:$$$"},"user":{"user_ok":false,"useragent_fully_supported":true},"printing":{"use_printcart":true,"snapfish_cart_url":"http:\/\/www.snapfish.com\/flickrentry\/"},"sharing":[],"nav_selecta":{"additional_sections":[{"name":"Terms of Use","sectionType":"text","url":"\/terms.gne"},{"name":"Your Privacy","sectionType":"text","url":"\/privacy_policy.gne"},{"name":"Copyright\/IP Policy","sectionType":"text","url":"http:\/\/docs.yahoo.com\/info\/copyright\/copyright.html"}]},"people":{"api_url":"","can_only_add_self":true}},"flickrAPI":{"flickr_api_uri":"\/services\/rest\/","api_key":"36339f1f49d7d8cb69b64ae9e4dcb6c6","auth_hash":"d7d3719b54fe0fd197a4f110ef7ba426","auth_token":"","secret":"8eb19aa38fc01b19"},"flickrMap":{"generatedInYconf":true,"enable_alternate_tiles_plugin":1,"enable_albi":true},"yui2":"2.5.2","loadOptional":false,"combine":true,"root":"","base":"http:\/\/l.yimg.com\/g\/combo\/1\/3.4.0?","comboBase":"http:\/\/l.yimg.com\/g\/combo\/1\/3.4.0?","workerBase":"\/combo\/1\/3.4.0?","maxURLLength":1999,"dev":false,"debug":false,"modules":{"account-order-transjax":{"path":"j\/.IR-order-.C-.F.A.vYVDe","requires":["transjax-base","yui-base"],"ext":false},"account-order-zeus":{"path":"j\/.IR-order-.D.A.vYZii","requires":["yui-base","io-base","account-order-transjax"],"ext":false},"account-rules":{"path":"j\/.IR-rules.A.vY7UT","requires":["dd-constrain","dd-drop","dd-proxy","event","flickr-dialog-confirmation","gallery-flickr-api","node","yui-base"],"ext":false},"ad-masker":{"path":"j\/ad-masker.A.vUFeR","requires":["context-manager","node","yui-base"],"ext":false},"add-to-dialog-css":{"path":"c\/c_add-to-.W-.D.BC.vYjx2","type":"css","ext":false},"addressbook":{"path":"j\/.HE.A.vYV3K","requires":["better-throttle","event","gallery-flickr-api","io","node","yui-base"],"ext":false},"autocomplete-2-5-1":{"path":"j\/.CM\/.BA_2.5.1-.D.A.vPzup","requires":["yui2-datasource","yui2-dom","yui2-event","yui2-yahoo"],"ext":false},"beehive-contact-suggestions":{"path":"j\/.IT-.FF-.IL.A.vRpjk","requires":["anim","beehive-contact-suggestions-transjax","contact-changer","gallery-flickr-api","node","yui-base"],"ext":false},"beehive-contact-suggestions-transjax":{"path":"j\/.IT-.FF-.IL-.C-.F.A.vR9sg","requires":["transjax-base","yui-base"],"ext":false},"better-throttle":{"path":"j\/.EH-.EB.A.vWJ4e","requires":["yui-base","yui-later"],"ext":false},"bitmap-text":{"path":"j\/.Z-.DK-.D.A.vLQEk","requires":["yui-base"],"ext":false},"bitmap-type-silkscreen":{"path":"j\/.Z-.DJ-.BJ.A.vLQEk","requires":["yui-base"],"ext":false},"box-host":{"path":"j\/box-.DG.A.vU69g","requires":["event-mousedrag","math","node","yui-base"],"ext":false},"bo-selecta":{"path":"j\/.HO-.D.A.vTn7k","requires":["anim","autocomplete-2-5-1","bo-selecta-css","bo-selecta-transjax","event","event-custom","gallery-flickr-api","io-base","node","yui-base"],"ext":false},"bo-selecta-3":{"path":"j\/.HO-3.A.vXW4z","requires":["anim","autocomplete","bo-selecta-3-css","bo-selecta-global-search-datasource","bo-selecta-transjax","datasource-function","event","event-custom","gallery-flickr-api","image-fader","io-base","node","string-filters","yui-base"],"optional":["contact-changer"],"ext":false},"bo-selecta-css":{"path":"c\/c_.HO-.D.BC.vSJiR","type":"css","ext":false},"bo-selecta-3-css":{"path":"c\/c_.HO-3.BC.vX3iR","type":"css","ext":false},"bo-selecta-global-search-datasource":{"path":"j\/.HO-.X-.CA-.BYsource.A.vSXAx","requires":["bo-selecta-transjax","datasource-local","gallery-flickr-api","yui-base"],"ext":false},"bo-selecta-transjax":{"path":"j\/.HO-.C-.F.A.vT2dT","requires":["transjax-base","yui-base"],"ext":false},"cache-simple":{"path":"j\/.EJ-.GK.A.vS6ot","requires":["yui-base"],"ext":false},"contact-changer":{"path":"j\/.FF-.FG-.D.A.vXp7K","requires":["contact-changer-css","contact-changer-transjax","event-custom","event-delegate","gallery-flickr-api","global-dialog","io-base","yui-base"],"ext":false},"contact-changer-css":{"path":"c\/c_.FF-.FG-.D.BC.vQmm8","type":"css","ext":false},"contact-changer-transjax":{"path":"j\/.FF-.FG-.C-.F.A.vLptZ","requires":["transjax-base","yui-base"],"ext":false},"context-data":{"path":"j\/.H-.BY.A.vZ158","requires":["event-custom","gallery-flickr-api","photo-data","urls","yui-base"],"ext":false},"context-manager":{"path":"j\/.H-.K.A.vUjR6","requires":["event-custom","yui-base"],"ext":false},"dataview":{"path":"j\/.BYview.A.vY5eH","requires":["yui-base"],"ext":false},"defer-images":{"path":"j\/.GI-.GC.A.vYzug","requires":["node-visibility","retry-image-on-error","yui-base"],"ext":false},"dejaview":{"path":"j\/.BZ-.D.A.vNstH","requires":["cookie","yui-base"],"ext":false},"exif-extractor":{"path":"j\/.GO-.IN.A.vYnFM","requires":["exif-extractor-tags","yui-base"],"ext":false},"exif-extractor-tags":{"path":"j\/.GO-.IN-tags.A.vY5eH","requires":["yui-base"],"ext":false},"exif-thumbnail-extractor":{"path":"j\/.GO-.IM-.IN.A.vWJcR","requires":["yui-base"],"ext":false},"event-annotations":{"path":"j\/.G-.BD.A.vNHSP","requires":["yui-base"],"ext":false},"event-mousedrag":{"path":"j\/.G-.BO.A.vWNQP","requires":["event-annotations","event-custom-complex","event-synthetic","node","yui-base","yui-throttle"],"ext":false},"fave-star":{"path":"j\/.CX-.CY.A.vYjx2","requires":["anim","node","yui-base"],"ext":false},"flanal":{"path":"j\/.IU.A.vWvCx","requires":["yui-base"],"optional":["io"],"ext":false},"flapid":{"path":"j\/flapid.A.vT5pn","requires":["gallery-flickr-api","yui-base"],"ext":false},"flickr":{"path":"j\/.J-.D.A.vXp7K","requires":["flickr-tooltips","personmenu","yui-base"],"optional":["gallery-flickr-api","share-this-v3-menu"],"ext":false},"flickr-dialog":{"path":"j\/.IZ.A.vXokV","requires":["flickr-dialog-alert","flickr-dialog-confirmation","flickr-dialog-frame","flickr-dialog-short-message","flickr-dialog-spinner","yui-base"],"ext":false},"flickr-dialog-alert":{"path":"j\/.IZ-alert.A.vYz1F","requires":["flickr-dialog-base","substitute","yui-base"],"ext":false},"flickr-dialog-base":{"path":"j\/.IZ-.BL.A.vYuZV","requires":["attribute","better-throttle","context-manager","event","event-custom","focus-tracker","flickr-dialog-css","global-dialog-transjax","keyboard-shortcut-manager","node","substitute","yui-base"],"ext":false},"flickr-dialog-confirmation":{"path":"j\/.IZ-confirmation.A.vYzPe","requires":["flickr-dialog-base","substitute","yui-base"],"ext":false},"flickr-dialog-css":{"path":"c\/c_.IZ.BC.vYdRH","type":"css","ext":false},"flickr-dialog-frame":{"path":"j\/.IZ-frame.A.vXqP2","requires":["flickr-dialog-base","yui-base"],"ext":false},"flickr-dialog-geo-css":{"path":"c\/c_.IZ-geo.BC.vZ1c2","type":"css","ext":false},"flickr-dialog-geo":{"path":"j\/.IZ-geo.A.vYRs8","requires":["flickr-dialog-base","flickr-dialog-geo-css","flickr-map2","yui-base"],"ext":false},"flickr-dialog-short-message":{"path":"j\/.IZ-short-message.A.vYz1F","requires":["flickr-dialog-base","substitute","yui-base"],"ext":false},"flickr-dialog-spinner":{"path":"j\/.IZ-spinner.A.vXUzn","requires":["flickr-dialog-base","yui-base"],"ext":false},"flickr-gallery-comments":{"path":"j\/.J-.FW-.O.A.vY4GF","requires":["anim","anim-scroll","context-manager","dejaview","event-custom","event-delegate","formatting-tips-css","gallery-flickr-api","global-dialog","history-manager","input-hint","io-form","node","node-visibility","photo-comments-transjax","swfobject","yui-base"],"ext":false},"flickr-gallery-gallery-owner":{"path":"j\/.J-.FW-.FW-.BK.A.vVtRi","requires":["dd-drop","dd-proxy","event","flickr-gallery-gallery-owner-transjax","flickr-gallery-photo-remover","insitu","node","yui-base"],"ext":false},"flickr-gallery-gallery-owner-actions-menu":{"path":"j\/.J-.FW-.FW-.BK-.IS-.BB.A.vVtRi","requires":["event","gallery-popover","menus","node","yui-base"],"optional":["flickr-gallery-gallery-owner"],"ext":false},"flickr-gallery-gallery-owner-transjax":{"path":"j\/.J-.FW-.FW-.BK-.C-.F.A.vUnPv","requires":["transjax-base","yui-base"],"ext":false},"flickr-gallery-keyboard-shortcuts":{"path":"j\/.J-.FW-.HZs.A.vXp7K","requires":["anim","anim-scroll","better-throttle","event","flickr-gallery-keyboard-shortcuts-transjax","keyboard-shortcut-manager","node","node-visibility","yui-base"],"ext":false},"flickr-gallery-keyboard-shortcuts-transjax":{"path":"j\/.J-.FW-.HZs-.C-.F.A.vUDUg","requires":["transjax-base","yui-base"],"ext":false},"flickr-gallery-photo-owner":{"path":"j\/.J-.FW-.B-.BK.A.vVtRi","requires":["event","flickr-gallery-photo-remover","node","yui-base"],"ext":false},"flickr-gallery-photo-remover":{"path":"j\/.J-.FW-.B-.IP.A.vUurZ","requires":["event","flickr-gallery-photo-remover-transjax","gallery-flickr-api","global-dialog","node","yui-base"],"ext":false},"flickr-gallery-photo-remover-transjax":{"path":"j\/.J-.FW-.B-.IP-.C-.F.A.vUioB","requires":["transjax-base","yui-base"],"ext":false},"flickr-geo":{"path":"j\/.J-geo.A.vYsez","requires":["io","yui-base"],"ext":false},"flickr-location-search":{"path":"j\/.J_.BR_.CA.A.vTd1K","requires":["event","node","query-string-args","yui-base"],"ext":false},"flickr-map":{"path":"j\/.J-map.A.vXWLX","requires":["flickr-map-transjax","base","selector-css3","slider","gallery-flickr-api","photo","dragdrop","dd-drag","flickr-map-css","flickr-map-css-intl","excanvas","json","gallery-storage-lite","better-throttle","selector-circle","yui-base"],"ext":false},"flickr-map2":{"path":"j\/.J-map2.A.vYMFa","requires":["flickr-map-transjax","base","selector-css3","slider","dragdrop","dd-drag","flickr-map-css","cookie","context-manager","keyboard-shortcut-manager","flickr-geo","yui-base","event"],"ext":false},"flickr-map-provider-ymap":{"path":"j\/.J-.IK-ymap.A.vYKjX","requires":["ymap","yui-base","yui2_5-yahoo","yui2_5-event","yui2_5-dom","yui2_5-animation","yui2_5-dragdrop"],"ext":false},"flickr-map-provider-bing":{"path":"j\/.J-.IK-bing.A.vRygi","requires":["bing_map","yui-base"],"ext":false},"flickr-map-provider-ovi":{"path":"j\/.J-.IK-ovi.A.vYEU4","requires":["yui-base"],"ext":false},"flickr-map-transjax":{"path":"j\/.J-map-.C-.F.A.vWtSP","requires":["transjax-base","yui-base"],"ext":false},"flickr-map-css":{"path":"c\/c_.J-map.BC.vYMFa","type":"css","ext":false},"flickr-map-css-intl":{"path":"c\/c_.J-map-.F.BC.vPfWx","type":"css","ext":false},"flickr-nav":{"path":"j\/.J_nav.A.vY9sx","requires":["event","node","context-manager","yui-base"],"ext":false},"flickr-page-timing":{"path":"j\/.J_.GF_.FZ.A.vVz5K","requires":["event","node","yui-base"],"ext":false},"flickr-printing":{"path":"j\/.J_.FD.A.vU6PV","requires":["node","event","io","gallery-flickr-api","event-delegate","global-dialog","sprintf","flickr-printing-css","flickr-printing-transjax","flickr-tooltips","yui-base"],"ext":false},"flickr-printing-css":{"path":"c\/c_.J_.FD_.D.BC.vMaXi","type":"css","ext":false},"flickr-printing-transjax":{"path":"j\/.J_.FD-.C-.F.A.vNwWk","requires":["transjax-base","yui-base"],"ext":false},"flickr-tagrs":{"path":"j\/.BF_.D.A.vYiBz","requires":["event","event-delegate","flickr-tagrs-transjax","node","node-visibility","photo","query-string-args","yui-base"],"ext":false},"flickr-tagrs-transjax":{"path":"j\/.BF_.D-.C-.F.A.vPGYT","requires":["transjax-base","yui-base"],"ext":false},"flickr-tooltips":{"path":"j\/.J-.GA.A.vThpV","requires":["event","event-delegate","yui-base"],"ext":false},"focus-tracker":{"path":"j\/.CV-.CH.A.vYkvV","requires":["event","node","yui-base"],"ext":false},"formatting-tips-css":{"path":"c\/c_.EN_.EQ_.D.BC.vPVcv","type":"css","ext":false},"gallery-boomr":{"path":"j\/.FW-boomr.A.vS9eZ","requires":["lang","yui-base"],"ext":false},"gallery-calendar":{"path":"j\/.FW-.IO.A.vXyke","requires":["gallery-calendar-transjax","gallery-popover","node","yui-base"],"ext":false},"gallery-calendar-transjax":{"path":"j\/.FW-.IO-.C-.F.A.vXh6R","requires":["transjax-base","yui-base"],"ext":false},"gallery-flickr-api":{"path":"j\/.J_api.A.vXSJt","requires":["dump","event","io-xdr","json-parse","yui-base"],"ext":false},"gallery-history-lite":{"path":"j\/.FW-.CE-.GH.A.vL4ii","requires":["event-custom","event-custom-complex","node","yui-base"],"ext":false},"gallery-popover":{"path":"j\/.FW-.HN.A.vVxeR","requires":["event-custom","node","overlay","yui-base"],"ext":false},"gallery-storage-lite":{"path":"j\/.FW-.FX-.GH.A.vTo7X","requires":["event-base","event-custom","event-custom-complex","json","yui-base"],"ext":false},"geo-exif-backfill-transjax":{"path":"j\/geo-.GO-.IF-.C-.F.A.vXkca","requires":["transjax-base","yui-base"],"ext":false},"geofences-geopanel-css":{"path":"c\/c_.IA-.IB.BC.vXjHz","type":"css","ext":false},"geofences-geopanel-transjax":{"path":"j\/.IA-.IB-.C-.F.A.vXjvv","requires":["transjax-base","yui-base"],"ext":false},"geofences-geopanel":{"path":"j\/.IA-.IB.A.vXXKR","requires":["geofences-geopanel-transjax","geofences-geopanel-css","geopanel","global-dialog","map-pinwin","yui-base"],"ext":false},"geofences":{"path":"j\/.IA.A.vWZSt","requires":["base","yui-base"],"optional":["gallery-flickr-api"],"ext":false},"geofences-apply-panel":{"path":"j\/.IA.IE.IC.A.vXjvv","requires":["anim","event","event-custom","gallery-flickr-api","geofences","geofences-transjax","global-dialog","io","node","node-visibility","yui-base"],"optional":["geofences-geopanel"],"ext":false},"geofences-apply-progress":{"path":"j\/.IA.IE.ID.A.vXa5X","requires":["better-throttle","event-custom","gallery-flickr-api","geofences","yui-base"],"ext":false},"geofences-list-view":{"path":"j\/.IA-.CZ-view.A.vX1fT","requires":["better-throttle","event","event-custom","geofences-geopanel","geofences","geofences-apply-panel","geofences-apply-progress","global-dialog","io","node","yui-base"],"optional":["anim"],"ext":false},"geofences-prefs-map":{"path":"j\/.IA-prefs-map.A.vXW18","requires":["node","event","css3pie","flickr-map","geofences","geofences-transjax","geofences-prefs-map-transjax","map-pinwin","yui-base"],"ext":false},"geofences-prefs-map-transjax":{"path":"j\/.IA-prefs-map-.C-.F.A.vWmDR","requires":["transjax-base","yui-base"],"ext":false},"geofences-transjax":{"path":"j\/.IA-.C-.F.A.vX5dc","requires":["transjax-base","yui-base"],"ext":false},"geopanel-css":{"path":"c\/c_.IB.BC.vXjM2","type":"css","ext":false},"geopanel":{"path":"j\/.IB.A.vXBn6","requires":["event","global-dialog","geopanel-css","yui-base"],"optional":["autocomplete-2-5-1","flickr-map","gallery-flickr-api"],"ext":false},"getty":{"path":"j\/.FI_new.A.vT8GK","requires":["anim","dom","event","gallery-flickr-api","node","yui-base"],"ext":false},"global-dialog":{"path":"j\/.X-.W-.D.A.vXp7K","requires":["context-manager","event","event-custom","event-delegate","event-key","focus-tracker","global-dialog-css","global-dialog-transjax","keyboard-shortcut-manager","node","yui-base"],"ext":false},"global-dialog-css":{"path":"c\/c_.X-.W-.D.BC.vWdtH","type":"css","ext":false},"global-dialog-transjax":{"path":"j\/.X-.W-.C-.F.A.vKPQg","requires":["transjax-base","yui-base"],"ext":false},"global-nav":{"path":"j\/.X-nav.A.vXZNP","requires":["context-manager","event","gallery-flickr-api","gallery-storage-lite","io","node","substitute","yui-base"],"ext":false},"group-blast-insitu":{"path":"j\/.DM-blast-.DT.A.vUvsB","requires":["event","insitu","node","string-filters","yui-base"],"ext":false},"guestpass-hide":{"path":"j\/.DZ-.ET.A.vVdVM","requires":["anim","cookie","node","yui-base"],"ext":false},"grease":{"path":"j\/.HQ.A.vXp7K","requires":["event-focus","gallery-flickr-api","gallery-storage-lite","global-dialog","json","node","occult","photo-data","yui-base"],"ext":false},"grease-css":{"path":"c\/c_.HQ.BC.vRy2v","type":"css","ext":false},"history-manager":{"path":"j\/.CE-.K.A.vYQpM","requires":["event","urls","yui-base"],"ext":false},"image-fader":{"path":"j\/.CW-.CU.A.vQ7Rn","requires":["anim","node","yui-base"],"ext":false},"input-hint":{"path":"j\/.CN-.DD.A.vSXbp","requires":["event-focus","focus-tracker","node","yui-base"],"ext":false},"input-counter":{"path":"j\/.CN-counter.A.vUvzv","requires":["event","node","yui-base"],"ext":false},"india-disclaimer":{"path":"j\/.IH.A.vRTt6","requires":["event","global-dialog","io-base","node","yui-base"],"ext":false},"insitu":{"path":"j\/.DT-.D.A.vYoMz","requires":["input-counter","dejaview","event-custom","event-key","gallery-flickr-api","insitu-transjax","json-stringify","node","string-filters","substitute","yui-base"],"optional":["anim","anim-scroll","io","photo-data"],"ext":false},"insitu-transjax":{"path":"j\/.DT-.C-.F.A.vTQBa","requires":["transjax-base","yui-base"],"ext":false},"keyboard-shortcut-legend":{"path":"j\/.HZ-.HY.A.vYgRR","requires":["better-throttle","context-manager","cookie","gallery-flickr-api","global-dialog","keyboard-shortcut-legend-css","keyboard-shortcut-legend-layouts","keyboard-shortcut-legend-transjax","yui-base"],"ext":false},"keyboard-shortcut-legend-css":{"path":"c\/c_.HZ-.HY.BC.vYjx2","type":"css","ext":false},"keyboard-shortcut-legend-layouts":{"path":"j\/.HZ-.HY-layouts.A.vYgFv","requires":["keyboard-shortcut-legend-transjax","yui-base"],"ext":false},"keyboard-shortcut-legend-transjax":{"path":"j\/.HZ-.HY-.C-.F.A.vYgTz","requires":["transjax-base","yui-base"],"ext":false},"keyboard-shortcut-manager":{"path":"j\/.HZ-.K.A.vXp7K","requires":["context-manager","event-custom","event-focus","event-key","focus-tracker","keyboard-shortcut-legend","node","yui-base"],"optional":["photo-people-list"],"ext":false},"lightbox":{"path":"j\/.N.A.vYV3K","requires":["anim","better-throttle","context-data","context-manager","cookie","node","event-annotations","event-custom","event-delegate","event-gestures","event-key","fave-star","gallery-flickr-api","history-manager","json","keyboard-shortcut-manager","lightbox-transjax","node-visibility","photo-context-menu","photo-transjax","photo-ywa-tracking","string-filters","swfobject","transition","urls","yui-base","yui-throttle"],"optional":["global-dialog","search-results-display-transjax"],"ext":false},"lightbox-transjax":{"path":"j\/.N-.C-.F.A.vYDpR","requires":["transjax-base","yui-base"],"ext":false},"location-selecta-css":{"path":"c\/c_.BR-.S.BC.vYRs8","type":"css","ext":false},"location-selecta":{"path":"j\/.BR-.S.A.vZ1c2","requires":["location-selecta-css","keyboard-shortcut-manager","flickr-geo","event","yui-base"],"ext":false},"mail-zeus":{"path":"j\/mail-.D.A.vYGeD","requires":["mail-zeus-transjax","flickr-dialog-confirmation","event","node","yui-base"],"ext":false},"mail-zeus-transjax":{"path":"j\/mail-.D-.C-.F.A.vYCR6","requires":["transjax-base","yui-base"],"ext":false},"map-pinwin":{"path":"j\/map-.IV.A.vYzkD","requires":["map-pinwin-css","string-filters","yui-base"],"ext":false},"map-pinwin-css":{"path":"c\/c_map-.IV.BC.vWsVD","type":"css","ext":false},"math":{"path":"j\/.DL.A.vLPjK","requires":["yui-base"],"ext":false},"matrix-math":{"path":"j\/matrix-.DL.A.vVRWk","requires":["yui-base"],"ext":false},"md5":{"path":"j\/md5-.D.A.vXTyK","ext":false},"menus":{"path":"j\/.BBs.A.vWxVi","requires":["base","context-manager","event","event-custom","gallery-popover","keyboard-shortcut-manager","node","yui-base"],"ext":false},"motion-blur":{"path":"j\/motion-blur.A.vUD1x","requires":["node","transition","yui-base"],"ext":false},"nav-selecta":{"path":"j\/nav-.S.A.vYV3K","requires":["bo-selecta-3","keyboard-shortcut-manager","nav-selecta-css","nav-selecta-transjax","nav-selecta-rapid","node","yui-base"],"ext":false},"nav-selecta-css":{"path":"c\/c_nav-.S.BC.vU1RZ","type":"css","ext":false},"nav-selecta-transjax":{"path":"j\/nav-.S-.C-.F.A.vXQog","requires":["transjax-base","yui-base"],"ext":false},"nav-selecta-rapid":{"path":"j\/nav-.S-.IY.A.vXaDH","requires":["event","rapid-tracker","yui-base"],"ext":false},"node-visibility":{"path":"j\/.CR-.DY.A.vTf1g","requires":["better-throttle","cache-simple","node","node-pluginhost","yui-base"],"optional":["anim","anim-scroll"],"ext":false},"note-data":{"path":"j\/note-.BY.A.vRjAc","requires":["base","person-data","yui-base"],"ext":false},"number":{"path":"j\/.Y.A.vSPs8","requires":["number-transjax","yui-base"],"ext":false},"number-transjax":{"path":"j\/.Y-.C-.F.A.vNqGg","requires":["transjax-base","yui-base"],"ext":false},"occult":{"path":"j\/.CF.A.vNC2a","requires":["node","yui-base"],"ext":false},"pagination-keyboard-shortcuts":{"path":"j\/.EG-.HZs.A.vXp7K","requires":["keyboard-shortcut-manager","node","pagination-keyboard-shortcuts-transjax","yui-base"],"ext":false},"pagination-keyboard-shortcuts-transjax":{"path":"j\/.EG-.HZs-.C-.F.A.vUYz2","requires":["transjax-base","yui-base"],"ext":false},"person-data":{"path":"j\/.FK-.BY.A.vRjAc","requires":["base","yui-base"],"ext":false},"personmenu":{"path":"j\/.CB-.D.A.vYCj4","requires":["anim","anim-scroll","cache-simple","event-custom","io-base","node","node-visibility","personmenu-css","personmenu-transjax","personmenu-rapid","yui-base"],"optional":["contact-changer"],"ext":false},"personmenu-css":{"path":"c\/c_.CB-.D.BC.vYjx2","type":"css","ext":false},"personmenu-transjax":{"path":"j\/.CB-.C-.F.A.vNwWk","requires":["transjax-base","yui-base"],"ext":false},"personmenu-rapid":{"path":"j\/.CB-.IY.A.vXcL8","requires":["event","rapid-tracker","yui-base"],"ext":false},"photo":{"path":"j\/.B-.D.A.vYUXz","requires":["context-data","context-manager","event-annotations","event-custom","event-delegate","event-key","event-mousedrag","event-mouseenter","focus-tracker","global-dialog","history-manager","keyboard-shortcut-manager","math","occult","photo-button-bar","photo-comments","photo-context-menu","photo-data","photo-filmstrip","photo-keyboard-shortcuts","photo-notes","photo-sidebar","photo-ywa-tracking","retry-image-on-error","lightbox","yahoo-ult","yui-base"],"ext":false},"photo-button-bar":{"path":"j\/.B-.T-bar.A.vYUXz","requires":["add-to-dialog-css","context-data","context-manager","event","event-custom","event-delegate","event-key","fave-star","focus-tracker","gallery-flickr-api","gallery-popover","global-dialog","keyboard-shortcut-manager","menus","node","node-event-simulate","photo-button-bar-transjax","photo-people-list","urls","yui-base"],"optional":["flickr-printing","photo-notes","photo-replace","photo-rotate","picnik"],"ext":false},"photo-button-bar-transjax":{"path":"j\/.B-.T-bar-.C-.F.A.vVrBZ","requires":["transjax-base","yui-base"],"ext":false},"photo-comments":{"path":"j\/.B-.O.A.vYmnV","requires":["anim","anim-scroll","context-manager","dejaview","event-custom","event-delegate","formatting-tips-css","gallery-flickr-api","global-dialog","history-manager","input-hint","io-form","node","node-visibility","photo-comments-transjax","photo-data","swfobject","yui-base"],"optional":["insitu"],"ext":false},"photo-comments-image-hiding":{"path":"j\/.B-.O-.CW-hiding.A.vTJvH","requires":["node","yui-base"],"ext":false},"photo-comments-transjax":{"path":"j\/.B-.O-.C-.F.A.vWuo8","requires":["transjax-base","yui-base"],"ext":false},"photo-context-menu":{"path":"j\/.B-.H-.BB.A.vVk7p","requires":["event","node","photo","photo-context-menu-css","photo-context-menu-transjax","photo-data","urls","yui-base"],"ext":false},"photo-context-menu-css":{"path":"c\/c_.B-.H-.BB.BC.vNzuB","type":"css","ext":false},"photo-context-menu-transjax":{"path":"j\/.B-.H-.BB-.C-.F.A.vQvrH","requires":["transjax-base","yui-base"],"ext":false},"photo-data":{"path":"j\/.B-.BY.A.vY4jg","requires":["anim","base","cookie","event","gallery-flickr-api","grease","node","photo-transjax","urls","yui-base"],"ext":false},"photo-filmstrip":{"path":"j\/.B-.M.A.vZ158","requires":["anim","base","better-throttle","context-data","context-manager","event","event-custom","event-delegate","event-key","focus-tracker","global-dialog","image-fader","io","keyboard-shortcut-manager","node","number","photo-button-bar-transjax","photo-data","photo-filmstrip-transjax","retry-image-on-error","string-filters","transition","urls","yui-base"],"ext":false},"photo-filmstrip-transjax":{"path":"j\/.B-.M-.C-.F.A.vVkjt","requires":["transjax-base","yui-base"],"ext":false},"photo-geolocation":{"path":"j\/.B-.R.A.vXW18","requires":["context-manager","global-dialog","photo","photo-geolocation-transjax","yui-base"],"optional":["autocomplete-2-5-1","flickr-map","gallery-flickr-api","photo-geolocation-css"],"ext":false},"photo-geolocation-transjax":{"path":"j\/.B-.R-.C-.F.A.vXt8v","requires":["transjax-base","yui-base"],"ext":false},"photo-geolocation-css":{"path":"c\/c_.B-.R.BC.vVSAg","type":"css","ext":false},"photo-geopanel":{"path":"j\/.B-.IB.A.vYYRr","requires":["yui-base"],"ext":false},"photo-group-invites":{"path":"j\/.B-.DM-.CO.A.vTKhx","requires":["context-data","gallery-flickr-api","global-dialog","node","photo","photo-group-invites-transjax","yui-base"],"ext":false},"photo-group-invites-transjax":{"path":"j\/.B-.DM-.CO-.C-.F.A.vU8j8","requires":["transjax-base","yui-base"],"ext":false},"photo-insitu":{"path":"j\/.B-.DT.A.vVuve","requires":["insitu","photo","photo-data","photo-transjax","yui-base"],"ext":false},"photo-keyboard-shortcuts":{"path":"j\/.B-.HZs.A.vY4aD","requires":["context-manager","cookie","event-focus","event-key","event-simulate","focus-tracker","keyboard-shortcut-manager","node","photo-keyboard-shortcuts-transjax","yui-base"],"optional":["photo-people-list"],"ext":false},"photo-keyboard-shortcuts-transjax":{"path":"j\/.B-.HZs-.C-.F.A.vUJeZ","requires":["transjax-base","yui-base"],"ext":false},"photo-map-display-pinwin-css":{"path":"c\/c_.B-map-.IQ-.IV.BC.vYzkD","type":"css","ext":false},"photo-map-display-pinwin":{"path":"j\/.B-map-.IQ-.IV.A.vYzkD","requires":["flickr-geo","map-pinwin","base","photo-map-display-pinwin-css","yui-base"],"ext":false},"photo-notes":{"path":"j\/.B-.BE-.D.A.vYoUt","requires":["better-throttle","bo-selecta-3","bo-selecta-transjax","box-host","event","event-annotations","event-delegate","focus-tracker","gallery-flickr-api","global-dialog","node","node-visibility","photo-notes-transjax","photo-people-controller","photo-people-transjax","string-filters","yui-base"],"optional":["note-data"],"ext":false},"photo-notes-transjax":{"path":"j\/.B-.BE-.C-.F.A.vYpcH","requires":["transjax-base","yui-base"],"ext":false},"photo-owner-dialogs-css":{"path":"c\/c_.B-.BK-.EO-.D.BC.vSewT","type":"css","ext":false},"photo-people-controller":{"path":"j\/.HX-.BH.A.vXW4z","requires":["event","gallery-flickr-api","dejaview","photo-people-transjax","yui-base"],"ext":false},"photo-people-list":{"path":"j\/.HX-.CZ.A.vXW4z","requires":["anim","bo-selecta-3","event-delegate","global-dialog","node-visibility","photo","photo-people-controller","photo-people-transjax","yui-base"],"optional":["photo-notes"],"ext":false},"photo-people-transjax":{"path":"j\/.HX-.C-.F.A.vNxQ4","requires":["transjax-base","yui-base"],"ext":false},"photo-preloader":{"path":"j\/.B-.FJ.A.vPr22","requires":["context-data","event","yui-base"],"ext":false},"photo-replace":{"path":"j\/.B-.GQ.A.vYKyK","requires":["event","global-dialog","io","node","yui-base"],"optional":["flanal","worker"],"ext":false},"photo-rotate":{"path":"j\/.B-.GE.A.vVgG8","requires":["anim","event","gallery-flickr-api","node","photo","photo-data","photo-rotate-css","photo-rotate-transjax","yui-base"],"ext":false},"photo-rotate-css":{"path":"c\/c_.B-.GE.BC.vYx5B","type":"css","ext":false},"photo-rotate-transjax":{"path":"j\/.B-.GE-.C-.F.A.vPnbB","requires":["transjax-base","yui-base"],"ext":false},"photo-session-marketing":{"path":"j\/.IJ-marketing.A.vXAyx","requires":["event","gallery-flickr-api","global-dialog","node","viewing-party-invitation-creator-transjax","yahoo-web-analytics","yui-base"],"ext":false},"photo-sidebar":{"path":"j\/.HV.A.vY4aD","requires":["anim","bitmap-text","bitmap-type-silkscreen","event-custom","event-delegate","excanvas","flapid","gallery-flickr-api","node","node-visibility","photo-data","photo-sidebar-transjax","stylesheet","yui-base"],"ext":false},"photo-sidebar-transjax":{"path":"j\/.HV-.C-.F.A.vPKTR","requires":["transjax-base","yui-base"],"ext":false},"photo-sidebar-not-owner":{"path":"j\/.HV-.HW.A.vXfLg","requires":["gallery-flickr-api","global-dialog","photo-owner-dialogs-css","photo-sidebar","photo-sidebar-not-owner-transjax","yui-base"],"ext":false},"photo-sidebar-not-owner-transjax":{"path":"j\/.HV-.HW-.C-.F.A.vNwZM","requires":["transjax-base","yui-base"],"ext":false},"photo-sidebar-owner":{"path":"j\/.HV-.BK.A.vXhQX","requires":["better-throttle","context-manager","event-custom","gallery-flickr-api","global-dialog","photo-owner-dialogs-css","photo-data","photo-sidebar","photo-sidebar-owner-transjax","yui-base"],"ext":false},"photo-sidebar-owner-transjax":{"path":"j\/.HV-.BK-.C-.F.A.vX3ni","requires":["transjax-base","yui-base"],"ext":false},"photo-tour":{"path":"j\/.B-.DA.A.vNGE8","requires":["anim","cookie","dom","event","photo","photo-tour-transjax","yui-base"],"ext":false},"photo-tour-transjax":{"path":"j\/.B-.DA-.C-.F.A.vN3iZ","requires":["transjax-base","yui-base"],"ext":false},"photo-transjax":{"path":"j\/.B-.C-.F.A.vQ7T6","requires":["transjax-base","yui-base"],"ext":false},"photo-ywa-tracking":{"path":"j\/.B-ywa-.BW.A.vPwkD","requires":["event","yahoo-web-analytics","yui-base"],"ext":false},"photos-user-favorites":{"path":"j\/.EC-user-.FH.A.vQd5P","requires":["event","io","node","yui-base"],"ext":false},"photos-display":{"path":"j\/.EC-.IQ.A.vUYVH","requires":["photos-display-css","event","io","node","photo-data","selector-css3","photos-display-transjax","yui-base"],"ext":false},"photos-display-transjax":{"path":"j\/.EC-.IQ-.C-.F.A.vUYVH","requires":["transjax-base","yui-base"],"ext":false},"photos-display-css":{"path":"c\/c_.EC-.IQ.BC.vTKuB","type":"css","ext":false},"photostream-insitu":{"path":"j\/.ECtream-.DT.A.vVjPa","requires":["event","insitu","node","yui-base"],"ext":false},"picnik":{"path":"j\/.EY-.D.A.vY3sg","requires":["global-dialog","io-base","json","picnik-css","picnik-transjax","swfobject","yui-base"],"ext":false},"picnik-css":{"path":"c\/c_.EY-.D.BC.vRXiv","type":"css","ext":false},"picnik-transjax":{"path":"j\/.EY-.C-.F.A.vLqsT","requires":["transjax-base","yui-base"],"ext":false},"popup-login":{"path":"j\/.HP.A.vXeMn","requires":["event","node","io-base","yui-base"],"ext":false},"query-string-args":{"path":"j\/.CP-.U-.DE.A.vKEJF","requires":["yui-base"],"ext":false},"rapid-tracker":{"path":"j\/.IY-.CH.A.vYg2z","requires":["yui-base"],"ext":false},"retry-image-on-error":{"path":"j\/retry-.CW-on-error.A.vXHGk","requires":["event-base","yui-base","yui-later"],"optional":["flanal"],"ext":false},"rushmore-settings":{"path":"j\/.FS-.FR.A.vVgEp","requires":["event","event-delegate","global-dialog","io","node","yui-base"],"ext":false},"search-refer":{"path":"j\/.CA-.DX-.D.A.vT4tV","requires":["anim","cookie","node","yahoo-ult","yui-base"],"ext":false},"search-results-display":{"path":"j\/.CA-.II.A.vZ16R","requires":["anim","anim-scroll","better-throttle","cookie","event","flanal","gallery-flickr-api","gallery-popover","global-dialog","keyboard-shortcut-manager","menus","node","node-visibility","pagination-keyboard-shortcuts","search-results-display-transjax","string-filters","yui-base"],"optional":["lightbox"],"ext":false},"search-results-display-transjax":{"path":"j\/.CA-.II-.C-.F.A.vYV8V","requires":["transjax-base","yui-base"],"ext":false},"selector-circle-css":{"path":"c\/c_.GB-circle.BC.vWLRi","type":"css","ext":false},"selector-circle":{"path":"j\/.GB-circle.A.vXbxr","requires":["base","css3pie","event","selector-circle-css","yui-base"],"ext":false},"set-meta-insitu":{"path":"j\/set-meta-.DT.A.vTUo8","requires":["event","insitu","node","yui-base"],"ext":false},"share-menu-transjax":{"path":"j\/.DN-.BB-.D-.C-.F.A.vVvzi","requires":["transjax-base","yui-base"],"ext":false},"share-this-v3-account-settings":{"path":"j\/.HG-.IR-.FR.A.vUxxi","requires":["dom","event","global-dialog","io","io-form","querystring-stringify-simple","yui-base"],"ext":false},"share-this-v3-css":{"path":"c\/c_.HG.BC.vYjx2","type":"css","ext":false},"share-this-v3-dialog":{"path":"j\/.HG-.W.A.vXKSc","requires":["dom","event","global-dialog","io-base","node","share-menu-transjax","share-this-v3-dialog-css","share-this-v3-dialog-transjax","share-this-v3-services","yui-base"],"optional":["flanal"],"ext":false},"share-this-v3-dialog-css":{"path":"c\/c_.HG-.W.BC.vX3iR","type":"css","ext":false},"share-this-v3-dialog-transjax":{"path":"j\/.HG-.W-.C-.F.A.vVVDR","requires":["transjax-base","yui-base"],"ext":false},"share-this-v3-menu":{"path":"j\/.HG-.BB.A.vWxFv","requires":["better-throttle","dom","event","event-custom","gallery-flickr-api","gallery-popover","global-dialog","io-base","menus","node","share-menu-transjax","share-this-v3-triggers","yui-base"],"optional":["photo-data"],"ext":false},"share-this-v3-service-blogger":{"path":"j\/.HF.HJ.A.vU5pa","requires":["share-this-v3-services","yui-base"],"ext":false},"share-this-v3-service-email":{"path":"j\/.HF.HH.A.vXp7K","requires":["bo-selecta-3","share-this-v3-services","share-this-v3-service-email-transjax","yui-base"],"ext":false},"share-this-v3-service-email-transjax":{"path":"j\/.HF.HH-.C-.F.A.vTPCg","requires":["transjax-base","yui-base"],"ext":false},"share-this-v3-service-facebook":{"path":"j\/.HF.HL.A.vXKKi","requires":["share-this-v3-services","yui-base"],"ext":false},"share-this-v3-service-livejournal":{"path":"j\/.HF.HT.A.vTV8e","requires":["share-this-v3-services","yui-base"],"ext":false},"share-this-v3-service-tumblr":{"path":"j\/.HF.HU.A.vVs38","requires":["share-this-v3-services","yui-base"],"ext":false},"share-this-v3-service-twitter":{"path":"j\/.HF.HK.A.vVJx2","requires":["share-this-v3-services","share-this-v3-service-twitter-transjax","yui-base"],"ext":false},"share-this-v3-service-twitter-transjax":{"path":"j\/.HF.HK-.C-.F.A.vUELg","requires":["transjax-base","yui-base"],"ext":false},"share-this-v3-service-wordpress":{"path":"j\/.HF.HM.A.vVt5t","requires":["share-this-v3-services","yui-base"],"ext":false},"share-this-v3-service-yahoo-pulse":{"path":"j\/.HF.CM-.HI.A.vU1vi","requires":["share-this-v3-services","yui-base"],"ext":false},"share-this-v3-services":{"path":"j\/.HG-.HR.A.vVs38","requires":["share-this-v3-service-blogger","share-this-v3-service-email","share-this-v3-service-facebook","share-this-v3-service-livejournal","share-this-v3-service-tumblr","share-this-v3-service-twitter","share-this-v3-service-wordpress","share-this-v3-service-yahoo-pulse","yui-base"],"ext":false},"share-this-v3-triggers":{"path":"j\/.HG-.HS.A.vXKTV","requires":["event","flanal","node","share-this-v3-dialog","yui-base"],"ext":false},"sprintf":{"path":"j\/.CC.A.vVNpa","requires":["yui-base"],"ext":false},"string-filters":{"path":"j\/.U-.CG.A.vYnCk","requires":["yui-base"],"ext":false},"soup":{"path":"j\/soup.A.vXZ4H","requires":["event","flanal","flickr-page-timing","io","motion-blur","node","popup-login","rapid-tracker","transition","yui-base"],"ext":false},"tag-selecta":{"path":"j\/tag-.S.A.vYx94","requires":["anim","autocomplete","tag-selecta-css","tag-selecta-transjax","datasource-function","event","event-custom","gallery-flickr-api","image-fader","io-base","node","string-filters","yui-base"],"ext":false},"tag-selecta-css":{"path":"c\/c_tag-.S.BC.vYiGK","type":"css","ext":false},"tag-selecta-transjax":{"path":"j\/tag-.S-.C-.F.A.vYx94","requires":["transjax-base","yui-base"],"ext":false},"timing-average":{"path":"j\/.FZ-average.A.vPPxV","requires":["cookie","event","yui-base"],"ext":false},"tour-nav":{"path":"j\/.DA-nav.A.vWSJF","requires":["anim","node","node-event-simulate","io","querystring","history","yahoo-ult","yui-base"],"ext":false},"tour-carousel":{"path":"j\/.DA-.ER.A.vN3Ut","requires":["anim","node","yui-base"],"ext":false},"touch-lightbox":{"path":"j\/touch-.N.A.vYGbc","requires":["node","event","gallery-flickr-api","history-manager","context-data","context-manager","lightbox-transjax","mrpinchy","photo-transjax","transition","urls","yui-base"],"optional":["lightbox"],"ext":false},"mrpinchy":{"path":"j\/mrpinchy.A.vWCYp","requires":["node","event","event-custom","transition","urls","matrix-math","yui-base"],"ext":false},"transjax-base":{"path":"j\/.C-.BL.A.vPPj8","requires":["sprintf","yui-base"],"ext":false},"urls":{"path":"j\/urls.A.vYUXz","requires":["yui-base"],"ext":false},"user-refave":{"path":"j\/user-re.CX.A.vPWbp","requires":["event","gallery-flickr-api","node","yui-base"],"ext":false},"video":{"path":"j\/.DV-.D.A.vYA5K","requires":["cookie","event-custom","gallery-flickr-api","node","query-string-args","string-filters","swfobject","video-transjax","yui-base"],"ext":false},"video-masker":{"path":"j\/.DV-masker-.D.A.vSvaM","requires":["context-manager","node","yui-base"],"ext":false},"video-transjax":{"path":"j\/.DV-.D-.C-.F.A.vKNWx","requires":["transjax-base","yui-base"],"ext":false},"viewing-party-invitation-creator":{"path":"j\/.IG.A.vYkdF","requires":["bo-selecta-3","gallery-flickr-api","global-dialog","io-base","node","viewing-party-invitation-creator-css","viewing-party-invitation-creator-transjax","yahoo-web-analytics","zero-clipboard","yui-base"],"ext":false},"viewing-party-invitation-creator-css":{"path":"c\/c_.IG.BC.vWxi6","type":"css","ext":false},"viewing-party-invitation-creator-transjax":{"path":"j\/.IG-.C-.F.A.vXAyx","requires":["transjax-base","yui-base"],"ext":false},"whispers":{"path":"j\/whispers.A.vUbGF","requires":["node","event","gallery-flickr-api","yui-base"],"ext":false},"worker":{"path":"j\/.IW.A.vYkW4","requires":["base","event","yui-base"],"ext":false},"zero-clipboard":{"path":"j\/zero-clipboard.A.vV8nn","requires":["yui-base"],"ext":false},"swfobject":{"path":"j\/.BM.A.vSDL4","ext":false},"yahoo-ult":{"path":"j\/.CM-ult.A.vPboK","ext":false},"yahoo-web-analytics":{"path":"j\/ywa.A.vN4Nc","ext":false},"roundtrip":{"path":"j\/roundtrip.A.vXmv2","ext":false},"ymap":{"path":"j\/.FV.A.vWHJg","requires":["event-synthetic","yui2_5-animation","yui2_5-yahoo","yui2_5-event","yui2_5-dom","yui2_5-dragdrop"],"ext":false},"bing_map":{"path":"j\/bing_map_6_3.A.vRhTV","ext":false},"yui2_5-yahoo":{"path":"j\/.CM\/.CM_2.5.1.A.vr3bg","ext":false},"yui2_5-event":{"path":"j\/.CM\/.G_2.5.1.A.vr3bg","requires":["yui2_5-yahoo"],"ext":false},"yui2_5-dom":{"path":"j\/.CM\/dom_2.5.1.A.vr3bg","requires":["yui2_5-yahoo"],"ext":false},"yui2_5-dragdrop":{"path":"j\/.CM\/.FT_2.5.1.A.vWHY4","requires":["yui2_5-dom","yui2_5-event","yui2_5-yahoo"],"ext":false},"yui2_5-animation":{"path":"j\/.CM\/.FL_2.5.1.A.vr3bg","requires":["yui2_5-dom","yui2_5-event","yui2_5-yahoo"],"ext":false},"worker-echo":{"path":"j\/.IW-echo.A.vWYgn","requires":["worker-yui-ready","yui-base"],"ext":false},"worker-thumbnail-extractor":{"path":"j\/.IW-.IM-.IN.A.vYnbt","requires":["better-throttle","exif-thumbnail-extractor","worker-yui-ready","yui-base"],"ext":false},"worker-exif-extractor":{"path":"j\/.IW-.GO-.IN.A.vYkW4","requires":["better-throttle","exif-extractor","exif-extractor-tags","worker-yui-ready","yui-base","dataview"],"ext":false},"worker-yui-ready":{"path":"j\/.IW-yui-ready.A.vWPcv","requires":["event","event-custom","yui-base"],"ext":false}}};
+
+	
+		
+	
+		
+	
+		
+
+	
+
+function clone(o) {
+	if (o === null || typeof o !== 'object') {
+		return o;
+	}
+	var c = new o.constructor();
+	for (var k in o) {
+		c[k] = clone(o[k]);
+	}
+	return c;
+}
+
+F.config = clone(yconf);		YUI(yconf).use(function (Y) {
+						Y.use('flickr-nav', 'rapid-tracker', 'nav-select-rapid', function(Y) {
+
+	Y.flickr_nav.init({
+				open_on_hover: false
+			});
+
+
+
+
+    
+	var keys = {A_pn:'/guidelines.gne'};
+	var conf = {
+			keys:keys, 
+			lt_attr:'data-track', 
+			client_only:1, 
+			spaceid:'792600122',
+			
+			
+			nofollow_class:["nav_more","signin-popup","rapidnofollow","contact-changer-trigger","personmenu-relationship-change"],
+			
+		
+
+			use_sampling:false,
+
+		
+
+	
+	
+
+			tracked_mods:[], 
+			track_lv:true
+		};
+		
+
+        
+        
+        
+        
+		
+		            conf.tracked_mods.push('head-logo');
+		            conf.tracked_mods.push('head-status');
+		            conf.tracked_mods.push('searchform');
+		            conf.tracked_mods.push('flickr_nav');
+		            conf.tracked_mods.push('photostream-subnav-normalized');
+		            conf.tracked_mods.push('my-photostream-subnav');
+		            conf.tracked_mods.push('nav-personmenu');
+			    
+	Y.rapidTracker.init(conf);
+
+
+	
+});
+			Y.use('nav-selecta', 'popup-login', 'grease', 'flickr', function(Y) {
+
+	
+		var nav_selecta = new Y.NavSelecta('#nav-selecta-field', {linkUsernameToPhotostream:1});
+	
+	
+	Y.popup_login.init();
+
+	Y.grease.init(0);
+
+		Y.flickr();
+	
+
+	
+});
+			
+		});
+	})();
+	</script>
+
+
+
+
+
+<!--beacons: 0 -->
+</body>
+
+</html>

@@ -1,0 +1,518 @@
+/*1322569897,169775556*/
+
+.familyWarning{background-color:#edeff4;border:1px solid #d8dfea}
+.familyMember .friendSelector{float:left}
+.familyMember .friendSelector img{width:20px;height:20px}
+.familyMember .friendSelector .uiTypeahead{margin-left:25px;width:190px}
+.familyMember .relationSelector{height:22px;margin-top:0;margin-right:5px;width:119px}
+.familyEmail .inputtext{width:100%}
+.familyEntry .remove{float:right;padding-top:2px}
+#familyEntryList{margin-top:-10px}
+.familySection .audienceSelector{margin-top:3px}
+.familySection .dummyFamilyEntry{padding-bottom:0;border-width:0}
+.familySection .uiListItem{border-width:0 0 1px 0}
+.familySection #add_family{border-width:0}
+.uiContextualDialog .familyMember .friendSelector .uiTypeahead{width:150px}
+.uiContextualDialog .familyMember .relationSelector{width:115px}
+.friendSelector img{float:left;margin-right:5px}
+.friendSelector .uiTypeahead{margin-left:55px;width:320px}
+.publicList .removeSection{width:25px}
+.publicList .faces li{margin:2px 2px 0 0}
+.publicList .faces li a{display:-moz-inline-box;display:inline-block}
+#add_family .async_saving .add_family_link{display:none}
+#add_family .loader{display:none}
+#add_family .async_saving .loader{display:inline}
+#featuredListSection .label{padding-top:15px}
+.publicListContainer{width:374px;cursor:move}
+.publicListContainer.drag{border-style:none;background-color:#ececec}
+.relConnector{display:none}
+.relStatus_2 .relConnector_2,
+.relStatus_3 .relConnector_3,
+.relStatus_4 .relConnector_4,
+.relStatus_5 .relConnector_5,
+.relStatus_6 .relConnector_6,
+.relStatus_10 .relConnector_10,
+.relStatus_11 .relConnector_11{display:inline}
+.relationshipWarning .pendingPartner,
+.relationshipWarning .statusChange,
+.relationshipWarning .cancelExisting{background-color:#edeff4;border:1px solid #d8dfea;margin-bottom:5px}
+.relationSelector{height:22px;margin-top:0}
+div.activation_actions_box{background:#fff9d7 none repeat scroll 0 0;margin-bottom:20px;padding:4px 0 12px 0}
+div.activation_actions_box a:hover{background-color:#3b5998;color:#fff}
+.activation_actions_box .profile_needy_message{display:block;font-weight:bold;padding:3px 8px 6px 8px;text-decoration:none}
+.activation_actions_box a.activation_action{border-bottom:1px solid #e6deb0;display:block;padding:3px 28px 3px 8px;text-decoration:none}
+.activation_actions_box a.completed{background-image:url(Ar6K0o_04bw.gif);background-repeat:no-repeat;background-position:180px center}
+#profile_activation_score{display:block;padding:7px 8px 2px 8px;text-decoration:none}
+.needy_progress_bar{margin-top:5px}
+.needy_progress_bar .progress_bar_left, .needy_progress_bar .progress_bar, .needy_progress_bar .progress_bar_right{float:left;margin:0;padding:0;display:block;overflow:hidden}
+.needy_progress_bar .progress_bar_left{width:3px;height:8px;background:#f0f0f0 url(../../yU/r/bX7fuJsR7qK.gif) no-repeat top left}
+.needy_progress_bar .progress_bar_left.complete{background:#f0f0f0 url(../../y-/r/i3MWJV-V_Z4.gif) no-repeat top left}
+.needy_progress_bar .progress_bar_right{width:4px;height:8px;background:#f0f0f0 url(../../ys/r/7LhjbZQH3Sx.gif) no-repeat top left}
+.needy_progress_bar .progress_bar_right.complete{background:#f0f0f0 url(../../y4/r/peuIxelDcq9.gif) no-repeat top left}
+.needy_progress_bar .progress_bar{height:8px;background:#f1f2f8 url(../../yC/r/oGGz_CGun3e.gif) repeat-x top left}
+#needy_progress_bar_progress{margin:0;padding:0;height:8px;display:block;overflow:hidden;background:#3b5998}
+.needy_activation_box{float:none;padding:2px}
+.needy_activation_box .needy{font-weight:bold;padding:2px;border-bottom:1px solid #e5e5e5}
+.needy_activation_box .needy .needy_image{font-weight:lighter;float:left;margin-right:8px;padding:2px}
+.needy_activation_box .needy .needy_info{font-weight:lighter;float:none}
+.needy_activation_box .needy .needy_name{font-weight:lighter;float:none;padding:2px}
+.needy_activation_box .needy .needy_score{font-weight:lighter;float:none;padding:2px}
+.friend_suggester_dialog #fb_multi_friend_selector_wrapper,
+.friend_suggester_dialog .pop_content .dialog_body{padding:0}
+.friend_suggester_dialog #fb_multi_friend_selector h2{background:none;border:none}
+.friend_suggester_dialog #fb_multi_friend_selector .multi_friend_status,
+.friend_suggester_dialog #fb_multi_friend_selector h3{border:none;padding:4px 10px}
+.friend_suggester_dialog #fb_multi_friend_selector .buttons,
+.friend_suggester_dialog #fb_multi_friend_selector #view_unselected{display:none}
+.friend_suggester_dialog #fb_multi_friend_selector #friends{border:none;padding:0}
+.friend_suggester_dialog #fb_multi_friend_selector{width:auto}
+.friend_suggester_dialog #fb_multi_friend_selector #friends .recommended_text{background-color:#edeff4}
+.friend_suggester_dialog #fb_multi_friend_selector #friends
+.recommended_friends{background-color:#edeff4;border-bottom:1px solid #dadada}
+.profile_box .reviews{padding-bottom:15px}
+.Reviews_Row{padding-bottom:6px;border-bottom:1px solid #eee;margin-bottom:6px;font-size: 13px;line-height:16px}
+.Reviews_Row .Reviews_Name{padding-right:8px;font-weight:bold}
+.Reviews_Row .review_header_rating{display:inline}
+.Reviews_Row .UIActionLinks{font-size: 11px}
+.Reviews_Row .review_body{margin:2px 0}
+.Reviews_Create{text-align:right}
+.Reviews_Buttons{text-align:right;padding-bottom:8px}
+.review_header{padding-bottom:0;padding-top:0}
+.review_rows{border-collapse:collapse}
+.review_rows .reviews_content{padding-bottom:6px;margin-bottom:6px;font-size: 13px}
+.review_rows .reviews_name{padding-right:8px;font-weight:bold}
+.review_rows .review_header_rating{display:inline}
+.review_rows .UIActionLinks{font-size: 11px}
+.review_rows .review_body{margin:2px 0}
+.review_rows tr td{padding:5px 0;border-bottom:1px solid #e1e1e1}
+.review_rows .rev_icon a,.Reviews_Row .rev_icon span{display:block;margin-top:1px;width:17px;height:14px;padding-left:10px;text-decoration:none}
+.review_rows .approved .rev_icon a:hover{background:#f4f8fc url(../../yX/r/cWkrexhQR4U.gif) no-repeat 11px center}
+.review_rows .rev_icon a:hover{background:#fff url(../../yX/r/cWkrexhQR4U.gif) no-repeat 11px center}
+.review_rows .approved .rev_icon a{background:#f4f8fc url(../../yX/r/cWkrexhQR4U.gif) no-repeat 11px center}
+.review_rows .checkbox_toggle{width:35px;margin-top:25px;vertical-align:top}
+.invisible{opacity:.5}
+.reviews_header{clear:both;color:#444;padding:2px 8px 2px 8px;border-top:solid 1px #ccc;overflow:hidden;background:#eee}
+.reviews_header .reviews_header_text{float:left}
+table.review_display{float:left;padding:10px 10px 0 10px;margin-bottom:0;margin:0}
+.review_display td{padding:0 0 3px 5px;vertical-align:top}
+.review_display .review_pic_column{width:50px}
+.review_display .review_header{margin:0}
+.review_display .review_header .review_header_title{color:#444;font-weight:bold;font-size: 13px;float:left}
+.review_display .review_header .review_header_rating{float:left;padding-right:5px;padding-top:2px}
+.review_display .review_header .review_header_subtitle_line{clear:both;padding:0;margin:0;padding-top:2px;padding-left:0;color:#666}
+.review_display .review_body{margin-top:5px;line-height:15px}
+.reviews_section_separator{border-bottom:solid 1px #ccc;clear:both;margin-left:8px;margin-right:8px;padding-top:10px}
+.aggregate_review{padding-top:5px}
+.aggregate_review .review_header_rating{float:left;width:65px}
+.aggregate_review .average_rating_desc{float:left;width:100px}
+.aggregate_review .aggregate_review_title{color:gray}
+.reviews_edit .reviews_settings{padding:20px 131px}
+.reviews_edit .reviews_settings .reviews_settings_table{margin:10px 6px}
+reviews_edit .reviews_settings .reviews_settings_table.label{color:#000;font-weight:normal}
+.reviews_dialog_editor #reviews_editor{margin-left:15px;margin-right:15px}
+.reviews_dialog_editor #reviews_editor input{width:319px}
+.reviews_dialog_editor #reviews_editor textarea{width:360px}
+#box_app_6261817190 .inside{margin:0;padding:0;width:416px}
+#box_app_6261817190 #reviews_inline_editor{padding:10px 17px}
+#box_app_6261817190 #reviews_inline_editor #reviews_editor textarea{width:374px;font-size: 11px}
+.reviews_inline_editor .review_title{padding:0;margin:0;padding-top:0}
+.reviews_inline_editor .field_title{font-weight:bold;color:#777;float:left;padding-right:5px}
+.reviews_inline_editor .review_rating_editor img{margin:0;padding:0 2px 0 0}
+.reviews_inline_editor .review_blurb_editor{padding-top:8px;padding-bottom:8px}
+.reviews_inline_editor #reviews_editor textarea{height:50px;width:485px;font-size: 13px}
+#review_editor_error{padding:10px;background-color:#ffebe8;border:1px solid #dd3c10;margin:0 0 8px 0}
+#review_editor_status{padding:10px;background-color:#fff9d7;border:1px solid #e2c822;margin:0 0 8px 0}
+.embedded_review span.leave_rating_label{float:left;line-height:1.2}
+.embedded_review span.stars{display:inline;margin-left:5px}
+.embedded_review textarea#review_blurb{display:block;height:60px;width:350px;margin-top:10px}
+.embedded_review .hidden{display:none}
+#fbTranslationsNub .fbNubFlyout{width:219px}
+#fbTranslationsNub .xmode_row{line-height:15px;padding:0 10px 2px 10px}
+#fbTranslationsNub .xmode_row_last{line-height:15px;margin:0 10px 0 10px;padding:5px 0 10px;border-top:1px solid #e7e7e7}
+#fbTranslationsNub .xselect{padding:5px 6px}
+#fbTranslationsNub .xselect select{width:100%}
+#fbTranslationsNub .translation_options{padding:8px 0}
+#fbTranslationsNub .xexplain{margin:5px 10px 0 10px;padding-bottom:5px;line-height:15px;border-bottom:1px solid #e7e7e7;color:#555}
+#dropmenu_container .flyout_menu{font-size: 11px;line-height:normal}
+.flyout_menu{position:absolute;margin-top:-5px;/* @noflip */ margin-left:-5px;top:0;/* @noflip */ left:0;padding:0;overflow:visible;width:196px;z-index:20}
+.flyout_menu .flyout_menu_header_shadow{margin:0;padding:0;margin-top:1px;overflow:visible;position:relative}
+.flyout_menu .flyout_menu_header{margin:0;padding:0;margin-top:-1px;border:1px solid #333}
+.flyout_menu .flyout_menu_header .flyout_menu_mask{width:27px;height:24px;border:4px solid white;border-right:0;margin:0;/* @noflip */ float:left;padding:0}
+.flyout_menu .flyout_menu_header .flyout_menu_title{padding:8px 5px 4px 8px;height:18px;color:#666;text-align:left;float:left;width:150px;background-color:#fff}
+.flyout_menu .flyout_menu_content_shadow{background:#eee;border:1px solid #333;border-top:0;/* @noflip */ float:right;clear:left;margin:0;padding:0;position:relative;margin-top:-1px}
+.flyout_menu .menu_content{width:163px;padding:3px 0 2px;border-top:1px solid #ccc;margin:0;clear:both}
+.flyout_menu .menu_custom{overflow:hidden;padding:5px 8px}
+.flyout_menu .menu_content .item{clear:both;overflow:hidden;padding:3px 0}
+.flyout_menu .menu_content label{float:left;font-weight:normal;padding-top:1px}
+.flyout_menu .menu_content .inputcheckbox{float:left;margin:0 4px 0 0}
+.flyout_menu .menu_separator{background:#ccc;clear:both;font-size:0;height:1px;line-height:1px;margin:3px 6px;overflow:hidden;padding:0}
+.link_menu .menu_content a,
+.link_menu_list .menu_content ul li a.tab_link{height:auto;width:auto;display:block;overflow:hidden;margin:0;overflow:hidden;padding:5px 8px 5px 8px}
+.link_menu .menu_content a.icon_link{background-position:9px 7px;background-repeat:no-repeat;padding-left:26px}
+.link_menu .menu_content a:hover,
+.link_menu_list .menu_content ul li a.tab_link:hover{text-decoration:none;background-color:#899bc1;color:#fff}
+.flyout_menu_left .flyout_menu_content_shadow{/* @noflip */ float:left}
+.flyout_menu_left .flyout_menu_header .flyout_menu_mask{/* @noflip */ float:right}
+.flyout_menu_18{margin-top:-4px;margin-left:-4px;width:173px}
+.flyout_menu_18 .flyout_menu_header .flyout_menu_title{padding:5px 8px 3px 5px;height:16px;width:134px}
+.flyout_menu_left .flyout_menu_header .flyout_menu_title{padding-left:8px;padding-right:5px}
+.flyout_menu_18 .flyout_menu_header .flyout_menu_mask{width:18px;height:18px;border:3px solid white}
+.flyout_menu_18 .menu_content{width:150px}
+.dropdown_menu{position:absolute;right:0;width:150px;z-index:10;margin-top:-1px}
+.dropdown_menu .menu_content{border:solid 1px #6076a5;background:white}
+.dropdown_menu a{display:block;padding:3px 10px}
+.dropdown_menu span.optgroup{color:gray;cursor:default;display:block;padding:8px 10px 4px 10px}
+.dropdown_menu a:hover{background:#5c75aa;color:#fff;text-decoration:none}
+.dropdown_menu .menu_separator{background:#ccc;clear:both;height:1px;margin:3px 6px;overflow:hidden}
+.dropdown_menu .menu_section_title{color:gray;padding:2px 10px 5px 9px}
+.dropdown_head .dropdown_link{padding:2px 5px;font-weight:normal}
+.dropdown_head .dropdown_link:hover{text-decoration:none}
+.dropdown_head .dropdown_link.selected{background:#5c75aa;color:#fff;border-top:1px solid #3b5998;border-left:1px solid #3b5998;border-right:1px solid #3b5998}
+.dropdown_head .dropdown_link.selected span{background-position:-13px 0}
+.dropdown_head .dropdown_arrow{margin:0;padding-left:3px;background:transparent url(../../yQ/r/SEHmoF4wJuy.gif) top left no-repeat;width:12px;cursor:pointer;height:15px}
+.double_arrow img{background:transparent url(../../yV/r/IJYgcESal33.png) no-repeat -5px -56px}
+.double_arrow .active img{background-position:0 -56px}
+.dropdown_head .active{background:#5c75aa;color:#fff}
+.app_settings_tab{text-align:center;background:white}
+.edit_app_dialog_summary{padding-bottom:0}
+.edit_app_dialog_summary .tab_link{margin:3px 10px 0 0;padding:5px 8px;float:left}
+.edit_app_settings .pop_content .dialog_summary{padding:4px 10px 0}
+.edit_app_dialog_summary .tab_link_selected{color:#333;padding:4px 7px 5px;background:white;border:solid 1px #ccc;border-bottom:solid 1px white;margin-bottom:-1px;position:relative}
+.app_settings_tab{padding:10px 10px}
+.app_settings_tab .editor{margin-top:0;width:100%}
+.app_settings_tab label{font-weight:normal;color:#333}
+.app_settings_tab input.inputcheckbox,
+.app_settings_tab input.inputradio{margin:0 5px 0 0;padding:0 0 0 0;vertical-align:top}
+.app_settings_tab input.inputradio{height:13px;width:13px}
+.app_feed_major_buttons{padding:0 0 5px}
+.app_feed_major_button{text-align:left;color:#000;font-size: 11px;margin-bottom:6px}
+.app_feed_minor_buttons{text-align:left;padding:2px 2px 2px 30px;overflow:hidden}
+.app_feed_minor_buttons div{padding:0 0;margin-bottom:4px;overflow:hidden}
+.app_feed_major_button label{font-weight:normal;display:inline-block;width:350px}
+.the_fine_print{text-align:left;font-size: 9px;color:#666;display:block;padding:2px 2px 2px 2px}
+#edit_app_settings_save_fill{padding:0 0 0 10px;text-align:center}
+.app_settings_tab .extended_info_checkbox{padding-top:5px;display:block}
+.app_settings_tab .extended_info_checkbox label{padding:2px 0;font-weight:normal;color:#000}
+.app_settings_tab .extended_info_checkbox div.UIMessageBox.status{padding:5px;margin:5px 0}
+.app_settings_tab .extended_info_checkbox div.UIMessageBox.status h2{font-weight:normal;font-size: 11px}
+#app_settings_extended_tab{text-align:left;font-size: 11px;font-weight:bold;color:#666}
+#app_settings_extended_tab .extended_prompt{padding-bottom:5px}
+.app_settings_tab .row_label td{padding:0 0 5px}
+.app_settings_tab .row_label .label{vertical-align:top;width:120px}
+.app_settings_tab .feed_row_label td{padding:0 0 10px}
+.app_settings_tab .feed_row_label .label{vertical-align:top}
+.app_settings_tab .profile_tab_item{padding:0 5px 5px 10px;height:15px}
+.app_settings_tab .profile_tab_item label{width:auto}
+.app_settings_tab .profile_tab_privacy_item{padding:0 5px 5px 10px;width:250px}
+.app_settings_tab .float_left{float:left}
+.app_settings_tab .remove_app_permission_link{width:80px;float:right;text-align:left;padding:0 0 0 15px;background-repeat:no-repeat;background-image:url(../../yU/r/iFjAdRBY_sL.gif)}
+.app_settings_tab .add_app_permission_link{width:80px;float:right;text-align:left;padding:0 0 0 17px;background-repeat:no-repeat;background-image:url(../../yj/r/TOsf-GemEZs.gif)}
+.app_settings_app_icon{padding:0 10px 0 3px;vertical-align:bottom}
+#app_settings_bookmark_tab{text-align:left}
+.app_settings_tab img.throbber{visibility:hidden}
+.app_settings_tab .async_saving img.throbber{visibility:visible}
+.editapps .section_banner{padding:5px 10px;background-color:#e8eaf2;font-size: 12px;font-weight:bold;margin-top:5px}
+.editapps .section_banner a{display:block}
+.editapps .view{margin-top:20px}
+.editapps .view .viewheader{overflow:hidden;zoom:1}
+.editapps .view .viewheader .filters{float:right}
+.editapps .view .viewheader .filters .label{color:#666;font-weight:bold;margin-right:8px}
+.editapps .view .viewheader .desctext{float:left;width:500px;line-height:20px}
+.editapps .editapps_list{margin-top:10px;overflow:hidden;zoom:1}
+.editapps .app_row{overflow:hidden;zoom:1;margin:0;padding:8px 0;border-top:solid 1px #ccc}
+.editapps .banner_collapse_icon{background:url(../../yJ/r/WD2G95JHzCt.gif) no-repeat left 5px;padding:0 14px;color:#000;text-decoration:none}
+.editapps .hidden_collapse_icon{background:url(../../yb/r/Vwd6xmm5QeZ.gif) no-repeat 1px 3px}
+.editapps .app_row .app_name{float:left;width:400px;padding-left:10px;padding-right:20px}
+.editapps .app_row .app_name.removed{opacity:.5}
+.editapps .app_row dl{margin:0;display:inline;padding:0}
+.editapps .app_row .app_name dd{margin:0;display:inline;font-size: 13px;font-weight:bold}
+.editapps .app_row .app_name .about{font-size: 9px;font-weight:plain}
+.editapps .app_row .app_name dt{display:inline;padding:0 5px 0 0;width:16px}
+.editapps .app_row .app_name dt img{vertical-align:top}
+.editapps .app_row .icon_label{color:gray;text-align:right;width:80px}
+.editapps .app_row .info_icon_container{float:left;width:45px}
+.editapps .app_row .info_icon{width:13px;height:13px}
+.editapps .app_row .action_wrap{float:right;width:300px;text-align:right}
+.editapps .action_wrap a{line-height:16px;padding:0 30px 0 0;float:right}
+.editapps .action_wrap a.pencil{background:transparent url(../../yx/r/J-D8STqq27r.gif) no-repeat scroll left 0;padding-left:19px}
+.editapps .action_wrap a.about{background:transparent url(../../yx/r/J-D8STqq27r.gif) no-repeat scroll left -32px}
+.editapps .action_wrap a.remove{background:transparent url(../../yx/r/J-D8STqq27r.gif) no-repeat scroll left -64px;width:16px;height:16px;padding:0;margin:0 10px 0 0}
+.editapps .action_wrap .disabled_x{visibility:hidden}
+.editapps .action_wrap a.pencil:hover{background-position:left -16px}
+.editapps .action_wrap a.about:hover{background-position:left -48px}
+.editapps .action_wrap a.remove:hover{background-position:left -80px}
+.editapps .undo_option{width:185px;float:right}
+.editapps .undo_text{float:left;color:#999}
+.editapps .undo_link{float:right;text-align:right;padding-right:10px}
+.remove_application_dialog #app_remove_review_text{width:350px;height:60px;display:block;margin-top:10px}
+.remove_application_dialog .leave_rating_label{float:left;line-height:16px;padding-right:5px}
+.remove_application_dialog #app_remove_review_text.hidden{display:none}
+.browse_more_button a{cursor:pointer}
+.browse_more_button{float:right;border:1px solid #145c9a;background:#526ea6;border-right-color:#0e1f5b;border-bottom-color:#0e1f5b}
+.browse_more_button div{border-top:1px solid #6e84b3;padding:3px 24px 5px 15px;background:url(../../yF/r/xcNMlL1yqMY.gif) no-repeat center right;color:#fff;font-weight:bold}
+.browse_more_button:hover{background-color:#40578a;text-decoration:none}
+.browse_more_button:active{border:1px solid #324a7b;background:#526ea6;border-right-color:#758bb7;border-bottom-color:#758bb7;background-color:#39548a;text-decoration:none}
+.browse_more_button:active div{border-top:1px solid #39548a}
+.applications .handle{background:url(../../yK/r/0jndoSRXAtS.gif) no-repeat center center;width:13px;min-width:13px;height:14px;min-height:14px;font-size: 14px;display:block;position:relative;padding:2px 0 0 0}
+.applications .external_apps{border-collapse:collapse}
+.applications .external_apps .choice{text-align:center}
+.applications .external_apps .header{padding:5px}
+.applications .external_apps .gray{background:#e2e2e2}
+.applications .external_apps .app_name{padding:5px;width:300px}
+.UIComposer{margin-bottom:10px;position:relative}
+#home_stream .UIComposer{border-bottom:1px solid #eee;margin-bottom:8px;padding-bottom:9px}
+.UIComposer_Upload_Iframe{height:1px;position:absolute;top:-10000px;width:1px}
+.UIComposer_Pic,.UIComposer_PicRounded{left:0;position:absolute}
+.UIComposer_Prompt{color:#696969;display:block;font-size: 13px;font-weight:bold;margin-bottom:5px;padding-left:1px}
+.UIComposer .UIComposer_Box{background-color:#f2f2f2;border-color:#b5b5b5;border-bottom-color:#cbcbcb;border-top:2px solid #919191;padding:7px 0}
+.UIComposer_Content{padding:0 7px}
+.NewHighLight .UIComposer_Content{padding:0}
+.UIComposer_InputArea_Base{background:#fff;display:block;position:relative}
+.UIComposer_InputArea{border:1px solid #bbb;border-top-color:#aeaeae}
+.UIComposer_InputShadow{border-top:1px solid #e8e8e8;padding:2px 5px 3px}
+.NewHighLight .UIComposer_InputShadow{padding:2px 4px 3px}
+.UIComposer_InputShadow .DOMControl_placeholder{line-height:21px}
+.UIComposer .UIComposer_TextArea{border:0 none;font-size: 13px;height:21px;margin:0;outline:none;overflow:hidden;padding:0;resize:none;vertical-align:bottom;width:100%}
+.UIComposer .UIShareStage{padding:9px}
+.UIComposer_ButtonArea{height:24px;margin-bottom:0;padding-top:7px}
+.UIComposer_ButtonArea ul{display:block}
+.UIComposer_Buttons li.UIComposer_FormButtons,.UIComposer_Buttons li.UIComposer_PrivacyEtc{float:right;margin-left:5px}
+.hide_buttons #composer_buttons{display:none}
+.UIComposer_STATE_PIC_OUTSIDE .UIComposer_Box{padding-left:60px}
+.UIComposer_STATE_PIC_OUTSIDE .UIComposer_Pic{padding-left:14px;padding-top:10px}
+.UIComposer_STATE_PIC_INSIDE .UIComposer_Pic{padding:0}
+.UIComposer_STATE_PIC_INSIDE .UIComposer_InputArea{padding-left:60px}
+.UIComposer_STATE_INPUT_DISABLED .Mentions_Input,.UIComposer_STATE_INPUT_DISABLED .UIComposer_InputArea,.UIComposer_STATE_INPUT_DISABLED .UIComposer_InputShadow,.UIComposer_STATE_INPUT_DISABLED .UIComposer_TextArea{background-color:#ddd}
+.UIComposer_STATE_INPUT_EXPANDED .Mentions_Input,.UIComposer_STATE_INPUT_FOCUSED .Mentions_Input{min-height:36px}
+.UIComposer_STATE_INPUT_EXPANDED .UIComposer_TextArea,.UIComposer_STATE_INPUT_FOCUSED .UIComposer_TextArea{height:36px}
+.UIComposer_Buttons .UIComposer_PrivacyEtc{width:100px}
+.UIComposer_Buttons .UIComposer_PrivacyEtc .UIComposer_PrivacyEtcButton{float:right}
+.Mentions_Input{width:100%;margin:0;padding:0;font-size: 13px;min-height:20px;max-height:200px;cursor:text;border:none;outline:none;overflow:auto;overflow-x:hidden;background-color:#fff}
+.Mentions_Input a{cursor:default}
+.Mentions_Input a span{outline:none}
+.Mentions_Input a:hover{text-decoration:none}
+.UIComposer_PrivacyWidgetConfirmationBody{overflow:hidden}
+.UIComposer_PrivacyWidgetConfirmationBody p{margin:0 0 10px 0}
+.UIComposer_PrivacyWidgetConfirmationImage{float:right;margin-left:5px}
+.UIComposer_PrivacyCallout{background-color:transparent;margin-top:-5px;position:absolute;right:38px;width:180px;z-index:100}
+.UIComposer_PrivacyCallout_Title,.UIComposer_PrivacyCallout_Text{border:1px solid #467c2c}
+.UIComposer_PrivacyCallout_Arrow{background:url(../../yL/r/CpHMi1OJYT4.gif) no-repeat scroll right top;height:7px;margin-right:40px;position:relative;top:1px}
+.UIComposer_PrivacyCallout_Arrow span{display:none}
+.UIComposer_PrivacyCallout_Title{background-color:#67a54b;border-bottom:medium none;color:#fff;font-size: 11px;margin:0;padding:3px 6px}
+.UIComposer_PrivacyCallout_Text{background-color:#fff;color:#666;margin:0;padding:6px 12px}
+.UIComposer_PrivacyCallout_Text a{display:block}
+.UIComposer_PrivacyCallout_CloseLink{float:right;padding:4px 6px}
+.UIComposer_PrivacyCallout_CloseLink a{color:#fff}
+.UIComposer_PrivacyWidget .uiTooltipWrap,.UIComposer_TargetedPrivacyWidget .uiTooltipWrap{bottom:23px;margin-left:4px;right:16px}
+div.pop_dialog .UIComposer{margin-bottom:0}
+div.pop_dialog .UIComposer .UIComposer_ButtonArea{display:none}
+div.pop_dialog .UIComposer_ButtonArea .UIComposer_FormButtons .uiButton{min-width:44px}
+.UIComposer_MentionsCallout{background-color:transparent;position:absolute;width:180px;left:-1px;margin-top:-4px;z-index:100}
+.UIComposer_MentionsCallout_Arrow{margin-right:150px}
+#profile_pic_upload_indicator{text-align:center;padding:10px 0}
+#profile_pic_upload_indicator .load_message{color:#333;font-size: 13px;font-weight:bold}
+.profile_pic_display_none{display:none}
+.profile_pic_upload .pfileselector{padding:8px 0 10px 0}
+#profile_pic_form .tos{border-top:1px solid #ccc;font-size: 9px;color:#555;padding:10px 0 0 0}
+.dialog_body #error{margin:0 0 10px 0}
+.profile_pic_camera .pop_content .dialog_body{border-bottom:none;padding:0}
+.profile_pic_camera .pop_content .dialog_buttons{border-top:1px solid #999}
+.profile_pic_new{padding:30px;width:400px;text-align:center}
+.profile_pic_new .tos{font-size: 9px;color:#555;padding:30px 0 10px}
+.profile_pic_new .profile_pic_upload{padding:10px 0}
+.profile_pic_new .overlap{background-color:#f2f2f2;color:#555;padding:0 10px}
+.profile_pic_new hr{margin:-8px 0 30px}
+.thumbnail_action{text-align:center;padding-top:5px}
+.NUXUploadPic{width:450px;margin:30px auto 0 auto}
+.NUXUploadPic img{float:left;width:212px}
+.NUXUploadPic div.options_container{width:210px;margin:25px auto 0 auto}
+.NUXUploadPic div.divider{background:transparent url(../../yX/r/VhUL9TRdhxw.gif) repeat-x center;width:200px;margin:0 auto 15px auto;text-align:center}
+.NUXUploadPic div.divider span{background-color:#ededed;color:#777;margin:0 auto 0 auto;width:20px;padding:0 4px 0 4px}
+.NUXUploadPic div.options{margin:0 auto 15px auto;padding:0 10px 0 0}
+.NUXUploadPic div.link{font-size: 15px;font-weight:bold;text-align:center}
+.NUXUploadPic div.desc{font-size: 13px;color:#777;text-align:center}
+.fbPageEdit #globalContainer #content{min-height:150px}
+.fbPageEdit #bottomContent{display:none}
+.fbPageEdit #mainContainer #contentArea{padding:0;width:799px}
+.fbPageEdit #leftCol{padding-top:59px}
+.fbPageEdit .grayArea{min-height:253px;border-top:1px solid #b3b3b3}
+.fbPageEdit .hasRightCol .grayArea{border-right:1px solid #b3b3b3}
+.fbPageEdit #pageFooter #contentCurve{background-color:#f2f2f2}
+.manage_deal td.data{padding-bottom:5px}
+#editProfileForm input[type=text],#editProfileForm textarea{box-sizing:border-box;-moz-box-sizing:border-box}
+#editProfileForm .profileSaveErrorWrap{padding-top:4px}
+.uiInfoTable .genderInterestRow .data{padding-top:8px}
+.profileLanguagesField .profileLanguagesFieldPrivacy{padding-top:4px}
+.profileEditText{width:100%}
+.profilePhoneCountry{width:160px;white-space:nowrap}
+.profileTextareaField .profileTextareaFieldPrivacy{padding-top:2px}
+.uiCheckbox input{vertical-align:middle}
+.fbResetContactInfo{background-color:#f2f2f2}
+.fbResetContactInfoTable{border-spacing:0;padding:0 32px;width:100%}
+.fbResetContactInfoTable th,
+.fbResetContactInfoTable tbody td{padding:5px 0;border-bottom:1px solid #e0e0e0}
+.fbResetContactInfoTable th{padding-top:8px}
+.fbResetContactInfoTitle{color:#333;margin-left:-22px}
+#conf_code_input input{width:70px}
+.securityq_prompt{padding-bottom:12px}
+.fbSettingsList a.fbSettingsListLink{background:transparent;display:block;text-decoration:none}
+.fbSettingsList a.fbSettingsListLink:hover{background:#f7f7f7;text-decoration:none}
+.fbSettingsList .fbSettingsListItemLabel{color:#333;float:left;width:160px}
+.fbSettingsList .fbSettingsListItemEdited{background-color:#fff8bb}
+.fbSettingsList .fbSettingsListItemContent{display:block;margin-left:170px;width:450px}
+.fbSettingsList .fbSettingsListItemSaved,.fbSettingsList .fbSettingsListItemEdit{color:#3b5998;float:right;padding-left:25px;padding-right:5px;text-align:right}
+.fbSettingsList .fbSettingsListItemSaved{color:#777}
+.fbSettingsList a:hover .fbSettingsListItemEdit{text-decoration:underline}
+.fbSettingsList a:hover .fbSettingsListItemEdit .img{visibility:visible}
+.fbSettingsList .fbSettingsListItemEdit .img,.fbSettingsList a.async_saving .fbSettingsListItemEdit .img{visibility:hidden}
+.fbSettingsList a.async_saving .fbSettingsListItemEdit{background-image:url(../../yb/r/GsNJNwuI-UM.gif);background-repeat:no-repeat;background-position:0 2px}
+.fbSettingsList .content{display:none}
+.fbSettingsList .fbSettingsListItemDelete{float:right;margin:12px 8px 0}
+.SettingsPage #headerArea{padding-bottom:0}
+.fbSettingsList .openPanel .fbSettingsListLink,
+.fbSettingsList .openPanel .fbSettingsListItemDelete{display:none}
+.fbSettingsList .openPanel .content{display:block}
+.fbSettingsList{border-bottom:1px solid #e9e9e9}
+.fbSettingsCheckboxText{vertical-align:middle}
+.uiP{line-height:16px}
+.uiPLarge{line-height:18px}
+.fbDummyComposerContent{position:relative;width:493px}
+.fbDummyComposer .postText{left:7px;position:absolute;top:5px}
+.fbDummyComposer .controls{position:absolute;right:5px;top:64px}
+.fbDummyComposer .postButton{padding:2px 16px}
+.fbPrivacyAudienceRadioButton{border:1px solid #fff;-moz-border-radius:3px;display:block;margin:0 auto;padding-bottom:15px;text-align:center;min-width:90px;padding-left:10px;padding-right:10px;max-width:130px}
+.fbPrivacyAudienceRadioDummy{width:90px;height:0}
+.fbPrivacyAudienceRadioButton:hover{background-color:#f7f7f7;border:1px solid #f7f7f7}
+.fbPrivacyAudienceRadioButton:active{background-color:#f2f2f2;border:1px solid #f2f2f2}
+.fbPrivacyAudienceRadioButtonWrap{min-height:115px;min-width:112px}
+.fbPrivacyAudienceRadioButtonGroup .audienceGrid{margin:0 auto}
+.fbPrivacyAudienceRadioButtonGroup .selectedButton{background-color:#f7f7f7;border:1px solid #d6d6d6;-moz-box-shadow:inset 0 0 1px #dcdcdc;-moz-box-shadow:inset 0 0 1px #dcdcdc}
+.fbPrivacyIndexPage{margin:0 auto}
+.fbPrivacyIndexPage .narrowSection,.fbPrivacyIndexPage .fbPrivacyIndexPageHeader{width:622px;margin:0 auto 10px}
+.fbPrivacyIndexPage .underage{width:592px;margin:0 auto 10px}
+.fbPrivacyIndexPage .fbPrivacyIndexPageHeader{margin:6px auto 7px}
+.fbPrivacyIndexPageHeader{color:#1c2a47;font-size: 16px;font-weight:bold;line-height:20px;min-height:20px;vertical-align:bottom}
+.fbPrivacyIndexPageItem{margin-bottom:19px}
+.fbPrivacyIndexPageItem .privacyLabel{width:450px}
+.fbPrivacyIndexPageItem .itemControl{width:150px}
+.fbPrivacyIndexPageSectionHeader{margin:18px 0 4px -24px}
+.fbPrivacyIndexPageSectionHeader img{margin-top:3px}
+.fbPrivacyIndexPage .dummyComposerContainer{position:relative}
+.fbPrivacyIndexPage .dummyComposerOverlay{background:url(../../yL/r/d8obU4nzJv5.png);height:138px;left:9px;position:absolute;top:-4px;width:597px;z-index:2}
+.fbPrivacyIndexPage .fbDummyComposerContent{margin:0 auto}
+.fbHubsTokenizer{border-bottom:1px solid #bdc7d8;position:relative;width:100%}
+.fbHubsTokenizer .uiTypeahead{border-bottom-width:0}
+.fbHubsTokenizer .tokenarea{border-color:#ccc #bdc7d8;border-width:1px 1px 0;border-style:dashed solid;clear:both;overflow:hidden;padding:8px 5px}
+.fbHubsTokenizer .eventsInput{background:#fff;border:0;height:0;left:1px;outline:0;position:absolute;top:1px;width:0}
+.fbHubsTokenizer .drag{z-index:1}
+.fbHubsTokenizer .droppable_placeholder{background:#ebebeb;border:0;padding:0}
+.fbHubsTokenizer .hidden,
+.fbHubsTokenizer .hovered .droppable_placeholder{display:none}
+.fbHubsTokenizer .expanded .hidden,
+.fbHubsTokenizer .expanded .droppable_placeholder{display:block}
+.fbHubsPhotoTokenizer .tokenarea{background:url(../../yL/r/wErnZ_tAQMR.png) 10px 8px no-repeat;padding:8px 0 8px 10px}
+.fbHubsPhotoTokenizer .shown{background-color:transparent;border:0;color:#333;height:auto;margin:0;padding:0 10px 8px 0;width:62px;white-space:normal;word-wrap:break-word}
+.fbHubsPhotoTokenizer .shown .hubPhotoWrapper{background:#fff;display:block;margin-bottom:4px}
+.fbHubsPhotoTokenizer .shown .hubPhotoLoading{background:#f2f2f2;height:62px;width:62px}
+.fbHubsPhotoTokenizer .shown .hubPhoto{display:block;vertical-align:bottom}
+.fbHubsPhotoTokenizer .shown .text{display:block;height:28px;overflow:hidden}
+.fbHubsPhotoTokenizer .hidden .hubPhotoWrapper{display:none}
+.fbHubsPhotoTokenizer .uiTokenShownSelected{margin-top:-4px}
+.fbHubsPhotoTokenizer .uiTokenShownSelected .hubPhotoWrapper{border:3px solid #627aad;margin:0 -4px}
+.fbHubsPhotoTokenizer .uiTokenShownSelected .hubPhoto{border:1px solid #9daccb}
+.fbHubsPhotoTokenizer .shownPlaceholder{height:62px !important;margin:0 10px 40px 0;width:62px !important;background:#f2f2f2}
+.fbHubsPhotoTokenizer .hiddenPlaceholder{height:16px !important}
+.fbHubsPhotoTokenizer .divider{margin-left:-10px;border-top-width:0}
+.fbHubsPhotoTokenizer .noneShown .divider{background-color:transparent;padding-top:59px}
+.fbHubsPhotoTokenizer .hovered .divider{background:#6d84b4;padding-top:1px}
+.fbProfileEditPhilosophy .philosophyDescription{width:374px}
+.editLikesRow th.label{padding-top:7px}
+.editLikesRow div.audienceSelector{margin-top:3px}
+.fbProfileEditExperiences .hovered{background:#ececec;cursor:pointer}
+.sortableExperienceList .drag{width:619px;border-width:0}
+.fbEditProfileExperienceSection .addExperience{width:374px}
+.fbProfileEditExperiences .experience .profileImg{height:32px;width:32px}
+.fbProfileEditExperiences .experience .experienceTitle{border-bottom:1px solid #e0e0e0}
+.fbProfileEditExperiences .experience .editTableWrapper{padding-right:103px}
+.fbProfileEditExperiences .experience .experienceContent{padding-top:2px;vertical-align:top}
+.fbProfileEditExperiences .experience .experienceActions{padding:2px 0 0 0}
+.fbProfileEditExperiences .experience .experienceActions .edit{line-height:16px}
+.fbProfileEditExperiences .editExperienceForm{background:#ececec}
+.fbProfileEditExperiences .editFormLoading .fadeDuringLoad{opacity:.33}
+.fbProfileEditExperiences .editExperienceForm textarea,.fbProfileEditExperiences .editSubexperienceForm textarea{width:366px}
+.fbProfileEditExperiences .editingExperience{margin-bottom:5px}
+.fbProfileEditExperiences .editingExperience .editExperienceForm{display:block}
+.fbProfileEditExperiences .editingExperience .fbEditProfileViewExperience{display:none}
+.fbProfileEditExperiences .editTableWrapper td{padding-bottom:5px}
+.fbProfileEditExperiences .editExperienceActions{border-top:1px solid #e0e0e0}
+.fbProfileEditExperiences label.edit{padding-left:18px}
+.fbProfileEditExperiences .hovered label.edit{background:url(../../yI/r/4DVNAxs9NoZ.gif) no-repeat left -38px}
+.fbProfileEditExperiences label.edit input{padding-top:1px}
+.fbProfileEditExperiences .highlight{background-color:#fffbe4}
+.editExperienceActions .throbber{display:none}
+.async_saving .editExperienceActions .throbber{display:inline}
+.fbEditProfileSubexperiences{margin:0 0 10px 0}
+.fbEditProfileSubexperiences .subexperienceBullet{display:list-item;list-style-type:square;color:#3b5998;margin-left:12px}
+.fbEditProfileSubexperiences .subexperience{line-height:14px;padding:5px 5px 5px 47px}
+.fbEditProfileSubexperiences .editingExperience{border-top:1px solid #d5d5d5;list-style:none;padding:0}
+.fbEditProfileSubexperiences .editingExperience .subexperienceTitle{border-bottom:1px solid #e0e0e0;margin-bottom:3px}
+.fbEditProfileSubexperiences .editingExperience .subexperienceBullet{margin:-1px 0 0 54px}
+.fbEditProfileSubexperiences .editSubexperienceForm{background:#ececec}
+.fbEditProfileExperienceSection .audienceSelector{position:relative;float:right;margin-top:-27px;left:-182px}
+.fbEditProfileOtherSection .audienceSelector{margin-top:-1px}
+.fbMixedSaveButton{padding-left:140px}
+.fbSettingsEditorLabel{position:absolute;width:155px}
+.show_label .fbSettingsEditorFields{margin-left:175px}
+.fbSettingsEditorFields .saveThrobber{vertical-align:middle}
+.fbSettingsEditorFields{width:400px}
+.wide_editor .fbSettingsEditorFields{width:550px}
+.fbSettingsEditorFields .extended_field{margin-right:-140px}
+.fbSettingsEditorFields .spacer hr{background-color:#ccc}
+.fbSettingsError div{margin-left:159px}
+.fbSettingsErrorLabel{color:#c66}
+.fbSettingsNotifEmailLink{display:block;line-height:0;height:16px}
+.fbSettingsNotifEmailLink .uiLoadingIndicatorAsync{padding-top:2px}
+.async_saving .fbSettingsEmailLinkIcon{display:none}
+.fbSettingsEmailMasterControlPanel{padding-left:8px;width:260px}
+.fbSettingsEmailMasterControlInputLabel{padding-top:8px}
+.fbSettingsNotifs span.fbSettingsListItemLabel{width:300px}
+.fbSettingsNotifCount{display:inline-block;margin-right:10px;width:35px}
+.fbSettingsSectionsItemName{width:160px}
+.fbSettingsSectionsItemContent{width:580px}
+li.notification .uiCloseButton{visibility:hidden}
+li.notification:hover .uiCloseButton,
+.notification .openToggler .uiCloseButton{visibility:visible}
+.notificationHidden .UIImageBlock{display:none}
+#app-settings-page{width:760px;margin:0 auto 40px}
+.fbAppSettingsPageHeader,
+.fbAppSettingsPageHeader a{font-size: 16px;font-weight:bold;color:#1c2a47;padding:1px 0 18px}
+#app-settings-page .breadcrumbArrow{margin:0 8px}
+.fbApplicationsList .fbsettingslistitemedit{padding-left:25px;float:right}
+.fbApplicationsList .fbsettingslistlink{float:left;width:730px}
+.fbApplicationsList .UI_ClosedArrow{padding-top:10px}
+.fbApplicationsList .UI_OpenArrow{padding-right:5px;float:left}
+.fbApplicationsList .app-permissions-box-header{overflow:hidden;padding-bottom:12px}
+.fbApplicationsList a.fbsettingslistlink:hover{text-decoration:none}
+.fbApplicationsList a.fbsettingslistlink:hover .fbsettingslistitemedit{text-decoration:underline}
+.fbApplicationsList .fbSettingsListItemHasContent:hover{background-color:#eff2f7}
+.fbApplicationsList .fbSettingsListSectionName{float:left;width:160px}
+.fbApplicationsList .fbSettingsListSectionContent{float:right;width:580px}
+.fbApplicationsList .appInfoCollapsedRow .fbSettingsListItemLabel{color:#000}
+.fbApplicationsList .fbSettingsListItemLabel{float:left;width:200px;margin-right:10px}
+.fbApplicationsList .fbSettingsListItemLabel .uiIconText{display:inline-block}
+.fbApplicationsList .openPanel .fbSettingsListItemLabel{width:215px}
+.fbApplicationsList .fbSettingsListCollapseLink{float:right;padding-left:25px;text-align:right}
+.fbApplicationsList .fbSettingsListItemContent{display:block;width:400px;float:left}
+.fbApplicationsList .fbApplicationsListItem{border-color:#e9e9e9}
+.fbApplicationsList .app-access-editor-box{padding:12px 5px;border-bottom:1px}
+.fbApplicationsList .fbApplicationsListItem:hover .fbsettingslistitemedit{background:url(../../yV/r/tI3-tDFcdgh.gif) no-repeat 4px -2px}
+.fbApplicationsList .appInfoCollapsedRow .fbsettingslistlink{padding:12px 0}
+.fbApplicationsList .appInfoCollapsedRow
+.async_saving .fbsettingslistitemedit{background:url(../../yb/r/GsNJNwuI-UM.gif) no-repeat 0 1px}
+.fbApplicationsList .content{display:none}
+.fbApplicationsList .fbSettingsListItemDelete{float:right;margin:14px 5px 0}
+.fbApplicationsList .openPanel .appInfoCollapsedRow{display:none}
+.fbApplicationsList .openPanel .content{display:block}
+.fbSettingsMobileRegisterForm{width:275px}
+
+#bootloader_S7ArE { height: 42px; }

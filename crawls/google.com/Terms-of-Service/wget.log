@@ -1,0 +1,78 @@
+--2011-12-02 15:00:21--  http://www.google.com/accounts/TOS
+Resolving www.google.com (www.google.com)... 74.125.39.147, 74.125.39.99, 74.125.39.103, ...
+Connecting to www.google.com (www.google.com)|74.125.39.147|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `../crawls/google.com/Terms-of-Service/raw/www.google.com/accounts/TOS.html'
+
+     0K .......... .......... .......... .......... ....        138K=0.3s
+
+2011-12-02 15:00:22 (138 KB/s) - `../crawls/google.com/Terms-of-Service/raw/www.google.com/accounts/TOS.html' saved [45211]
+
+--2011-12-02 15:00:22--  http://www.google.com/accounts/google.css
+Reusing existing connection to www.google.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 2006 (2.0K) [text/css]
+Saving to: `../crawls/google.com/Terms-of-Service/raw/www.google.com/accounts/google.css'
+
+     0K .                                                     100%  979K=0s
+
+2011-12-02 15:00:22 (979 KB/s) - `../crawls/google.com/Terms-of-Service/raw/www.google.com/accounts/google.css' saved [2006/2006]
+
+--2011-12-02 15:00:22--  https://ssl.google-analytics.com/urchin.js
+Resolving ssl.google-analytics.com (ssl.google-analytics.com)... 209.85.229.97
+Connecting to ssl.google-analytics.com (ssl.google-analytics.com)|209.85.229.97|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/javascript]
+Saving to: `../crawls/google.com/Terms-of-Service/raw/ssl.google-analytics.com/urchin.js'
+
+     0K .......... .......... ..                                142K=0.2s
+
+2011-12-02 15:00:23 (142 KB/s) - `../crawls/google.com/Terms-of-Service/raw/ssl.google-analytics.com/urchin.js' saved [22678]
+
+--2011-12-02 15:00:23--  https://www.google.com/accounts/google_sm.gif
+Connecting to www.google.com (www.google.com)|74.125.39.147|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 4204 (4.1K) [image/gif]
+Saving to: `../crawls/google.com/Terms-of-Service/raw/www.google.com/accounts/google_sm.gif'
+
+     0K ....                                                  100% 2.00M=0s
+
+2011-12-02 15:00:24 (2.00 MB/s) - `../crawls/google.com/Terms-of-Service/raw/www.google.com/accounts/google_sm.gif' saved [4204/4204]
+
+--2011-12-02 15:00:24--  http://www.google.com/accounts/cleardot.gif
+Connecting to www.google.com (www.google.com)|74.125.39.147|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 43 [image/gif]
+Saving to: `../crawls/google.com/Terms-of-Service/raw/www.google.com/accounts/cleardot.gif'
+
+     0K                                                       100% 21.0K=0s
+
+2011-12-02 15:00:24 (21.0 KB/s) - `../crawls/google.com/Terms-of-Service/raw/www.google.com/accounts/cleardot.gif' saved [43/43]
+
+--2011-12-02 15:00:24--  http://www.google.com/jobs/images/dot2.gif
+Reusing existing connection to www.google.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 38 [image/gif]
+Saving to: `../crawls/google.com/Terms-of-Service/raw/www.google.com/jobs/images/dot2.gif'
+
+     0K                                                       100% 18.6K=0s
+
+2011-12-02 15:00:24 (18.6 KB/s) - `../crawls/google.com/Terms-of-Service/raw/www.google.com/jobs/images/dot2.gif' saved [38/38]
+
+--2011-12-02 15:00:24--  http://www.google.com/accounts/art.gif
+Reusing existing connection to www.google.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 2991 (2.9K) [image/gif]
+Saving to: `../crawls/google.com/Terms-of-Service/raw/www.google.com/accounts/art.gif'
+
+     0K ..                                                    100% 1.43M=0s
+
+2011-12-02 15:00:24 (1.43 MB/s) - `../crawls/google.com/Terms-of-Service/raw/www.google.com/accounts/art.gif' saved [2991/2991]
+
+FINISHED --2011-12-02 15:00:24--
+Total wall clock time: 3.0s
+Downloaded: 7 files, 75K in 0.5s (158 KB/s)
+Converting ../crawls/google.com/Terms-of-Service/raw/www.google.com/accounts/TOS.html... 8-4
+Converting ../crawls/google.com/Terms-of-Service/raw/www.google.com/accounts/google.css... nothing to do.
+Converted 2 files in 0.004 seconds.

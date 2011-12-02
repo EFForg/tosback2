@@ -1,0 +1,855 @@
+--2011-12-02 14:59:20--  http://en.wordpress.com/tos/
+Resolving en.wordpress.com (en.wordpress.com)... 76.74.255.123, 72.233.104.123, 72.233.127.217, ...
+Connecting to en.wordpress.com (en.wordpress.com)|76.74.255.123|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/en.wordpress.com/tos/index.html'
+
+     0K .......... .......... .......... .......... .....       407K=0.1s
+
+2011-12-02 14:59:20 (407 KB/s) - `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/en.wordpress.com/tos/index.html' saved [46662]
+
+--2011-12-02 14:59:20--  http://s2.wp.com/wp-content/themes/h4/style.css?m=1321987299g&5
+Resolving s2.wp.com (s2.wp.com)... 72.21.91.19
+Connecting to s2.wp.com (s2.wp.com)|72.21.91.19|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 51197 (50K) [text/css]
+Saving to: `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s2.wp.com/wp-content/themes/h4/style.css?m=1321987299g&5.css'
+
+     0K .......... .......... .......... .......... ......... 100% 4.07M=0.01s
+
+2011-12-02 14:59:20 (4.07 MB/s) - `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s2.wp.com/wp-content/themes/h4/style.css?m=1321987299g&5.css' saved [51197/51197]
+
+--2011-12-02 14:59:20--  http://s0.wp.com/wp-content/themes/h4/global.css?m=1313010130g
+Resolving s0.wp.com (s0.wp.com)... 72.21.91.19
+Reusing existing connection to s2.wp.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 627 [text/css]
+Saving to: `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s0.wp.com/wp-content/themes/h4/global.css?m=1313010130g.css'
+
+     0K                                                       100%  306K=0s
+
+2011-12-02 14:59:20 (306 KB/s) - `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s0.wp.com/wp-content/themes/h4/global.css?m=1313010130g.css' saved [627/627]
+
+--2011-12-02 14:59:20--  http://s2.wp.com/wp-content/themes/h4/tabs/tab.css?m=1321933533g&ver=20110821
+Reusing existing connection to s2.wp.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 32341 (32K) [text/css]
+Saving to: `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s2.wp.com/wp-content/themes/h4/tabs/tab.css?m=1321933533g&ver=20110821.css'
+
+     0K .......... .......... .......... .                    100% 7.71M=0.004s
+
+2011-12-02 14:59:21 (7.71 MB/s) - `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s2.wp.com/wp-content/themes/h4/tabs/tab.css?m=1321933533g&ver=20110821.css' saved [32341/32341]
+
+--2011-12-02 14:59:21--  http://s0.wp.com/wp-content/mu-plugins/post-flair/style.css?m=1322086826g&ver=3
+Reusing existing connection to s2.wp.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 12084 (12K) [text/css]
+Saving to: `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s0.wp.com/wp-content/mu-plugins/post-flair/style.css?m=1322086826g&ver=3.css'
+
+     0K .......... .                                          100% 5.76M=0s
+
+2011-12-02 14:59:21 (5.76 MB/s) - `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s0.wp.com/wp-content/mu-plugins/post-flair/style.css?m=1322086826g&ver=3.css' saved [12084/12084]
+
+--2011-12-02 14:59:21--  http://s2.wp.com/wp-includes/js/jquery/jquery.js?m=1322588691g&ver=1.7.1
+Reusing existing connection to s2.wp.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 93832 (92K) [application/x-javascript]
+Saving to: `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s2.wp.com/wp-includes/js/jquery/jquery.js?m=1322588691g&ver=1.7.1'
+
+     0K .......... .......... .......... .......... .......... 54% 12.2M 0s
+    50K .......... .......... .......... .......... .         100% 10.2M=0.008s
+
+2011-12-02 14:59:21 (11.2 MB/s) - `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s2.wp.com/wp-includes/js/jquery/jquery.js?m=1322588691g&ver=1.7.1' saved [93832/93832]
+
+--2011-12-02 14:59:21--  http://s2.wp.com/wp-content/themes/h4/js/scripts.js?m=1321571570g&ver=MU
+Reusing existing connection to s2.wp.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 194 [application/x-javascript]
+Saving to: `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s2.wp.com/wp-content/themes/h4/js/scripts.js?m=1321571570g&ver=MU'
+
+     0K                                                       100% 94.7K=0s
+
+2011-12-02 14:59:21 (94.7 KB/s) - `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s2.wp.com/wp-content/themes/h4/js/scripts.js?m=1321571570g&ver=MU' saved [194/194]
+
+--2011-12-02 14:59:21--  http://s2.wp.com/wp-content/themes/h4/tabs/tab.js?m=1322692493g&ver=20110821
+Reusing existing connection to s2.wp.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 44908 (44K) [application/x-javascript]
+Saving to: `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s2.wp.com/wp-content/themes/h4/tabs/tab.js?m=1322692493g&ver=20110821'
+
+     0K .......... .......... .......... .......... ...       100% 10.7M=0.004s
+
+2011-12-02 14:59:21 (10.7 MB/s) - `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s2.wp.com/wp-content/themes/h4/tabs/tab.js?m=1322692493g&ver=20110821' saved [44908/44908]
+
+--2011-12-02 14:59:21--  http://s1.wp.com/wp-content/plugins/snow/snowstorm.js?m=1322079654g&ver=1322079654
+Resolving s1.wp.com (s1.wp.com)... 72.21.91.19
+Reusing existing connection to s2.wp.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 10353 (10K) [application/x-javascript]
+Saving to: `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s1.wp.com/wp-content/plugins/snow/snowstorm.js?m=1322079654g&ver=1322079654'
+
+     0K ..........                                            100% 4.94M=0s
+
+2011-12-02 14:59:21 (4.94 MB/s) - `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s1.wp.com/wp-content/plugins/snow/snowstorm.js?m=1322079654g&ver=1322079654' saved [10353/10353]
+
+--2011-12-02 14:59:21--  http://s1.wp.com/wp-content/mu-plugins/highlander-comments/style.css?m=1322513930g&ver=20110620
+Reusing existing connection to s2.wp.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 18853 (18K) [text/css]
+Saving to: `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s1.wp.com/wp-content/mu-plugins/highlander-comments/style.css?m=1322513930g&ver=20110620.css'
+
+     0K .......... ........                                   100% 8.99M=0s
+
+2011-12-02 14:59:21 (8.99 MB/s) - `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s1.wp.com/wp-content/mu-plugins/highlander-comments/style.css?m=1322513930g&ver=20110620.css' saved [18853/18853]
+
+--2011-12-02 14:59:21--  http://s1.wp.com/i/favicon-stacked.ico?m=1311976022g
+Reusing existing connection to s2.wp.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 17910 (17K) [image/vnd.microsoft.icon]
+Saving to: `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s1.wp.com/i/favicon-stacked.ico?m=1311976022g'
+
+     0K .......... .......                                    100% 8.54M=0s
+
+2011-12-02 14:59:21 (8.54 MB/s) - `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s1.wp.com/i/favicon-stacked.ico?m=1311976022g' saved [17910/17910]
+
+--2011-12-02 14:59:21--  http://s2.wp.com/i/favicon.ico?m=1311976022g
+Reusing existing connection to s2.wp.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 17910 (17K) [image/vnd.microsoft.icon]
+Saving to: `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s2.wp.com/i/favicon.ico?m=1311976022g'
+
+     0K .......... .......                                    100% 8.54M=0s
+
+2011-12-02 14:59:21 (8.54 MB/s) - `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s2.wp.com/i/favicon.ico?m=1311976022g' saved [17910/17910]
+
+--2011-12-02 14:59:21--  http://creativecommons.org/images/public/somerights20
+Resolving creativecommons.org (creativecommons.org)... 72.51.46.230
+Connecting to creativecommons.org (creativecommons.org)|72.51.46.230|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 958 [image/png]
+Saving to: `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/creativecommons.org/images/public/somerights20'
+
+     0K                                                       100%  468K=0s
+
+2011-12-02 14:59:21 (468 KB/s) - `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/creativecommons.org/images/public/somerights20' saved [958/958]
+
+--2011-12-02 14:59:21--  http://s0.wp.com/wp-content/themes/h4/i/footerpromo/blackberry.png?m=1300158516g
+Connecting to s0.wp.com (s0.wp.com)|72.21.91.19|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 30295 (30K) [image/png]
+Saving to: `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s0.wp.com/wp-content/themes/h4/i/footerpromo/blackberry.png?m=1300158516g'
+
+     0K .......... .......... .........                       100% 7.22M=0.004s
+
+2011-12-02 14:59:21 (7.22 MB/s) - `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s0.wp.com/wp-content/themes/h4/i/footerpromo/blackberry.png?m=1300158516g' saved [30295/30295]
+
+--2011-12-02 14:59:21--  http://s0.wp.com/wp-content/themes/h4/i/automattic.png?m=1300158516g&1
+Reusing existing connection to s0.wp.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1239 (1.2K) [image/png]
+Saving to: `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s0.wp.com/wp-content/themes/h4/i/automattic.png?m=1300158516g&1'
+
+     0K .                                                     100%  605K=0s
+
+2011-12-02 14:59:21 (605 KB/s) - `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s0.wp.com/wp-content/themes/h4/i/automattic.png?m=1300158516g&1' saved [1239/1239]
+
+--2011-12-02 14:59:21--  http://s.gravatar.com/js/gprofiles.js?aa&ver=MU
+Resolving s.gravatar.com (s.gravatar.com)... 72.21.91.19
+Reusing existing connection to s0.wp.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 23566 (23K) [application/x-javascript]
+Saving to: `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s.gravatar.com/js/gprofiles.js?aa&ver=MU'
+
+     0K .......... .......... ...                             100% 2.81M=0.008s
+
+2011-12-02 14:59:21 (2.81 MB/s) - `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s.gravatar.com/js/gprofiles.js?aa&ver=MU' saved [23566/23566]
+
+--2011-12-02 14:59:21--  http://s2.wp.com/wp-content/mu-plugins/gravatar-hovercards/wpgroho.js?m=1318621573g&ver=MU
+Reusing existing connection to s0.wp.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 582 [application/x-javascript]
+Saving to: `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s2.wp.com/wp-content/mu-plugins/gravatar-hovercards/wpgroho.js?m=1318621573g&ver=MU'
+
+     0K                                                       100%  284K=0s
+
+2011-12-02 14:59:21 (284 KB/s) - `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s2.wp.com/wp-content/mu-plugins/gravatar-hovercards/wpgroho.js?m=1318621573g&ver=MU' saved [582/582]
+
+--2011-12-02 14:59:21--  http://pixel.quantserve.com/pixel/p-18-mFEk4J448M.gif?labels=%2Clanguage.en%2Ctype.wpcom%2Cwp.homepage
+Resolving pixel.quantserve.com (pixel.quantserve.com)... 64.94.107.11, 64.94.107.19, 64.94.107.21, ...
+Connecting to pixel.quantserve.com (pixel.quantserve.com)|64.94.107.11|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 35 [image/gif]
+Saving to: `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/pixel.quantserve.com/pixel/p-18-mFEk4J448M.gif?labels=,language.en,type.wpcom,wp.homepage'
+
+     0K                                                       100% 17.1K=0s
+
+2011-12-02 14:59:21 (17.1 KB/s) - `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/pixel.quantserve.com/pixel/p-18-mFEk4J448M.gif?labels=,language.en,type.wpcom,wp.homepage' saved [35/35]
+
+--2011-12-02 14:59:21--  http://s0.wp.com/wp-content/mu-plugins/highlander-comments/script.js?m=1322513930g&ver=20110804
+Reusing existing connection to s0.wp.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 23356 (23K) [application/x-javascript]
+Saving to: `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s0.wp.com/wp-content/mu-plugins/highlander-comments/script.js?m=1322513930g&ver=20110804'
+
+     0K .......... .......... ..                              100% 5.57M=0.004s
+
+2011-12-02 14:59:21 (5.57 MB/s) - `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s0.wp.com/wp-content/mu-plugins/highlander-comments/script.js?m=1322513930g&ver=20110804' saved [23356/23356]
+
+--2011-12-02 14:59:21--  http://b.scorecardresearch.com/beacon.js
+Resolving b.scorecardresearch.com (b.scorecardresearch.com)... 216.156.213.170, 216.156.213.154
+Connecting to b.scorecardresearch.com (b.scorecardresearch.com)|216.156.213.170|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1900 (1.9K) [application/x-javascript]
+Saving to: `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/b.scorecardresearch.com/beacon.js'
+
+     0K .                                                     100%  928K=0s
+
+2011-12-02 14:59:21 (928 KB/s) - `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/b.scorecardresearch.com/beacon.js' saved [1900/1900]
+
+--2011-12-02 14:59:21--  http://b.scorecardresearch.com/p?cj=1c1=2&c2=7518284
+Reusing existing connection to b.scorecardresearch.com:80.
+HTTP request sent, awaiting response... 302 Moved Temporarily
+Location: http://b.scorecardresearch.com/p2?cj=1c1=2&c2=7518284 [following]
+--2011-12-02 14:59:21--  http://b.scorecardresearch.com/p2?cj=1c1=2&c2=7518284
+Reusing existing connection to b.scorecardresearch.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 43 [image/gif]
+Saving to: `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/b.scorecardresearch.com/p?cj=1c1=2&c2=7518284'
+
+     0K                                                       100% 21.0K=0s
+
+2011-12-02 14:59:21 (21.0 KB/s) - `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/b.scorecardresearch.com/p?cj=1c1=2&c2=7518284' saved [43/43]
+
+--2011-12-02 14:59:21--  http://s.stats.wordpress.com/w.js?21
+Resolving s.stats.wordpress.com (s.stats.wordpress.com)... 72.21.91.19
+Connecting to s.stats.wordpress.com (s.stats.wordpress.com)|72.21.91.19|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 2590 (2.5K) [application/x-javascript]
+Saving to: `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s.stats.wordpress.com/w.js?21'
+
+     0K ..                                                    100% 1.23M=0s
+
+2011-12-02 14:59:21 (1.23 MB/s) - `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s.stats.wordpress.com/w.js?21' saved [2590/2590]
+
+--2011-12-02 14:59:21--  http://stats.wordpress.com/b.gif?v=noscript
+Resolving stats.wordpress.com (stats.wordpress.com)... 72.233.127.217, 74.200.247.59, 74.200.247.187, ...
+Connecting to stats.wordpress.com (stats.wordpress.com)|72.233.127.217|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 43 [image/gif]
+Saving to: `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/stats.wordpress.com/b.gif?v=noscript'
+
+     0K                                                       100% 21.0K=0s
+
+2011-12-02 14:59:21 (21.0 KB/s) - `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/stats.wordpress.com/b.gif?v=noscript' saved [43/43]
+
+--2011-12-02 14:59:21--  http://s2.wp.com/wp-content/themes/h4/i/buttonbg.png
+Reusing existing connection to s.stats.wordpress.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 138 [image/png]
+Saving to: `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s2.wp.com/wp-content/themes/h4/i/buttonbg.png'
+
+     0K                                                       100% 67.4K=0s
+
+2011-12-02 14:59:21 (67.4 KB/s) - `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s2.wp.com/wp-content/themes/h4/i/buttonbg.png' saved [138/138]
+
+--2011-12-02 14:59:21--  http://s2.wp.com/wp-content/themes/h4/i/header-bg.png?2
+Reusing existing connection to s.stats.wordpress.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 121 [image/png]
+Saving to: `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s2.wp.com/wp-content/themes/h4/i/header-bg.png?2'
+
+     0K                                                       100% 59.1K=0s
+
+2011-12-02 14:59:21 (59.1 KB/s) - `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s2.wp.com/wp-content/themes/h4/i/header-bg.png?2' saved [121/121]
+
+--2011-12-02 14:59:21--  http://s2.wp.com/i/sprite.png?7
+Reusing existing connection to s.stats.wordpress.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 12198 (12K) [image/png]
+Saving to: `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s2.wp.com/i/sprite.png?7'
+
+     0K .......... .                                          100% 2.91M=0.004s
+
+2011-12-02 14:59:21 (2.91 MB/s) - `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s2.wp.com/i/sprite.png?7' saved [12198/12198]
+
+--2011-12-02 14:59:21--  http://s2.wp.com/wp-content/themes/h4/i/signupbackground.gif?3
+Reusing existing connection to s.stats.wordpress.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 3913 (3.8K) [image/gif]
+Saving to: `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s2.wp.com/wp-content/themes/h4/i/signupbackground.gif?3'
+
+     0K ...                                                   100% 1.87M=0s
+
+2011-12-02 14:59:21 (1.87 MB/s) - `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s2.wp.com/wp-content/themes/h4/i/signupbackground.gif?3' saved [3913/3913]
+
+--2011-12-02 14:59:21--  http://s2.wp.com/wp-content/themes/h4/i/bullet-blue.png
+Reusing existing connection to s.stats.wordpress.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 133 [image/png]
+Saving to: `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s2.wp.com/wp-content/themes/h4/i/bullet-blue.png'
+
+     0K                                                       100% 64.9K=0s
+
+2011-12-02 14:59:21 (64.9 KB/s) - `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s2.wp.com/wp-content/themes/h4/i/bullet-blue.png' saved [133/133]
+
+--2011-12-02 14:59:21--  http://s2.wp.com/wp-content/themes/h4/i/bullet-grey.png
+Reusing existing connection to s.stats.wordpress.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 133 [image/png]
+Saving to: `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s2.wp.com/wp-content/themes/h4/i/bullet-grey.png'
+
+     0K                                                       100% 64.9K=0s
+
+2011-12-02 14:59:21 (64.9 KB/s) - `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s2.wp.com/wp-content/themes/h4/i/bullet-grey.png' saved [133/133]
+
+--2011-12-02 14:59:21--  http://s2.wp.com/wp-content/themes/h4/i/getablog-small.gif?2
+Reusing existing connection to s.stats.wordpress.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 2616 (2.6K) [image/gif]
+Saving to: `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s2.wp.com/wp-content/themes/h4/i/getablog-small.gif?2'
+
+     0K ..                                                    100%  639K=0.004s
+
+2011-12-02 14:59:21 (639 KB/s) - `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s2.wp.com/wp-content/themes/h4/i/getablog-small.gif?2' saved [2616/2616]
+
+--2011-12-02 14:59:21--  http://s2.wp.com/wp-content/themes/h4/i/getablog-small.png
+Reusing existing connection to s.stats.wordpress.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 3772 (3.7K) [image/png]
+Saving to: `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s2.wp.com/wp-content/themes/h4/i/getablog-small.png'
+
+     0K ...                                                   100% 1.80M=0s
+
+2011-12-02 14:59:21 (1.80 MB/s) - `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s2.wp.com/wp-content/themes/h4/i/getablog-small.png' saved [3772/3772]
+
+--2011-12-02 14:59:21--  http://s2.wp.com/wp-content/themes/h4/i/rss.png
+Reusing existing connection to s.stats.wordpress.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 702 [image/png]
+Saving to: `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s2.wp.com/wp-content/themes/h4/i/rss.png'
+
+     0K                                                       100%  343K=0s
+
+2011-12-02 14:59:21 (343 KB/s) - `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s2.wp.com/wp-content/themes/h4/i/rss.png' saved [702/702]
+
+--2011-12-02 14:59:21--  http://s2.wp.com/wp-content/themes/h4/i/technorati.png
+Reusing existing connection to s.stats.wordpress.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 2957 (2.9K) [image/png]
+Saving to: `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s2.wp.com/wp-content/themes/h4/i/technorati.png'
+
+     0K ..                                                    100% 1.41M=0s
+
+2011-12-02 14:59:21 (1.41 MB/s) - `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s2.wp.com/wp-content/themes/h4/i/technorati.png' saved [2957/2957]
+
+--2011-12-02 14:59:21--  http://s2.wp.com/wp-content/themes/h4/i/delicious.png
+Reusing existing connection to s.stats.wordpress.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 2841 (2.8K) [image/png]
+Saving to: `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s2.wp.com/wp-content/themes/h4/i/delicious.png'
+
+     0K ..                                                    100% 1.35M=0s
+
+2011-12-02 14:59:21 (1.35 MB/s) - `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s2.wp.com/wp-content/themes/h4/i/delicious.png' saved [2841/2841]
+
+--2011-12-02 14:59:21--  http://s2.wp.com/wp-content/themes/h4/i/wink.png
+Reusing existing connection to s.stats.wordpress.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 3317 (3.2K) [image/png]
+Saving to: `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s2.wp.com/wp-content/themes/h4/i/wink.png'
+
+     0K ...                                                   100%  810K=0.004s
+
+2011-12-02 14:59:21 (810 KB/s) - `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s2.wp.com/wp-content/themes/h4/i/wink.png' saved [3317/3317]
+
+--2011-12-02 14:59:21--  http://s2.wp.com/wp-content/themes/h4/i/icerocket.png
+Reusing existing connection to s.stats.wordpress.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 2950 (2.9K) [image/png]
+Saving to: `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s2.wp.com/wp-content/themes/h4/i/icerocket.png'
+
+     0K ..                                                    100%  720K=0.004s
+
+2011-12-02 14:59:21 (720 KB/s) - `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s2.wp.com/wp-content/themes/h4/i/icerocket.png' saved [2950/2950]
+
+--2011-12-02 14:59:21--  http://s2.wp.com/i/sprite.png?6
+Reusing existing connection to s.stats.wordpress.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 12198 (12K) [image/png]
+Saving to: `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s2.wp.com/i/sprite.png?6'
+
+     0K .......... .                                          100% 2.91M=0.004s
+
+2011-12-02 14:59:21 (2.91 MB/s) - `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s2.wp.com/i/sprite.png?6' saved [12198/12198]
+
+--2011-12-02 14:59:21--  http://s2.wp.com/wp-content/mu-plugins/admin-bar/wpcom-admin-bar-icons.png
+Reusing existing connection to s.stats.wordpress.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 4114 (4.0K) [image/png]
+Saving to: `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s2.wp.com/wp-content/mu-plugins/admin-bar/wpcom-admin-bar-icons.png'
+
+     0K ....                                                  100% 1.96M=0s
+
+2011-12-02 14:59:21 (1.96 MB/s) - `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s2.wp.com/wp-content/mu-plugins/admin-bar/wpcom-admin-bar-icons.png' saved [4114/4114]
+
+--2011-12-02 14:59:21--  http://s2.wp.com/wp-content/themes/h4/i/border.png
+Reusing existing connection to s.stats.wordpress.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 110 [image/png]
+Saving to: `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s2.wp.com/wp-content/themes/h4/i/border.png'
+
+     0K                                                       100% 53.7K=0s
+
+2011-12-02 14:59:21 (53.7 KB/s) - `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s2.wp.com/wp-content/themes/h4/i/border.png' saved [110/110]
+
+--2011-12-02 14:59:21--  http://s2.wp.com/wp-content/themes/h4/i/rssicon.png
+Reusing existing connection to s.stats.wordpress.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 475 [image/png]
+Saving to: `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s2.wp.com/wp-content/themes/h4/i/rssicon.png'
+
+     0K                                                       100%  232K=0s
+
+2011-12-02 14:59:21 (232 KB/s) - `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s2.wp.com/wp-content/themes/h4/i/rssicon.png' saved [475/475]
+
+--2011-12-02 14:59:21--  http://s2.wp.com/wp-content/themes/h4/i/arrow-left.png
+Reusing existing connection to s.stats.wordpress.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 791 [image/png]
+Saving to: `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s2.wp.com/wp-content/themes/h4/i/arrow-left.png'
+
+     0K                                                       100%  386K=0s
+
+2011-12-02 14:59:21 (386 KB/s) - `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s2.wp.com/wp-content/themes/h4/i/arrow-left.png' saved [791/791]
+
+--2011-12-02 14:59:21--  http://s2.wp.com/wp-content/themes/h4/i/arrow-right.png
+Reusing existing connection to s.stats.wordpress.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 567 [image/png]
+Saving to: `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s2.wp.com/wp-content/themes/h4/i/arrow-right.png'
+
+     0K                                                       100%  277K=0s
+
+2011-12-02 14:59:21 (277 KB/s) - `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s2.wp.com/wp-content/themes/h4/i/arrow-right.png' saved [567/567]
+
+--2011-12-02 14:59:21--  http://s2.wp.com/wp-content/themes/h4/i/signupbuttonbg.png
+Reusing existing connection to s.stats.wordpress.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 3406 (3.3K) [image/png]
+Saving to: `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s2.wp.com/wp-content/themes/h4/i/signupbuttonbg.png'
+
+     0K ...                                                   100%  831K=0.004s
+
+2011-12-02 14:59:21 (831 KB/s) - `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s2.wp.com/wp-content/themes/h4/i/signupbuttonbg.png' saved [3406/3406]
+
+--2011-12-02 14:59:21--  http://s2.wp.com/wp-content/themes/h4/i/signup/stats.png
+Reusing existing connection to s.stats.wordpress.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1736 (1.7K) [image/png]
+Saving to: `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s2.wp.com/wp-content/themes/h4/i/signup/stats.png'
+
+     0K .                                                     100%  848K=0s
+
+2011-12-02 14:59:21 (848 KB/s) - `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s2.wp.com/wp-content/themes/h4/i/signup/stats.png' saved [1736/1736]
+
+--2011-12-02 14:59:21--  http://s2.wp.com/wp-content/themes/h4/i/tags.png
+Reusing existing connection to s.stats.wordpress.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 4270 (4.2K) [image/png]
+Saving to: `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s2.wp.com/wp-content/themes/h4/i/tags.png'
+
+     0K ....                                                  100% 2.04M=0s
+
+2011-12-02 14:59:21 (2.04 MB/s) - `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s2.wp.com/wp-content/themes/h4/i/tags.png' saved [4270/4270]
+
+--2011-12-02 14:59:21--  http://s2.wp.com/wp-content/themes/h4/i/dark.png?2
+Reusing existing connection to s.stats.wordpress.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 109 [image/png]
+Saving to: `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s2.wp.com/wp-content/themes/h4/i/dark.png?2'
+
+     0K                                                       100% 53.2K=0s
+
+2011-12-02 14:59:21 (53.2 KB/s) - `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s2.wp.com/wp-content/themes/h4/i/dark.png?2' saved [109/109]
+
+--2011-12-02 14:59:21--  http://s0.wp.com/wp-content/themes/vip/wpsupport2/i/browse-middle-bg.png
+Reusing existing connection to s.stats.wordpress.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 234 [image/png]
+Saving to: `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s0.wp.com/wp-content/themes/vip/wpsupport2/i/browse-middle-bg.png'
+
+     0K                                                       100%  114K=0s
+
+2011-12-02 14:59:21 (114 KB/s) - `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s0.wp.com/wp-content/themes/vip/wpsupport2/i/browse-middle-bg.png' saved [234/234]
+
+--2011-12-02 14:59:21--  http://s2.wp.com/wp-content/themes/h4/i/ipv6.png
+Reusing existing connection to s.stats.wordpress.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 4603 (4.5K) [image/png]
+Saving to: `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s2.wp.com/wp-content/themes/h4/i/ipv6.png'
+
+     0K ....                                                  100% 2.19M=0s
+
+2011-12-02 14:59:21 (2.19 MB/s) - `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s2.wp.com/wp-content/themes/h4/i/ipv6.png' saved [4603/4603]
+
+--2011-12-02 14:59:21--  http://s2.wp.com/wp-admin/images/wp-logo-vs.png
+Reusing existing connection to s.stats.wordpress.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 958 [image/png]
+Saving to: `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s2.wp.com/wp-admin/images/wp-logo-vs.png'
+
+     0K                                                       100%  468K=0s
+
+2011-12-02 14:59:21 (468 KB/s) - `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s2.wp.com/wp-admin/images/wp-logo-vs.png' saved [958/958]
+
+--2011-12-02 14:59:21--  http://s2.wp.com/wp-content/themes/h4/i/logo-tn-hoz.png
+Reusing existing connection to s.stats.wordpress.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 3331 (3.3K) [image/png]
+Saving to: `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s2.wp.com/wp-content/themes/h4/i/logo-tn-hoz.png'
+
+     0K ...                                                   100% 1.59M=0s
+
+2011-12-02 14:59:21 (1.59 MB/s) - `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s2.wp.com/wp-content/themes/h4/i/logo-tn-hoz.png' saved [3331/3331]
+
+--2011-12-02 14:59:21--  http://s2.wp.com/wp-content/themes/h4/i/logo-tn-stacked.png
+Reusing existing connection to s.stats.wordpress.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1862 (1.8K) [image/png]
+Saving to: `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s2.wp.com/wp-content/themes/h4/i/logo-tn-stacked.png'
+
+     0K .                                                     100%  909K=0s
+
+2011-12-02 14:59:21 (909 KB/s) - `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s2.wp.com/wp-content/themes/h4/i/logo-tn-stacked.png' saved [1862/1862]
+
+--2011-12-02 14:59:21--  http://s2.wp.com/wp-content/themes/h4/i/subsprite.png
+Reusing existing connection to s.stats.wordpress.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 2141 (2.1K) [image/png]
+Saving to: `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s2.wp.com/wp-content/themes/h4/i/subsprite.png'
+
+     0K ..                                                    100% 1.02M=0s
+
+2011-12-02 14:59:21 (1.02 MB/s) - `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s2.wp.com/wp-content/themes/h4/i/subsprite.png' saved [2141/2141]
+
+--2011-12-02 14:59:21--  http://s2.wp.com/wp-content/themes/h4/i/horiz_loader.gif
+Reusing existing connection to s.stats.wordpress.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 777 [image/gif]
+Saving to: `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s2.wp.com/wp-content/themes/h4/i/horiz_loader.gif'
+
+     0K                                                       100%  379K=0s
+
+2011-12-02 14:59:21 (379 KB/s) - `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s2.wp.com/wp-content/themes/h4/i/horiz_loader.gif' saved [777/777]
+
+--2011-12-02 14:59:21--  http://s2.wp.com/wp-content/themes/h4/i/w-loader.gif
+Reusing existing connection to s.stats.wordpress.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 2324 (2.3K) [image/gif]
+Saving to: `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s2.wp.com/wp-content/themes/h4/i/w-loader.gif'
+
+     0K ..                                                    100% 1.11M=0s
+
+2011-12-02 14:59:21 (1.11 MB/s) - `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s2.wp.com/wp-content/themes/h4/i/w-loader.gif' saved [2324/2324]
+
+--2011-12-02 14:59:21--  http://s2.wp.com/wp-content/themes/h4/i/reblog-arrow.png
+Reusing existing connection to s.stats.wordpress.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1045 (1.0K) [image/png]
+Saving to: `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s2.wp.com/wp-content/themes/h4/i/reblog-arrow.png'
+
+     0K .                                                     100%  510K=0s
+
+2011-12-02 14:59:21 (510 KB/s) - `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s2.wp.com/wp-content/themes/h4/i/reblog-arrow.png' saved [1045/1045]
+
+--2011-12-02 14:59:21--  http://s2.wp.com/wp-content/themes/h4/i/subs-fade.png
+Reusing existing connection to s.stats.wordpress.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 987 [image/png]
+Saving to: `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s2.wp.com/wp-content/themes/h4/i/subs-fade.png'
+
+     0K                                                       100%  482K=0s
+
+2011-12-02 14:59:21 (482 KB/s) - `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s2.wp.com/wp-content/themes/h4/i/subs-fade.png' saved [987/987]
+
+--2011-12-02 14:59:21--  http://s2.wp.com/wp-content/themes/h4/i/tiparrow.gif
+Reusing existing connection to s.stats.wordpress.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 54 [image/gif]
+Saving to: `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s2.wp.com/wp-content/themes/h4/i/tiparrow.gif'
+
+     0K                                                       100% 26.4K=0s
+
+2011-12-02 14:59:21 (26.4 KB/s) - `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s2.wp.com/wp-content/themes/h4/i/tiparrow.gif' saved [54/54]
+
+--2011-12-02 14:59:21--  http://s2.wp.com/wp-content/themes/h4/i/delete_off.gif
+Reusing existing connection to s.stats.wordpress.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1243 (1.2K) [image/gif]
+Saving to: `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s2.wp.com/wp-content/themes/h4/i/delete_off.gif'
+
+     0K .                                                     100%  607K=0s
+
+2011-12-02 14:59:21 (607 KB/s) - `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s2.wp.com/wp-content/themes/h4/i/delete_off.gif' saved [1243/1243]
+
+--2011-12-02 14:59:21--  http://s2.wp.com/wp-content/themes/h4/i/delete_on.gif
+Reusing existing connection to s.stats.wordpress.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1243 (1.2K) [image/gif]
+Saving to: `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s2.wp.com/wp-content/themes/h4/i/delete_on.gif'
+
+     0K .                                                     100%  607K=0s
+
+2011-12-02 14:59:21 (607 KB/s) - `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s2.wp.com/wp-content/themes/h4/i/delete_on.gif' saved [1243/1243]
+
+--2011-12-02 14:59:21--  http://s2.wp.com/wp-content/themes/h4/i/fb-button.png
+Reusing existing connection to s.stats.wordpress.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 630 [image/png]
+Saving to: `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s2.wp.com/wp-content/themes/h4/i/fb-button.png'
+
+     0K                                                       100%  308K=0s
+
+2011-12-02 14:59:21 (308 KB/s) - `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s2.wp.com/wp-content/themes/h4/i/fb-button.png' saved [630/630]
+
+--2011-12-02 14:59:21--  http://s2.wp.com/wp-content/themes/h4/i/twitter-button.png
+Reusing existing connection to s.stats.wordpress.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 696 [image/png]
+Saving to: `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s2.wp.com/wp-content/themes/h4/i/twitter-button.png'
+
+     0K                                                       100%  340K=0s
+
+2011-12-02 14:59:21 (340 KB/s) - `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s2.wp.com/wp-content/themes/h4/i/twitter-button.png' saved [696/696]
+
+--2011-12-02 14:59:21--  http://s2.wp.com/wp-content/themes/h4/i/yahoo-button.png
+Reusing existing connection to s.stats.wordpress.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 5641 (5.5K) [image/png]
+Saving to: `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s2.wp.com/wp-content/themes/h4/i/yahoo-button.png'
+
+     0K .....                                                 100% 2.69M=0s
+
+2011-12-02 14:59:21 (2.69 MB/s) - `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s2.wp.com/wp-content/themes/h4/i/yahoo-button.png' saved [5641/5641]
+
+--2011-12-02 14:59:21--  http://s2.wp.com/wp-content/themes/h4/i/linkedin-button.png
+Reusing existing connection to s.stats.wordpress.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 4668 (4.6K) [image/png]
+Saving to: `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s2.wp.com/wp-content/themes/h4/i/linkedin-button.png'
+
+     0K ....                                                  100% 2.23M=0s
+
+2011-12-02 14:59:21 (2.23 MB/s) - `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s2.wp.com/wp-content/themes/h4/i/linkedin-button.png' saved [4668/4668]
+
+--2011-12-02 14:59:21--  http://s2.wp.com/wp-content/themes/h4/tabs/suggested.png
+Reusing existing connection to s.stats.wordpress.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 13040 (13K) [image/png]
+Saving to: `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s2.wp.com/wp-content/themes/h4/tabs/suggested.png'
+
+     0K .......... ..                                         100% 3.11M=0.004s
+
+2011-12-02 14:59:21 (3.11 MB/s) - `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s2.wp.com/wp-content/themes/h4/tabs/suggested.png' saved [13040/13040]
+
+--2011-12-02 14:59:21--  http://s0.wp.com/wp-content/mu-plugins/post-flair/sharing/images/icon-facebook.png
+Reusing existing connection to s.stats.wordpress.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 887 [image/png]
+Saving to: `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s0.wp.com/wp-content/mu-plugins/post-flair/sharing/images/icon-facebook.png'
+
+     0K                                                       100%  433K=0s
+
+2011-12-02 14:59:21 (433 KB/s) - `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s0.wp.com/wp-content/mu-plugins/post-flair/sharing/images/icon-facebook.png' saved [887/887]
+
+--2011-12-02 14:59:21--  http://s0.wp.com/wp-content/mu-plugins/post-flair/sharing/images/icon-tumblr.png
+Reusing existing connection to s.stats.wordpress.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1941 (1.9K) [image/png]
+Saving to: `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s0.wp.com/wp-content/mu-plugins/post-flair/sharing/images/icon-tumblr.png'
+
+     0K .                                                     100%  948K=0s
+
+2011-12-02 14:59:21 (948 KB/s) - `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s0.wp.com/wp-content/mu-plugins/post-flair/sharing/images/icon-tumblr.png' saved [1941/1941]
+
+--2011-12-02 14:59:21--  http://s0.wp.com/wp-content/mu-plugins/post-flair/sharing/images/icon-twitter.png
+Reusing existing connection to s.stats.wordpress.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 650 [image/png]
+Saving to: `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s0.wp.com/wp-content/mu-plugins/post-flair/sharing/images/icon-twitter.png'
+
+     0K                                                       100%  317K=0s
+
+2011-12-02 14:59:21 (317 KB/s) - `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s0.wp.com/wp-content/mu-plugins/post-flair/sharing/images/icon-twitter.png' saved [650/650]
+
+--2011-12-02 14:59:21--  http://s0.wp.com/wp-content/mu-plugins/post-flair/sharing/images/icon-linkedin.png
+Reusing existing connection to s.stats.wordpress.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 446 [image/png]
+Saving to: `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s0.wp.com/wp-content/mu-plugins/post-flair/sharing/images/icon-linkedin.png'
+
+     0K                                                       100%  218K=0s
+
+2011-12-02 14:59:21 (218 KB/s) - `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s0.wp.com/wp-content/mu-plugins/post-flair/sharing/images/icon-linkedin.png' saved [446/446]
+
+--2011-12-02 14:59:21--  http://s0.wp.com/wp-content/mu-plugins/post-flair/sharing/images/icon-wordpress.png
+Reusing existing connection to s.stats.wordpress.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 882 [image/png]
+Saving to: `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s0.wp.com/wp-content/mu-plugins/post-flair/sharing/images/icon-wordpress.png'
+
+     0K                                                       100%  431K=0s
+
+2011-12-02 14:59:21 (431 KB/s) - `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s0.wp.com/wp-content/mu-plugins/post-flair/sharing/images/icon-wordpress.png' saved [882/882]
+
+--2011-12-02 14:59:21--  http://s0.wp.com/wp-content/mu-plugins/post-flair/sharing/images/icon-digg.png
+Reusing existing connection to s.stats.wordpress.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1449 (1.4K) [image/png]
+Saving to: `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s0.wp.com/wp-content/mu-plugins/post-flair/sharing/images/icon-digg.png'
+
+     0K .                                                     100%  707K=0s
+
+2011-12-02 14:59:21 (707 KB/s) - `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s0.wp.com/wp-content/mu-plugins/post-flair/sharing/images/icon-digg.png' saved [1449/1449]
+
+--2011-12-02 14:59:21--  http://s0.wp.com/wp-content/mu-plugins/post-flair/sharing/images/icon-stumbleupon.png
+Reusing existing connection to s.stats.wordpress.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 818 [image/png]
+Saving to: `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s0.wp.com/wp-content/mu-plugins/post-flair/sharing/images/icon-stumbleupon.png'
+
+     0K                                                       100%  399K=0s
+
+2011-12-02 14:59:21 (399 KB/s) - `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s0.wp.com/wp-content/mu-plugins/post-flair/sharing/images/icon-stumbleupon.png' saved [818/818]
+
+--2011-12-02 14:59:21--  http://s0.wp.com/wp-content/mu-plugins/post-flair/sharing/images/icon-reddit.png
+Reusing existing connection to s.stats.wordpress.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 918 [image/png]
+Saving to: `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s0.wp.com/wp-content/mu-plugins/post-flair/sharing/images/icon-reddit.png'
+
+     0K                                                       100%  448K=0s
+
+2011-12-02 14:59:21 (448 KB/s) - `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s0.wp.com/wp-content/mu-plugins/post-flair/sharing/images/icon-reddit.png' saved [918/918]
+
+--2011-12-02 14:59:21--  http://s0.wp.com/wp-content/mu-plugins/post-flair/sharing/images/icon-email.png
+Reusing existing connection to s.stats.wordpress.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 457 [image/png]
+Saving to: `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s0.wp.com/wp-content/mu-plugins/post-flair/sharing/images/icon-email.png'
+
+     0K                                                       100%  223K=0s
+
+2011-12-02 14:59:21 (223 KB/s) - `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s0.wp.com/wp-content/mu-plugins/post-flair/sharing/images/icon-email.png' saved [457/457]
+
+--2011-12-02 14:59:21--  http://s0.wp.com/wp-content/mu-plugins/post-flair/sharing/images/icon-print.png
+Reusing existing connection to s.stats.wordpress.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 422 [image/png]
+Saving to: `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s0.wp.com/wp-content/mu-plugins/post-flair/sharing/images/icon-print.png'
+
+     0K                                                       100%  206K=0s
+
+2011-12-02 14:59:21 (206 KB/s) - `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s0.wp.com/wp-content/mu-plugins/post-flair/sharing/images/icon-print.png' saved [422/422]
+
+--2011-12-02 14:59:21--  http://s0.wp.com/wp-content/mu-plugins/post-flair/sharing/images/icon-more.png
+Reusing existing connection to s.stats.wordpress.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 395 [image/png]
+Saving to: `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s0.wp.com/wp-content/mu-plugins/post-flair/sharing/images/icon-more.png'
+
+     0K                                                       100%  193K=0s
+
+2011-12-02 14:59:21 (193 KB/s) - `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s0.wp.com/wp-content/mu-plugins/post-flair/sharing/images/icon-more.png' saved [395/395]
+
+--2011-12-02 14:59:21--  http://s0.wp.com/wp-content/mu-plugins/post-flair/like/images/icon-like.png?2
+Reusing existing connection to s.stats.wordpress.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 562 [image/png]
+Saving to: `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s0.wp.com/wp-content/mu-plugins/post-flair/like/images/icon-like.png?2'
+
+     0K                                                       100%  274K=0s
+
+2011-12-02 14:59:21 (274 KB/s) - `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s0.wp.com/wp-content/mu-plugins/post-flair/like/images/icon-like.png?2' saved [562/562]
+
+--2011-12-02 14:59:21--  http://s1.wp.com/wp-content/mu-plugins/post-flair/sharing/images/icon-wordpress.png
+Reusing existing connection to s.stats.wordpress.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 882 [image/png]
+Saving to: `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s1.wp.com/wp-content/mu-plugins/post-flair/sharing/images/icon-wordpress.png'
+
+     0K                                                       100%  431K=0s
+
+2011-12-02 14:59:21 (431 KB/s) - `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s1.wp.com/wp-content/mu-plugins/post-flair/sharing/images/icon-wordpress.png' saved [882/882]
+
+--2011-12-02 14:59:21--  http://s1.wp.com/wp-content/mu-plugins/post-flair/sharing/images/icon-twitter.png
+Reusing existing connection to s.stats.wordpress.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 650 [image/png]
+Saving to: `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s1.wp.com/wp-content/mu-plugins/post-flair/sharing/images/icon-twitter.png'
+
+     0K                                                       100%  317K=0s
+
+2011-12-02 14:59:21 (317 KB/s) - `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s1.wp.com/wp-content/mu-plugins/post-flair/sharing/images/icon-twitter.png' saved [650/650]
+
+--2011-12-02 14:59:21--  http://s1.wp.com/wp-content/mu-plugins/post-flair/sharing/images/icon-facebook.png
+Reusing existing connection to s.stats.wordpress.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 887 [image/png]
+Saving to: `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s1.wp.com/wp-content/mu-plugins/post-flair/sharing/images/icon-facebook.png'
+
+     0K                                                       100%  433K=0s
+
+2011-12-02 14:59:21 (433 KB/s) - `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s1.wp.com/wp-content/mu-plugins/post-flair/sharing/images/icon-facebook.png' saved [887/887]
+
+--2011-12-02 14:59:21--  http://s1.wp.com/wp-content/mu-plugins/highlander-comments/images/postto-buttons.png
+Reusing existing connection to s.stats.wordpress.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 2921 (2.9K) [image/png]
+Saving to: `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s1.wp.com/wp-content/mu-plugins/highlander-comments/images/postto-buttons.png'
+
+     0K ..                                                    100%  713K=0.004s
+
+2011-12-02 14:59:21 (713 KB/s) - `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s1.wp.com/wp-content/mu-plugins/highlander-comments/images/postto-buttons.png' saved [2921/2921]
+
+--2011-12-02 14:59:21--  http://s1.wp.com/wp-content/mu-plugins/highlander-comments/images/button-back.gif
+Reusing existing connection to s.stats.wordpress.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1232 (1.2K) [image/gif]
+Saving to: `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s1.wp.com/wp-content/mu-plugins/highlander-comments/images/button-back.gif'
+
+     0K .                                                     100%  602K=0s
+
+2011-12-02 14:59:21 (602 KB/s) - `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s1.wp.com/wp-content/mu-plugins/highlander-comments/images/button-back.gif' saved [1232/1232]
+
+--2011-12-02 14:59:21--  http://s1.wp.com/wp-content/mu-plugins/highlander-comments/images/button-back-over.gif
+Reusing existing connection to s.stats.wordpress.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1232 (1.2K) [image/gif]
+Saving to: `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s1.wp.com/wp-content/mu-plugins/highlander-comments/images/button-back-over.gif'
+
+     0K .                                                     100%  602K=0s
+
+2011-12-02 14:59:21 (602 KB/s) - `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s1.wp.com/wp-content/mu-plugins/highlander-comments/images/button-back-over.gif' saved [1232/1232]
+
+--2011-12-02 14:59:21--  http://s1.wp.com/wp-content/mu-plugins/highlander-comments/images/loader.gif
+Reusing existing connection to s.stats.wordpress.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 10819 (11K) [image/gif]
+Saving to: `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s1.wp.com/wp-content/mu-plugins/highlander-comments/images/loader.gif'
+
+     0K ..........                                            100% 5.16M=0s
+
+2011-12-02 14:59:21 (5.16 MB/s) - `../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s1.wp.com/wp-content/mu-plugins/highlander-comments/images/loader.gif' saved [10819/10819]
+
+FINISHED --2011-12-02 14:59:21--
+Total wall clock time: 1.7s
+Downloaded: 83 files, 556K in 0.2s (2.89 MB/s)
+Converting ../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/en.wordpress.com/tos/index.html... 26-0
+Converting ../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s2.wp.com/wp-content/themes/h4/tabs/tab.css?m=1321933533g&ver=20110821.css... 22-0
+Converting ../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s1.wp.com/wp-content/mu-plugins/highlander-comments/style.css?m=1322513930g&ver=20110620.css... 11-0
+Converting ../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s2.wp.com/wp-content/themes/h4/style.css?m=1321987299g&5.css... 40-0
+Converting ../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s0.wp.com/wp-content/mu-plugins/post-flair/style.css?m=1322086826g&ver=3.css... 12-0
+Converting ../crawls/wordpress.com/WordPress-com-Terms-Of-Service/raw/s0.wp.com/wp-content/themes/h4/global.css?m=1313010130g.css... nothing to do.
+Converted 6 files in 0.008 seconds.

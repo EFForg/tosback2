@@ -1,0 +1,1444 @@
+/**************************************************************************
+
+*                                                                         *
+
+*   VALIDATE.JS                                                           *
+
+*                                                                         *
+
+*   Description: JavaSscript functions for field level validation.        *
+
+*                                                                         *
+
+**************************************************************************/
+
+
+
+/**************************************************************************
+
+
+
+    Function:    isFieldControlKey
+
+    Returns:     boolean
+
+    Parameters:  keyCode - The event key code.
+
+
+
+    Description: Determines if the given key code is a field control
+
+                 key.
+
+
+
+**************************************************************************/
+
+
+
+function isFieldControlKey( keyCode )
+
+{
+
+    return( ( keyCode == 8 || keyCode == 127 )  ||  /* backspace */
+
+            ( keyCode == 9 )  ||  /* tab */
+
+            ( keyCode == 13 ) ||  /* enter */
+
+            ( keyCode == 45 ) ||  /* insert */
+
+            ( keyCode == 46 ) ||  /* delete */
+
+            ( keyCode == 35 ) ||  /* end */
+
+            ( keyCode == 36 ) ||  /* home */
+
+            ( keyCode == 37 ) ||  /* left arrow */
+
+            ( keyCode == 39 ) ||  /* right arrow */
+
+            ( keyCode == 16 ) );  /* shift */
+
+}
+
+
+
+/**************************************************************************
+
+
+
+    Function:    isAlphaKey
+
+    Returns:     boolean
+
+    Parameters:  keyCode - The event key code.
+
+
+
+    Description: Determines if the given key code is an alpha [ A-Z, a-z ]
+
+                 key.
+
+
+
+**************************************************************************/
+
+
+
+function isAlphaKey( keyCode )
+
+{
+
+    return ( ( ( keyCode >= 65 ) && ( keyCode <= 90 ) ) ||   /* Upper case A-Z */
+
+             ( ( keyCode >= 97 ) && ( keyCode <= 122 ) ) );  /* Lower case a-z */
+
+}
+
+
+
+/**************************************************************************
+
+
+
+    Function:    isNumericKey
+
+    Returns:     boolean
+
+    Parameters:  keyCode - The event key code.
+
+
+
+    Description: Determines if the given key code is a numeric [ 0-9 ]
+
+                 key.
+
+
+
+**************************************************************************/
+
+
+
+function isNumericKey( keyCode )
+
+{
+
+    return ( ( keyCode >= 48 ) && ( keyCode <= 57 ) ||
+
+             ( keyCode >= 96 ) && ( keyCode <= 105 ) );
+
+}
+
+
+
+/**************************************************************************
+
+
+
+    Function:    validateAlphaNumericKeyDown
+
+    Returns:     void
+
+    Parameters:  event - The key event.
+
+
+
+    Description: Allows entry of alphnumeric characters only.
+
+
+
+**************************************************************************/
+
+
+
+function validateAlphaNumericKeyDown( event )
+
+{
+
+    var key = event.keyCode;
+
+
+
+    if(!( isAlphaKey( key ) || ( isNumericKey( key ) && ( event.shiftKey == false ) ) || 
+
+                          isFieldControlKey( key ) ))
+
+                          {
+
+       		                   event.returnValue = false;
+
+							   if( key != 27 && key != 32 && key != 17 && key != 20 && key != 18 && key != 91 && key != 38 && key != 40 && key != 144 && key != 19 && key != 33 && key != 34 )
+							  {
+								return(false);
+								alert("Text you entered, may not contain characters other than letters or numbers.");
+							  }
+
+                          }
+
+}
+
+/**************************************************************************
+
+
+
+Function:    validateAlphaNumericKeyDownForUverse
+
+Returns:     void
+
+Parameters:  event - The key event.
+
+Description: Allows entry of alphnumeric characters + some other characters used for email like @,.,_.
+
+
+**************************************************************************/
+
+
+
+function validateAlphaNumericKeyDownForUverse( event )
+{
+
+var key = event.keyCode;
+
+	if(!( isAlphaKey( key ) || ( isNumericKey( key ) && ( event.shiftKey == false ) ) ||  isFieldControlKey( key ) ))
+
+	{
+	   if(key != 189 && key != 190 && key != 50 && key != 27 && key != 32 && key != 17 && key != 20 && key != 18 && key != 91 && key != 38 && key != 40 && key != 144 && key != 19 && key != 33 && key != 34 )
+	  {
+		   event.returnValue = false;
+	  }
+	   else
+	   {
+		   event.returnValue = true;
+	   }
+
+  }
+	if(key == 32)
+		event.returnValue = false;
+}
+/**************************************************************************
+
+
+
+    Function:    validateExtendedAlphaNumericKeyDown
+
+    Returns:     void
+
+    Parameters:  event - The key event.
+
+
+
+    Description: Allows entry of alphnumeric characters plus space, dash 
+
+                 and asterisk characters only.
+
+
+
+**************************************************************************/
+
+
+
+function validateExtendedAlphaNumericKeyDown( event )
+
+{
+
+    var key = event.keyCode;
+
+
+
+     if ( !( ( key == 32 ) ||                                             		/* space    */
+
+                          ( key == 189 ) ||                                            /* dash     */
+
+                          ( ( key == 56 ) && ( event.shiftKey == true ) ) ||           /* asterisk */
+
+                          isAlphaKey( key ) || 
+
+                          ( isNumericKey( key ) && ( event.shiftKey == false ) ) || 
+
+                          isFieldControlKey( key ) ))
+
+                          {
+
+                          	event.returnValue = false;
+
+                          }
+
+}
+
+
+/**************************************************************************
+
+
+
+    Function:    validateLoginNumericKeyDown
+
+    Returns:     void
+
+    Parameters:  event - The key event.
+
+
+
+    Description: Allows entry of all characters except space.
+
+
+
+**************************************************************************/
+
+
+
+function validateLoginNumericKeyDown( event )
+
+{
+
+    var key = event.keyCode;
+
+
+
+     if ( ( key == 32 )  )
+
+                          {
+
+                          	event.returnValue = false;
+
+                          }
+
+}
+            
+
+/**************************************************************************
+
+
+
+    Function:    validateEMailKeyDown
+
+    Returns:     void
+
+    Parameters:  event - The key event.
+
+
+
+    Description: Allows entry of alphnumeric characters plus period , dash,
+
+                 underscore and at sign characters only.
+
+
+
+**************************************************************************/
+
+
+
+function validateEMailKeyDown( event )
+
+{
+
+    var key = event.keyCode;
+
+
+
+    if (!( isAlphaKey( key ) || ( isNumericKey( key ) && ( event.shiftKey == false ) ) || 
+
+                        ( key == 50 ) ||    /* @ sign            */
+
+                        ( key == 189 ) ||   /* dash & underscore */
+
+                        ( key == 190 ) ||   /* period            */
+
+                        isFieldControlKey( key ) ))
+
+                        {
+
+    				event.returnValue = false;                    
+
+                        }
+
+}
+
+                  
+
+/**************************************************************************
+
+
+
+    Function:    validateZipCodeKeyDown
+
+    Returns:     void
+
+    Parameters:  event - The key event.
+
+
+
+    Description: Allows entry of numeric characters plus dash only.
+
+
+
+**************************************************************************/
+
+
+
+function validateZipCodeKeyDown( event, text )
+
+{
+
+    var key = event.keyCode;
+
+    var iTextLength = text.length;
+
+
+
+    if( iTextLength == 5 )
+
+    		{
+
+        		if (!( ( ( key == 189 ) && ( event.shiftKey == false ) ) ||   /* dash */
+
+                              isFieldControlKey( key ) ))
+
+                              {
+
+                              		event.returnValue = false;
+
+                              }
+
+                }
+
+    else if( ( iTextLength != 5 ) && ( iTextLength < 10 ) )
+
+    		{
+
+        		if (!( ( isNumericKey( key ) && ( event.shiftKey == false ) ) || isFieldControlKey( key ) ))
+
+        		{
+
+        			event.returnValue = false;
+
+        		}
+
+        	}
+
+    else if ( !(isFieldControlKey( key )))
+
+    		{
+
+    		        event.returnValue = false;
+
+    		}
+
+}
+
+                  
+
+/**************************************************************************
+
+
+
+    Function:    validateNumericKeyDown
+
+    Returns:     void
+
+    Parameters:  event - The key event.
+
+
+
+    Description: Allows entry of numeric characters only.
+
+
+
+**************************************************************************/
+
+
+
+function validateNumericKeyDown( event )
+
+{
+
+    var key;
+    
+    if (window.event){
+      key = event.keyCode;
+    }
+    else if (event.which){
+      key = event.which;
+    }
+
+    return ( ( isNumericKey( key ) && ( event.shiftKey == false ) ) || isFieldControlKey( key ) || isPasteAction(event) );
+
+}
+
+
+
+/**************************************************************************
+
+
+
+    Function:    validateExtendedNumericKeyDown
+
+    Returns:     void
+
+    Parameters:  event - The key event.
+
+
+
+    Description: Allows entry of numeric characters and decimal point only.
+
+
+
+**************************************************************************/
+
+
+
+function validateExtendedNumericKeyDown( event )
+
+{
+
+    var key = event.keyCode;
+
+
+
+    if (!( ( isNumericKey( key ) && ( event.shiftKey == false ) ) || 
+
+                          ( key == 190 ) || ( key == 110 )|| isFieldControlKey( key ) ))
+
+                          {
+
+    				event.returnValue = false;                      
+
+                          }
+
+}
+
+
+
+/**************************************************************************
+
+
+
+    Function:    validateAlphabeticEntry
+
+    Returns:     boolean
+
+    Parameters:  szValue - The entry string.
+
+                 iLength - The maximum length of the entry
+
+                 bEnforceSize - The length of the entry must be equal to
+
+                                the maximum length.
+
+
+
+    Description: Validates the entry of an alphabetic field.
+
+
+
+**************************************************************************/
+
+
+
+function validateAlphabeticEntry( szValue, iLength, bEnforceSize )
+
+{
+
+    var oValue = new String( szValue );
+
+    var bResult = true;
+
+
+
+    if( bEnforceSize )
+
+        bResult = ( oValue.length == iLength );
+
+    else
+
+        bResult = ( ( oValue.length > 0 ) && ( oValue.length <= iLength ) );
+
+
+
+    if( bResult )
+
+    {
+
+        var iIndex = 0;
+
+        var cCharacter = 0;
+
+
+
+        for( iIndex = 0; bResult && ( iIndex < oValue.length ); iIndex++ )
+
+        {
+
+            cCharacter = oValue.charCodeAt( iIndex );
+
+            bResult = isAlphaKey( cCharacter );
+
+        }
+
+    }
+
+
+
+    return bResult;
+
+}
+
+
+
+/**************************************************************************
+
+
+
+    Function:    validateAlphaNumericEntry
+
+    Returns:     boolean
+
+    Parameters:  szValue - The entry string.
+
+                 iLength - The maximum length of the entry
+
+                 bEnforceSize - The length of the entry must be equal to
+
+                                the maximum length.
+
+
+
+    Description: Validates the entry of an alpha-numeric field.
+
+
+
+**************************************************************************/
+
+
+
+function validateAlphaNumericEntry( szValue, iLength, bEnforceSize )
+
+{
+
+    var oValue = new String( szValue );
+
+    var bResult = true;
+
+
+
+    if( bEnforceSize )
+
+        bResult = ( oValue.length == iLength );
+
+    else
+
+        bResult = ( ( oValue.length > 0 ) && ( oValue.length <= iLength ) );
+
+
+
+    if( bResult )
+
+    {
+
+        var iIndex = 0;
+
+        var cCharacter = 0;
+
+
+
+        for( iIndex = 0; bResult && ( iIndex < oValue.length ); iIndex++ )
+
+        {
+
+            cCharacter = oValue.charCodeAt( iIndex );
+
+            bResult = ( isAlphaKey( cCharacter ) || isNumericKey( cCharacter ) );
+
+        }
+
+    }
+
+    return bResult;
+
+}
+
+
+/**************************************************************************
+
+    Function:    validatePasswordEntry
+    Returns:     boolean
+    Parameters:  szValue - The entry string.
+                 minLength - The minimum length of the entry
+                 maxLength - The length of the entry must be equal to
+                                the maximum length.
+
+    Description: Validates the entry of an alpha-numeric field.
+
+**************************************************************************/
+
+function validatePasswordEntry( szValue, minLength, maxLength )
+{
+    var oValue = new String( szValue );
+    var bResult = true;
+
+    bResult = ( ( oValue.length > 0 ) && ( oValue.length >= minLength ) && ( oValue.length <= maxLength ) );
+
+    if( bResult )
+    {
+        var iIndex = 0;
+        var cCharacter = 0;
+
+        for( iIndex = 0; bResult && ( iIndex < oValue.length ); iIndex++ )
+        {
+            cCharacter = oValue.charCodeAt( iIndex );
+            bResult = ( isAlphaKey( cCharacter ) || isNumericKey( cCharacter ) );
+        }
+    }
+
+    return bResult;
+}
+
+
+
+/**************************************************************************
+
+
+
+    Function:    validateNumericEntry
+
+    Returns:     boolean
+
+    Parameters:  szValue - The entry string.
+
+                 iLength - The maximum length of the entry
+
+                 bEnforceSize - The length of the entry must be equal to
+
+                                the maximum length.
+
+
+
+    Description: Validates the entry of a numeric field.
+
+
+
+**************************************************************************/
+
+
+
+function validateNumericEntry( szValue, iLength, bEnforceSize )
+
+{
+
+    var iValue = parseInt( szValue );
+
+    var bResult = false;
+
+
+
+    if( !isNaN( iValue ) )
+
+    {
+
+        if( bEnforceSize )
+
+            bResult = ( szValue.length == iLength );
+
+        else
+
+            bResult = ( ( szValue.length > 0 ) && ( szValue.length <= iLength ) );
+
+    }
+
+
+
+    return bResult;
+
+}
+
+
+
+/**************************************************************************
+
+
+
+    Function:    validateAccountNumberEntry
+
+    Returns:     boolean
+
+    Parameters:  value - The account number entry.
+
+
+
+    Description: Validates the entry of an account number field.
+
+
+
+**************************************************************************/
+
+
+
+function validateAccountNumberEntry( szValue )
+
+{
+
+    return validateNumericEntry( szValue, 8, true );
+
+}
+
+
+
+/**************************************************************************
+
+
+
+    Function:    validateMobileNumberEntry
+
+    Returns:     boolean
+
+    Parameters:  value - The mobile number entry.
+
+
+
+    Description: Validates the entry of an mobile number field.
+
+
+
+**************************************************************************/
+
+
+
+function validateMobileNumberEntry( szValue )
+
+{
+
+    return validateNumericEntry( szValue, 10, true );
+
+}
+
+
+
+/**************************************************************************
+
+
+
+    Function:    validateNPA
+
+    Returns:     boolean
+
+    Parameters:  value - The NPA entry.
+
+
+
+    Description: Validates the entry of an NPA field.
+
+
+
+**************************************************************************/
+
+
+
+function validateNPA( szValue )
+
+{
+
+    return validateNumericEntry( szValue, 3, true );
+
+}
+
+
+
+/**************************************************************************
+
+
+
+    Function:    validateNXX
+
+    Returns:     boolean
+
+    Parameters:  value - The NXX entry.
+
+
+
+    Description: Validates the entry of an NXX field.
+
+
+
+**************************************************************************/
+
+
+
+function validateNXX( szValue )
+
+{
+
+    return validateNumericEntry( szValue, 3, true );
+
+}
+
+
+
+/**************************************************************************
+
+
+
+    Function:    validateLineNumber
+
+    Returns:     boolean
+
+    Parameters:  value - The line number entry.
+
+
+
+    Description: Validates the entry of a line number field.
+
+
+
+**************************************************************************/
+
+
+
+function validateLineNumber( szValue )
+
+{
+
+    return validateNumericEntry( szValue, 4, true );
+
+}
+
+
+
+/**************************************************************************
+
+
+
+    Function:    validateDollar
+
+    Returns:     boolean
+
+    Parameters:  value - The dollar entry.
+
+
+
+    Description: Validates the entry of an dollar ID field.
+
+
+
+**************************************************************************/
+
+
+
+function validateDollar( value )
+
+{
+
+    var bResult = false;
+
+    if( value.length > 0 )
+
+    {
+
+        var oValue = new String( value );
+
+        var iDecimalPoint = oValue.indexOf( '.' );
+
+		if(iDecimalPoint == -1)
+
+		{
+
+		    var iBase = parseInt( oValue);
+
+		    if(iBase > 0)
+
+		    {
+
+		    	bResult = ( !isNaN( iBase ));
+
+		    }
+
+		}       
+
+        else if( iDecimalPoint != oValue.length - 1 )
+
+        {
+
+            var szMantissa = oValue.substr( iDecimalPoint + 1 );
+
+            var iBase = parseInt( oValue.substr( 0, iDecimalPoint ) );
+
+            if( iBase != 0 || (parseInt(szMantissa) != 0 && szMantissa.length == 2 ))
+
+            {
+
+                var iMantissa = parseInt( szMantissa );
+
+                bResult = ( !isNaN( iBase ) && !isNaN( iMantissa ) );
+
+            }
+
+        }
+
+    }
+
+    return bResult;
+
+}
+
+
+
+/**************************************************************************
+
+
+
+    Function:    validateZipCode
+
+    Returns:     boolean
+
+    Parameters:  value - The zip code entry.
+
+
+
+    Description: Validates the entry of an zip code field.
+
+
+
+**************************************************************************/
+
+
+
+function validateZipCode( value )
+
+{
+
+    var bResult = false;
+
+	var sz5DigitZipCode = /^\d{5}$/;
+
+	var sz9DigitZipCode = /^\d{5}-\d{4}$/;
+
+
+
+    if( value.length > 0 )
+
+	    bResult = ( sz5DigitZipCode.test( value ) || sz9DigitZipCode.test( value ) );
+
+
+
+    return bResult;
+
+}
+
+
+
+/**************************************************************************
+
+
+
+    Function:    validateCingularID
+
+    Returns:     boolean
+
+    Parameters:  value - The ID entry.
+
+
+
+    Description: Validates the entry of an Cingular ID field.
+
+
+
+**************************************************************************/
+
+
+
+function validateCingularID( value )
+
+{
+
+    var oValue = new String( value );
+
+    var iLength = oValue.length;
+
+    var bResult = true;
+
+
+
+    if( ( bResult = ( iLength >= 3 ) && ( iLength <= 30 ) ) == true  )
+
+    {
+
+        var oPrefix = oValue.substring( 0, 1 );
+
+        var iIndex = 0;
+
+        var cCharacter = 0;
+
+
+
+        for( iIndex = 0; bResult && ( iIndex < oPrefix.length ); iIndex++ )
+
+        {
+
+            cCharacter = oPrefix.charCodeAt( iIndex );
+
+            bResult = isAlphaKey( cCharacter );
+
+        }
+
+
+
+        if( bResult )
+
+        {
+
+            if( oValue.length > 3 )
+
+            {
+
+                var oSuffix = oValue.substring( 1 );
+
+
+
+                for( iIndex = 0; bResult && ( iIndex < oSuffix.length ); iIndex++ )
+
+                {
+
+                    cCharacter = oSuffix.charCodeAt( iIndex );
+
+                    bResult = ( isAlphaKey( cCharacter ) || isNumericKey( cCharacter ) );
+
+                }
+
+            }
+
+        }
+
+    }
+
+
+
+    return bResult;
+
+}
+
+
+
+/**************************************************************************
+
+
+
+    Function:    validateBankRoutingNumber
+
+    Returns:     boolean
+
+    Parameters:  value - The routing number entry.
+
+
+
+    Description: Validates the entry of a bank routing number.
+
+
+
+**************************************************************************/
+
+
+
+function validateBankRoutingNumber( value )
+
+{
+
+    var bResult = false;
+
+    var iIndex = 0;
+
+    var iTotal = 0;
+
+    var szBuffer = "";
+
+    var cElement = 0;
+
+
+
+    /* Remove any non-numeric characters...  */
+
+
+
+    for( iIndex = 0; iIndex < value.length; iIndex++ )
+
+    {
+
+        cElement = parseInt( value.charAt( iIndex ), 10 );
+
+
+
+        if( ( cElement >= 0 ) && ( cElement <= 9 ) )
+
+            szBuffer = szBuffer + cElement;
+
+    }
+
+
+
+    /*  The length must be 9 digits...  */
+
+
+
+    if( szBuffer.length == 9 )
+
+    {
+
+        /*  Calulate the checksum...  */
+
+
+
+        for( iIndex = 0; iIndex < szBuffer.length; iIndex += 3 )
+
+        {
+
+            iTotal += ( ( parseInt( szBuffer.charAt( iIndex ), 10 ) * 3 ) + 
+
+                        ( parseInt( szBuffer.charAt( iIndex + 1 ), 10 ) * 7 ) +
+
+                        ( parseInt( szBuffer.charAt( iIndex + 2 ), 10 ) ) );
+
+        }
+
+
+
+        /*  The checksum must not be zero and must be an even multiple of ten...  */
+
+
+
+        if( ( iTotal != 0 ) && ( ( iTotal % 10 ) == 0 ) )
+
+            bResult = true;
+
+    }
+
+
+
+    return bResult;
+
+}
+
+
+
+/**************************************************************************/
+
+
+
+function validateAddressEntry( szValue, iLength, bEnforceSize )
+
+{
+
+    var oValue = new String( szValue );
+
+    var bResult = true;
+
+
+
+    if( bEnforceSize )
+
+        bResult = ( oValue.length == iLength );
+
+    else
+
+        bResult = ( ( oValue.length > 0 ) && ( oValue.length <= iLength ) );
+
+
+
+    if( bResult )
+
+    {
+
+        var iIndex = 0;
+
+        var cCharacter = 0;
+
+
+
+        for( iIndex = 0; bResult && ( iIndex < oValue.length ); iIndex++ )
+
+        {
+
+            cCharacter = oValue.charCodeAt( iIndex );
+
+            bResult = ( isAlphaKey( cCharacter ) || isNumericKey( cCharacter ) || (cCharacter == 32));
+
+            if (bResult == false)
+
+            {
+
+		return bResult;
+
+            }
+
+        }
+
+    }
+
+    return bResult;
+
+}
+
+
+/**************************************************************************
+
+
+
+    Function:    validateCVVCIDCode
+
+    Returns:     boolean
+
+    Parameters:  value - The CVV/CID code entry.
+
+
+
+    Description: Validates the entry of a cvv/cid code field other than American Express.
+
+
+
+**************************************************************************/
+
+
+
+function validateCVVCode( value )
+
+{
+
+    var bResult = false;
+
+	var sz3DigitZipCode = /^\d{3}$/;
+
+
+    if( value.length > 0 )
+
+	    bResult = sz3DigitZipCode.test( value );
+
+
+
+    return bResult;
+
+}
+
+
+/**************************************************************************
+
+
+
+    Function:    validateAMEXCVVCode
+
+    Returns:     boolean
+
+    Parameters:  value - The CVV/CID code entry.
+
+
+
+    Description: Validates the entry of aN American Express cvv/cid code field.
+
+
+
+**************************************************************************/
+
+
+
+function validateAMEXCVVCode( value )
+
+{
+
+    var bResult = false;
+
+
+	var sz4DigitZipCode = /^\d{4}$/;
+
+
+    if( value.length > 0 )
+
+	    bResult = sz4DigitZipCode.test( value );
+
+
+
+    return bResult;
+
+}
+
+/**************************************************************************
+
+    Function:    validateAmount
+    Returns:     boolean
+    Parameters:  value - The Payment amount entry.
+
+    Description: Validates the entry of an Payment amount field
+
+**************************************************************************/
+
+function validateAmount( value )
+{
+    var bResult = false;
+    if( value.length > 0 )
+    {
+        var oValue = new String( value );
+        var iDecimalPoint = oValue.indexOf( '.' );
+		if(iDecimalPoint == -1)
+		{
+		    if(oValue.length > 0)
+		    {
+		    	bResult = ( !isNaN( oValue ));
+		    }
+		}       
+        else if( iDecimalPoint != oValue.length - 1 )
+        {
+            var szMantissa = oValue.substr( iDecimalPoint + 1 );
+            if(szMantissa.length <= 0)
+            {
+            	szMantissa = 0;
+            }
+            var szBase = oValue.substr( 0, iDecimalPoint );
+            if(szBase.length <= 0)
+            {
+            	szBase = 0;
+            }
+			if( parseInt(szBase, 10) >= 0 || (parseInt(szMantissa, 10) >= 0 && szMantissa.length == 2 ))
+            {
+				var iMantissa = parseInt( szMantissa, 10 );
+                var iBase = parseInt( szBase, 10 );
+                if( iBase == 0 || ( iBase == 0 && iMantissa == 0 ) )
+                {
+					bResult = false;
+                }
+				else if( iBase > 0 && iMantissa == 0 )
+				{
+					bResult = true;
+				}
+                else
+                {
+					bResult = ( !isNaN( iBase ) && !isNaN( iMantissa ) );
+                }
+            }
+        }
+    }
+    return bResult;
+}
+
+/**************************************************************************
+
+    Function:    isPasteAction
+    Returns:     boolean
+    Parameters:  event - the keydown event object
+
+    Description: Checks if the pressed key is a paste action
+    	CTRL+V on windows,  Command+V on mac
+
+**************************************************************************/
+
+function isPasteAction( event ) {
+
+    var key;
+    if (window.event) {
+      key = event.keyCode;
+
+    } else if (event.which) {
+      key = event.which;
+    }
+
+    // Windows CTRL+V
+    if ( event.ctrlKey && ( key == 86 ) ) return true;
+    // MAC Apple(meta)+V
+    if ( event.metaKey && ( key == 86 ) ) return true;
+
+    return false;
+}

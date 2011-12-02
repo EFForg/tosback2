@@ -1,0 +1,996 @@
+--2011-12-02 15:08:59--  http://www.facebook.com/full_data_use_policy
+Resolving www.facebook.com (www.facebook.com)... 69.171.229.14
+Connecting to www.facebook.com (www.facebook.com)|69.171.229.14|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `../crawls/www.facebook.com/Privacy-Policy/raw/www.facebook.com/full_data_use_policy.html'
+
+     0K .......... .......... .......... .......... ..........  658K
+    50K .......... .......                                      735K=0.1s
+
+2011-12-02 15:08:59 (676 KB/s) - `../crawls/www.facebook.com/Privacy-Policy/raw/www.facebook.com/full_data_use_policy.html' saved [69272]
+
+--2011-12-02 15:08:59--  http://static.ak.fbcdn.net/rsrc.php/yi/r/q9U99v3_saj.ico
+Resolving static.ak.fbcdn.net (static.ak.fbcdn.net)... 216.156.213.42, 216.156.213.11
+Connecting to static.ak.fbcdn.net (static.ak.fbcdn.net)|216.156.213.42|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 152 [image/x-icon]
+Saving to: `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/yi/r/q9U99v3_saj.ico'
+
+     0K                                                       100% 74.2K=0s
+
+2011-12-02 15:08:59 (74.2 KB/s) - `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/yi/r/q9U99v3_saj.ico' saved [152/152]
+
+--2011-12-02 15:08:59--  http://static.ak.fbcdn.net/rsrc.php/v1/yu/r/WXpIPwzYkYs.css
+Reusing existing connection to static.ak.fbcdn.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/css]
+Saving to: `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yu/r/WXpIPwzYkYs.css'
+
+     0K .......... .......... .......... .......... .......... 4.07M
+    50K .......... .......... .......... .......... .......... 6.10M
+   100K .......... .......... .......... .......... .......... 12.2M
+   150K .......... .......... .......                          6.73M=0.03s
+
+2011-12-02 15:08:59 (6.19 MB/s) - `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yu/r/WXpIPwzYkYs.css' saved [181817]
+
+--2011-12-02 15:08:59--  http://static.ak.fbcdn.net/rsrc.php/v1/y9/r/ScxLd7rx07A.css
+Reusing existing connection to static.ak.fbcdn.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/css]
+Saving to: `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/y9/r/ScxLd7rx07A.css'
+
+     0K .......... .......... .......... ........              18.9M=0s
+
+2011-12-02 15:08:59 (18.9 MB/s) - `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/y9/r/ScxLd7rx07A.css' saved [39621]
+
+--2011-12-02 15:08:59--  http://static.ak.fbcdn.net/rsrc.php/v1/yx/r/ejJoiNmHkkP.css
+Reusing existing connection to static.ak.fbcdn.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 20350 (20K) [text/css]
+Saving to: `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yx/r/ejJoiNmHkkP.css'
+
+     0K .......... .........                                  100% 9.70M=0s
+
+2011-12-02 15:08:59 (9.70 MB/s) - `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yx/r/ejJoiNmHkkP.css' saved [20350/20350]
+
+--2011-12-02 15:08:59--  http://static.ak.fbcdn.net/rsrc.php/v1/yA/r/W7Pz5DBNvh3.css
+Reusing existing connection to static.ak.fbcdn.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 16462 (16K) [text/css]
+Saving to: `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yA/r/W7Pz5DBNvh3.css'
+
+     0K .......... ......                                     100% 7.85M=0s
+
+2011-12-02 15:08:59 (7.85 MB/s) - `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yA/r/W7Pz5DBNvh3.css' saved [16462/16462]
+
+--2011-12-02 15:08:59--  http://static.ak.fbcdn.net/rsrc.php/v1/yX/r/HN0ehA1zox_.js
+Reusing existing connection to static.ak.fbcdn.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/x-javascript]
+Saving to: `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yX/r/HN0ehA1zox_.js'
+
+     0K .......... .......... .......... .......... .....      11.2M=0.004s
+
+2011-12-02 15:08:59 (11.2 MB/s) - `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yX/r/HN0ehA1zox_.js' saved [46860]
+
+--2011-12-02 15:08:59--  http://static.ak.fbcdn.net/rsrc.php/v1/yp/r/kk8dc2UJYJ4.png
+Reusing existing connection to static.ak.fbcdn.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 2209 (2.2K) [image/png]
+Saving to: `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yp/r/kk8dc2UJYJ4.png'
+
+     0K ..                                                    100% 1.05M=0s
+
+2011-12-02 15:08:59 (1.05 MB/s) - `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yp/r/kk8dc2UJYJ4.png' saved [2209/2209]
+
+--2011-12-02 15:08:59--  http://dragon.ak.fbcdn.net/cfs-ak-snc6/84980/923/233641236679183_1009183043.png
+Resolving dragon.ak.fbcdn.net (dragon.ak.fbcdn.net)... 216.156.213.27, 216.156.213.32
+Connecting to dragon.ak.fbcdn.net (dragon.ak.fbcdn.net)|216.156.213.27|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 197 [image/png]
+Saving to: `../crawls/www.facebook.com/Privacy-Policy/raw/dragon.ak.fbcdn.net/cfs-ak-snc6/84980/923/233641236679183_1009183043.png'
+
+     0K                                                       100% 96.2K=0s
+
+2011-12-02 15:08:59 (96.2 KB/s) - `../crawls/www.facebook.com/Privacy-Policy/raw/dragon.ak.fbcdn.net/cfs-ak-snc6/84980/923/233641236679183_1009183043.png' saved [197/197]
+
+--2011-12-02 15:08:59--  http://dragon.ak.fbcdn.net/cfs-ak-snc6/85000/128/233641236679183_1767906152.png
+Reusing existing connection to dragon.ak.fbcdn.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 3128 (3.1K) [image/png]
+Saving to: `../crawls/www.facebook.com/Privacy-Policy/raw/dragon.ak.fbcdn.net/cfs-ak-snc6/85000/128/233641236679183_1767906152.png'
+
+     0K ...                                                   100% 1.49M=0s
+
+2011-12-02 15:08:59 (1.49 MB/s) - `../crawls/www.facebook.com/Privacy-Policy/raw/dragon.ak.fbcdn.net/cfs-ak-snc6/85000/128/233641236679183_1767906152.png' saved [3128/3128]
+
+--2011-12-02 15:08:59--  http://dragon.ak.fbcdn.net/cfs-ak-ash4/84979/289/233641236679183_235959636.png
+Reusing existing connection to dragon.ak.fbcdn.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 249 [image/png]
+Saving to: `../crawls/www.facebook.com/Privacy-Policy/raw/dragon.ak.fbcdn.net/cfs-ak-ash4/84979/289/233641236679183_235959636.png'
+
+     0K                                                       100%  122K=0s
+
+2011-12-02 15:08:59 (122 KB/s) - `../crawls/www.facebook.com/Privacy-Policy/raw/dragon.ak.fbcdn.net/cfs-ak-ash4/84979/289/233641236679183_235959636.png' saved [249/249]
+
+--2011-12-02 15:08:59--  http://dragon.ak.fbcdn.net/cfs-ak-snc6/84981/738/233641236679183_838633702.png
+Reusing existing connection to dragon.ak.fbcdn.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 171 [image/png]
+Saving to: `../crawls/www.facebook.com/Privacy-Policy/raw/dragon.ak.fbcdn.net/cfs-ak-snc6/84981/738/233641236679183_838633702.png'
+
+     0K                                                       100% 83.5K=0s
+
+2011-12-02 15:08:59 (83.5 KB/s) - `../crawls/www.facebook.com/Privacy-Policy/raw/dragon.ak.fbcdn.net/cfs-ak-snc6/84981/738/233641236679183_838633702.png' saved [171/171]
+
+--2011-12-02 15:08:59--  http://static.ak.fbcdn.net/rsrc.php/v1/yo/r/DVjjP9Ze2fy.png
+Connecting to static.ak.fbcdn.net (static.ak.fbcdn.net)|216.156.213.42|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 5298 (5.2K) [image/png]
+Saving to: `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yo/r/DVjjP9Ze2fy.png'
+
+     0K .....                                                 100% 1.26M=0.004s
+
+2011-12-02 15:08:59 (1.26 MB/s) - `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yo/r/DVjjP9Ze2fy.png' saved [5298/5298]
+
+--2011-12-02 15:08:59--  http://static.ak.fbcdn.net/rsrc.php/v1/yU/r/gATt-jY8pG8.png
+Reusing existing connection to static.ak.fbcdn.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 124 [image/png]
+Saving to: `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yU/r/gATt-jY8pG8.png'
+
+     0K                                                       100% 60.5K=0s
+
+2011-12-02 15:08:59 (60.5 KB/s) - `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yU/r/gATt-jY8pG8.png' saved [124/124]
+
+--2011-12-02 15:08:59--  http://static.ak.fbcdn.net/rsrc.php/v1/yb/r/GsNJNwuI-UM.gif
+Reusing existing connection to static.ak.fbcdn.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 522 [image/gif]
+Saving to: `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yb/r/GsNJNwuI-UM.gif'
+
+     0K                                                       100%  255K=0s
+
+2011-12-02 15:08:59 (255 KB/s) - `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yb/r/GsNJNwuI-UM.gif' saved [522/522]
+
+--2011-12-02 15:08:59--  http://static.ak.fbcdn.net/rsrc.php/v1/yV/r/IJYgcESal33.png
+Reusing existing connection to static.ak.fbcdn.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 5771 (5.6K) [image/png]
+Saving to: `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yV/r/IJYgcESal33.png'
+
+     0K .....                                                 100% 1.38M=0.004s
+
+2011-12-02 15:08:59 (1.38 MB/s) - `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yV/r/IJYgcESal33.png' saved [5771/5771]
+
+--2011-12-02 15:08:59--  http://static.ak.fbcdn.net/rsrc.php/v1/yf/r/PfBgtiydy5U.gif
+Reusing existing connection to static.ak.fbcdn.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 65 [image/gif]
+Saving to: `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yf/r/PfBgtiydy5U.gif'
+
+     0K                                                       100% 31.7K=0s
+
+2011-12-02 15:08:59 (31.7 KB/s) - `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yf/r/PfBgtiydy5U.gif' saved [65/65]
+
+--2011-12-02 15:08:59--  http://static.ak.fbcdn.net/rsrc.php/v1/yb/r/ALnh3ly4npU.gif
+Reusing existing connection to static.ak.fbcdn.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1114 (1.1K) [image/gif]
+Saving to: `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yb/r/ALnh3ly4npU.gif'
+
+     0K .                                                     100%  544K=0s
+
+2011-12-02 15:08:59 (544 KB/s) - `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yb/r/ALnh3ly4npU.gif' saved [1114/1114]
+
+--2011-12-02 15:08:59--  http://static.ak.fbcdn.net/rsrc.php/v1/y4/r/ffUJLIqlYCk.gif
+Reusing existing connection to static.ak.fbcdn.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 187 [image/gif]
+Saving to: `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/y4/r/ffUJLIqlYCk.gif'
+
+     0K                                                       100% 91.3K=0s
+
+2011-12-02 15:08:59 (91.3 KB/s) - `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/y4/r/ffUJLIqlYCk.gif' saved [187/187]
+
+--2011-12-02 15:08:59--  http://static.ak.fbcdn.net/rsrc.php/v1/y1/r/POvoxs89XYG.png
+Reusing existing connection to static.ak.fbcdn.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1218 (1.2K) [image/png]
+Saving to: `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/y1/r/POvoxs89XYG.png'
+
+     0K .                                                     100%  595K=0s
+
+2011-12-02 15:08:59 (595 KB/s) - `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/y1/r/POvoxs89XYG.png' saved [1218/1218]
+
+--2011-12-02 15:08:59--  http://static.ak.fbcdn.net/rsrc.php/v1/yu/r/jp8TzrZb6J1.png
+Reusing existing connection to static.ak.fbcdn.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 149 [image/png]
+Saving to: `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yu/r/jp8TzrZb6J1.png'
+
+     0K                                                       100% 72.7K=0s
+
+2011-12-02 15:08:59 (72.7 KB/s) - `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yu/r/jp8TzrZb6J1.png' saved [149/149]
+
+--2011-12-02 15:08:59--  http://static.ak.fbcdn.net/rsrc.php/v1/y-/r/AGUNXgX_Wx3.gif
+Reusing existing connection to static.ak.fbcdn.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 517 [image/gif]
+Saving to: `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/y-/r/AGUNXgX_Wx3.gif'
+
+     0K                                                       100%  252K=0s
+
+2011-12-02 15:08:59 (252 KB/s) - `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/y-/r/AGUNXgX_Wx3.gif' saved [517/517]
+
+--2011-12-02 15:08:59--  http://static.ak.fbcdn.net/rsrc.php/v1/yA/r/4WSewcWboV8.png
+Reusing existing connection to static.ak.fbcdn.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 316 [image/png]
+Saving to: `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yA/r/4WSewcWboV8.png'
+
+     0K                                                       100%  154K=0s
+
+2011-12-02 15:08:59 (154 KB/s) - `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yA/r/4WSewcWboV8.png' saved [316/316]
+
+--2011-12-02 15:08:59--  http://static.ak.fbcdn.net/rsrc.php/v1/yx/r/ogYrclupeJV.png
+Reusing existing connection to static.ak.fbcdn.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 281 [image/png]
+Saving to: `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yx/r/ogYrclupeJV.png'
+
+     0K                                                       100%  137K=0s
+
+2011-12-02 15:08:59 (137 KB/s) - `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yx/r/ogYrclupeJV.png' saved [281/281]
+
+--2011-12-02 15:08:59--  http://static.ak.fbcdn.net/rsrc.php/v1/yj/r/ubIGOTIgUYc.png
+Reusing existing connection to static.ak.fbcdn.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 330 [image/png]
+Saving to: `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yj/r/ubIGOTIgUYc.png'
+
+     0K                                                       100%  161K=0s
+
+2011-12-02 15:08:59 (161 KB/s) - `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yj/r/ubIGOTIgUYc.png' saved [330/330]
+
+--2011-12-02 15:08:59--  http://static.ak.fbcdn.net/rsrc.php/v1/yo/r/33RpiRygxAr.png
+Reusing existing connection to static.ak.fbcdn.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 277 [image/png]
+Saving to: `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yo/r/33RpiRygxAr.png'
+
+     0K                                                       100%  135K=0s
+
+2011-12-02 15:09:00 (135 KB/s) - `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yo/r/33RpiRygxAr.png' saved [277/277]
+
+--2011-12-02 15:09:00--  http://static.ak.fbcdn.net/rsrc.php/v1/yT/r/Vi-KTnbdMKr.png
+Reusing existing connection to static.ak.fbcdn.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 249 [image/png]
+Saving to: `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yT/r/Vi-KTnbdMKr.png'
+
+     0K                                                       100%  122K=0s
+
+2011-12-02 15:09:00 (122 KB/s) - `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yT/r/Vi-KTnbdMKr.png' saved [249/249]
+
+--2011-12-02 15:09:00--  http://static.ak.fbcdn.net/rsrc.php/v1/yu/r/6NHt8H5uyPf.png
+Reusing existing connection to static.ak.fbcdn.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 151 [image/png]
+Saving to: `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yu/r/6NHt8H5uyPf.png'
+
+     0K                                                       100% 73.7K=0s
+
+2011-12-02 15:09:00 (73.7 KB/s) - `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yu/r/6NHt8H5uyPf.png' saved [151/151]
+
+--2011-12-02 15:09:00--  http://static.ak.fbcdn.net/rsrc.php/v1/y1/r/uVR6w3wRHEJ.gif
+Reusing existing connection to static.ak.fbcdn.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 54 [image/gif]
+Saving to: `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/y1/r/uVR6w3wRHEJ.gif'
+
+     0K                                                       100% 26.4K=0s
+
+2011-12-02 15:09:00 (26.4 KB/s) - `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/y1/r/uVR6w3wRHEJ.gif' saved [54/54]
+
+--2011-12-02 15:09:00--  http://static.ak.fbcdn.net/rsrc.php/v1/yR/r/kPCE0g_tKJs.gif
+Reusing existing connection to static.ak.fbcdn.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 828 [image/gif]
+Saving to: `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yR/r/kPCE0g_tKJs.gif'
+
+     0K                                                       100%  404K=0s
+
+2011-12-02 15:09:00 (404 KB/s) - `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yR/r/kPCE0g_tKJs.gif' saved [828/828]
+
+--2011-12-02 15:09:00--  http://static.ak.fbcdn.net/rsrc.php/v1/yY/r/_ZWZupdaAgS.gif
+Reusing existing connection to static.ak.fbcdn.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 827 [image/gif]
+Saving to: `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yY/r/_ZWZupdaAgS.gif'
+
+     0K                                                       100%  404K=0s
+
+2011-12-02 15:09:00 (404 KB/s) - `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yY/r/_ZWZupdaAgS.gif' saved [827/827]
+
+--2011-12-02 15:09:00--  http://static.ak.fbcdn.net/rsrc.php/v1/yX/r/k2R_CZuPy2I.png
+Reusing existing connection to static.ak.fbcdn.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 112 [image/png]
+Saving to: `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yX/r/k2R_CZuPy2I.png'
+
+     0K                                                       100% 54.7K=0s
+
+2011-12-02 15:09:00 (54.7 KB/s) - `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yX/r/k2R_CZuPy2I.png' saved [112/112]
+
+--2011-12-02 15:09:00--  http://static.ak.fbcdn.net/rsrc.php/v1/yk/r/LOOn0JtHNzb.gif
+Reusing existing connection to static.ak.fbcdn.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1414 (1.4K) [image/gif]
+Saving to: `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yk/r/LOOn0JtHNzb.gif'
+
+     0K .                                                     100%  345K=0.004s
+
+2011-12-02 15:09:00 (345 KB/s) - `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yk/r/LOOn0JtHNzb.gif' saved [1414/1414]
+
+--2011-12-02 15:09:00--  http://static.ak.fbcdn.net/rsrc.php/v1/yW/r/AebrcwrBeG6.png
+Reusing existing connection to static.ak.fbcdn.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 135 [image/png]
+Saving to: `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yW/r/AebrcwrBeG6.png'
+
+     0K                                                       100% 65.9K=0s
+
+2011-12-02 15:09:00 (65.9 KB/s) - `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yW/r/AebrcwrBeG6.png' saved [135/135]
+
+--2011-12-02 15:09:00--  http://static.ak.fbcdn.net/rsrc.php/v1/y7/r/UvyvLtJTQzO.png
+Reusing existing connection to static.ak.fbcdn.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 111 [image/png]
+Saving to: `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/y7/r/UvyvLtJTQzO.png'
+
+     0K                                                       100% 54.2K=0s
+
+2011-12-02 15:09:00 (54.2 KB/s) - `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/y7/r/UvyvLtJTQzO.png' saved [111/111]
+
+--2011-12-02 15:09:00--  http://static.ak.fbcdn.net/rsrc.php/v1/yU/r/n93MoBZD7fU.png
+Reusing existing connection to static.ak.fbcdn.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 112 [image/png]
+Saving to: `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yU/r/n93MoBZD7fU.png'
+
+     0K                                                       100% 54.7K=0s
+
+2011-12-02 15:09:00 (54.7 KB/s) - `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yU/r/n93MoBZD7fU.png' saved [112/112]
+
+--2011-12-02 15:09:00--  http://static.ak.fbcdn.net/rsrc.php/v1/yu/r/FgRnCXehNry.png
+Reusing existing connection to static.ak.fbcdn.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 3133 (3.1K) [image/png]
+Saving to: `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yu/r/FgRnCXehNry.png'
+
+     0K ...                                                   100%  765K=0.004s
+
+2011-12-02 15:09:00 (765 KB/s) - `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yu/r/FgRnCXehNry.png' saved [3133/3133]
+
+--2011-12-02 15:09:00--  http://static.ak.fbcdn.net/rsrc.php/v1/y6/r/gY6pCnDw29i.png
+Reusing existing connection to static.ak.fbcdn.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 577 [image/png]
+Saving to: `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/y6/r/gY6pCnDw29i.png'
+
+     0K                                                       100%  282K=0s
+
+2011-12-02 15:09:00 (282 KB/s) - `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/y6/r/gY6pCnDw29i.png' saved [577/577]
+
+--2011-12-02 15:09:00--  http://static.ak.fbcdn.net/rsrc.php/v1/yN/r/aERK2-5sOBX.png
+Reusing existing connection to static.ak.fbcdn.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 481 [image/png]
+Saving to: `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yN/r/aERK2-5sOBX.png'
+
+     0K                                                       100%  235K=0s
+
+2011-12-02 15:09:00 (235 KB/s) - `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yN/r/aERK2-5sOBX.png' saved [481/481]
+
+--2011-12-02 15:09:00--  http://static.ak.fbcdn.net/rsrc.php/v1/yr/r/AF1Uwjj81fI.png
+Reusing existing connection to static.ak.fbcdn.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 406 [image/png]
+Saving to: `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yr/r/AF1Uwjj81fI.png'
+
+     0K                                                       100%  198K=0s
+
+2011-12-02 15:09:00 (198 KB/s) - `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yr/r/AF1Uwjj81fI.png' saved [406/406]
+
+--2011-12-02 15:09:00--  http://static.ak.fbcdn.net/rsrc.php/v1/y9/r/jKEcVPZFk-2.gif
+Reusing existing connection to static.ak.fbcdn.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1900 (1.9K) [image/gif]
+Saving to: `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/y9/r/jKEcVPZFk-2.gif'
+
+     0K .                                                     100%  464K=0.004s
+
+2011-12-02 15:09:00 (464 KB/s) - `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/y9/r/jKEcVPZFk-2.gif' saved [1900/1900]
+
+--2011-12-02 15:09:00--  http://static.ak.fbcdn.net/rsrc.php/v1/y7/r/ql9vukDCc4R.png
+Reusing existing connection to static.ak.fbcdn.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1177 (1.1K) [image/png]
+Saving to: `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/y7/r/ql9vukDCc4R.png'
+
+     0K .                                                     100%  575K=0s
+
+2011-12-02 15:09:00 (575 KB/s) - `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/y7/r/ql9vukDCc4R.png' saved [1177/1177]
+
+--2011-12-02 15:09:00--  http://static.ak.fbcdn.net/rsrc.php/v1/ye/r/nZW4C56WJb6.png
+Reusing existing connection to static.ak.fbcdn.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1249 (1.2K) [image/png]
+Saving to: `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/ye/r/nZW4C56WJb6.png'
+
+     0K .                                                     100%  610K=0s
+
+2011-12-02 15:09:00 (610 KB/s) - `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/ye/r/nZW4C56WJb6.png' saved [1249/1249]
+
+--2011-12-02 15:09:00--  http://static.ak.fbcdn.net/rsrc.php/v1/yM/r/tc6kQtD6Y3L.png
+Reusing existing connection to static.ak.fbcdn.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 148 [image/png]
+Saving to: `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yM/r/tc6kQtD6Y3L.png'
+
+     0K                                                       100% 72.3K=0s
+
+2011-12-02 15:09:00 (72.3 KB/s) - `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yM/r/tc6kQtD6Y3L.png' saved [148/148]
+
+--2011-12-02 15:09:00--  http://static.ak.fbcdn.net/rsrc.php/v1/yJ/r/vOykDL15P0R.png
+Reusing existing connection to static.ak.fbcdn.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 9388 (9.2K) [image/png]
+Saving to: `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yJ/r/vOykDL15P0R.png'
+
+     0K .........                                             100% 2.24M=0.004s
+
+2011-12-02 15:09:00 (2.24 MB/s) - `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yJ/r/vOykDL15P0R.png' saved [9388/9388]
+
+--2011-12-02 15:09:00--  http://static.ak.fbcdn.net/rsrc.php/v1/yp/r/DrGcdjdlpCl.gif
+Reusing existing connection to static.ak.fbcdn.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1567 (1.5K) [image/gif]
+Saving to: `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yp/r/DrGcdjdlpCl.gif'
+
+     0K .                                                     100%  765K=0s
+
+2011-12-02 15:09:00 (765 KB/s) - `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yp/r/DrGcdjdlpCl.gif' saved [1567/1567]
+
+--2011-12-02 15:09:00--  http://static.ak.fbcdn.net/rsrc.php/v1/yA/r/QbfalTL4SQ2.png
+Reusing existing connection to static.ak.fbcdn.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 114 [image/png]
+Saving to: `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yA/r/QbfalTL4SQ2.png'
+
+     0K                                                       100% 55.7K=0s
+
+2011-12-02 15:09:00 (55.7 KB/s) - `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yA/r/QbfalTL4SQ2.png' saved [114/114]
+
+--2011-12-02 15:09:00--  http://static.ak.fbcdn.net/rsrc.php/v1/y7/r/LIMS6JdvvOD.png
+Reusing existing connection to static.ak.fbcdn.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 139 [image/png]
+Saving to: `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/y7/r/LIMS6JdvvOD.png'
+
+     0K                                                       100% 67.9K=0s
+
+2011-12-02 15:09:00 (67.9 KB/s) - `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/y7/r/LIMS6JdvvOD.png' saved [139/139]
+
+--2011-12-02 15:09:00--  http://static.ak.fbcdn.net/rsrc.php/v1/y4/r/-PAXP-deijE.gif
+Reusing existing connection to static.ak.fbcdn.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 43 [image/gif]
+Saving to: `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/y4/r/-PAXP-deijE.gif'
+
+     0K                                                       100% 21.0K=0s
+
+2011-12-02 15:09:00 (21.0 KB/s) - `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/y4/r/-PAXP-deijE.gif' saved [43/43]
+
+--2011-12-02 15:09:00--  http://static.ak.fbcdn.net/rsrc.php/v1/yD/r/qURj9F99EmJ.png
+Reusing existing connection to static.ak.fbcdn.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 250 [image/png]
+Saving to: `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yD/r/qURj9F99EmJ.png'
+
+     0K                                                       100%  122K=0s
+
+2011-12-02 15:09:00 (122 KB/s) - `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yD/r/qURj9F99EmJ.png' saved [250/250]
+
+--2011-12-02 15:09:00--  http://static.ak.fbcdn.net/rsrc.php/v1/yn/r/77uboGPzRks.png
+Reusing existing connection to static.ak.fbcdn.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 3097 (3.0K) [image/png]
+Saving to: `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yn/r/77uboGPzRks.png'
+
+     0K ...                                                   100%  756K=0.004s
+
+2011-12-02 15:09:00 (756 KB/s) - `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yn/r/77uboGPzRks.png' saved [3097/3097]
+
+--2011-12-02 15:09:00--  http://static.ak.fbcdn.net/rsrc.php/v1/yi/r/KsODvVMV-0n.png
+Reusing existing connection to static.ak.fbcdn.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 3086 (3.0K) [image/png]
+Saving to: `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yi/r/KsODvVMV-0n.png'
+
+     0K ...                                                   100%  753K=0.004s
+
+2011-12-02 15:09:00 (753 KB/s) - `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yi/r/KsODvVMV-0n.png' saved [3086/3086]
+
+--2011-12-02 15:09:00--  http://static.ak.fbcdn.net/rsrc.php/v1/yC/r/B_qduFj1etl.png
+Reusing existing connection to static.ak.fbcdn.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 382 [image/png]
+Saving to: `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yC/r/B_qduFj1etl.png'
+
+     0K                                                       100%  187K=0s
+
+2011-12-02 15:09:00 (187 KB/s) - `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yC/r/B_qduFj1etl.png' saved [382/382]
+
+--2011-12-02 15:09:00--  http://static.ak.fbcdn.net/rsrc.php/v1/y-/r/lWUUm37r11D.png
+Reusing existing connection to static.ak.fbcdn.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 353 [image/png]
+Saving to: `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/y-/r/lWUUm37r11D.png'
+
+     0K                                                       100%  172K=0s
+
+2011-12-02 15:09:00 (172 KB/s) - `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/y-/r/lWUUm37r11D.png' saved [353/353]
+
+--2011-12-02 15:09:00--  http://static.ak.fbcdn.net/rsrc.php/v1/yL/r/U1-etAWzQ4t.png
+Reusing existing connection to static.ak.fbcdn.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 3300 (3.2K) [image/png]
+Saving to: `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yL/r/U1-etAWzQ4t.png'
+
+     0K ...                                                   100%  806K=0.004s
+
+2011-12-02 15:09:00 (806 KB/s) - `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yL/r/U1-etAWzQ4t.png' saved [3300/3300]
+
+--2011-12-02 15:09:00--  http://static.ak.fbcdn.net/rsrc.php/v1/yj/r/wU__r0m45JU.png
+Reusing existing connection to static.ak.fbcdn.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 3268 (3.2K) [image/png]
+Saving to: `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yj/r/wU__r0m45JU.png'
+
+     0K ...                                                   100%  798K=0.004s
+
+2011-12-02 15:09:00 (798 KB/s) - `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yj/r/wU__r0m45JU.png' saved [3268/3268]
+
+--2011-12-02 15:09:00--  http://static.ak.fbcdn.net/rsrc.php/v1/y_/r/464P0IE2gPV.gif
+Reusing existing connection to static.ak.fbcdn.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 357 [image/gif]
+Saving to: `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/y_/r/464P0IE2gPV.gif'
+
+     0K                                                       100%  174K=0s
+
+2011-12-02 15:09:00 (174 KB/s) - `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/y_/r/464P0IE2gPV.gif' saved [357/357]
+
+--2011-12-02 15:09:00--  http://static.ak.fbcdn.net/rsrc.php/v1/yh/r/_S0u1wZb3JC.png
+Reusing existing connection to static.ak.fbcdn.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 119 [image/png]
+Saving to: `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yh/r/_S0u1wZb3JC.png'
+
+     0K                                                       100% 58.1K=0s
+
+2011-12-02 15:09:00 (58.1 KB/s) - `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yh/r/_S0u1wZb3JC.png' saved [119/119]
+
+--2011-12-02 15:09:00--  http://static.ak.fbcdn.net/rsrc.php/v1/yk/r/BwKwOpPWbGZ.png
+Reusing existing connection to static.ak.fbcdn.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 130 [image/png]
+Saving to: `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yk/r/BwKwOpPWbGZ.png'
+
+     0K                                                       100% 63.5K=0s
+
+2011-12-02 15:09:00 (63.5 KB/s) - `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yk/r/BwKwOpPWbGZ.png' saved [130/130]
+
+--2011-12-02 15:09:00--  http://static.ak.fbcdn.net/rsrc.php/v1/y9/r/Ar6K0o_04bw.gif
+Reusing existing connection to static.ak.fbcdn.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 79 [image/gif]
+Saving to: `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/y9/r/Ar6K0o_04bw.gif'
+
+     0K                                                       100% 38.6K=0s
+
+2011-12-02 15:09:00 (38.6 KB/s) - `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/y9/r/Ar6K0o_04bw.gif' saved [79/79]
+
+--2011-12-02 15:09:00--  http://static.ak.fbcdn.net/rsrc.php/v1/yU/r/bX7fuJsR7qK.gif
+Reusing existing connection to static.ak.fbcdn.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 824 [image/gif]
+Saving to: `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yU/r/bX7fuJsR7qK.gif'
+
+     0K                                                       100%  402K=0s
+
+2011-12-02 15:09:00 (402 KB/s) - `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yU/r/bX7fuJsR7qK.gif' saved [824/824]
+
+--2011-12-02 15:09:00--  http://static.ak.fbcdn.net/rsrc.php/v1/y-/r/i3MWJV-V_Z4.gif
+Reusing existing connection to static.ak.fbcdn.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 72 [image/gif]
+Saving to: `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/y-/r/i3MWJV-V_Z4.gif'
+
+     0K                                                       100% 35.2K=0s
+
+2011-12-02 15:09:00 (35.2 KB/s) - `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/y-/r/i3MWJV-V_Z4.gif' saved [72/72]
+
+--2011-12-02 15:09:00--  http://static.ak.fbcdn.net/rsrc.php/v1/ys/r/7LhjbZQH3Sx.gif
+Reusing existing connection to static.ak.fbcdn.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 95 [image/gif]
+Saving to: `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/ys/r/7LhjbZQH3Sx.gif'
+
+     0K                                                       100% 46.4K=0s
+
+2011-12-02 15:09:00 (46.4 KB/s) - `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/ys/r/7LhjbZQH3Sx.gif' saved [95/95]
+
+--2011-12-02 15:09:00--  http://static.ak.fbcdn.net/rsrc.php/v1/y4/r/peuIxelDcq9.gif
+Reusing existing connection to static.ak.fbcdn.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 72 [image/gif]
+Saving to: `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/y4/r/peuIxelDcq9.gif'
+
+     0K                                                       100% 35.2K=0s
+
+2011-12-02 15:09:00 (35.2 KB/s) - `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/y4/r/peuIxelDcq9.gif' saved [72/72]
+
+--2011-12-02 15:09:00--  http://static.ak.fbcdn.net/rsrc.php/v1/yC/r/oGGz_CGun3e.gif
+Reusing existing connection to static.ak.fbcdn.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 65 [image/gif]
+Saving to: `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yC/r/oGGz_CGun3e.gif'
+
+     0K                                                       100% 31.7K=0s
+
+2011-12-02 15:09:00 (31.7 KB/s) - `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yC/r/oGGz_CGun3e.gif' saved [65/65]
+
+--2011-12-02 15:09:00--  http://static.ak.fbcdn.net/rsrc.php/v1/yX/r/cWkrexhQR4U.gif
+Reusing existing connection to static.ak.fbcdn.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 304 [image/gif]
+Saving to: `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yX/r/cWkrexhQR4U.gif'
+
+     0K                                                       100%  148K=0s
+
+2011-12-02 15:09:00 (148 KB/s) - `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yX/r/cWkrexhQR4U.gif' saved [304/304]
+
+--2011-12-02 15:09:00--  http://static.ak.fbcdn.net/rsrc.php/v1/yQ/r/SEHmoF4wJuy.gif
+Reusing existing connection to static.ak.fbcdn.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 133 [image/gif]
+Saving to: `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yQ/r/SEHmoF4wJuy.gif'
+
+     0K                                                       100% 64.9K=0s
+
+2011-12-02 15:09:00 (64.9 KB/s) - `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yQ/r/SEHmoF4wJuy.gif' saved [133/133]
+
+--2011-12-02 15:09:00--  http://static.ak.fbcdn.net/rsrc.php/v1/yU/r/iFjAdRBY_sL.gif
+Reusing existing connection to static.ak.fbcdn.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 64 [image/gif]
+Saving to: `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yU/r/iFjAdRBY_sL.gif'
+
+     0K                                                       100% 31.2K=0s
+
+2011-12-02 15:09:00 (31.2 KB/s) - `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yU/r/iFjAdRBY_sL.gif' saved [64/64]
+
+--2011-12-02 15:09:00--  http://static.ak.fbcdn.net/rsrc.php/v1/yj/r/TOsf-GemEZs.gif
+Reusing existing connection to static.ak.fbcdn.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 102 [image/gif]
+Saving to: `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yj/r/TOsf-GemEZs.gif'
+
+     0K                                                       100% 49.8K=0s
+
+2011-12-02 15:09:00 (49.8 KB/s) - `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yj/r/TOsf-GemEZs.gif' saved [102/102]
+
+--2011-12-02 15:09:00--  http://static.ak.fbcdn.net/rsrc.php/v1/yJ/r/WD2G95JHzCt.gif
+Reusing existing connection to static.ak.fbcdn.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 110 [image/gif]
+Saving to: `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yJ/r/WD2G95JHzCt.gif'
+
+     0K                                                       100% 53.7K=0s
+
+2011-12-02 15:09:00 (53.7 KB/s) - `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yJ/r/WD2G95JHzCt.gif' saved [110/110]
+
+--2011-12-02 15:09:00--  http://static.ak.fbcdn.net/rsrc.php/v1/yb/r/Vwd6xmm5QeZ.gif
+Reusing existing connection to static.ak.fbcdn.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 108 [image/gif]
+Saving to: `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yb/r/Vwd6xmm5QeZ.gif'
+
+     0K                                                       100% 52.7K=0s
+
+2011-12-02 15:09:00 (52.7 KB/s) - `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yb/r/Vwd6xmm5QeZ.gif' saved [108/108]
+
+--2011-12-02 15:09:00--  http://static.ak.fbcdn.net/rsrc.php/v1/yx/r/J-D8STqq27r.gif
+Reusing existing connection to static.ak.fbcdn.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 356 [image/gif]
+Saving to: `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yx/r/J-D8STqq27r.gif'
+
+     0K                                                       100%  174K=0s
+
+2011-12-02 15:09:00 (174 KB/s) - `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yx/r/J-D8STqq27r.gif' saved [356/356]
+
+--2011-12-02 15:09:00--  http://static.ak.fbcdn.net/rsrc.php/v1/yF/r/xcNMlL1yqMY.gif
+Reusing existing connection to static.ak.fbcdn.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 109 [image/gif]
+Saving to: `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yF/r/xcNMlL1yqMY.gif'
+
+     0K                                                       100% 53.2K=0s
+
+2011-12-02 15:09:00 (53.2 KB/s) - `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yF/r/xcNMlL1yqMY.gif' saved [109/109]
+
+--2011-12-02 15:09:00--  http://static.ak.fbcdn.net/rsrc.php/v1/yK/r/0jndoSRXAtS.gif
+Reusing existing connection to static.ak.fbcdn.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 70 [image/gif]
+Saving to: `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yK/r/0jndoSRXAtS.gif'
+
+     0K                                                       100% 34.2K=0s
+
+2011-12-02 15:09:00 (34.2 KB/s) - `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yK/r/0jndoSRXAtS.gif' saved [70/70]
+
+--2011-12-02 15:09:00--  http://static.ak.fbcdn.net/rsrc.php/v1/yL/r/CpHMi1OJYT4.gif
+Reusing existing connection to static.ak.fbcdn.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 67 [image/gif]
+Saving to: `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yL/r/CpHMi1OJYT4.gif'
+
+     0K                                                       100% 32.7K=0s
+
+2011-12-02 15:09:00 (32.7 KB/s) - `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yL/r/CpHMi1OJYT4.gif' saved [67/67]
+
+--2011-12-02 15:09:00--  http://static.ak.fbcdn.net/rsrc.php/v1/yX/r/VhUL9TRdhxw.gif
+Reusing existing connection to static.ak.fbcdn.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 43 [image/gif]
+Saving to: `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yX/r/VhUL9TRdhxw.gif'
+
+     0K                                                       100% 21.0K=0s
+
+2011-12-02 15:09:00 (21.0 KB/s) - `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yX/r/VhUL9TRdhxw.gif' saved [43/43]
+
+--2011-12-02 15:09:00--  http://static.ak.fbcdn.net/rsrc.php/v1/yL/r/d8obU4nzJv5.png
+Reusing existing connection to static.ak.fbcdn.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 19050 (19K) [image/png]
+Saving to: `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yL/r/d8obU4nzJv5.png'
+
+     0K .......... ........                                   100% 9.08M=0s
+
+2011-12-02 15:09:00 (9.08 MB/s) - `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yL/r/d8obU4nzJv5.png' saved [19050/19050]
+
+--2011-12-02 15:09:00--  http://static.ak.fbcdn.net/rsrc.php/v1/yL/r/wErnZ_tAQMR.png
+Reusing existing connection to static.ak.fbcdn.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 428 [image/png]
+Saving to: `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yL/r/wErnZ_tAQMR.png'
+
+     0K                                                       100%  209K=0s
+
+2011-12-02 15:09:00 (209 KB/s) - `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yL/r/wErnZ_tAQMR.png' saved [428/428]
+
+--2011-12-02 15:09:00--  http://static.ak.fbcdn.net/rsrc.php/v1/yI/r/4DVNAxs9NoZ.gif
+Reusing existing connection to static.ak.fbcdn.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 217 [image/gif]
+Saving to: `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yI/r/4DVNAxs9NoZ.gif'
+
+     0K                                                       100%  106K=0s
+
+2011-12-02 15:09:00 (106 KB/s) - `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yI/r/4DVNAxs9NoZ.gif' saved [217/217]
+
+--2011-12-02 15:09:00--  http://static.ak.fbcdn.net/rsrc.php/v1/yV/r/tI3-tDFcdgh.gif
+Reusing existing connection to static.ak.fbcdn.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 118 [image/gif]
+Saving to: `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yV/r/tI3-tDFcdgh.gif'
+
+     0K                                                       100% 57.6K=0s
+
+2011-12-02 15:09:00 (57.6 KB/s) - `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yV/r/tI3-tDFcdgh.gif' saved [118/118]
+
+--2011-12-02 15:09:00--  http://static.ak.fbcdn.net/rsrc.php/v1/y2/r/vmJvmrkIH7p.png
+Reusing existing connection to static.ak.fbcdn.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1725 (1.7K) [image/png]
+Saving to: `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/y2/r/vmJvmrkIH7p.png'
+
+     0K .                                                     100%  842K=0s
+
+2011-12-02 15:09:00 (842 KB/s) - `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/y2/r/vmJvmrkIH7p.png' saved [1725/1725]
+
+--2011-12-02 15:09:00--  http://static.ak.fbcdn.net/rsrc.php/v1/yl/r/Mb18_ALBDjO.png
+Reusing existing connection to static.ak.fbcdn.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 739 [image/png]
+Saving to: `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yl/r/Mb18_ALBDjO.png'
+
+     0K                                                       100%  361K=0s
+
+2011-12-02 15:09:00 (361 KB/s) - `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yl/r/Mb18_ALBDjO.png' saved [739/739]
+
+--2011-12-02 15:09:00--  http://static.ak.fbcdn.net/rsrc.php/v1/yC/r/dGQvuWIobif.png
+Reusing existing connection to static.ak.fbcdn.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1032 (1.0K) [image/png]
+Saving to: `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yC/r/dGQvuWIobif.png'
+
+     0K .                                                     100%  504K=0s
+
+2011-12-02 15:09:00 (504 KB/s) - `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yC/r/dGQvuWIobif.png' saved [1032/1032]
+
+--2011-12-02 15:09:00--  http://static.ak.fbcdn.net/rsrc.php/v1/yg/r/CIf7hUbSIck.png
+Reusing existing connection to static.ak.fbcdn.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 364 [image/png]
+Saving to: `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yg/r/CIf7hUbSIck.png'
+
+     0K                                                       100%  178K=0s
+
+2011-12-02 15:09:00 (178 KB/s) - `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yg/r/CIf7hUbSIck.png' saved [364/364]
+
+--2011-12-02 15:09:00--  http://static.ak.fbcdn.net/rsrc.php/v1/y4/r/Pn8OVS9TppS.png
+Reusing existing connection to static.ak.fbcdn.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 341 [image/png]
+Saving to: `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/y4/r/Pn8OVS9TppS.png'
+
+     0K                                                       100%  166K=0s
+
+2011-12-02 15:09:00 (166 KB/s) - `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/y4/r/Pn8OVS9TppS.png' saved [341/341]
+
+--2011-12-02 15:09:00--  http://static.ak.fbcdn.net/rsrc.php/v1/yD/r/BoANt8JRscE.png
+Reusing existing connection to static.ak.fbcdn.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 329 [image/png]
+Saving to: `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yD/r/BoANt8JRscE.png'
+
+     0K                                                       100%  161K=0s
+
+2011-12-02 15:09:00 (161 KB/s) - `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yD/r/BoANt8JRscE.png' saved [329/329]
+
+--2011-12-02 15:09:00--  http://static.ak.fbcdn.net/rsrc.php/v1/yP/r/tthEFpVcUaC.png
+Reusing existing connection to static.ak.fbcdn.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1203 (1.2K) [image/png]
+Saving to: `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yP/r/tthEFpVcUaC.png'
+
+     0K .                                                     100%  587K=0s
+
+2011-12-02 15:09:00 (587 KB/s) - `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yP/r/tthEFpVcUaC.png' saved [1203/1203]
+
+--2011-12-02 15:09:00--  http://static.ak.fbcdn.net/rsrc.php/v1/yQ/r/QcjhEWC6Qto.png
+Reusing existing connection to static.ak.fbcdn.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1382 (1.3K) [image/png]
+Saving to: `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yQ/r/QcjhEWC6Qto.png'
+
+     0K .                                                     100%  337K=0.004s
+
+2011-12-02 15:09:00 (337 KB/s) - `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yQ/r/QcjhEWC6Qto.png' saved [1382/1382]
+
+--2011-12-02 15:09:00--  http://static.ak.fbcdn.net/rsrc.php/v1/y3/r/YPFeM0EXezc.png
+Reusing existing connection to static.ak.fbcdn.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 10232 (10.0K) [image/png]
+Saving to: `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/y3/r/YPFeM0EXezc.png'
+
+     0K .........                                             100% 2.44M=0.004s
+
+2011-12-02 15:09:00 (2.44 MB/s) - `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/y3/r/YPFeM0EXezc.png' saved [10232/10232]
+
+--2011-12-02 15:09:00--  http://static.ak.fbcdn.net/rsrc.php/v1/y6/r/szD6qTI5bIe.png
+Reusing existing connection to static.ak.fbcdn.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 11288 (11K) [image/png]
+Saving to: `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/y6/r/szD6qTI5bIe.png'
+
+     0K .......... .                                          100% 2.69M=0.004s
+
+2011-12-02 15:09:00 (2.69 MB/s) - `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/y6/r/szD6qTI5bIe.png' saved [11288/11288]
+
+--2011-12-02 15:09:00--  http://static.ak.fbcdn.net/rsrc.php/v1/yz/r/tjNqSxeXtyK.png
+Reusing existing connection to static.ak.fbcdn.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 875 [image/png]
+Saving to: `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yz/r/tjNqSxeXtyK.png'
+
+     0K                                                       100%  427K=0s
+
+2011-12-02 15:09:00 (427 KB/s) - `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yz/r/tjNqSxeXtyK.png' saved [875/875]
+
+--2011-12-02 15:09:00--  http://static.ak.fbcdn.net/rsrc.php/v1/yD/r/o8nVZjvKzO6.png
+Reusing existing connection to static.ak.fbcdn.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 2013 (2.0K) [image/png]
+Saving to: `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yD/r/o8nVZjvKzO6.png'
+
+     0K .                                                     100%  983K=0s
+
+2011-12-02 15:09:00 (983 KB/s) - `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yD/r/o8nVZjvKzO6.png' saved [2013/2013]
+
+--2011-12-02 15:09:00--  http://static.ak.fbcdn.net/rsrc.php/v1/ya/r/xSwPvwnoLbc.png
+Reusing existing connection to static.ak.fbcdn.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1509 (1.5K) [image/png]
+Saving to: `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/ya/r/xSwPvwnoLbc.png'
+
+     0K .                                                     100%  737K=0s
+
+2011-12-02 15:09:00 (737 KB/s) - `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/ya/r/xSwPvwnoLbc.png' saved [1509/1509]
+
+--2011-12-02 15:09:00--  http://static.ak.fbcdn.net/rsrc.php/v1/yB/r/TwAHgQi2ZPB.png
+Reusing existing connection to static.ak.fbcdn.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1203 (1.2K) [image/png]
+Saving to: `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yB/r/TwAHgQi2ZPB.png'
+
+     0K .                                                     100%  587K=0s
+
+2011-12-02 15:09:00 (587 KB/s) - `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yB/r/TwAHgQi2ZPB.png' saved [1203/1203]
+
+--2011-12-02 15:09:00--  http://static.ak.fbcdn.net/rsrc.php/v1/yi/r/OBaVg52wtTZ.png
+Reusing existing connection to static.ak.fbcdn.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 42565 (42K) [image/png]
+Saving to: `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yi/r/OBaVg52wtTZ.png'
+
+     0K .......... .......... .......... .......... .         100% 5.07M=0.008s
+
+2011-12-02 15:09:00 (5.07 MB/s) - `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yi/r/OBaVg52wtTZ.png' saved [42565/42565]
+
+--2011-12-02 15:09:00--  http://static.ak.fbcdn.net/rsrc.php/v1/yK/r/BFOd681AL3h.png
+Reusing existing connection to static.ak.fbcdn.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 8286 (8.1K) [image/png]
+Saving to: `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yK/r/BFOd681AL3h.png'
+
+     0K ........                                              100% 3.95M=0s
+
+2011-12-02 15:09:00 (3.95 MB/s) - `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yK/r/BFOd681AL3h.png' saved [8286/8286]
+
+--2011-12-02 15:09:00--  http://static.ak.fbcdn.net/rsrc.php/v1/yS/r/STeWPW2kh0m.png
+Reusing existing connection to static.ak.fbcdn.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 129 [image/png]
+Saving to: `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yS/r/STeWPW2kh0m.png'
+
+     0K                                                       100% 63.0K=0s
+
+2011-12-02 15:09:00 (63.0 KB/s) - `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yS/r/STeWPW2kh0m.png' saved [129/129]
+
+--2011-12-02 15:09:00--  http://static.ak.fbcdn.net/rsrc.php/v1/y9/r/y7MG8IZpiC8.gif
+Reusing existing connection to static.ak.fbcdn.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 90 [image/gif]
+Saving to: `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/y9/r/y7MG8IZpiC8.gif'
+
+     0K                                                       100% 43.9K=0s
+
+2011-12-02 15:09:00 (43.9 KB/s) - `../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/y9/r/y7MG8IZpiC8.gif' saved [90/90]
+
+FINISHED --2011-12-02 15:09:00--
+Total wall clock time: 1.0s
+Downloaded: 98 files, 530K in 0.2s (2.70 MB/s)
+Converting ../crawls/www.facebook.com/Privacy-Policy/raw/www.facebook.com/full_data_use_policy.html... 79-4
+Converting ../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yA/r/W7Pz5DBNvh3.css... 6-0
+Converting ../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yu/r/WXpIPwzYkYs.css... 157-0
+Converting ../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/yx/r/ejJoiNmHkkP.css... 17-0
+Converting ../crawls/www.facebook.com/Privacy-Policy/raw/static.ak.fbcdn.net/rsrc.php/v1/y9/r/ScxLd7rx07A.css... 28-0
+Converted 5 files in 0.01 seconds.

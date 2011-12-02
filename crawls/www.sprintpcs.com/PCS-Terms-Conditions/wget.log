@@ -1,0 +1,1006 @@
+--2011-12-02 15:09:00--  http://www.sprintpcs.com/common/popups/popLegalTermsPrivacy.html
+Resolving www.sprintpcs.com (www.sprintpcs.com)... 144.230.162.36
+Connecting to www.sprintpcs.com (www.sprintpcs.com)|144.230.162.36|:80... connected.
+HTTP request sent, awaiting response... 302 Moved Temporarily
+Location: https://manage.sprintpcs.com/output/en_US/manage/MyPhoneandPlan/ChangePlans/popLegalTermsPrivacy.htm [following]
+--2011-12-02 15:09:00--  https://manage.sprintpcs.com/output/en_US/manage/MyPhoneandPlan/ChangePlans/popLegalTermsPrivacy.htm
+Resolving manage.sprintpcs.com (manage.sprintpcs.com)... 144.230.162.12
+Connecting to manage.sprintpcs.com (manage.sprintpcs.com)|144.230.162.12|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 73742 (72K) [text/html]
+Saving to: `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/www.sprintpcs.com/common/popups/popLegalTermsPrivacy.html'
+
+     0K .......... .......... .......... .......... .......... 69%  431K 0s
+    50K .......... .......... ..                              100%  423K=0.2s
+
+2011-12-02 15:09:01 (429 KB/s) - `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/www.sprintpcs.com/common/popups/popLegalTermsPrivacy.html' saved [73742/73742]
+
+--2011-12-02 15:09:01--  https://style.sprintpcs.com/common.css
+Resolving style.sprintpcs.com (style.sprintpcs.com)... 144.230.162.39
+Connecting to style.sprintpcs.com (style.sprintpcs.com)|144.230.162.39|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 41577 (41K) [text/css]
+Saving to: `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/common.css'
+
+     0K .......... .......... .......... ..........           100%  362K=0.1s
+
+2011-12-02 15:09:01 (362 KB/s) - `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/common.css' saved [41577/41577]
+
+--2011-12-02 15:09:01--  https://style.sprintpcs.com/print.css
+Reusing existing connection to style.sprintpcs.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1614 (1.6K) [text/css]
+Saving to: `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/print.css'
+
+     0K .                                                     100%  788K=0s
+
+2011-12-02 15:09:01 (788 KB/s) - `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/print.css' saved [1614/1614]
+
+--2011-12-02 15:09:01--  https://manage.sprintpcs.com/output/en_US/manage/MyPhoneandPlan/ChangePlans/index_files/sprint-nextel.png
+Connecting to manage.sprintpcs.com (manage.sprintpcs.com)|144.230.162.12|:443... connected.
+HTTP request sent, awaiting response... 404 Not Found
+2011-12-02 15:09:01 ERROR 404: Not Found.
+
+--2011-12-02 15:09:01--  https://manage.sprintpcs.com/Manage/themes/html/SprintPCS/javascript/s_code_remote.js
+Reusing existing connection to manage.sprintpcs.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 24022 (23K) [application/x-javascript]
+Saving to: `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/manage.sprintpcs.com/Manage/themes/html/SprintPCS/javascript/s_code_remote.js'
+
+     0K .......... .......... ...                             100%  391K=0.06s
+
+2011-12-02 15:09:01 (391 KB/s) - `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/manage.sprintpcs.com/Manage/themes/html/SprintPCS/javascript/s_code_remote.js' saved [24022/24022]
+
+--2011-12-02 15:09:01--  https://style.sprintpcs.com/nav.css
+Connecting to style.sprintpcs.com (style.sprintpcs.com)|144.230.162.39|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 11073 (11K) [text/css]
+Saving to: `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/nav.css'
+
+     0K ..........                                            100%  208K=0.05s
+
+2011-12-02 15:09:02 (208 KB/s) - `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/nav.css' saved [11073/11073]
+
+--2011-12-02 15:09:02--  https://style.sprintpcs.com/heads.css
+Reusing existing connection to style.sprintpcs.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1974 (1.9K) [text/css]
+Saving to: `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/heads.css'
+
+     0K .                                                     100%  964K=0s
+
+2011-12-02 15:09:02 (964 KB/s) - `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/heads.css' saved [1974/1974]
+
+--2011-12-02 15:09:02--  https://style.sprintpcs.com/forms.css
+Reusing existing connection to style.sprintpcs.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 6147 (6.0K) [text/css]
+Saving to: `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/forms.css'
+
+     0K ......                                                100% 2.93M=0s
+
+2011-12-02 15:09:02 (2.93 MB/s) - `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/forms.css' saved [6147/6147]
+
+--2011-12-02 15:09:02--  https://style.sprintpcs.com/callOut.css
+Reusing existing connection to style.sprintpcs.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 938 [text/css]
+Saving to: `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/callOut.css'
+
+     0K                                                       100%  458K=0s
+
+2011-12-02 15:09:02 (458 KB/s) - `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/callOut.css' saved [938/938]
+
+--2011-12-02 15:09:02--  https://style.sprintpcs.com/mzBundlez.css
+Reusing existing connection to style.sprintpcs.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 7665 (7.5K) [text/css]
+Saving to: `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/mzBundlez.css'
+
+     0K .......                                               100% 3.65M=0s
+
+2011-12-02 15:09:02 (3.65 MB/s) - `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/mzBundlez.css' saved [7665/7665]
+
+--2011-12-02 15:09:02--  https://style.sprintpcs.com/subNavII.css
+Reusing existing connection to style.sprintpcs.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1168 (1.1K) [text/css]
+Saving to: `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/subNavII.css'
+
+     0K .                                                     100%  570K=0s
+
+2011-12-02 15:09:02 (570 KB/s) - `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/subNavII.css' saved [1168/1168]
+
+--2011-12-02 15:09:02--  https://style.sprintpcs.com/i/bg-brand.gif
+Reusing existing connection to style.sprintpcs.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 13338 (13K) [image/gif]
+Saving to: `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/bg-brand.gif'
+
+     0K .......... ...                                        100% 6.36M=0s
+
+2011-12-02 15:09:02 (6.36 MB/s) - `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/bg-brand.gif' saved [13338/13338]
+
+--2011-12-02 15:09:02--  https://style.sprintpcs.com/i/bg-contextLinks.gif
+Reusing existing connection to style.sprintpcs.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 818 [image/gif]
+Saving to: `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/bg-contextLinks.gif'
+
+     0K                                                       100%  399K=0s
+
+2011-12-02 15:09:02 (399 KB/s) - `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/bg-contextLinks.gif' saved [818/818]
+
+--2011-12-02 15:09:02--  https://style.sprintpcs.com/i/ulBullet-large.gif
+Reusing existing connection to style.sprintpcs.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 54 [image/gif]
+Saving to: `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/ulBullet-large.gif'
+
+     0K                                                       100% 26.4K=0s
+
+2011-12-02 15:09:02 (26.4 KB/s) - `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/ulBullet-large.gif' saved [54/54]
+
+--2011-12-02 15:09:02--  https://style.sprintpcs.com/i/bg-superLink.gif
+Reusing existing connection to style.sprintpcs.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 59 [image/gif]
+Saving to: `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/bg-superLink.gif'
+
+     0K                                                       100% 28.8K=0s
+
+2011-12-02 15:09:02 (28.8 KB/s) - `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/bg-superLink.gif' saved [59/59]
+
+--2011-12-02 15:09:02--  https://style.sprintpcs.com/i/bg-superLinkHover.gif
+Reusing existing connection to style.sprintpcs.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 59 [image/gif]
+Saving to: `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/bg-superLinkHover.gif'
+
+     0K                                                       100% 28.8K=0s
+
+2011-12-02 15:09:02 (28.8 KB/s) - `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/bg-superLinkHover.gif' saved [59/59]
+
+--2011-12-02 15:09:02--  https://style.sprintpcs.com/i/bg-downLink.gif
+Reusing existing connection to style.sprintpcs.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 54 [image/gif]
+Saving to: `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/bg-downLink.gif'
+
+     0K                                                       100% 26.4K=0s
+
+2011-12-02 15:09:03 (26.4 KB/s) - `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/bg-downLink.gif' saved [54/54]
+
+--2011-12-02 15:09:03--  https://style.sprintpcs.com/i/bg-upLink.gif
+Reusing existing connection to style.sprintpcs.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 54 [image/gif]
+Saving to: `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/bg-upLink.gif'
+
+     0K                                                       100% 26.4K=0s
+
+2011-12-02 15:09:03 (26.4 KB/s) - `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/bg-upLink.gif' saved [54/54]
+
+--2011-12-02 15:09:03--  https://style.sprintpcs.com/i/ulBullet.gif
+Reusing existing connection to style.sprintpcs.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 53 [image/gif]
+Saving to: `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/ulBullet.gif'
+
+     0K                                                       100% 25.9K=0s
+
+2011-12-02 15:09:03 (25.9 KB/s) - `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/ulBullet.gif' saved [53/53]
+
+--2011-12-02 15:09:03--  https://style.sprintpcs.com/i/bg-errorLarge.gif
+Reusing existing connection to style.sprintpcs.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 286 [image/gif]
+Saving to: `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/bg-errorLarge.gif'
+
+     0K                                                       100%  140K=0s
+
+2011-12-02 15:09:03 (140 KB/s) - `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/bg-errorLarge.gif' saved [286/286]
+
+--2011-12-02 15:09:03--  https://style.sprintpcs.com/i/bg-error.gif
+Reusing existing connection to style.sprintpcs.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 194 [image/gif]
+Saving to: `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/bg-error.gif'
+
+     0K                                                       100% 94.7K=0s
+
+2011-12-02 15:09:03 (94.7 KB/s) - `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/bg-error.gif' saved [194/194]
+
+--2011-12-02 15:09:03--  https://style.sprintpcs.com/i/bg-chunk.gif
+Reusing existing connection to style.sprintpcs.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 302 [image/gif]
+Saving to: `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/bg-chunk.gif'
+
+     0K                                                       100%  147K=0s
+
+2011-12-02 15:09:03 (147 KB/s) - `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/bg-chunk.gif' saved [302/302]
+
+--2011-12-02 15:09:03--  https://style.sprintpcs.com/i/bg-chunk-right.gif
+Reusing existing connection to style.sprintpcs.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 70 [image/gif]
+Saving to: `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/bg-chunk-right.gif'
+
+     0K                                                       100% 34.2K=0s
+
+2011-12-02 15:09:03 (34.2 KB/s) - `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/bg-chunk-right.gif' saved [70/70]
+
+--2011-12-02 15:09:03--  https://style.sprintpcs.com/i/bg-chunkBottom.gif
+Reusing existing connection to style.sprintpcs.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 70 [image/gif]
+Saving to: `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/bg-chunkBottom.gif'
+
+     0K                                                       100% 34.2K=0s
+
+2011-12-02 15:09:03 (34.2 KB/s) - `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/bg-chunkBottom.gif' saved [70/70]
+
+--2011-12-02 15:09:03--  https://style.sprintpcs.com/i/bg-chunkBottom-right.gif
+Reusing existing connection to style.sprintpcs.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 71 [image/gif]
+Saving to: `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/bg-chunkBottom-right.gif'
+
+     0K                                                       100% 34.7K=0s
+
+2011-12-02 15:09:03 (34.7 KB/s) - `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/bg-chunkBottom-right.gif' saved [71/71]
+
+--2011-12-02 15:09:03--  https://style.sprintpcs.com/i/h3-interiorBox-left.gif
+Reusing existing connection to style.sprintpcs.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 2535 (2.5K) [image/gif]
+Saving to: `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/h3-interiorBox-left.gif'
+
+     0K ..                                                    100% 1.21M=0s
+
+2011-12-02 15:09:03 (1.21 MB/s) - `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/h3-interiorBox-left.gif' saved [2535/2535]
+
+--2011-12-02 15:09:03--  https://style.sprintpcs.com/i/h3-interiorBox-right.gif
+Reusing existing connection to style.sprintpcs.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 140 [image/gif]
+Saving to: `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/h3-interiorBox-right.gif'
+
+     0K                                                       100% 68.4K=0s
+
+2011-12-02 15:09:03 (68.4 KB/s) - `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/h3-interiorBox-right.gif' saved [140/140]
+
+--2011-12-02 15:09:03--  https://style.sprintpcs.com/i/bg-flashPreview.gif
+Reusing existing connection to style.sprintpcs.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 16090 (16K) [image/gif]
+Saving to: `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/bg-flashPreview.gif'
+
+     0K .......... .....                                      100% 7.67M=0s
+
+2011-12-02 15:09:03 (7.67 MB/s) - `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/bg-flashPreview.gif' saved [16090/16090]
+
+--2011-12-02 15:09:03--  https://style.sprintpcs.com/i/bg-tableBotLeftB.gif
+Reusing existing connection to style.sprintpcs.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 445 [image/gif]
+Saving to: `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/bg-tableBotLeftB.gif'
+
+     0K                                                       100%  217K=0s
+
+2011-12-02 15:09:03 (217 KB/s) - `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/bg-tableBotLeftB.gif' saved [445/445]
+
+--2011-12-02 15:09:03--  https://style.sprintpcs.com/i/bg-tableBotRightB.gif
+Reusing existing connection to style.sprintpcs.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 927 [image/gif]
+Saving to: `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/bg-tableBotRightB.gif'
+
+     0K                                                       100%  453K=0s
+
+2011-12-02 15:09:04 (453 KB/s) - `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/bg-tableBotRightB.gif' saved [927/927]
+
+--2011-12-02 15:09:04--  https://style.sprintpcs.com/i/bg-shadow.gif
+Reusing existing connection to style.sprintpcs.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 2396 (2.3K) [image/gif]
+Saving to: `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/bg-shadow.gif'
+
+     0K ..                                                    100% 1.14M=0s
+
+2011-12-02 15:09:04 (1.14 MB/s) - `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/bg-shadow.gif' saved [2396/2396]
+
+--2011-12-02 15:09:04--  https://style.sprintpcs.com/i/bg-shadowCorner_bl.gif
+Reusing existing connection to style.sprintpcs.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 79 [image/gif]
+Saving to: `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/bg-shadowCorner_bl.gif'
+
+     0K                                                       100% 38.6K=0s
+
+2011-12-02 15:09:04 (38.6 KB/s) - `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/bg-shadowCorner_bl.gif' saved [79/79]
+
+--2011-12-02 15:09:04--  https://style.sprintpcs.com/i/bg-shadowCorner_tr.gif
+Reusing existing connection to style.sprintpcs.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 77 [image/gif]
+Saving to: `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/bg-shadowCorner_tr.gif'
+
+     0K                                                       100% 37.6K=0s
+
+2011-12-02 15:09:04 (37.6 KB/s) - `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/bg-shadowCorner_tr.gif' saved [77/77]
+
+--2011-12-02 15:09:04--  https://style.sprintpcs.com/i/bg-3col.gif
+Reusing existing connection to style.sprintpcs.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 63 [image/gif]
+Saving to: `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/bg-3col.gif'
+
+     0K                                                       100% 30.8K=0s
+
+2011-12-02 15:09:04 (30.8 KB/s) - `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/bg-3col.gif' saved [63/63]
+
+--2011-12-02 15:09:04--  https://style.sprintpcs.com/i/bg-halfSep.gif
+Reusing existing connection to style.sprintpcs.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 151 [image/gif]
+Saving to: `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/bg-halfSep.gif'
+
+     0K                                                       100% 73.7K=0s
+
+2011-12-02 15:09:04 (73.7 KB/s) - `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/bg-halfSep.gif' saved [151/151]
+
+--2011-12-02 15:09:04--  https://style.sprintpcs.com/i/tabs/bg-navII.gif
+Reusing existing connection to style.sprintpcs.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 77 [image/gif]
+Saving to: `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/tabs/bg-navII.gif'
+
+     0K                                                       100% 37.6K=0s
+
+2011-12-02 15:09:04 (37.6 KB/s) - `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/tabs/bg-navII.gif' saved [77/77]
+
+--2011-12-02 15:09:04--  https://style.sprintpcs.com/i/s/ico-pictureMail-o.gif
+Reusing existing connection to style.sprintpcs.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1142 (1.1K) [image/gif]
+Saving to: `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/s/ico-pictureMail-o.gif'
+
+     0K .                                                     100%  558K=0s
+
+2011-12-02 15:09:04 (558 KB/s) - `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/s/ico-pictureMail-o.gif' saved [1142/1142]
+
+--2011-12-02 15:09:04--  https://style.sprintpcs.com/i/s/ico-messaging-o.gif
+Reusing existing connection to style.sprintpcs.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 908 [image/gif]
+Saving to: `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/s/ico-messaging-o.gif'
+
+     0K                                                       100%  443K=0s
+
+2011-12-02 15:09:04 (443 KB/s) - `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/s/ico-messaging-o.gif' saved [908/908]
+
+--2011-12-02 15:09:04--  https://style.sprintpcs.com/i/s/ico-games-o.gif
+Reusing existing connection to style.sprintpcs.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1408 (1.4K) [image/gif]
+Saving to: `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/s/ico-games-o.gif'
+
+     0K .                                                     100%  687K=0s
+
+2011-12-02 15:09:04 (687 KB/s) - `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/s/ico-games-o.gif' saved [1408/1408]
+
+--2011-12-02 15:09:04--  https://style.sprintpcs.com/i/s/ico-ringers-o.gif
+Reusing existing connection to style.sprintpcs.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1289 (1.3K) [image/gif]
+Saving to: `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/s/ico-ringers-o.gif'
+
+     0K .                                                     100%  629K=0s
+
+2011-12-02 15:09:04 (629 KB/s) - `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/s/ico-ringers-o.gif' saved [1289/1289]
+
+--2011-12-02 15:09:04--  https://style.sprintpcs.com/i/s/ico-screenSavers-o.gif
+Reusing existing connection to style.sprintpcs.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1368 (1.3K) [image/gif]
+Saving to: `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/s/ico-screenSavers-o.gif'
+
+     0K .                                                     100%  668K=0s
+
+2011-12-02 15:09:04 (668 KB/s) - `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/s/ico-screenSavers-o.gif' saved [1368/1368]
+
+--2011-12-02 15:09:04--  https://style.sprintpcs.com/i/s/ico-web-o.gif
+Reusing existing connection to style.sprintpcs.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1450 (1.4K) [image/gif]
+Saving to: `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/s/ico-web-o.gif'
+
+     0K .                                                     100%  708K=0s
+
+2011-12-02 15:09:05 (708 KB/s) - `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/s/ico-web-o.gif' saved [1450/1450]
+
+--2011-12-02 15:09:05--  https://style.sprintpcs.com/i/s/ico-pcsBusinessConnection-o.gif
+Reusing existing connection to style.sprintpcs.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1205 (1.2K) [image/gif]
+Saving to: `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/s/ico-pcsBusinessConnection-o.gif'
+
+     0K .                                                     100%  588K=0s
+
+2011-12-02 15:09:05 (588 KB/s) - `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/s/ico-pcsBusinessConnection-o.gif' saved [1205/1205]
+
+--2011-12-02 15:09:05--  https://style.sprintpcs.com/i/ico-multimedia-o.gif
+Reusing existing connection to style.sprintpcs.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 398 [image/gif]
+Saving to: `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/ico-multimedia-o.gif'
+
+     0K                                                       100%  194K=0s
+
+2011-12-02 15:09:05 (194 KB/s) - `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/ico-multimedia-o.gif' saved [398/398]
+
+--2011-12-02 15:09:05--  https://style.sprintpcs.com/i/ico-multimedia.gif
+Reusing existing connection to style.sprintpcs.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 398 [image/gif]
+Saving to: `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/ico-multimedia.gif'
+
+     0K                                                       100%  194K=0s
+
+2011-12-02 15:09:05 (194 KB/s) - `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/ico-multimedia.gif' saved [398/398]
+
+--2011-12-02 15:09:05--  https://style.sprintpcs.com/i/ico-videoMail-o.gif
+Reusing existing connection to style.sprintpcs.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 353 [image/gif]
+Saving to: `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/ico-videoMail-o.gif'
+
+     0K                                                       100%  172K=0s
+
+2011-12-02 15:09:05 (172 KB/s) - `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/ico-videoMail-o.gif' saved [353/353]
+
+--2011-12-02 15:09:05--  https://style.sprintpcs.com/i/ico-videoMail.gif
+Reusing existing connection to style.sprintpcs.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 353 [image/gif]
+Saving to: `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/ico-videoMail.gif'
+
+     0K                                                       100%  172K=0s
+
+2011-12-02 15:09:05 (172 KB/s) - `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/ico-videoMail.gif' saved [353/353]
+
+--2011-12-02 15:09:05--  https://style.sprintpcs.com/i/ico-pictureMail-o.gif
+Reusing existing connection to style.sprintpcs.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 763 [image/gif]
+Saving to: `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/ico-pictureMail-o.gif'
+
+     0K                                                       100%  373K=0s
+
+2011-12-02 15:09:05 (373 KB/s) - `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/ico-pictureMail-o.gif' saved [763/763]
+
+--2011-12-02 15:09:05--  https://style.sprintpcs.com/i/ico-pictureMail.gif
+Reusing existing connection to style.sprintpcs.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 758 [image/gif]
+Saving to: `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/ico-pictureMail.gif'
+
+     0K                                                       100%  370K=0s
+
+2011-12-02 15:09:05 (370 KB/s) - `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/ico-pictureMail.gif' saved [758/758]
+
+--2011-12-02 15:09:05--  https://style.sprintpcs.com/i/ico-messaging-o.gif
+Reusing existing connection to style.sprintpcs.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 682 [image/gif]
+Saving to: `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/ico-messaging-o.gif'
+
+     0K                                                       100%  333K=0s
+
+2011-12-02 15:09:05 (333 KB/s) - `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/ico-messaging-o.gif' saved [682/682]
+
+--2011-12-02 15:09:05--  https://style.sprintpcs.com/i/ico-messaging.gif
+Reusing existing connection to style.sprintpcs.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 681 [image/gif]
+Saving to: `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/ico-messaging.gif'
+
+     0K                                                       100%  332K=0s
+
+2011-12-02 15:09:05 (332 KB/s) - `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/ico-messaging.gif' saved [681/681]
+
+--2011-12-02 15:09:05--  https://style.sprintpcs.com/i/ico-games-o.gif
+Reusing existing connection to style.sprintpcs.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1260 (1.2K) [image/gif]
+Saving to: `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/ico-games-o.gif'
+
+     0K .                                                     100%  615K=0s
+
+2011-12-02 15:09:06 (615 KB/s) - `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/ico-games-o.gif' saved [1260/1260]
+
+--2011-12-02 15:09:06--  https://style.sprintpcs.com/i/ico-games.gif
+Reusing existing connection to style.sprintpcs.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 838 [image/gif]
+Saving to: `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/ico-games.gif'
+
+     0K                                                       100%  409K=0s
+
+2011-12-02 15:09:06 (409 KB/s) - `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/ico-games.gif' saved [838/838]
+
+--2011-12-02 15:09:06--  https://style.sprintpcs.com/i/ico-ringers-o.gif
+Reusing existing connection to style.sprintpcs.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 703 [image/gif]
+Saving to: `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/ico-ringers-o.gif'
+
+     0K                                                       100%  343K=0s
+
+2011-12-02 15:09:06 (343 KB/s) - `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/ico-ringers-o.gif' saved [703/703]
+
+--2011-12-02 15:09:06--  https://style.sprintpcs.com/i/ico-ringers.gif
+Reusing existing connection to style.sprintpcs.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 699 [image/gif]
+Saving to: `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/ico-ringers.gif'
+
+     0K                                                       100%  341K=0s
+
+2011-12-02 15:09:06 (341 KB/s) - `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/ico-ringers.gif' saved [699/699]
+
+--2011-12-02 15:09:06--  https://style.sprintpcs.com/i/ico-screenSavers-o.gif
+Reusing existing connection to style.sprintpcs.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 731 [image/gif]
+Saving to: `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/ico-screenSavers-o.gif'
+
+     0K                                                       100%  357K=0s
+
+2011-12-02 15:09:06 (357 KB/s) - `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/ico-screenSavers-o.gif' saved [731/731]
+
+--2011-12-02 15:09:06--  https://style.sprintpcs.com/i/ico-screenSavers.gif
+Reusing existing connection to style.sprintpcs.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 727 [image/gif]
+Saving to: `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/ico-screenSavers.gif'
+
+     0K                                                       100%  355K=0s
+
+2011-12-02 15:09:06 (355 KB/s) - `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/ico-screenSavers.gif' saved [727/727]
+
+--2011-12-02 15:09:06--  https://style.sprintpcs.com/i/ico-web-o.gif
+Reusing existing connection to style.sprintpcs.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1307 (1.3K) [image/gif]
+Saving to: `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/ico-web-o.gif'
+
+     0K .                                                     100%  638K=0s
+
+2011-12-02 15:09:06 (638 KB/s) - `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/ico-web-o.gif' saved [1307/1307]
+
+--2011-12-02 15:09:06--  https://style.sprintpcs.com/i/ico-web.gif
+Reusing existing connection to style.sprintpcs.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1299 (1.3K) [image/gif]
+Saving to: `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/ico-web.gif'
+
+     0K .                                                     100%  634K=0s
+
+2011-12-02 15:09:06 (634 KB/s) - `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/ico-web.gif' saved [1299/1299]
+
+--2011-12-02 15:09:06--  https://style.sprintpcs.com/i/ico-pcsBusinessConnection-o.gif
+Reusing existing connection to style.sprintpcs.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1125 (1.1K) [image/gif]
+Saving to: `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/ico-pcsBusinessConnection-o.gif'
+
+     0K .                                                     100%  549K=0s
+
+2011-12-02 15:09:06 (549 KB/s) - `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/ico-pcsBusinessConnection-o.gif' saved [1125/1125]
+
+--2011-12-02 15:09:06--  https://style.sprintpcs.com/i/ico-pcsBusinessConnection.gif
+Reusing existing connection to style.sprintpcs.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 715 [image/gif]
+Saving to: `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/ico-pcsBusinessConnection.gif'
+
+     0K                                                       100%  349K=0s
+
+2011-12-02 15:09:06 (349 KB/s) - `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/ico-pcsBusinessConnection.gif' saved [715/715]
+
+--2011-12-02 15:09:06--  https://style.sprintpcs.com/i/bg-toggleArrowDown.gif
+Reusing existing connection to style.sprintpcs.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 343 [image/gif]
+Saving to: `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/bg-toggleArrowDown.gif'
+
+     0K                                                       100%  167K=0s
+
+2011-12-02 15:09:06 (167 KB/s) - `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/bg-toggleArrowDown.gif' saved [343/343]
+
+--2011-12-02 15:09:06--  https://style.sprintpcs.com/i/bg-popFooter.gif
+Reusing existing connection to style.sprintpcs.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 540 [image/gif]
+Saving to: `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/bg-popFooter.gif'
+
+     0K                                                       100%  264K=0s
+
+2011-12-02 15:09:06 (264 KB/s) - `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/bg-popFooter.gif' saved [540/540]
+
+--2011-12-02 15:09:06--  https://style.sprintpcs.com/i/bg-popOldFooter.gif
+Reusing existing connection to style.sprintpcs.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 679 [image/gif]
+Saving to: `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/bg-popOldFooter.gif'
+
+     0K                                                       100%  332K=0s
+
+2011-12-02 15:09:06 (332 KB/s) - `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/bg-popOldFooter.gif' saved [679/679]
+
+--2011-12-02 15:09:06--  https://style.sprintpcs.com/i/cv_watermark.gif
+Reusing existing connection to style.sprintpcs.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 305 [image/gif]
+Saving to: `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/cv_watermark.gif'
+
+     0K                                                       100%  149K=0s
+
+2011-12-02 15:09:07 (149 KB/s) - `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/cv_watermark.gif' saved [305/305]
+
+--2011-12-02 15:09:07--  https://style.sprintpcs.com/i/rz-watermark.gif
+Reusing existing connection to style.sprintpcs.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 341 [image/gif]
+Saving to: `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/rz-watermark.gif'
+
+     0K                                                       100%  166K=0s
+
+2011-12-02 15:09:07 (166 KB/s) - `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/rz-watermark.gif' saved [341/341]
+
+--2011-12-02 15:09:07--  http://www.sprintpcs.com/styles/i/bg-pipe.gif
+Connecting to www.sprintpcs.com (www.sprintpcs.com)|144.230.162.36|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 44 [image/gif]
+Saving to: `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/www.sprintpcs.com/styles/i/bg-pipe.gif'
+
+     0K                                                       100% 21.5K=0s
+
+2011-12-02 15:09:07 (21.5 KB/s) - `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/www.sprintpcs.com/styles/i/bg-pipe.gif' saved [44/44]
+
+--2011-12-02 15:09:07--  http://style.sprintpcs.com/i/bg-downLink.gif
+Connecting to style.sprintpcs.com (style.sprintpcs.com)|144.230.162.39|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 54 [image/gif]
+Saving to: `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/bg-downLink.gif'
+
+     0K                                                       100% 26.4K=0s
+
+2011-12-02 15:09:07 (26.4 KB/s) - `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/bg-downLink.gif' saved [54/54]
+
+--2011-12-02 15:09:07--  https://style.sprintpcs.com/i/flip-leftUp.gif
+Connecting to style.sprintpcs.com (style.sprintpcs.com)|144.230.162.39|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 365 [image/gif]
+Saving to: `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/flip-leftUp.gif'
+
+     0K                                                       100%  178K=0s
+
+2011-12-02 15:09:07 (178 KB/s) - `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/flip-leftUp.gif' saved [365/365]
+
+--2011-12-02 15:09:07--  https://style.sprintpcs.com/i/flip-rightUp.gif
+Reusing existing connection to style.sprintpcs.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 164 [image/gif]
+Saving to: `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/flip-rightUp.gif'
+
+     0K                                                       100% 80.1K=0s
+
+2011-12-02 15:09:07 (80.1 KB/s) - `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/flip-rightUp.gif' saved [164/164]
+
+--2011-12-02 15:09:07--  https://style.sprintpcs.com/i/flip-leftDown.gif
+Reusing existing connection to style.sprintpcs.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 813 [image/gif]
+Saving to: `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/flip-leftDown.gif'
+
+     0K                                                       100%  397K=0s
+
+2011-12-02 15:09:07 (397 KB/s) - `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/flip-leftDown.gif' saved [813/813]
+
+--2011-12-02 15:09:07--  https://style.sprintpcs.com/i/flip-rightDown.gif
+Reusing existing connection to style.sprintpcs.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 321 [image/gif]
+Saving to: `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/flip-rightDown.gif'
+
+     0K                                                       100%  157K=0s
+
+2011-12-02 15:09:07 (157 KB/s) - `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/flip-rightDown.gif' saved [321/321]
+
+--2011-12-02 15:09:07--  https://style.sprintpcs.com/i/h3-detailsFor-left.gif
+Reusing existing connection to style.sprintpcs.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 2636 (2.6K) [image/gif]
+Saving to: `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/h3-detailsFor-left.gif'
+
+     0K ..                                                    100% 1.26M=0s
+
+2011-12-02 15:09:07 (1.26 MB/s) - `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/h3-detailsFor-left.gif' saved [2636/2636]
+
+--2011-12-02 15:09:07--  https://style.sprintpcs.com/i/h3-detailsFor-right.gif
+Reusing existing connection to style.sprintpcs.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 139 [image/gif]
+Saving to: `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/h3-detailsFor-right.gif'
+
+     0K                                                       100% 67.9K=0s
+
+2011-12-02 15:09:07 (67.9 KB/s) - `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/h3-detailsFor-right.gif' saved [139/139]
+
+--2011-12-02 15:09:07--  https://style.sprintpcs.com/i/folder.gif
+Reusing existing connection to style.sprintpcs.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 484 [image/gif]
+Saving to: `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/folder.gif'
+
+     0K                                                       100%  236K=0s
+
+2011-12-02 15:09:07 (236 KB/s) - `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/folder.gif' saved [484/484]
+
+--2011-12-02 15:09:07--  https://style.sprintpcs.com/i/folderEnd.gif
+Reusing existing connection to style.sprintpcs.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 477 [image/gif]
+Saving to: `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/folderEnd.gif'
+
+     0K                                                       100%  233K=0s
+
+2011-12-02 15:09:08 (233 KB/s) - `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/folderEnd.gif' saved [477/477]
+
+--2011-12-02 15:09:08--  https://style.sprintpcs.com/i/file.gif
+Reusing existing connection to style.sprintpcs.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 569 [image/gif]
+Saving to: `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/file.gif'
+
+     0K                                                       100%  278K=0s
+
+2011-12-02 15:09:08 (278 KB/s) - `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/file.gif' saved [569/569]
+
+--2011-12-02 15:09:08--  https://style.sprintpcs.com/i/fileFocus.gif
+Reusing existing connection to style.sprintpcs.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 853 [image/gif]
+Saving to: `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/fileFocus.gif'
+
+     0K                                                       100%  416K=0s
+
+2011-12-02 15:09:08 (416 KB/s) - `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/fileFocus.gif' saved [853/853]
+
+--2011-12-02 15:09:08--  https://style.sprintpcs.com/i/folderActive.gif
+Reusing existing connection to style.sprintpcs.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 736 [image/gif]
+Saving to: `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/folderActive.gif'
+
+     0K                                                       100%  359K=0s
+
+2011-12-02 15:09:08 (359 KB/s) - `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/folderActive.gif' saved [736/736]
+
+--2011-12-02 15:09:08--  https://style.sprintpcs.com/i/folderActiveEnd.gif
+Reusing existing connection to style.sprintpcs.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1502 (1.5K) [image/gif]
+Saving to: `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/folderActiveEnd.gif'
+
+     0K .                                                     100%  733K=0s
+
+2011-12-02 15:09:08 (733 KB/s) - `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/folderActiveEnd.gif' saved [1502/1502]
+
+--2011-12-02 15:09:08--  https://style.sprintpcs.com/i/fileEnd.gif
+Reusing existing connection to style.sprintpcs.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 508 [image/gif]
+Saving to: `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/fileEnd.gif'
+
+     0K                                                       100%  248K=0s
+
+2011-12-02 15:09:08 (248 KB/s) - `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/fileEnd.gif' saved [508/508]
+
+--2011-12-02 15:09:08--  https://style.sprintpcs.com/i/fileFocusEnd.gif
+Reusing existing connection to style.sprintpcs.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 808 [image/gif]
+Saving to: `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/fileFocusEnd.gif'
+
+     0K                                                       100%  395K=0s
+
+2011-12-02 15:09:08 (395 KB/s) - `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/fileFocusEnd.gif' saved [808/808]
+
+--2011-12-02 15:09:08--  https://style.sprintpcs.com/i/bg-pdf.gif
+Reusing existing connection to style.sprintpcs.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 926 [image/gif]
+Saving to: `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/bg-pdf.gif'
+
+     0K                                                       100%  452K=0s
+
+2011-12-02 15:09:08 (452 KB/s) - `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/bg-pdf.gif' saved [926/926]
+
+--2011-12-02 15:09:08--  https://style.sprintpcs.com/i/bg-helpIcon.gif
+Reusing existing connection to style.sprintpcs.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 539 [image/gif]
+Saving to: `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/bg-helpIcon.gif'
+
+     0K                                                       100%  263K=0s
+
+2011-12-02 15:09:08 (263 KB/s) - `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/bg-helpIcon.gif' saved [539/539]
+
+--2011-12-02 15:09:08--  https://style.sprintpcs.com/i/bg-jumpLink.gif
+Reusing existing connection to style.sprintpcs.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 54 [image/gif]
+Saving to: `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/bg-jumpLink.gif'
+
+     0K                                                       100% 26.4K=0s
+
+2011-12-02 15:09:08 (26.4 KB/s) - `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/bg-jumpLink.gif' saved [54/54]
+
+--2011-12-02 15:09:08--  https://style.sprintpcs.com/i/bg-statusUpcoming.gif
+Reusing existing connection to style.sprintpcs.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 499 [image/gif]
+Saving to: `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/bg-statusUpcoming.gif'
+
+     0K                                                       100%  244K=0s
+
+2011-12-02 15:09:08 (244 KB/s) - `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/bg-statusUpcoming.gif' saved [499/499]
+
+--2011-12-02 15:09:08--  https://style.sprintpcs.com/i/bg-statusCurrent.gif
+Reusing existing connection to style.sprintpcs.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 5551 (5.4K) [image/gif]
+Saving to: `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/bg-statusCurrent.gif'
+
+     0K .....                                                 100% 2.65M=0s
+
+2011-12-02 15:09:08 (2.65 MB/s) - `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/bg-statusCurrent.gif' saved [5551/5551]
+
+--2011-12-02 15:09:08--  https://style.sprintpcs.com/i/bg-statusComplete.gif
+Reusing existing connection to style.sprintpcs.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 2756 (2.7K) [image/gif]
+Saving to: `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/bg-statusComplete.gif'
+
+     0K ..                                                    100% 1.31M=0s
+
+2011-12-02 15:09:08 (1.31 MB/s) - `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/bg-statusComplete.gif' saved [2756/2756]
+
+--2011-12-02 15:09:08--  https://style.sprintpcs.com/i/bg-linkOptions.gif
+Reusing existing connection to style.sprintpcs.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 292 [image/gif]
+Saving to: `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/bg-linkOptions.gif'
+
+     0K                                                       100%  143K=0s
+
+2011-12-02 15:09:08 (143 KB/s) - `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/bg-linkOptions.gif' saved [292/292]
+
+--2011-12-02 15:09:08--  https://style.sprintpcs.com/i/bg-linkOptionsMed.gif
+Reusing existing connection to style.sprintpcs.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 245 [image/gif]
+Saving to: `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/bg-linkOptionsMed.gif'
+
+     0K                                                       100%  120K=0s
+
+2011-12-02 15:09:08 (120 KB/s) - `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/bg-linkOptionsMed.gif' saved [245/245]
+
+--2011-12-02 15:09:08--  https://style.sprintpcs.com/i/bg-callOut.gif
+Reusing existing connection to style.sprintpcs.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 228 [image/gif]
+Saving to: `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/bg-callOut.gif'
+
+     0K                                                       100%  111K=0s
+
+2011-12-02 15:09:09 (111 KB/s) - `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/bg-callOut.gif' saved [228/228]
+
+--2011-12-02 15:09:09--  https://style.sprintpcs.com/i/bg-horiz999.gif
+Reusing existing connection to style.sprintpcs.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 97 [image/gif]
+Saving to: `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/bg-horiz999.gif'
+
+     0K                                                       100% 47.4K=0s
+
+2011-12-02 15:09:09 (47.4 KB/s) - `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/bg-horiz999.gif' saved [97/97]
+
+--2011-12-02 15:09:09--  https://style.sprintpcs.com/i/bg-LI.intNav.gif
+Reusing existing connection to style.sprintpcs.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 688 [image/gif]
+Saving to: `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/bg-LI.intNav.gif'
+
+     0K                                                       100%  336K=0s
+
+2011-12-02 15:09:09 (336 KB/s) - `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/bg-LI.intNav.gif' saved [688/688]
+
+--2011-12-02 15:09:09--  https://style.sprintpcs.com/i/bg-A.intNav.gif
+Reusing existing connection to style.sprintpcs.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 108 [image/gif]
+Saving to: `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/bg-A.intNav.gif'
+
+     0K                                                       100% 52.7K=0s
+
+2011-12-02 15:09:09 (52.7 KB/s) - `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/bg-A.intNav.gif' saved [108/108]
+
+--2011-12-02 15:09:09--  https://style.sprintpcs.com/i/bg-LI.intNav-start.gif
+Reusing existing connection to style.sprintpcs.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 671 [image/gif]
+Saving to: `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/bg-LI.intNav-start.gif'
+
+     0K                                                       100%  328K=0s
+
+2011-12-02 15:09:09 (328 KB/s) - `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/bg-LI.intNav-start.gif' saved [671/671]
+
+--2011-12-02 15:09:09--  https://style.sprintpcs.com/i/bg-LI.active.intNav-start.gif
+Reusing existing connection to style.sprintpcs.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 210 [image/gif]
+Saving to: `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/bg-LI.active.intNav-start.gif'
+
+     0K                                                       100%  103K=0s
+
+2011-12-02 15:09:09 (103 KB/s) - `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/bg-LI.active.intNav-start.gif' saved [210/210]
+
+--2011-12-02 15:09:09--  https://style.sprintpcs.com/i/bg-A.active.intNav.gif
+Reusing existing connection to style.sprintpcs.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 84 [image/gif]
+Saving to: `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/bg-A.active.intNav.gif'
+
+     0K                                                       100% 41.0K=0s
+
+2011-12-02 15:09:09 (41.0 KB/s) - `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/bg-A.active.intNav.gif' saved [84/84]
+
+--2011-12-02 15:09:09--  https://style.sprintpcs.com/i/bg-A.intNav-end.gif
+Reusing existing connection to style.sprintpcs.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 108 [image/gif]
+Saving to: `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/bg-A.intNav-end.gif'
+
+     0K                                                       100% 52.7K=0s
+
+2011-12-02 15:09:09 (52.7 KB/s) - `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/bg-A.intNav-end.gif' saved [108/108]
+
+--2011-12-02 15:09:09--  https://style.sprintpcs.com/i/bg-A.active.intNav-end.gif
+Reusing existing connection to style.sprintpcs.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 89 [image/gif]
+Saving to: `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/bg-A.active.intNav-end.gif'
+
+     0K                                                       100% 43.5K=0s
+
+2011-12-02 15:09:09 (43.5 KB/s) - `../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/i/bg-A.active.intNav-end.gif' saved [89/89]
+
+FINISHED --2011-12-02 15:09:09--
+Total wall clock time: 9.2s
+Downloaded: 98 files, 251K in 0.4s (640 KB/s)
+Converting ../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/www.sprintpcs.com/common/popups/popLegalTermsPrivacy.html... 4-1
+Converting ../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/mzBundlez.css... 0-9
+Converting ../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/subNavII.css... 1-0
+Converting ../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/forms.css... 1-6
+Converting ../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/print.css... nothing to do.
+Converting ../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/nav.css... 19-26
+Converting ../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/heads.css... nothing to do.
+Converting ../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/common.css... 102-3
+Converting ../crawls/www.sprintpcs.com/PCS-Terms-Conditions/raw/style.sprintpcs.com/callOut.css... nothing to do.
+Converted 9 files in 0.008 seconds.

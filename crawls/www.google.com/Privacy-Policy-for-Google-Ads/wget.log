@@ -1,0 +1,192 @@
+--2011-12-02 15:00:16--  http://www.google.com/intl/en/privacy_cookies.html
+Resolving www.google.com (www.google.com)... 74.125.39.99, 74.125.39.103, 74.125.39.104, ...
+Connecting to www.google.com (www.google.com)|74.125.39.99|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://www.google.com/intl/en/privacy/ads/privacy-policy.html [following]
+--2011-12-02 15:00:16--  http://www.google.com/intl/en/privacy/ads/privacy-policy.html
+Reusing existing connection to www.google.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `../crawls/www.google.com/Privacy-Policy-for-Google-Ads/raw/www.google.com/intl/en/privacy_cookies.html'
+
+     0K .......... ......                                       106K=0.2s
+
+2011-12-02 15:00:17 (106 KB/s) - `../crawls/www.google.com/Privacy-Policy-for-Google-Ads/raw/www.google.com/intl/en/privacy_cookies.html' saved [16909]
+
+--2011-12-02 15:00:17--  http://www.google.com/intl/en/privacy/css/default.css
+Reusing existing connection to www.google.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/css]
+Saving to: `../crawls/www.google.com/Privacy-Policy-for-Google-Ads/raw/www.google.com/intl/en/privacy/css/default.css'
+
+     0K ...                                                    1.67M=0s
+
+2011-12-02 15:00:17 (1.67 MB/s) - `../crawls/www.google.com/Privacy-Policy-for-Google-Ads/raw/www.google.com/intl/en/privacy/css/default.css' saved [3492]
+
+--2011-12-02 15:00:17--  http://www.google.com/js/gweb/analytics/autotrack.js
+Reusing existing connection to www.google.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/javascript]
+Saving to: `../crawls/www.google.com/Privacy-Policy-for-Google-Ads/raw/www.google.com/js/gweb/analytics/autotrack.js'
+
+     0K ...                                                    1.77M=0s
+
+2011-12-02 15:00:17 (1.77 MB/s) - `../crawls/www.google.com/Privacy-Policy-for-Google-Ads/raw/www.google.com/js/gweb/analytics/autotrack.js' saved [3719]
+
+--2011-12-02 15:00:17--  http://www.google.com/images/logos/google_logo_41.png
+Reusing existing connection to www.google.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 6321 (6.2K) [image/png]
+Saving to: `../crawls/www.google.com/Privacy-Policy-for-Google-Ads/raw/www.google.com/images/logos/google_logo_41.png'
+
+     0K ......                                                100% 1.51M=0.004s
+
+2011-12-02 15:00:17 (1.51 MB/s) - `../crawls/www.google.com/Privacy-Policy-for-Google-Ads/raw/www.google.com/images/logos/google_logo_41.png' saved [6321/6321]
+
+--2011-12-02 15:00:17--  http://www.google.com/css/go-x.css
+Reusing existing connection to www.google.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/css]
+Saving to: `../crawls/www.google.com/Privacy-Policy-for-Google-Ads/raw/www.google.com/css/go-x.css'
+
+     0K ......                                                 1.52M=0.004s
+
+2011-12-02 15:00:17 (1.52 MB/s) - `../crawls/www.google.com/Privacy-Policy-for-Google-Ads/raw/www.google.com/css/go-x.css' saved [6393]
+
+--2011-12-02 15:00:17--  http://www.google.com/images/icons/feature/assorted_ads-y32.png
+Reusing existing connection to www.google.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 551 [image/png]
+Saving to: `../crawls/www.google.com/Privacy-Policy-for-Google-Ads/raw/www.google.com/images/icons/feature/assorted_ads-y32.png'
+
+     0K                                                       100%  269K=0s
+
+2011-12-02 15:00:18 (269 KB/s) - `../crawls/www.google.com/Privacy-Policy-for-Google-Ads/raw/www.google.com/images/icons/feature/assorted_ads-y32.png' saved [551/551]
+
+--2011-12-02 15:00:18--  http://www.google.com/images/icons/product/analytics-32.png
+Reusing existing connection to www.google.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 779 [image/png]
+Saving to: `../crawls/www.google.com/Privacy-Policy-for-Google-Ads/raw/www.google.com/images/icons/product/analytics-32.png'
+
+     0K                                                       100%  380K=0s
+
+2011-12-02 15:00:18 (380 KB/s) - `../crawls/www.google.com/Privacy-Policy-for-Google-Ads/raw/www.google.com/images/icons/product/analytics-32.png' saved [779/779]
+
+--2011-12-02 15:00:18--  http://www.google.com/images/icons/feature/chat-b32.png
+Reusing existing connection to www.google.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 557 [image/png]
+Saving to: `../crawls/www.google.com/Privacy-Policy-for-Google-Ads/raw/www.google.com/images/icons/feature/chat-b32.png'
+
+     0K                                                       100%  272K=0s
+
+2011-12-02 15:00:18 (272 KB/s) - `../crawls/www.google.com/Privacy-Policy-for-Google-Ads/raw/www.google.com/images/icons/feature/chat-b32.png' saved [557/557]
+
+--2011-12-02 15:00:18--  http://www.google.com/images/icons/product/chrome-32.png
+Reusing existing connection to www.google.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1310 (1.3K) [image/png]
+Saving to: `../crawls/www.google.com/Privacy-Policy-for-Google-Ads/raw/www.google.com/images/icons/product/chrome-32.png'
+
+     0K .                                                     100%  640K=0s
+
+2011-12-02 15:00:18 (640 KB/s) - `../crawls/www.google.com/Privacy-Policy-for-Google-Ads/raw/www.google.com/images/icons/product/chrome-32.png' saved [1310/1310]
+
+--2011-12-02 15:00:18--  http://www.google.com/images/icons/feature/controlpanel-b32.png
+Reusing existing connection to www.google.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 845 [image/png]
+Saving to: `../crawls/www.google.com/Privacy-Policy-for-Google-Ads/raw/www.google.com/images/icons/feature/controlpanel-b32.png'
+
+     0K                                                       100%  413K=0s
+
+2011-12-02 15:00:18 (413 KB/s) - `../crawls/www.google.com/Privacy-Policy-for-Google-Ads/raw/www.google.com/images/icons/feature/controlpanel-b32.png' saved [845/845]
+
+--2011-12-02 15:00:18--  http://www.google.com/intl/en/press/images/dataliberation-35.gif
+Reusing existing connection to www.google.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1574 (1.5K) [image/gif]
+Saving to: `../crawls/www.google.com/Privacy-Policy-for-Google-Ads/raw/www.google.com/intl/en/press/images/dataliberation-35.gif'
+
+     0K .                                                     100%  769K=0s
+
+2011-12-02 15:00:18 (769 KB/s) - `../crawls/www.google.com/Privacy-Policy-for-Google-Ads/raw/www.google.com/intl/en/press/images/dataliberation-35.gif' saved [1574/1574]
+
+--2011-12-02 15:00:18--  http://www.google.com/images/icons/feature/padlock-g32.png
+Reusing existing connection to www.google.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 862 [image/png]
+Saving to: `../crawls/www.google.com/Privacy-Policy-for-Google-Ads/raw/www.google.com/images/icons/feature/padlock-g32.png'
+
+     0K                                                       100%  421K=0s
+
+2011-12-02 15:00:19 (421 KB/s) - `../crawls/www.google.com/Privacy-Policy-for-Google-Ads/raw/www.google.com/images/icons/feature/padlock-g32.png' saved [862/862]
+
+--2011-12-02 15:00:19--  http://www.google.com/images/icons/feature/filing_cabinet_search-g32.png
+Reusing existing connection to www.google.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1914 (1.9K) [image/png]
+Saving to: `../crawls/www.google.com/Privacy-Policy-for-Google-Ads/raw/www.google.com/images/icons/feature/filing_cabinet_search-g32.png'
+
+     0K .                                                     100%  935K=0s
+
+2011-12-02 15:00:19 (935 KB/s) - `../crawls/www.google.com/Privacy-Policy-for-Google-Ads/raw/www.google.com/images/icons/feature/filing_cabinet_search-g32.png' saved [1914/1914]
+
+--2011-12-02 15:00:19--  http://www.google.com/images/icons/feature/map_with_pin-g32.png
+Reusing existing connection to www.google.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 873 [image/png]
+Saving to: `../crawls/www.google.com/Privacy-Policy-for-Google-Ads/raw/www.google.com/images/icons/feature/map_with_pin-g32.png'
+
+     0K                                                       100%  426K=0s
+
+2011-12-02 15:00:19 (426 KB/s) - `../crawls/www.google.com/Privacy-Policy-for-Google-Ads/raw/www.google.com/images/icons/feature/map_with_pin-g32.png' saved [873/873]
+
+--2011-12-02 15:00:19--  http://www.google.com/images/icons/feature/checklist_pencil-b32.png
+Reusing existing connection to www.google.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 710 [image/png]
+Saving to: `../crawls/www.google.com/Privacy-Policy-for-Google-Ads/raw/www.google.com/images/icons/feature/checklist_pencil-b32.png'
+
+     0K                                                       100%  347K=0s
+
+2011-12-02 15:00:19 (347 KB/s) - `../crawls/www.google.com/Privacy-Policy-for-Google-Ads/raw/www.google.com/images/icons/feature/checklist_pencil-b32.png' saved [710/710]
+
+--2011-12-02 15:00:19--  http://www.google.com/images/icons/feature/personalization-y32.png
+Reusing existing connection to www.google.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1762 (1.7K) [image/png]
+Saving to: `../crawls/www.google.com/Privacy-Policy-for-Google-Ads/raw/www.google.com/images/icons/feature/personalization-y32.png'
+
+     0K .                                                     100%  430K=0.004s
+
+2011-12-02 15:00:19 (430 KB/s) - `../crawls/www.google.com/Privacy-Policy-for-Google-Ads/raw/www.google.com/images/icons/feature/personalization-y32.png' saved [1762/1762]
+
+--2011-12-02 15:00:19--  http://www.google.com/images/icons/product/maps-32.gif
+Reusing existing connection to www.google.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1140 (1.1K) [image/gif]
+Saving to: `../crawls/www.google.com/Privacy-Policy-for-Google-Ads/raw/www.google.com/images/icons/product/maps-32.gif'
+
+     0K .                                                     100%  557K=0s
+
+2011-12-02 15:00:19 (557 KB/s) - `../crawls/www.google.com/Privacy-Policy-for-Google-Ads/raw/www.google.com/images/icons/product/maps-32.gif' saved [1140/1140]
+
+--2011-12-02 15:00:19--  http://www.google.com/images/icons/feature/clapper-b32.png
+Reusing existing connection to www.google.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 572 [image/png]
+Saving to: `../crawls/www.google.com/Privacy-Policy-for-Google-Ads/raw/www.google.com/images/icons/feature/clapper-b32.png'
+
+     0K                                                       100%  279K=0s
+
+2011-12-02 15:00:20 (279 KB/s) - `../crawls/www.google.com/Privacy-Policy-for-Google-Ads/raw/www.google.com/images/icons/feature/clapper-b32.png' saved [572/572]
+
+FINISHED --2011-12-02 15:00:20--
+Total wall clock time: 3.4s
+Downloaded: 18 files, 49K in 0.2s (292 KB/s)
+Converting ../crawls/www.google.com/Privacy-Policy-for-Google-Ads/raw/www.google.com/intl/en/privacy_cookies.html... 4-22
+Converting ../crawls/www.google.com/Privacy-Policy-for-Google-Ads/raw/www.google.com/css/go-x.css... 0-8
+Converting ../crawls/www.google.com/Privacy-Policy-for-Google-Ads/raw/www.google.com/intl/en/privacy/css/default.css... 14-0
+Converted 3 files in 0.004 seconds.

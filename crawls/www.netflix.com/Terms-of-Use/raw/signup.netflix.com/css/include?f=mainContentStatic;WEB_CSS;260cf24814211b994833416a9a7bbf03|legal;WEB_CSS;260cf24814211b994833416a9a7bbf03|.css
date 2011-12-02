@@ -1,0 +1,159 @@
+#main-content {
+    background-image: url(../../netflix.hs.llnwd.net/e1/us/layout/page_titles/bgvignette/950w/Blank.jpg);
+    background-repeat: no-repeat;
+    width: 950px;  
+    margin:0;
+    padding:0;
+    margin: auto; 
+    background-color: #fff;
+}
+
+.contactPR {
+    padding: 20px;
+}
+
+#page-content {
+    padding: 20px;
+}
+
+.page-content a{
+    color: #00458B;
+}
+.page-content a:hover {
+    color:#dc181e
+}
+
+.std {
+  font-family: arial, sans-serif;
+  color: #333;
+  font-size: 13px;
+}
+
+#page-title {
+   padding:10px 0;    
+}
+
+#page-title h1 {
+    font: bold 18pt/1em arial, helvetica, sans-serif;
+    margin: 0 0 4px 0;
+    color: #3B3B3B;
+    padding-bottom:10px;
+}
+.vignette {
+    padding: 10px 0 20px;
+}
+#page-title.vignette h1 {
+    padding: 0;
+}
+.vignette .tagline {
+    font: 13px verdana,sans-serif;
+    letter-spacing: 0.025em;
+    margin: 0 0 2px;
+    display: inline-block;
+}
+.tou p{
+  padding:10px 0;
+}
+
+.tou ul {
+    list-style:none;
+}
+
+
+.privacy  ul {
+   padding-left:40px;
+}
+
+.privacy p, .dvds p{
+   padding:10px 0;
+}
+
+.privacy h3, .dvds p {
+   padding:10px 0;
+}
+
+.privacy a.back {
+   color: #00458B;
+}
+
+.dvds ul {
+    padding-left:50px;
+}
+
+#main-content .jobs {
+   background-image:none;
+}
+
+.break .hr hr {
+    display:none;
+}
+
+#main-content .press-content {
+    width: 566px;
+}
+#main-content .press-content a {
+    color: #00458B;
+}
+
+.press-content .managementteamtable td {
+    font-weight: bold;
+    padding-left: 10px;
+    padding-bottom:5px;
+}
+
+.press-content  td {
+    vertical-align: middle;
+    padding-bottom:5px;
+}
+
+.page-COMPANIES .address {
+    margin-bottom: 20px;
+}
+.page-COMPANIES address {
+    font-style: normal;
+}
+
+.legal h1 { margin-top:0px;
+    margin-bottom:36px;
+    background:none;
+    border:none;
+    width:700px;
+    font-size:24px;
+    color:#3B3B3B;
+}
+.legal a {text-decoration:underline;color: #00458B;}
+.legal a:hover {color:#DC181E;}
+.legal {
+    background-color:#fff;
+    background-position:0 0;
+    background-repeat:no-repeat;
+    margin:auto;
+}
+.legal #main-content {padding:20px; width:auto;}
+.legal hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+    clear:both;
+}
+
+.legal #main-content footer, .main-body .legal footer {
+    color:#3B3B3B;
+    text-align:left;
+}
+
+
+.eula-terms ol {
+    padding-left:40px;
+}
+
+.notices ul {
+    padding-left:40px;
+}
+
+.notices p {
+    padding:10px 0;
+}

@@ -1,0 +1,764 @@
+--2011-12-02 14:59:04--  http://www.comcast.com/Corporate/Customers/Policies/SubscriberAgreement.html
+Resolving www.comcast.com (www.comcast.com)... 69.241.45.20
+Connecting to www.comcast.com (www.comcast.com)|69.241.45.20|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 119915 (117K) [text/html]
+Saving to: `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/Corporate/Customers/Policies/SubscriberAgreement.html'
+
+     0K .......... .......... .......... .......... .......... 42%  291K 0s
+    50K .......... .......... .......... .......... .......... 85%  291K 0s
+   100K .......... .......                                    100%  204K=0.4s
+
+2011-12-02 14:59:05 (274 KB/s) - `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/Corporate/Customers/Policies/SubscriberAgreement.html' saved [119915/119915]
+
+--2011-12-02 14:59:05--  http://www.comcast.com/includes/css/two_column_no_nav.css
+Connecting to www.comcast.com (www.comcast.com)|69.241.45.20|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 897 [text/css]
+Saving to: `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/includes/css/two_column_no_nav.css'
+
+     0K                                                       100%  438K=0s
+
+2011-12-02 14:59:05 (438 KB/s) - `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/includes/css/two_column_no_nav.css' saved [897/897]
+
+--2011-12-02 14:59:05--  http://www.comcast.com/includes/css/comcast_main.css
+Connecting to www.comcast.com (www.comcast.com)|69.241.45.20|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 26901 (26K) [text/css]
+Saving to: `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/includes/css/comcast_main.css'
+
+     0K .......... .......... ......                          100%  153K=0.2s
+
+2011-12-02 14:59:05 (153 KB/s) - `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/includes/css/comcast_main.css' saved [26901/26901]
+
+--2011-12-02 14:59:05--  http://www.comcast.com/includes/css/comcast_menu_top.css
+Connecting to www.comcast.com (www.comcast.com)|69.241.45.20|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 4438 (4.3K) [text/css]
+Saving to: `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/includes/css/comcast_menu_top.css'
+
+     0K ....                                                  100% 2.12M=0s
+
+2011-12-02 14:59:05 (2.12 MB/s) - `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/includes/css/comcast_menu_top.css' saved [4438/4438]
+
+--2011-12-02 14:59:05--  http://www.comcast.com/includes/css/comcast_Customers.css
+Connecting to www.comcast.com (www.comcast.com)|69.241.45.20|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 651 [text/css]
+Saving to: `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/includes/css/comcast_Customers.css'
+
+     0K                                                       100%  318K=0s
+
+2011-12-02 14:59:06 (318 KB/s) - `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/includes/css/comcast_Customers.css' saved [651/651]
+
+--2011-12-02 14:59:06--  http://www.comcast.com/includes/css/comcast_printable.css
+Connecting to www.comcast.com (www.comcast.com)|69.241.45.20|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1247 (1.2K) [text/css]
+Saving to: `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/includes/css/comcast_printable.css'
+
+     0K .                                                     100%  609K=0s
+
+2011-12-02 14:59:06 (609 KB/s) - `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/includes/css/comcast_printable.css' saved [1247/1247]
+
+--2011-12-02 14:59:06--  http://www.comcast.com/Includes/css/querycompletion.css
+Connecting to www.comcast.com (www.comcast.com)|69.241.45.20|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1676 (1.6K) [text/css]
+Saving to: `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/Includes/css/querycompletion.css'
+
+     0K .                                                     100%  818K=0s
+
+2011-12-02 14:59:06 (818 KB/s) - `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/Includes/css/querycompletion.css' saved [1676/1676]
+
+--2011-12-02 14:59:06--  http://www.comcast.com/Includes/css/Corpquerycompletion.css
+Connecting to www.comcast.com (www.comcast.com)|69.241.45.20|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 599 [text/css]
+Saving to: `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/Includes/css/Corpquerycompletion.css'
+
+     0K                                                       100%  292K=0s
+
+2011-12-02 14:59:06 (292 KB/s) - `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/Includes/css/Corpquerycompletion.css' saved [599/599]
+
+--2011-12-02 14:59:06--  http://www.comcast.com/includes/css/framework/Mask.css
+Connecting to www.comcast.com (www.comcast.com)|69.241.45.20|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 188 [text/css]
+Saving to: `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/includes/css/framework/Mask.css'
+
+     0K                                                       100% 91.8K=0s
+
+2011-12-02 14:59:06 (91.8 KB/s) - `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/includes/css/framework/Mask.css' saved [188/188]
+
+--2011-12-02 14:59:06--  http://www.comcast.com/Includes/css/ResetOverlay.css
+Connecting to www.comcast.com (www.comcast.com)|69.241.45.20|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 4738 (4.6K) [text/css]
+Saving to: `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/Includes/css/ResetOverlay.css'
+
+     0K ....                                                  100% 2.26M=0s
+
+2011-12-02 14:59:07 (2.26 MB/s) - `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/Includes/css/ResetOverlay.css' saved [4738/4738]
+
+--2011-12-02 14:59:07--  http://www.comcast.com/includes/js/menuarrays/menuarray.js
+Connecting to www.comcast.com (www.comcast.com)|69.241.45.20|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 7390 (7.2K) [application/x-javascript]
+Saving to: `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/includes/js/menuarrays/menuarray.js'
+
+     0K .......                                               100% 85.9K=0.08s
+
+2011-12-02 14:59:07 (85.9 KB/s) - `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/includes/js/menuarrays/menuarray.js' saved [7390/7390]
+
+--2011-12-02 14:59:07--  http://www.comcast.com/includes/js/menu.js
+Connecting to www.comcast.com (www.comcast.com)|69.241.45.20|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 27770 (27K) [application/x-javascript]
+Saving to: `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/includes/js/menu.js'
+
+     0K .......... .......... .......                         100%  161K=0.2s
+
+2011-12-02 14:59:07 (161 KB/s) - `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/includes/js/menu.js' saved [27770/27770]
+
+--2011-12-02 14:59:07--  http://www.comcast.com/includes/js/CookieHelper.js
+Connecting to www.comcast.com (www.comcast.com)|69.241.45.20|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 6427 (6.3K) [application/x-javascript]
+Saving to: `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/includes/js/CookieHelper.js'
+
+     0K ......                                                100% 74.7K=0.08s
+
+2011-12-02 14:59:07 (74.7 KB/s) - `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/includes/js/CookieHelper.js' saved [6427/6427]
+
+--2011-12-02 14:59:07--  http://www.comcast.com/includes/js/javascript.js
+Connecting to www.comcast.com (www.comcast.com)|69.241.45.20|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 24119 (24K) [application/x-javascript]
+Saving to: `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/includes/js/javascript.js'
+
+     0K .......... .......... ...                             100%  140K=0.2s
+
+2011-12-02 14:59:08 (140 KB/s) - `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/includes/js/javascript.js' saved [24119/24119]
+
+--2011-12-02 14:59:08--  http://www.comcast.com/includes/js/swfobject.js
+Connecting to www.comcast.com (www.comcast.com)|69.241.45.20|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 6862 (6.7K) [application/x-javascript]
+Saving to: `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/includes/js/swfobject.js'
+
+     0K ......                                                100% 79.8K=0.08s
+
+2011-12-02 14:59:08 (79.8 KB/s) - `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/includes/js/swfobject.js' saved [6862/6862]
+
+--2011-12-02 14:59:08--  http://www.comcast.com/Includes/js/searchsuggests.js
+Connecting to www.comcast.com (www.comcast.com)|69.241.45.20|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 23289 (23K) [application/x-javascript]
+Saving to: `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/Includes/js/searchsuggests.js'
+
+     0K .......... .......... ..                              100%  132K=0.2s
+
+2011-12-02 14:59:08 (132 KB/s) - `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/Includes/js/searchsuggests.js' saved [23289/23289]
+
+--2011-12-02 14:59:08--  http://www.comcast.com/Includes/js/ajax.js
+Connecting to www.comcast.com (www.comcast.com)|69.241.45.20|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 15139 (15K) [application/x-javascript]
+Saving to: `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/Includes/js/ajax.js'
+
+     0K .......... ....                                       100%  176K=0.08s
+
+2011-12-02 14:59:09 (176 KB/s) - `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/Includes/js/ajax.js' saved [15139/15139]
+
+--2011-12-02 14:59:09--  http://www.comcast.com/includes/js/framework/Mask.js
+Connecting to www.comcast.com (www.comcast.com)|69.241.45.20|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 2850 (2.8K) [application/x-javascript]
+Saving to: `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/includes/js/framework/Mask.js'
+
+     0K ..                                                    100% 1.36M=0s
+
+2011-12-02 14:59:09 (1.36 MB/s) - `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/includes/js/framework/Mask.js' saved [2850/2850]
+
+--2011-12-02 14:59:09--  http://www.comcast.com/Includes/js/ResetOverlay.js
+Connecting to www.comcast.com (www.comcast.com)|69.241.45.20|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 6999 (6.8K) [application/x-javascript]
+Saving to: `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/Includes/js/ResetOverlay.js'
+
+     0K ......                                                100% 81.4K=0.08s
+
+2011-12-02 14:59:09 (81.4 KB/s) - `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/Includes/js/ResetOverlay.js' saved [6999/6999]
+
+--2011-12-02 14:59:09--  http://www.comcast.com/includes/js/framework/Comcast.Framework.js
+Connecting to www.comcast.com (www.comcast.com)|69.241.45.20|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 10226 (10.0K) [application/x-javascript]
+Saving to: `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/includes/js/framework/Comcast.Framework.js'
+
+     0K .........                                             100%  119K=0.08s
+
+2011-12-02 14:59:09 (119 KB/s) - `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/includes/js/framework/Comcast.Framework.js' saved [10226/10226]
+
+--2011-12-02 14:59:09--  http://www.comcast.com/foresee/foresee-trigger.js
+Connecting to www.comcast.com (www.comcast.com)|69.241.45.20|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 61850 (60K) [application/x-javascript]
+Saving to: `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/foresee/foresee-trigger.js'
+
+     0K .......... .......... .......... .......... .......... 82%  291K 0s
+    50K ..........                                            100%  124K=0.3s
+
+2011-12-02 14:59:10 (236 KB/s) - `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/foresee/foresee-trigger.js' saved [61850/61850]
+
+--2011-12-02 14:59:10--  http://www.comcast.com/Includes/js/newbuyflow/mbox.js
+Connecting to www.comcast.com (www.comcast.com)|69.241.45.20|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 23497 (23K) [application/x-javascript]
+Saving to: `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/Includes/js/newbuyflow/mbox.js'
+
+     0K .......... .......... ..                              100%  137K=0.2s
+
+2011-12-02 14:59:10 (137 KB/s) - `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/Includes/js/newbuyflow/mbox.js' saved [23497/23497]
+
+--2011-12-02 14:59:10--  http://www.comcast.com/images/logo.gif
+Connecting to www.comcast.com (www.comcast.com)|69.241.45.20|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1945 (1.9K) [image/gif]
+Saving to: `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/images/logo.gif'
+
+     0K .                                                     100%  950K=0s
+
+2011-12-02 14:59:10 (950 KB/s) - `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/images/logo.gif' saved [1945/1945]
+
+--2011-12-02 14:59:10--  http://www.comcast.com/includes/js/browser.js
+Connecting to www.comcast.com (www.comcast.com)|69.241.45.20|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 2287 (2.2K) [application/x-javascript]
+Saving to: `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/includes/js/browser.js'
+
+     0K ..                                                    100% 1.09M=0s
+
+2011-12-02 14:59:10 (1.09 MB/s) - `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/includes/js/browser.js' saved [2287/2287]
+
+--2011-12-02 14:59:10--  http://www.comcast.com/images/topMenu/Explore.gif
+Connecting to www.comcast.com (www.comcast.com)|69.241.45.20|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 463 [image/gif]
+Saving to: `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/images/topMenu/Explore.gif'
+
+     0K                                                       100%  226K=0s
+
+2011-12-02 14:59:11 (226 KB/s) - `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/images/topMenu/Explore.gif' saved [463/463]
+
+--2011-12-02 14:59:11--  http://www.comcast.com/images/topMenu/Shop.gif
+Connecting to www.comcast.com (www.comcast.com)|69.241.45.20|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 383 [image/gif]
+Saving to: `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/images/topMenu/Shop.gif'
+
+     0K                                                       100%  187K=0s
+
+2011-12-02 14:59:11 (187 KB/s) - `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/images/topMenu/Shop.gif' saved [383/383]
+
+--2011-12-02 14:59:11--  http://www.comcast.com/images/topMenu/Programming.gif
+Connecting to www.comcast.com (www.comcast.com)|69.241.45.20|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 555 [image/gif]
+Saving to: `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/images/topMenu/Programming.gif'
+
+     0K                                                       100%  271K=0s
+
+2011-12-02 14:59:11 (271 KB/s) - `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/images/topMenu/Programming.gif' saved [555/555]
+
+--2011-12-02 14:59:11--  http://www.comcast.com/images/topMenu/Customers.gif
+Connecting to www.comcast.com (www.comcast.com)|69.241.45.20|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 488 [image/gif]
+Saving to: `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/images/topMenu/Customers.gif'
+
+     0K                                                       100%  238K=0s
+
+2011-12-02 14:59:11 (238 KB/s) - `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/images/topMenu/Customers.gif' saved [488/488]
+
+--2011-12-02 14:59:11--  http://www.comcast.com/images/topMenu/About.gif
+Connecting to www.comcast.com (www.comcast.com)|69.241.45.20|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1384 (1.4K) [image/gif]
+Saving to: `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/images/topMenu/About.gif'
+
+     0K .                                                     100%  676K=0s
+
+2011-12-02 14:59:11 (676 KB/s) - `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/images/topMenu/About.gif' saved [1384/1384]
+
+--2011-12-02 14:59:11--  http://www.comcast.com/images/buttons/SearchButton.gif
+Connecting to www.comcast.com (www.comcast.com)|69.241.45.20|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 519 [image/gif]
+Saving to: `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/images/buttons/SearchButton.gif'
+
+     0K                                                       100%  253K=0s
+
+2011-12-02 14:59:11 (253 KB/s) - `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/images/buttons/SearchButton.gif' saved [519/519]
+
+--2011-12-02 14:59:11--  http://www.comcast.com/includes/omniture/websidestory.js
+Connecting to www.comcast.com (www.comcast.com)|69.241.45.20|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 6805 (6.6K) [application/x-javascript]
+Saving to: `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/includes/omniture/websidestory.js'
+
+     0K ......                                                100% 79.1K=0.08s
+
+2011-12-02 14:59:12 (79.1 KB/s) - `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/includes/omniture/websidestory.js' saved [6805/6805]
+
+--2011-12-02 14:59:12--  http://www.comcast.com/includes/onlineopinionOO4S/oo_engine_c.js
+Connecting to www.comcast.com (www.comcast.com)|69.241.45.20|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 23175 (23K) [application/x-javascript]
+Saving to: `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/includes/onlineopinionOO4S/oo_engine_c.js'
+
+     0K .......... .......... ..                              100%  132K=0.2s
+
+2011-12-02 14:59:12 (132 KB/s) - `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/includes/onlineopinionOO4S/oo_engine_c.js' saved [23175/23175]
+
+--2011-12-02 14:59:12--  http://www.comcast.com/includes/onlineopinionOO4S/oo_conf_en-US_inline.js
+Connecting to www.comcast.com (www.comcast.com)|69.241.45.20|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1241 (1.2K) [application/x-javascript]
+Saving to: `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/includes/onlineopinionOO4S/oo_conf_en-US_inline.js'
+
+     0K .                                                     100%  606K=0s
+
+2011-12-02 14:59:12 (606 KB/s) - `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/includes/onlineopinionOO4S/oo_conf_en-US_inline.js' saved [1241/1241]
+
+--2011-12-02 14:59:12--  http://www.comcast.com/includes/omniture/s_code.js
+Connecting to www.comcast.com (www.comcast.com)|69.241.45.20|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 66828 (65K) [application/x-javascript]
+Saving to: `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/includes/omniture/s_code.js'
+
+     0K .......... .......... .......... .......... .......... 76%  291K 0s
+    50K .......... .....                                      100%  173K=0.3s
+
+2011-12-02 14:59:13 (251 KB/s) - `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/includes/omniture/s_code.js' saved [66828/66828]
+
+--2011-12-02 14:59:13--  http://www.comcast.com/images/bullet_grey_dark.gif
+Connecting to www.comcast.com (www.comcast.com)|69.241.45.20|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 58 [image/gif]
+Saving to: `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/images/bullet_grey_dark.gif'
+
+     0K                                                       100% 28.3K=0s
+
+2011-12-02 14:59:13 (28.3 KB/s) - `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/images/bullet_grey_dark.gif' saved [58/58]
+
+--2011-12-02 14:59:13--  http://www.comcast.com/images/buttons/gateway_go_over.gif
+Connecting to www.comcast.com (www.comcast.com)|69.241.45.20|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 252 [image/gif]
+Saving to: `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/images/buttons/gateway_go_over.gif'
+
+     0K                                                       100%  123K=0s
+
+2011-12-02 14:59:13 (123 KB/s) - `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/images/buttons/gateway_go_over.gif' saved [252/252]
+
+--2011-12-02 14:59:13--  http://www.comcast.com/images/newhome/textBoxBackground.gif
+Connecting to www.comcast.com (www.comcast.com)|69.241.45.20|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 648 [image/gif]
+Saving to: `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/images/newhome/textBoxBackground.gif'
+
+     0K                                                       100%  316K=0s
+
+2011-12-02 14:59:13 (316 KB/s) - `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/images/newhome/textBoxBackground.gif' saved [648/648]
+
+--2011-12-02 14:59:13--  http://www.comcast.com/images/shop/Corner10IL.png
+Connecting to www.comcast.com (www.comcast.com)|69.241.45.20|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 924 [image/png]
+Saving to: `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/images/shop/Corner10IL.png'
+
+     0K                                                       100%  451K=0s
+
+2011-12-02 14:59:13 (451 KB/s) - `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/images/shop/Corner10IL.png' saved [924/924]
+
+--2011-12-02 14:59:13--  http://www.comcast.com/images/shop/Corner10IR.png
+Connecting to www.comcast.com (www.comcast.com)|69.241.45.20|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 926 [image/png]
+Saving to: `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/images/shop/Corner10IR.png'
+
+     0K                                                       100%  452K=0s
+
+2011-12-02 14:59:13 (452 KB/s) - `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/images/shop/Corner10IR.png' saved [926/926]
+
+--2011-12-02 14:59:13--  http://www.comcast.com/images/shop/Corner10OL.png
+Connecting to www.comcast.com (www.comcast.com)|69.241.45.20|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 926 [image/png]
+Saving to: `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/images/shop/Corner10OL.png'
+
+     0K                                                       100%  452K=0s
+
+2011-12-02 14:59:14 (452 KB/s) - `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/images/shop/Corner10OL.png' saved [926/926]
+
+--2011-12-02 14:59:14--  http://www.comcast.com/images/shop/Corner10OR.png
+Connecting to www.comcast.com (www.comcast.com)|69.241.45.20|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 926 [image/png]
+Saving to: `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/images/shop/Corner10OR.png'
+
+     0K                                                       100%  452K=0s
+
+2011-12-02 14:59:14 (452 KB/s) - `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/images/shop/Corner10OR.png' saved [926/926]
+
+--2011-12-02 14:59:14--  http://www.comcast.com/images/shop/Corner09IL.png
+Connecting to www.comcast.com (www.comcast.com)|69.241.45.20|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 932 [image/png]
+Saving to: `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/images/shop/Corner09IL.png'
+
+     0K                                                       100%  455K=0s
+
+2011-12-02 14:59:14 (455 KB/s) - `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/images/shop/Corner09IL.png' saved [932/932]
+
+--2011-12-02 14:59:14--  http://www.comcast.com/images/shop/Corner09IR.png
+Connecting to www.comcast.com (www.comcast.com)|69.241.45.20|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 933 [image/png]
+Saving to: `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/images/shop/Corner09IR.png'
+
+     0K                                                       100%  456K=0s
+
+2011-12-02 14:59:14 (456 KB/s) - `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/images/shop/Corner09IR.png' saved [933/933]
+
+--2011-12-02 14:59:14--  http://www.comcast.com/images/shop/Corner09O.png
+Connecting to www.comcast.com (www.comcast.com)|69.241.45.20|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 922 [image/png]
+Saving to: `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/images/shop/Corner09O.png'
+
+     0K                                                       100%  450K=0s
+
+2011-12-02 14:59:14 (450 KB/s) - `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/images/shop/Corner09O.png' saved [922/922]
+
+--2011-12-02 14:59:14--  http://www.comcast.com/images/shop/Corner08IL.png
+Connecting to www.comcast.com (www.comcast.com)|69.241.45.20|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 926 [image/png]
+Saving to: `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/images/shop/Corner08IL.png'
+
+     0K                                                       100%  452K=0s
+
+2011-12-02 14:59:15 (452 KB/s) - `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/images/shop/Corner08IL.png' saved [926/926]
+
+--2011-12-02 14:59:15--  http://www.comcast.com/images/shop/Corner08IR.png
+Connecting to www.comcast.com (www.comcast.com)|69.241.45.20|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 926 [image/png]
+Saving to: `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/images/shop/Corner08IR.png'
+
+     0K                                                       100%  452K=0s
+
+2011-12-02 14:59:15 (452 KB/s) - `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/images/shop/Corner08IR.png' saved [926/926]
+
+--2011-12-02 14:59:15--  http://www.comcast.com/images/shop/Corner08O.png
+Connecting to www.comcast.com (www.comcast.com)|69.241.45.20|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 922 [image/png]
+Saving to: `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/images/shop/Corner08O.png'
+
+     0K                                                       100%  450K=0s
+
+2011-12-02 14:59:15 (450 KB/s) - `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/images/shop/Corner08O.png' saved [922/922]
+
+--2011-12-02 14:59:15--  http://www.comcast.com/images/shop/Corner07IL.png
+Connecting to www.comcast.com (www.comcast.com)|69.241.45.20|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 926 [image/png]
+Saving to: `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/images/shop/Corner07IL.png'
+
+     0K                                                       100%  452K=0s
+
+2011-12-02 14:59:15 (452 KB/s) - `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/images/shop/Corner07IL.png' saved [926/926]
+
+--2011-12-02 14:59:15--  http://www.comcast.com/images/shop/Corner07IR.png
+Connecting to www.comcast.com (www.comcast.com)|69.241.45.20|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 926 [image/png]
+Saving to: `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/images/shop/Corner07IR.png'
+
+     0K                                                       100%  452K=0s
+
+2011-12-02 14:59:15 (452 KB/s) - `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/images/shop/Corner07IR.png' saved [926/926]
+
+--2011-12-02 14:59:15--  http://www.comcast.com/images/shop/Corner07O.png
+Connecting to www.comcast.com (www.comcast.com)|69.241.45.20|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 922 [image/png]
+Saving to: `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/images/shop/Corner07O.png'
+
+     0K                                                       100%  450K=0s
+
+2011-12-02 14:59:15 (450 KB/s) - `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/images/shop/Corner07O.png' saved [922/922]
+
+--2011-12-02 14:59:15--  http://www.comcast.com/images/shop/Corner06IL.png
+Connecting to www.comcast.com (www.comcast.com)|69.241.45.20|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 926 [image/png]
+Saving to: `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/images/shop/Corner06IL.png'
+
+     0K                                                       100%  452K=0s
+
+2011-12-02 14:59:16 (452 KB/s) - `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/images/shop/Corner06IL.png' saved [926/926]
+
+--2011-12-02 14:59:16--  http://www.comcast.com/images/shop/Corner06IR.png
+Connecting to www.comcast.com (www.comcast.com)|69.241.45.20|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 926 [image/png]
+Saving to: `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/images/shop/Corner06IR.png'
+
+     0K                                                       100%  452K=0s
+
+2011-12-02 14:59:16 (452 KB/s) - `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/images/shop/Corner06IR.png' saved [926/926]
+
+--2011-12-02 14:59:16--  http://www.comcast.com/images/shop/Corner06O.png
+Connecting to www.comcast.com (www.comcast.com)|69.241.45.20|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 922 [image/png]
+Saving to: `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/images/shop/Corner06O.png'
+
+     0K                                                       100%  450K=0s
+
+2011-12-02 14:59:16 (450 KB/s) - `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/images/shop/Corner06O.png' saved [922/922]
+
+--2011-12-02 14:59:16--  http://www.comcast.com/images/shop/Corner05IL.png
+Connecting to www.comcast.com (www.comcast.com)|69.241.45.20|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 926 [image/png]
+Saving to: `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/images/shop/Corner05IL.png'
+
+     0K                                                       100%  452K=0s
+
+2011-12-02 14:59:16 (452 KB/s) - `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/images/shop/Corner05IL.png' saved [926/926]
+
+--2011-12-02 14:59:16--  http://www.comcast.com/images/shop/Corner05IR.png
+Connecting to www.comcast.com (www.comcast.com)|69.241.45.20|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 926 [image/png]
+Saving to: `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/images/shop/Corner05IR.png'
+
+     0K                                                       100%  452K=0s
+
+2011-12-02 14:59:16 (452 KB/s) - `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/images/shop/Corner05IR.png' saved [926/926]
+
+--2011-12-02 14:59:16--  http://www.comcast.com/images/shop/Corner05O.png
+Connecting to www.comcast.com (www.comcast.com)|69.241.45.20|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 922 [image/png]
+Saving to: `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/images/shop/Corner05O.png'
+
+     0K                                                       100%  450K=0s
+
+2011-12-02 14:59:16 (450 KB/s) - `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/images/shop/Corner05O.png' saved [922/922]
+
+--2011-12-02 14:59:16--  http://www.comcast.com/images/shop/Corner04I.png
+Connecting to www.comcast.com (www.comcast.com)|69.241.45.20|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 922 [image/png]
+Saving to: `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/images/shop/Corner04I.png'
+
+     0K                                                       100%  450K=0s
+
+2011-12-02 14:59:17 (450 KB/s) - `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/images/shop/Corner04I.png' saved [922/922]
+
+--2011-12-02 14:59:17--  http://www.comcast.com/images/shop/Corner04O.png
+Connecting to www.comcast.com (www.comcast.com)|69.241.45.20|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 922 [image/png]
+Saving to: `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/images/shop/Corner04O.png'
+
+     0K                                                       100%  450K=0s
+
+2011-12-02 14:59:17 (450 KB/s) - `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/images/shop/Corner04O.png' saved [922/922]
+
+--2011-12-02 14:59:17--  http://www.comcast.com/images/shop/Corner03I.png
+Connecting to www.comcast.com (www.comcast.com)|69.241.45.20|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 922 [image/png]
+Saving to: `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/images/shop/Corner03I.png'
+
+     0K                                                       100%  450K=0s
+
+2011-12-02 14:59:17 (450 KB/s) - `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/images/shop/Corner03I.png' saved [922/922]
+
+--2011-12-02 14:59:17--  http://www.comcast.com/images/shop/Corner03O.png
+Connecting to www.comcast.com (www.comcast.com)|69.241.45.20|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 922 [image/png]
+Saving to: `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/images/shop/Corner03O.png'
+
+     0K                                                       100%  450K=0s
+
+2011-12-02 14:59:17 (450 KB/s) - `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/images/shop/Corner03O.png' saved [922/922]
+
+--2011-12-02 14:59:17--  http://www.comcast.com/images/shop/Corner02I.png
+Connecting to www.comcast.com (www.comcast.com)|69.241.45.20|:80... connected.
+HTTP request sent, awaiting response... 404 Not Found
+2011-12-02 14:59:17 ERROR 404: Not Found.
+
+--2011-12-02 14:59:17--  http://www.comcast.com/images/shop/Corner02O.png
+Connecting to www.comcast.com (www.comcast.com)|69.241.45.20|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 922 [image/png]
+Saving to: `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/images/shop/Corner02O.png'
+
+     0K                                                       100%  450K=0s
+
+2011-12-02 14:59:17 (450 KB/s) - `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/images/shop/Corner02O.png' saved [922/922]
+
+--2011-12-02 14:59:17--  http://www.comcast.com/images/shop/Corner01I.png
+Connecting to www.comcast.com (www.comcast.com)|69.241.45.20|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 922 [image/png]
+Saving to: `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/images/shop/Corner01I.png'
+
+     0K                                                       100%  450K=0s
+
+2011-12-02 14:59:18 (450 KB/s) - `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/images/shop/Corner01I.png' saved [922/922]
+
+--2011-12-02 14:59:18--  http://www.comcast.com/images/shop/Corner01O.png
+Connecting to www.comcast.com (www.comcast.com)|69.241.45.20|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 922 [image/png]
+Saving to: `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/images/shop/Corner01O.png'
+
+     0K                                                       100%  450K=0s
+
+2011-12-02 14:59:18 (450 KB/s) - `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/images/shop/Corner01O.png' saved [922/922]
+
+--2011-12-02 14:59:18--  http://www.comcast.com/images/dot.gif
+Connecting to www.comcast.com (www.comcast.com)|69.241.45.20|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 43 [image/gif]
+Saving to: `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/images/dot.gif'
+
+     0K                                                       100% 21.0K=0s
+
+2011-12-02 14:59:18 (21.0 KB/s) - `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/images/dot.gif' saved [43/43]
+
+--2011-12-02 14:59:18--  http://www.comcast.com/images/topMenu/Hover.gif
+Connecting to www.comcast.com (www.comcast.com)|69.241.45.20|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 854 [image/gif]
+Saving to: `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/images/topMenu/Hover.gif'
+
+     0K                                                       100%  417K=0s
+
+2011-12-02 14:59:18 (417 KB/s) - `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/images/topMenu/Hover.gif' saved [854/854]
+
+--2011-12-02 14:59:18--  http://www.comcast.com/images/buttons/gateway_go_customers.gif
+Connecting to www.comcast.com (www.comcast.com)|69.241.45.20|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 247 [image/gif]
+Saving to: `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/images/buttons/gateway_go_customers.gif'
+
+     0K                                                       100%  121K=0s
+
+2011-12-02 14:59:18 (121 KB/s) - `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/images/buttons/gateway_go_customers.gif' saved [247/247]
+
+--2011-12-02 14:59:18--  http://www.comcast.com/includes/images/newbuyflow/OverLays/topRightCorner.png
+Connecting to www.comcast.com (www.comcast.com)|69.241.45.20|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 190 [image/png]
+Saving to: `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/includes/images/newbuyflow/OverLays/topRightCorner.png'
+
+     0K                                                       100% 92.8K=0s
+
+2011-12-02 14:59:18 (92.8 KB/s) - `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/includes/images/newbuyflow/OverLays/topRightCorner.png' saved [190/190]
+
+--2011-12-02 14:59:18--  http://www.comcast.com/includes/images/newbuyflow/OverLays/topBorder.png
+Connecting to www.comcast.com (www.comcast.com)|69.241.45.20|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 139 [image/png]
+Saving to: `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/includes/images/newbuyflow/OverLays/topBorder.png'
+
+     0K                                                       100% 67.9K=0s
+
+2011-12-02 14:59:19 (67.9 KB/s) - `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/includes/images/newbuyflow/OverLays/topBorder.png' saved [139/139]
+
+--2011-12-02 14:59:19--  http://www.comcast.com/includes/images/newbuyflow/OverLays/topLeftCorner.png
+Connecting to www.comcast.com (www.comcast.com)|69.241.45.20|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 180 [image/png]
+Saving to: `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/includes/images/newbuyflow/OverLays/topLeftCorner.png'
+
+     0K                                                       100% 87.9K=0s
+
+2011-12-02 14:59:19 (87.9 KB/s) - `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/includes/images/newbuyflow/OverLays/topLeftCorner.png' saved [180/180]
+
+--2011-12-02 14:59:19--  http://www.comcast.com/includes/images/newbuyflow/OverLays/bottomRightCorner.png
+Connecting to www.comcast.com (www.comcast.com)|69.241.45.20|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 197 [image/png]
+Saving to: `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/includes/images/newbuyflow/OverLays/bottomRightCorner.png'
+
+     0K                                                       100% 96.2K=0s
+
+2011-12-02 14:59:19 (96.2 KB/s) - `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/includes/images/newbuyflow/OverLays/bottomRightCorner.png' saved [197/197]
+
+--2011-12-02 14:59:19--  http://www.comcast.com/includes/images/newbuyflow/OverLays/bottomLeftCorner.png
+Connecting to www.comcast.com (www.comcast.com)|69.241.45.20|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 189 [image/png]
+Saving to: `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/includes/images/newbuyflow/OverLays/bottomLeftCorner.png'
+
+     0K                                                       100% 92.3K=0s
+
+2011-12-02 14:59:19 (92.3 KB/s) - `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/includes/images/newbuyflow/OverLays/bottomLeftCorner.png' saved [189/189]
+
+--2011-12-02 14:59:19--  http://www.comcast.com/includes/images/newbuyflow/OverLays/bottomBorder.png
+Connecting to www.comcast.com (www.comcast.com)|69.241.45.20|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 134 [image/png]
+Saving to: `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/includes/images/newbuyflow/OverLays/bottomBorder.png'
+
+     0K                                                       100% 65.4K=0s
+
+2011-12-02 14:59:19 (65.4 KB/s) - `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/includes/images/newbuyflow/OverLays/bottomBorder.png' saved [134/134]
+
+--2011-12-02 14:59:19--  http://www.comcast.com/includes/images/newbuyflow/OverLays/leftBorder.png
+Connecting to www.comcast.com (www.comcast.com)|69.241.45.20|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 137 [image/png]
+Saving to: `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/includes/images/newbuyflow/OverLays/leftBorder.png'
+
+     0K                                                       100% 66.9K=0s
+
+2011-12-02 14:59:20 (66.9 KB/s) - `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/includes/images/newbuyflow/OverLays/leftBorder.png' saved [137/137]
+
+--2011-12-02 14:59:20--  http://www.comcast.com/includes/images/newbuyflow/OverLays/rightBorder.png
+Connecting to www.comcast.com (www.comcast.com)|69.241.45.20|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 133 [image/png]
+Saving to: `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/includes/images/newbuyflow/OverLays/rightBorder.png'
+
+     0K                                                       100% 64.9K=0s
+
+2011-12-02 14:59:20 (64.9 KB/s) - `../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/includes/images/newbuyflow/OverLays/rightBorder.png' saved [133/133]
+
+FINISHED --2011-12-02 14:59:20--
+Total wall clock time: 16s
+Downloaded: 74 files, 499K in 2.6s (196 KB/s)
+Converting ../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/Corporate/Customers/Policies/SubscriberAgreement.html... 35-6
+Converting ../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/Includes/css/querycompletion.css... nothing to do.
+Converting ../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/includes/css/comcast_main.css... 41-1
+Converting ../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/includes/css/comcast_Customers.css... 2-0
+Converting ../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/includes/css/framework/Mask.css... nothing to do.
+Converting ../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/Includes/css/ResetOverlay.css... 8-0
+Converting ../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/Includes/css/Corpquerycompletion.css... nothing to do.
+Converting ../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/includes/css/two_column_no_nav.css... nothing to do.
+Converting ../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/includes/css/comcast_menu_top.css... 11-0
+Converting ../crawls/www.comcast.net/Subscriber-Agreement/raw/www.comcast.com/includes/css/comcast_printable.css... nothing to do.
+Converted 10 files in 0.008 seconds.

@@ -1,0 +1,515 @@
+@charset "utf-8";
+/* CSS Document */
+
+#phoneCenter {
+padding:0;
+margin:12px 0 0 0;
+}
+
+#phoneCenter h2 {
+font-size:16px;	
+font-weight:normal;
+}
+
+#phoneCenter .landingSeparator {
+position:relative;
+margin-top:0px;	
+}
+
+#landingCenterTile{
+clear:both;
+height:213px;
+}
+
+#landingCenterTile img {
+float:left;
+}
+
+#landingCenterTile p {
+width:200px;
+float:left;	
+}
+
+#landingCenterTile h2
+{
+padding-top:20px;	
+}
+
+#landingCenterTile a
+{
+padding-top:20px;	
+}
+
+#floatingTile {
+width:160px;
+position:absolute;
+margin-left:750px;
+}
+
+
+.displayTile {
+position:relative;
+margin:0px;
+padding:0;	
+}
+
+.displayTile p{
+width:380px;
+}
+
+.faq {
+clear:both;position:relative;margin-top:23px;
+}
+
+.faq p{
+	width:700px;
+	position:relative;
+	margin-left:9px;
+}
+
+.faq ol li {
+position:relative;
+margin-left:24px;
+}
+
+.multiTile {
+padding-bottom:10px;	
+}
+
+.multiTile img.vid {
+float:left;
+padding-right:10px;	
+}
+
+.multiTile div {
+padding-top:10px;
+height:80px;	
+}
+
+.multiTile p a{
+float:left;
+padding:20px 0 0 0;width:65px;	
+}
+
+/*styles for floating code callout*/
+
+#floatingTile {
+padding:0;
+width:160px;
+position:absolute;
+margin-left:750px;
+}
+
+.jcarousel-container-vertical {
+    width: 160px;
+    height: 308px;
+    background:transparent url(../../cell-phone-service/images/cell-phone-sales/carousel_images/carousel_bkg.gif) no-repeat scroll center top;
+    border: 1px solid #fff;
+}
+
+.jcarousel-clip-vertical {
+    top: 20px;
+    width: 150px;
+    height: 262px;
+    margin: 0 5px;
+    z-index: 20;
+}
+
+#mycarousel li,
+.jcarousel-item-vertical,
+.jcarousel-item-placeholder-vertical {
+    width: 150px;
+    height: auto;
+    margin: 5px 0 5px 0;
+}
+
+#mycarousel li h4 {
+	color:#1693CD;
+	font-size:10px;
+	width:95px;
+}
+
+.jcarousel-item h3,
+.jcarousel-item p {
+    margin: 0;
+    font-size: 90%;
+}
+
+.jcarousel-next-vertical {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 160px;
+    height: 18px;
+    cursor: pointer;
+    background: #4088b8 url(../../cell-phone-service/images/cell-phone-sales/carousel_images/carousel_bttm_arrow_active.gif) no-repeat left; 
+}
+
+.jcarousel-next-disabled-vertical {
+    cursor: default;
+    background: #4088b8 url(../../cell-phone-service/images/cell-phone-sales/carousel_images/carousel_bttm_arrow_idle.gif) no-repeat left;
+}
+
+.jcarousel-prev-vertical {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 160px;
+    height: 18px;
+    cursor: pointer;
+    background: #4088b8 url(../../cell-phone-service/images/cell-phone-sales/carousel_images/carousel_top_arrow_active.gif) no-repeat left; 
+}
+
+.jcarousel-prev-disabled-vertical {
+    cursor: default;
+    background: #4088b8 url(../../cell-phone-service/images/cell-phone-sales/carousel_images/carousel_top_arrow_idle.gif) no-repeat left;
+}
+
+.horizontal-divide {
+	clear:both;
+	float:left;
+	position:relative;
+	margin: 0px 5px 5px 5px;
+	width:141px;
+	height:3px;
+	background-image:url(../../cell-phone-service/images/cell-phone-sales/carousel_images/horiz_dotted_line.gif);
+	background-repeat:no-repeat;
+}
+
+
+/* 
+ * Styles for carousel code callout type 2, horizontal. 
+ * Initially created for update of U-verse Choice Bundle landing page, http://www.att.com/u-verse/promotional-bundles/index.jsp
+ *
+ */
+
+.jcarousel-container-horizontal {
+    width: 948px;
+    height: 155px;
+    border: 1px solid #ccc;
+}
+
+.jcarousel-clip-horizontal {
+    width: 862px;
+    height: 155px;
+    margin: 0 42px 0 43px;
+    z-index: 20;
+}
+
+#mycarousel2 .horiz-item-li,
+.jcarousel-item-horizontal,
+.jcarousel-item-placeholder-horizontal {
+    width: 287px;
+    height: 153px;
+    margin: 1px 0 1px 0;
+    background: url(../../images/Wireless/Promotions/LandingPages/B2C-59346_-_U-verse_Choice/img_59353_BGGradient_AA000L3Q.png) no-repeat left;
+}
+
+.jcarousel-list {
+	height: 155px;
+}
+
+.horiz-item-div {
+	height: 145px;
+	margin-top: 4px;
+	background: url(../../images/Wireless/Promotions/LandingPages/B2C-59346_-_U-verse_Choice/img_59353_VerticalDivider_AA000L3T.gif) no-repeat left;
+	position: relative;
+}
+
+.horiz-item-div .right-border-img {
+	position: absolute;
+	right: 0px;
+	top: -5px;
+}
+
+.horiz-item-div .item-icons {
+	position: absolute;
+	left: 10px;
+	top: 10px;
+}
+
+.horiz-item-div ul.bundled-items {
+	position: absolute;
+	left: 10px;
+	top: 51px;
+	margin-left: 0px;
+	padding-left: 18px;
+}
+
+ul.circle li {
+	line-height: 1.2em;
+}
+
+.bundle-name {
+	position: absolute;
+	right: 15px;
+	top: 10px;
+	width: 150px;
+	text-align: right;
+	color: #fb7911;
+	line-height: 16px;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.bundle-name .voice-type {
+	font-size: 14px;
+}
+
+.item-price-container {
+	position: absolute;
+	left: 160px;
+	top: 43px;
+}
+
+.price-format {
+	color:#74B729;
+	float:left;
+	line-height:32px;
+	position:relative;
+}
+
+.dollarSignFormat {
+	float:left;
+	font-size:18px;
+}
+
+.dollarsFormat {
+	float:left;
+	font-size:32px;
+	margin-top:5px;
+}
+
+.priceTermFormat {
+	float: left;
+	font-size:10px;
+	line-height: 12px;
+	margin-top: 19px;
+	margin-left: 3px;
+}
+
+.termLengthFormat {
+	font-size: 10px;
+	margin-left: 14px;
+	line-height: 14px;
+	color: #666666;
+}
+
+.get-started-button {
+	position: absolute;
+	right: 15px;
+	bottom: 10px;
+}
+
+.compare-bundles-link {
+	position: absolute;
+	left: 10px;
+	bottom: 18px;
+	background: transparent url(../images/callouts/btn_preview.gif) no-repeat scroll left top;
+	padding-left: 12px;
+}
+
+.jcarousel-next-horizontal {
+    position: absolute;
+    top: 66px;
+    right: 10px;
+    width: 21px;
+    height: 19px;
+    cursor: pointer;
+    background: url(../../images/Wireless/Promotions/LandingPages/B2C-59346_-_U-verse_Choice/img_59353_Arrow2Enabled_AA000L43.png) no-repeat left; 
+}
+
+.jcarousel-next-disabled-horizontal {
+    cursor: default;
+    background: url(../../images/Wireless/Promotions/LandingPages/B2C-59346_-_U-verse_Choice/img_59353_Arrow2Disabled_AA000L42.png) no-repeat left; 
+    
+}
+
+.jcarousel-prev-horizontal {
+    position: absolute;
+    top: 66px;
+    left: 10px;
+    width: 21px;
+    height: 19px;
+    cursor: pointer;
+    background: url(../../images/Wireless/Promotions/LandingPages/B2C-59346_-_U-verse_Choice/img_59353_ArrowEnabled_AA000L3P.png) no-repeat left; 
+}
+
+.jcarousel-prev-disabled-horizontal {
+    cursor: default;
+    background: url(../../images/Wireless/Promotions/LandingPages/B2C-59346_-_U-verse_Choice/img_59353_ArrowDisabled_AA000L3O.png) no-repeat left; 
+}
+
+
+/*
+ * Styles for floating code callout that are specific to "The Bridge" (African American diversity marketing hub, found at
+ * http://www.att.com/shop/wireless/deals/theBridge.jsp)
+ */
+
+#floatingTile_theBridge {
+position:absolute;
+right: 18px;
+top: 22px;
+}
+#floatingTile_theBridge .jcarousel-container-vertical {
+height: 240px;
+}
+#floatingTile_theBridge .jcarousel-clip-vertical {
+height: 195px;
+}
+
+
+/* 
+ * Styles for horizontal carousel specific to "Windows Phone 7" landing page, found at
+ * http://www.att.com/shop/wireless/devices/windowsphone.jsp
+ */
+ 
+#videoGallery {
+	height: 170px;
+	border: 1px solid #ccc;
+	background: url(../../images/Wireless/Promotions/LandingPages/windows_phone/VideoGradient_AA000LZE.jpg) repeat-x left; 
+	overflow: hidden;
+}
+
+#videoGallery h2 {
+	margin: 10px;
+	margin-bottom: 13px;
+	font-weight: bold;
+	color: #ff7200
+}
+
+#videoGallery .jcarousel-container-horizontal {
+    width: 708px;
+    height: 120px;
+    border: 0px none #fff;
+}
+
+#videoGallery .jcarousel-clip-horizontal {
+    width: 600px;
+    height: 120px;
+    margin: 0 54px;
+    z-index: 20;
+}
+
+#videoGallery #mycarousel .horiz-item-li,
+.jcarousel-item-horizontal,
+.jcarousel-item-placeholder-horizontal {
+    width: 120px;
+    height: 120px;
+    margin: 0px;
+}
+
+#videoGallery .jcarousel-list {
+	height: 120px;
+}
+
+#videoGallery .img-for-video {
+	display: block;
+	margin: 5px;
+}
+
+#videoGallery .jcarousel-next-horizontal {
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    width: 17px;
+    height: 35px;
+    cursor: pointer;
+    background: url(../../images/Wireless/Promotions/LandingPages/windows_phone/VideoCarouselRightOn_AA000LZD.jpg) no-repeat left; 
+}
+
+#videoGallery .jcarousel-next-disabled-horizontal {
+    cursor: default;
+    background: url(../../images/Wireless/Promotions/LandingPages/windows_phone/VideoCarouselRightOff_AA000LZC.jpg) no-repeat left; 
+    
+}
+
+#videoGallery .jcarousel-prev-horizontal {
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    width: 17px;
+    height: 35px;
+    cursor: pointer;
+    background: url(../../images/Wireless/Promotions/LandingPages/windows_phone/VideoCarouselLeftOn_AA000LZB.jpg) no-repeat left; 
+}
+
+#videoGallery .jcarousel-prev-disabled-horizontal {
+    cursor: default;
+    background: url(../../images/Wireless/Promotions/LandingPages/windows_phone/VideoCarouselLeftOff_AA000LZA.jpg) no-repeat left; 
+}
+
+
+
+/*
+ * styles from previous incarnation of carousel...not currently used
+ *
+#carousel {
+padding:0;
+background: url(/cell-phone-service/images/cell-phone-sales/carousel_images/carousel_bkg.gif);
+background-repeat:no-repeat;
+background-position:top;
+height:296px;
+
+}
+
+.namePriceBuy {
+	position:relative;
+	margin-top:-20px;
+	padding:0;
+	}
+
+.horizontal-divide {
+	clear:both;
+	float:left;
+	position:relative;
+	margin:10px 0 0 10px;
+	width:141px;
+height:3px;
+background-image:url(/cell-phone-service/images/cell-phone-sales/carousel_images/horiz_dotted_line.gif);
+background-repeat:no-repeat;
+}
+
+#phoneBlock {
+clear:both;
+margin:0;
+width:160px;
+padding-top:10px;
+}
+
+#phoneBlock img.phone {
+float:left;	
+position:relative;
+margin-left:1px;
+}
+
+#phoneBlock .price {
+font-size:10px;
+}
+
+#phoneBlock h4 {
+	float:left;
+	width:80px;
+	font-size:10px;
+color:#1693CD;	
+}
+
+.learn {
+float:left;width:95px;
+}
+
+.learn h4 {
+padding-bottom:15px;	
+}
+
+.static {
+position:relative;
+height:92px;
+margin-left:1px;	
+}
+
+#morePhones {
+margin:0; 
+padding-left:10px;
+}
+*/

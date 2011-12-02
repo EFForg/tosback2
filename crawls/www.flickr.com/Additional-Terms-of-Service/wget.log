@@ -1,0 +1,16 @@
+--2011-12-02 15:00:35--  http://www.flickr.com/atos/pro/
+Resolving www.flickr.com (www.flickr.com)... 216.115.107.207, 67.195.141.200, 67.195.141.201, ...
+Connecting to www.flickr.com (www.flickr.com)|216.115.107.207|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `../crawls/www.flickr.com/Additional-Terms-of-Service/raw/www.flickr.com/atos/pro/index.html'
+
+     0K .......... ......                                      66.5K=0.3s
+
+2011-12-02 15:00:36 (66.5 KB/s) - `../crawls/www.flickr.com/Additional-Terms-of-Service/raw/www.flickr.com/atos/pro/index.html' saved [17152]
+
+FINISHED --2011-12-02 15:00:36--
+Total wall clock time: 0.6s
+Downloaded: 1 files, 17K in 0.3s (66.5 KB/s)
+Converting ../crawls/www.flickr.com/Additional-Terms-of-Service/raw/www.flickr.com/atos/pro/index.html... 2-0
+Converted 1 files in 0.004 seconds.

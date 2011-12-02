@@ -1,0 +1,3294 @@
+ 
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+		
+	
+		
+			
+		
+	
+    
+	
+	
+	
+	
+	
+	
+	
+	<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+	<html lang="en">
+		<head>
+			<title>AT&T U-verse Voice - Digital Home Phone Service</title>
+			
+	   	        
+	    <meta http-equiv="content-type" content="text/html; charset=utf-8"> 
+		<meta name="Description" content="Learn about AT&T's digital phone service, AT&T U-verse Voice, which  delivers extraordinary value, dynamic voice mail, and powerful features that let you be in control."/>
+		<meta name="Keywords" content="AT&T U-verse Voice, Digital Phone Service, Digital Home Phone"/>
+		<META HTTP-EQUIV="PRAGMA" CONTENT="NO-CACHE">
+		<META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE">
+		<META HTTP-EQUIV="EXPIRES" CONTENT="-1">
+			
+		<script type="text/javascript" src="../../../www.wireless.att.com/webtrends/scripts/dcs_tag_TOP.js"></script>
+		<script type="text/javascript" src="../scripts/commonFunc.js"></script>
+		<script type="text/javascript" src="../scripts/formFunc.js"></script>
+		<script type="text/javascript" src="../scripts/ShoppingCart.js"></script>
+		<script type="text/javascript" src="../scripts/uverse.js"></script>
+		<script type='text/javascript' src='../dwr/interface/DWRRequestManager.js'></script>
+		<script type='text/javascript' src='../dwr/engine.js'></script>
+		<script type='text/javascript' src='../dwr/util.js'></script>
+		<script type='text/javascript' src='../../media/gvp/gvpUtils.js'></script>
+		
+		<script>
+			gZip = '30319';
+			var v_contextRoot = '/u-verse';
+			var v_mediaContextRoot = '/media/en_US';
+			var v_timeOut_id = null;
+			function setTimeOutPopup() {
+				if (v_timeOut_id != null) clearTimeout(v_timeOut_id);
+				var v_minutes = 30;
+				var v_times = v_minutes * 1000 * 60;
+				v_timeOut_id = setTimeout("sessionTimeOutPopup()",v_times);
+			}
+			function sessionTimeOutPopup() {
+				closePopup();
+				showPopup('sessionTimeOut',true,true);
+				try{
+					dcsMultiTrack('DCS.dcsuri','/virtual/'+window.location.pathname,'DCS.dcsref',window.location.href,'DCSext.wtPN','Uverse_TimeOut','DCS.wtNoHit','1');
+				} catch(e){}
+			}
+			var timeOutWarning_id = null;
+			function setTimeOutWarning() {
+				if (timeOutWarning_id != null) clearTimeout(timeOutWarning_id);
+				var v_minutes = 28;
+				var v_times = v_minutes * 1000 * 60;
+				timeOutWarning_id = setTimeout("showPopup('sessionTimeOutWarning',true,true)",v_times);
+				setTimeOutPopup();
+			}			
+			
+			function keepBackAlive () {
+				var str = ShoppingCart.AjaxRequest("/u-verse/vars/v_locale.jsp");
+				try{
+					dcsMultiTrack('DCS.dcsuri','/virtual/'+window.location.pathname,'DCS.dcsref',window.location.href,'DCSext.wtPN','Uverse_TimeOut_Warning','DCS.wtNoHit','1');
+				} catch(e){}
+            }
+		</script>		
+
+		
+		 
+
+
+
+
+	
+	
+	
+	
+	
+		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<meta NAME="DCSext.sessionid" CONTENT="TGFlTZYWKT0pCywpk4c4ZpDk!-313946511!1322866838313">
+	<meta NAME="DCSext.flowType" CONTENT="UVERSE">
+	<meta NAME="DCSext.buyflowtype" CONTENT="PROVIDE">
+	<meta NAME="DCSext.wtCustTypeSub" CONTENT="residential">
+	
+	<meta NAME="DCSext.wtZipCode" CONTENT="30319">
+	
+	
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
+	
+		
+
+		
+		
+		
+		
+			
+		
+		
+			
+			
+		
+		
+			
+			
+		
+		
+	
+		
+		
+		
+		
+		
+		
+			
+		
+		
+
+		
+		
+		
+		
+		
+			
+			
+				<meta NAME="DCS.wtDwellingType" CONTENT="Home">
+			
+			<meta NAME="DCS.wtConnectedComm" CONTENT="false">
+		
+	
+
+	
+	
+	
+	
+	
+	
+	
+
+	<script language="Javascript" type="text/javascript">
+		var formError = false;
+		var zipCode = '', CustIdType = '', CreditCardType = '', ExistingTNFlag = '', InstallDate = '', InstallTime = '';
+		var wtAddSkuQty = '', wtPhoneLine = '', wtCouponCode = '', PhoneLine = '', pn_SKU = '', wtAddrsOption = '', wtEmailAddr = '', wtUverse_Install_Type = '';
+		var wtReferral_AttEmpId = '';
+		var wtCreditClass = '';
+		var wtAutoPay = '';
+		var wtServiceAvailResult = 'red';
+		var wtQualCriteria = 'address';
+		var wtCustTypeSub = 'residential';
+		var wtUverse_Service = '';
+		var wtEvent = '', wtStatusCode = '', wtSuccessFlag = '', wtEventType = '',wtEmailAddr='';
+		
+		function performWebTrendTag() { 
+			try {			
+				var cookieValue = commonFunc.getCookie("uverse_webtrend");
+				if (cookieValue != null)
+					logWebTrendTag(cookieValue);
+				commonFunc.deleteCookie("uverse_webtrend");
+			} catch (e) {
+				// do nothing
+			}			
+		} // end of performWebTrendTag
+		
+		
+		function logWebTrendTag(param) {
+			try {
+				var dcsuri = '', dcsref = '', wtState = '', wtZipCode = '30319';
+				var wtFormSubmit = '1', wtNoHit = '1', wtCustType = 'Consumer';
+				var buyflowtype = 'PROVIDE', wtCustIdType = '';
+				var wtCreditCardType = '', wtExistingTNFlag = '', wtInstallDate = '', wtInstallTime = '';
+				var IPDSLAM_Available = 'false';
+				unescape_str = unescape(param);
+				param_array = unescape_str.split("*");
+				for (i=0; i < param_array.length; i++) {
+					paramPart_array = param_array[i].split("^");
+					if (paramPart_array[0] == 'dcsuri') {
+						dcsuri = paramPart_array[1];
+					} else if (paramPart_array[0] == 'dcsref') {
+						dcsref = paramPart_array[1];
+					} else if (paramPart_array[0] == 'wtEvent') {
+						wtEvent = paramPart_array[1];
+					} else if (paramPart_array[0] == 'wtEventType') {
+						wtEventType = paramPart_array[1];
+					} else if (paramPart_array[0] == 'wtStatusCode') {
+						wtStatusCode = paramPart_array[1];
+					} else if (paramPart_array[0] == 'wtZipCode') {
+						wtZipCode = paramPart_array[1];
+					} else if (paramPart_array[0] == 'wtFormSubmit') {
+						wtFormSubmit = paramPart_array[1];
+						wtNoHit = paramPart_array[1];
+					} else if (paramPart_array[0] == 'wtCustIdType') {
+						wtCustIdType = paramPart_array[1];
+					} else if (paramPart_array[0] == 'wtCreditCardType') {
+						wtCreditCardType = paramPart_array[1];
+					} else if (paramPart_array[0] == 'wtExistingTNFlag') {
+						wtExistingTNFlag = paramPart_array[1];
+					} else if (paramPart_array[0] == 'wtPhoneLine') {
+						wtPhoneLine = paramPart_array[1];
+					} else if (paramPart_array[0] == 'wtInstallDate') {
+						wtInstallDate = paramPart_array[1];
+					} else if (paramPart_array[0] == 'wtInstallTime') {
+						wtInstallTime = paramPart_array[1];
+					} else if (paramPart_array[0] == 'wtCouponCode') {
+						wtCouponCode = paramPart_array[1];
+					} else if (paramPart_array[0] == 'pn_SKU') {
+						pn_SKU = paramPart_array[1];
+					} else if (paramPart_array[0] == 'wtAddSkuQty') {
+						wtAddSkuQty = paramPart_array[1];
+					} else if (paramPart_array[0] == 'wtReferral_AttEmpId') {
+						wtReferral_AttEmpId = paramPart_array[1];
+					} else if (paramPart_array[0] == 'wtAddrsOption') {
+						wtAddrsOption = paramPart_array[1];
+					} else if (paramPart_array[0] == 'wtEmailAddr') {
+						wtEmailAddr = paramPart_array[1];
+					} else if (paramPart_array[0] == 'wtUverse_Install_Type') {
+						wtUverse_Install_Type = paramPart_array[1];
+					} else if (paramPart_array[0] == 'wtPaperlessBill') {
+						wtPaperlessBill = paramPart_array[1];
+					} else if (paramPart_array[0] == 'wtAutoPay') {
+						wtAutoPay = paramPart_array[1];
+					}  
+
+				}
+				
+				dcsuri = escape(window.location.pathname);
+				if (formError) { 
+					wtStatusCode = v_errorCode;
+					wtSuccessFlag = '0';
+				}
+				
+				if (!wtEvent) { 
+					wtSuccessFlag = '', wtEventType = '';
+				} else {
+					wtSuccessFlag = wtSuccessFlag||'1';
+					wtEventType = wtEventType||'User';
+					wtStatusCode = wtStatusCode||'0';
+				}
+				if(IPDSLAM_Available) {
+					buyflowtype = 'PROVIDE_IPDSLAM';
+				}
+				
+				if (param != null) {
+					dcsMultiTrack('DCS.dcsuri',dcsuri,'DCS.dcsref',dcsref,'DCSext.wtEvent',wtEvent,
+						'DCSext.wtSuccessFlag',wtSuccessFlag,'DCSext.wtStatusCode',wtStatusCode,
+						'DCSext.wtState',wtState,'DCSext.wtZipCode',wtZipCode,'DCSext.wtFormSubmit',wtFormSubmit,
+						'DCSext.wtNoHit',wtNoHit,'DCSext.wtCustType',wtCustType,'DCSext.wtCustTypeSub',wtCustTypeSub,
+						'DCSext.buyflowtype',buyflowtype,'DCSext.wtCreditClass',wtCreditClass,
+						'DCSext.wtQualCriteria',wtQualCriteria,'DCSext.wtCustIdType',wtCustIdType,
+						'DCSext.wtCreditCardType',wtCreditCardType,'DCSext.wtExistingTNFlag',wtExistingTNFlag,
+						'DCSext.wtPhoneLine',wtPhoneLine,'DCSext.wtInstallDate',wtInstallDate,
+						'DCSext.wtInstallTime',wtInstallTime,'WT.pn_SKU',pn_SKU,
+						'DCSext.wtServiceAvailResult',wtServiceAvailResult,'DCSext.wtCouponCode',wtCouponCode,
+						'DCSext.wtAddSKUQty',wtAddSKUQty,'DCSext.wtReferral_AttEmpId',wtReferral_AttEmpId,
+						'DCSext.wtAddrsOption',wtAddrsOption,'DCSext.wtEventType',wtEventType,
+						'DCSext.wtUverse_Service',wtUverse_Service,'DCSext.wtEmailAddr',wtEmailAddr,'DCSext.wtUverse_Install_Type',wtUverse_Install_Type,
+						'DCSext.wtPaperlessBill', wtPaperlessBill,
+						'DCSext.wtAutoPay', wtAutoPay
+						);	
+					wtPhoneLine = '';
+					//alert('call dcsMultiTrackTop');
+				}
+				formError = false;
+			} catch (e) {
+				// do nothing
+			}			
+		} // end of logWebTrendTag
+		
+		
+		function webTrendTag(wtEvent, p2, wtEventType) {
+			try {
+				var str = ""; 
+				str += "*dcsref^" + escape(window.location.href);
+				str += "*wtEvent^" + wtEvent;
+				str += "*wtEventType^" + (wtEventType||'');
+				if (zipCode != '')
+					str += "*wtZipCode^" + zipCode;
+				if (CustIdType != '')
+					str += "*wtCustIdType^" + CustIdType;
+				if (CreditCardType != '')
+					str += "*wtCreditCardType^" + CreditCardType;
+				if (ExistingTNFlag != '')
+					str += "*wtExistingTNFlag^" + ExistingTNFlag;
+				if (wtPhoneLine != '')
+					str += "*wtPhoneLine^" + wtPhoneLine;
+				if (InstallDate != '')
+					str += "*wtInstallDate^" + InstallDate;
+				if (InstallTime != '')
+					str += "*wtInstallTime^" + InstallTime;
+				if (pn_SKU != '')
+					str += "*pn_SKU^" + pn_SKU;
+				if (wtAddSkuQty != '')
+					str += "*wtAddSkuQty^" + wtAddSkuQty;
+				if (wtCouponCode != '')
+					str += "*wtCouponCode^" + wtCouponCode;
+				if (wtReferral_AttEmpId != '')
+					str += "*wtReferral_AttEmpId^" + wtReferral_AttEmpId;
+				if (wtAddrsOption != '')
+					str += "*wtAddrsOption^" + wtAddrsOption;
+				if (wtUverse_Install_Type != '')
+					str += "*wtUverse_Install_Type^" + wtUverse_Install_Type;
+				if (p2 != undefined && p2.match('@')!=null)
+                	logWebTrendTag(str + "*wtEmailAddr^" + p2);
+                if (p2 != undefined)
+                	logWebTrendTag(str + "*wtStatusCode^" + "1"); 
+				else {
+					logWebTrendTag(str + "*wtStatusCode^" + "-2");
+					commonFunc.setCookie("uverse_webtrend",str);
+				}
+                
+				if (wtPaperlessBill != '') { 
+					str += "*wtPaperlessBill^" + wtPaperlessBill;
+				}
+				if (wtAutoPay != '') { 
+					str += "*wtAutoPay^" + wtAutoPay;
+				}
+				
+			} catch (e) {
+				// do nothing
+			}
+		}  // end of webTrendTag
+		
+		commonFunc.addOnload("performWebTrendTag();");
+		
+	</script>
+
+
+					
+
+		<link rel="stylesheet" type="text/css" href="../styles/checkout.css" />
+		<link rel="stylesheet" type="text/css" href="../styles/availability.css" />
+		<link rel="stylesheet" type="text/css" href="../styles/uverse.css" />
+		<link rel="stylesheet" type="text/css" href="../../global/styles/grids.css" />				
+		<link rel="stylesheet" type="text/css" href="../styles/uverse2.css" />		
+
+        
+        
+
+		
+		
+		 
+
+
+
+
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1" />
+<meta http-equiv="imagetoolbar" content="no" /><!-- FOR IE -->
+
+
+
+
+
+<meta name="copyright" content="Copyright (c) 2009 AT&T Knowledge Ventures" />
+<link rel="stylesheet" type="text/css" href="../../global/styles/en/master.css" media="print,screen,projection"></link>
+<link rel="stylesheet" type="text/css" href="../../global/styles/print.css" media="print"></link>
+<!--[if IE]>
+<link rel="stylesheet" type="text/css" href="/global/styles/ie.css" media="screen"></link>
+<link rel="stylesheet" type="text/css" href="/global/styles/ie-print.css" media="screen"></link>
+<![endif]-->
+<script src="../../global/scripts/prototype_162.js" type="text/javascript"></script><!-- PROTOTYPE -->
+<script src="../../global/scripts/utils.js" type="text/javascript"></script>	
+<script src="../../global/scripts/topNav.js" type="text/javascript"></script>
+<script src="http://www.att.com/global/scripts/popups.js" type="text/javascript"></script>
+<!--[if IE]>
+<script src="/global/scripts/menu.js" type="text/javascript"></script>
+<![endif]-->
+
+<script type="text/javascript" charset="utf-8">
+	function SessionVars() {
+		this.getCurrSessId = function() {
+			var pSessionId = 'TGFlTZYWKT0pCywpk4c4ZpDk!-313946511!1322866838313';
+			return pSessionId;
+		};
+
+		this.getCurrBrowserId = function() {
+			var pBrowserId;
+			pBrowserId = this.getCookie('browserid');
+			return pBrowserId;
+		};
+		
+		this.getCookie = function(name) {
+			var dc = document.cookie;
+		  	var prefix = name + "=";
+		 	var begin = dc.indexOf("; " + prefix);
+		  	if (begin == -1) {
+		    	begin = dc.indexOf(prefix);
+		    	if (begin != 0) {
+		    		return null;
+		    	}
+		  	} 
+		  	else {
+		    	begin += 2;
+		    }
+		  	var end = document.cookie.indexOf(";", begin);
+		  	if (end == -1) {
+		    	end = dc.length;
+		    }
+		  	return unescape(dc.substring(begin + prefix.length, end));
+		};
+	};
+	sessionVars = new SessionVars();
+</script>
+
+
+
+
+<script type="text/javascript">
+	var forceFlashDebugMode = false;
+	var getTimeOffset = function() {
+		var offset = new Number();
+		var servertime = 1322866882925;
+		var clientdateObj = new Date();
+		var clienttime = clientdateObj.getTime();
+		offset = clienttime - servertime;
+		
+		return offset;
+	}
+
+	function methodExists(methodName){
+	    return (typeof this[methodName] != 'undefined');
+	}
+</script>
+
+ 
+
+		
+		
+		
+		<script type="text/javascript" src="../scripts/flash.js"></script>
+		<script src="../../global/scripts/flashPanelTracker.js" type="text/javascript"></script>
+		<script language="javascript">
+			var tracker = new AutoTiles();
+			tracker.init();
+		</script>
+		
+				<script type='text/javascript' src='../liveperson/uverse-residential-english_mtagconfig.js'></script>
+			
+		<script>
+			var _gaq = _gaq || [];
+			_gaq.push(['_setAccount', 'UA-13057993-3']);
+			_gaq.push(['_setDomainName', 'att.com']);
+			_gaq.push(['_setAllowHash', 'false']);
+			_gaq.push(['_trackPageview']);
+			(function() { var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); })();
+		</script>
+		
+		
+			
+			
+			
+			
+           		
+                
+                
+                
+                
+                
+                
+                
+				
+				
+					<link rel="canonical" href="http://www.att.com/u-verse/explore/phone-landing.jsp" />
+				
+			
+			
+			
+						
+			
+	    </head>
+	    <body >
+	    
+			
+				
+				
+				
+				
+				
+				
+				
+					
+    	<a name="backtotop"></a>    	
+    	<script src="../../global/scripts/AC_RunActiveContent.js" type="text/javascript"></script>
+    	<script src="../../global/scripts/AC_ActiveX.js" type="text/javascript"></script>
+		
+    	
+			
+
+
+
+
+
+		
+       	
+
+
+
+
+
+
+
+ 
+	
+	
+	
+	
+	
+	
+    
+    
+    
+       
+    
+	
+    	
+    
+    	
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+            <div id="universalNav">
+            	<ul>
+                    <li><a href="../../index.html">att.com</a></li>
+                    <li class="last"><a href="http://www.att.com/u-verse/">U-verse Home</a></li>
+                </ul>
+            </div>			
+        
+		
+        
+        
+    
+
+
+
+    	<div id="container">
+    		<div id="page" style="position:relative;">
+        		
+					
+
+
+
+
+
+
+				
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+<style type="text/css">
+	.verticalBigLine{
+		background-color: #cccccc;
+		height: 57px;
+		width: 1px;
+	}
+	.verticalLine{
+		background-color: #cccccc;
+		height: 15px;
+		width: 1px;
+	}
+</style>
+
+<div id="header">
+	<div id="masthead">
+		<div class="logo">
+			
+			
+			
+				
+				
+				
+					<div style="float:left;"><a href="../../index.html"onClick="dcsMultiTrack('DCS.dcsuri','/global/images/cing_logo.gif','DCS.dcsref',document.location.href);"><img height="57" alt="AT&amp;T" width="119" src="../../global/images/cing_logo.gif" border="0"></img></a></div>
+					<div style="float:inherit;margin-top:20px; font-size:20px;"> | <a href="http://www.att.com/u-verse/">U-verse</a></div>
+				
+				
+				
+			
+		</div>
+		
+			
+			
+			
+			
+			
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+	
+
+	
+		
+	
+
+ 
+
+
+
+
+
+<div class="searchNav">
+	
+		
+		
+			
+			
+			
+		
+			
+			
+				
+				
+					
+					
+				
+					
+					
+						
+						
+					
+					
+			
+			
+		
+	
+	<ul>
+		
+			
+				
+					
+						
+							
+							
+							
+							
+						
+							
+							
+						<li class="last"><a rel="nofollow" href="http://www.att.com/u-verse/cart/retrieve-cart.jsp">Retrieve Cart</a></li>
+						<li class="last"><a rel="nofollow" href="http://www.att.com/u-verse/cart/retrieve-cart.jsp"><img height="15" alt="View Cart" width="20" src="../../global/images/cart_icon.jpg" border="0"></img></a></li>
+							
+							
+							
+						
+						
+					
+					
+				
+			
+			
+		
+               <li>
+									<script type="text/javascript">
+										var DefaultValue = 'Search';						
+										function clearSearch() {
+										  if (document.frmSearchHeader.q.value == DefaultValue) {
+											document.frmSearchHeader.q.value = '';
+										  }
+										}						
+										function validateSearchHeader() {
+											if ( document.frmSearchHeader.q.value == '' || document.frmSearchHeader.q.value.toLocaleLowerCase() == DefaultValue.toLocaleLowerCase() ) {
+												alert('Please enter at least one keyword in the Search box.');
+												document.frmSearchHeader.q.focus();
+												return false;
+											}
+										  return true;
+										}
+									</script>
+									<form name="frmSearchHeader" action="http://www.att.com/global-search/search.jsp" method="get" onsubmit="return validateSearchHeader()">                                  
+
+										<input type="text" size="14" name="q" value="Search" onfocus="if (this.value==DefaultValue) this.value='';" onblur="if (this.value=='') this.value=DefaultValue;" style="vertical-align:middle"/>
+                                        <input type="hidden" size="" name="searchEngine" value="g" />
+                                        <input type="hidden" size="" name="tab" value="uverseAdvancedTv" />
+                                        <input type="hidden" size="" name="App_ID" value="UVS" />
+                                        
+										&nbsp;<input type="image" src="../../global/images/btn_go.gif" style="vertical-align:middle;" alt="Search" value="" />
+									</form>					
+							</li>	
+	</ul>
+</div>
+<br /><br />
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    			
+        <div class="register_lft_uverse">
+            <div class="register_rgt_uverse">
+                
+                    
+                        
+                        &nbsp;Service Area:&nbsp;00000
+                    
+                    
+                    
+                    
+                
+                
+                    
+                    
+                        <a onclick="if(!confirm('Pricing and availability may vary by zip code')) {return false;}" href="http://www.att.com/u-verse/start/">Change</a>
+                    
+                
+            </div>
+        </div>
+    
+
+<div style="clear:both"></div>
+<!-- UTILITY NAV ENDS HERE -->
+
+
+				
+					
+						
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+
+	
+	
+		<!-- BEGIN PRIMARY & SECONDARY -->
+		<div style="padding:0px; margin: 0px;">
+			<ol id="PrimaryNav">
+				
+					
+					
+					
+					
+                 
+					
+				
+					
+					
+					
+					
+						
+						
+							
+							
+								
+									
+									
+									
+									
+                                    
+								
+                                
+                                
+									
+								
+                                
+                                
+								
+									
+									
+									
+									
+										
+                                        
+											
+												
+												
+											
+											
+										
+										
+									
+										
+								
+										
+                                        	
+                                            	<li>
+                                                	<a id="pn-learn" title="Explore" style="background-position: 0 -36px;" href="http://www.att.com/u-verse/explore/default.jsp">Explore</a>
+                                               	 	<ol id="learnSecondaryNav" class="secondaryNavDis">
+                                        	
+                                            
+                                    	
+                                        
+                                        
+									
+                                    
+								
+                                
+                                
+									
+								
+                                
+                                
+								
+									
+									
+									
+									
+                                    
+								
+                                
+                                
+									
+                                    	
+										
+									
+										
+                                    	
+                                        
+                                        
+                                        
+                                        
+                                    	
+                                        
+                                        
+										
+								
+										
+											
+											
+											
+												
+											
+										
+								
+										
+											
+											
+																							
+													
+													
+													
+													
+														
+														<li><a style="" href="javascript:deepLinkRedirect(&#39;/u-verse/explore/tv-landing.jsp&#39;)">Television</a></li>
+													
+													
+																						
+										
+									
+									
+								
+                                
+                                
+								
+									
+									
+									
+									
+                                    
+								
+                                
+                                
+									
+                                    	
+										
+									
+										
+                                    	
+                                        
+                                        
+                                        
+                                        
+                                    	
+                                        
+                                        
+										
+								
+										
+											
+											
+											
+												
+											
+										
+								
+										
+											
+											
+																							
+													
+													
+													
+													
+														
+														<li><a style="" href="javascript:deepLinkRedirect(&#39;/u-verse/explore/internet-landing.jsp&#39;)">High Speed Internet</a></li>
+													
+													
+																						
+										
+									
+									
+								
+                                
+                                
+								
+									
+									
+									
+									
+                                    
+								
+                                
+                                
+									
+                                    	
+										
+									
+										
+                                    	
+                                        	
+                                    	
+                                        
+                                        
+                                        
+                                        
+                                    	
+                                        
+                                        
+										
+								
+										
+											
+											
+											
+												
+											
+										
+								
+										
+											
+											
+																							
+													
+														
+														<li><a id="selectedSecondaryNav" style="" name="selected" href="javascript:deepLinkRedirect(&#39;/u-verse/explore/phone-landing.jsp&#39;)">Voice</a></li>
+													
+													
+													
+													
+													
+																						
+										
+									
+									
+								
+                                
+                                
+								
+									
+									
+									
+									
+                                    
+								
+                                
+                                
+									
+                                    	
+										
+									
+										
+                                    	
+                                        
+                                        
+                                        
+                                        
+                                    	
+                                        
+                                        
+										
+								
+										
+											
+											
+												
+											
+											
+										
+								
+										
+											
+											
+																							
+													
+													
+													
+													
+														
+														<li><a style="border:0px" href="javascript:deepLinkRedirect(&#39;/u-verse/explore/resource-landing.jsp&#39;)">New Customers</a></li>
+													
+													
+																						
+										
+									
+									
+								
+                                
+                                
+								
+									
+									
+									
+									
+                                    
+								
+                                
+                                
+									
+								
+                                
+                                
+										</ol>
+										</li>
+									
+								
+							
+						
+					
+                 
+					
+				
+					
+					
+					
+					
+						
+						
+							
+							
+								
+									
+									
+									
+									
+                                    
+								
+                                
+                                
+									
+								
+                                
+                                
+								
+									
+									
+									
+									
+										
+                                        
+											
+											
+												
+											
+										
+										
+									
+										
+								
+										
+                                        	
+                                            
+												<li>
+													
+														
+															
+															<a id="pn-shop" title="Shop" onmouseout="setShowNav('learnSecondaryNav'); swapInPNI('pn-learn'); swapOutPNI('pn-shop');" href="../shop/index.jsp.html" onmouseover="setHideNav('learnSecondaryNav'); swapOutPNI('pn-learn'); swapInPNI('pn-shop');">Shop</a>
+															<ol id="shopSecondaryNav" class="secondaryNav" onmouseover="setHideNav('learnSecondaryNav'); swapInPNI('pn-shop'); swapOutPNI('pn-learn');" onmouseout="setShowNav('learnSecondaryNav'); swapOutPNI('pn-shop'); swapInPNI('pn-learn');">
+														
+														
+													
+                                   			
+                                    	
+                                        
+                                        
+									
+                                    
+								
+                                
+                                
+									
+								
+                                
+                                
+								
+									
+									
+									
+									
+                                    
+								
+                                
+                                
+									
+                                    	
+										
+									
+										
+                                    	
+                                        
+                                        
+                                        
+                                        
+                                    	
+                                        
+                                        
+										
+								
+										
+											
+											
+											
+												
+											
+										
+								
+										
+											
+											
+																							
+													
+													
+													
+													
+														
+														<li><a style="" href="http://www.att.com/u-verse/availability/">Check Availability</a></li>
+													
+													
+																						
+										
+									
+									
+								
+                                
+                                
+								
+									
+									
+									
+									
+                                    
+								
+                                
+                                
+									
+                                    	
+										
+									
+										
+                                    	
+                                        
+                                        
+                                        
+                                        
+                                    	
+                                        
+                                        
+										
+								
+										
+											
+											
+											
+												
+											
+										
+								
+										
+											
+											
+																							
+													
+													
+													
+													
+														
+														<li><a style="" href="javascript:showPopupByUrl(&#39;/u-verse/shop/fragments/iptv.jsp&#39;, &#39;Compare TV Packages&#39;,  true, 838)">Compare TV Packages</a></li>
+													
+													
+																						
+										
+									
+									
+								
+                                
+                                
+								
+									
+									
+									
+									
+                                    
+								
+                                
+                                
+									
+                                    	
+										
+									
+										
+                                    	
+                                        
+                                        
+                                        
+                                        
+                                    	
+                                        
+                                        
+										
+								
+										
+											
+											
+											
+												
+											
+										
+								
+										
+											
+											
+																							
+													
+													
+													
+													
+														
+														<li><a style="" href="javascript:showPopupByUrl(&#39;/global/cms/u-verse/en_US/popups/programming-packages.html&#39;, &#39;Programming Packages&#39;, true, 692)">Premium Channels</a></li>
+													
+													
+																						
+										
+									
+									
+								
+                                
+                                
+								
+									
+									
+									
+									
+                                    
+								
+                                
+                                
+									
+                                    	
+										
+									
+										
+                                    	
+                                        
+                                        
+                                        
+                                        
+                                    	
+                                        
+                                        
+										
+								
+										
+											
+											
+												
+											
+											
+										
+								
+										
+											
+											
+																							
+													
+													
+													
+													
+														
+														<li><a style="border:0px" href="javascript:showPopupByFullUrl(&#39;/global/cms/u-verse/en_US/popups/channel-lineup.jsp&#39;, &#39;&#39;, 770, 750)">Complete Channel Line-Up</a></li>
+													
+													
+																						
+										
+									
+									
+								
+                                
+                                
+								
+									
+									
+									
+									
+                                    
+								
+                                
+                                
+									
+								
+                                
+                                
+										</ol>
+										</li>
+									
+								
+							
+						
+					
+                 
+					
+				
+					
+					
+					
+					
+						
+						
+							
+							
+								
+									
+									
+									
+									
+                                    
+								
+                                
+                                
+									
+								
+                                
+                                
+								
+									
+									
+									
+									
+										
+                                        
+											
+											
+												
+											
+										
+										
+									
+										
+								
+										
+                                        	
+                                            
+												<li>
+													
+														
+															
+															<a id="pn-support" title="Support" onmouseout="setShowNav('learnSecondaryNav'); swapInPNI('pn-learn'); swapOutPNI('pn-support');" href="http://www.att.com/u-verse/support/default.jsp" onmouseover="setHideNav('learnSecondaryNav'); swapOutPNI('pn-learn'); swapInPNI('pn-support');">Support</a>
+															<ol id="supportSecondaryNav" class="secondaryNav" onmouseover="setHideNav('learnSecondaryNav'); swapInPNI('pn-support'); swapOutPNI('pn-learn');" onmouseout="setShowNav('learnSecondaryNav'); swapOutPNI('pn-support'); swapInPNI('pn-learn');">
+														
+														
+													
+                                   			
+                                    	
+                                        
+                                        
+									
+                                    
+								
+                                
+                                
+									
+								
+                                
+                                
+								
+									
+									
+									
+									
+                                    
+								
+                                
+                                
+									
+                                    	
+										
+									
+										
+                                    	
+                                        
+                                        
+                                        
+                                        
+                                    	
+                                        
+                                        
+										
+								
+										
+											
+											
+												
+											
+											
+										
+								
+										
+											
+											
+																							
+													
+													
+														<li></li>
+													
+													
+													
+													
+																						
+										
+									
+									
+								
+                                
+                                
+								
+									
+									
+									
+									
+                                    
+								
+                                
+                                
+									
+								
+                                
+                                
+										</ol>
+										</li>
+									
+								
+							
+						
+					
+                 
+					
+				
+					
+					
+					
+					
+						
+						
+							
+							
+						
+					
+                 
+					
+				
+					
+					
+					
+					
+                 
+					
+                        <li style="padding-left:323px;">
+							<a id="pn-myuverse" href="phone-landing.jsp%3FwtSlotClick=1-001SNC-0-1&amp;WT.svl=calltoaction.html#" class="mycing">
+								<map name="loginandregister">
+									<area alt="Login" title="Login" coords="0,0,254,33" href="http://www.wireless.att.com/accounts/">
+									<area alt="Register" title="Register" coords="256,3,341,33" href="https://www.att.com/olam/dashboardAction.olamexecute?customerType=U">
+								</map>
+                                
+								<img src="../../global/images/clear.gif" width="341" height="30" style="position:absolute;margin-top:-36px;" usemap="#loginandregister"  alt="myWireless Account"/>
+							</a>
+						</li>
+						<script type="text/javascript" charset="utf-8">
+							function deepLinkRedirect(urlIfNoFlash) {
+								if(!gvp.getFlashVersion()) {
+									window.location.href= urlIfNoFlash;
+								} else {
+									if(urlIfNoFlash == '/u-verse/explore/tv-landing.jsp') {
+				 						window.location.href = '/u-verse/explore/default.jsp#/initialScene=IPTV';
+									} else if(urlIfNoFlash == '/u-verse/explore/internet-landing.jsp') {
+										window.location.href = '/u-verse/explore/default.jsp#/initialScene=HSIA';
+									} else if(urlIfNoFlash == '/u-verse/explore/phone-landing.jsp') {
+										window.location.href = '/u-verse/explore/default.jsp#/initialScene=VOIP';
+									}	else if(urlIfNoFlash == '/u-verse/explore/resource-landing.jsp') {
+										window.location.href = '/u-verse/explore/default.jsp#/newCustomerCategory=true/uid=id4800';
+									}
+								}
+							}
+						</script>
+					
+				
+			  </ol>
+		</div>
+		<!-- PRIMARY NAV END -->
+	
+
+<div style="clear:both"></div>
+
+					
+					
+				
+				
+			
+			
+			
+			
+		
+	</div>
+</div>
+
+				<div id="content">
+					<div id="primary-content">	
+									
+						
+								<div class="first_150 ">
+									 					
+											
+												
+
+
+
+
+
+
+											
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="first_150">
+	
+		
+		
+	
+		
+		
+			
+			
+				
+				
+				
+				
+				
+			
+				
+				
+				
+					<div id="endNodeLftNav">
+					<ul>
+				
+				
+				
+			
+				
+				
+				
+				
+					<li>
+						
+						
+						
+						
+						
+                        
+                        
+                        
+						
+						
+						
+                       	<a style="" target="" rel="" href="http://www.att.com/u-verse/explore/feature-comparison.jsp">Compare to Competition</a>
+
+						
+						
+						
+                        
+						
+						
+						
+							
+							
+							
+							
+							
+						
+						
+					</li>
+	
+				
+				
+			
+				
+				
+				
+				
+					<li>
+						
+						
+						
+						
+						
+                        
+                        
+                        
+						
+						
+						
+                       	<a style="" target="" rel="" href="http://www.att.com/u-verse/explore/advanced-features.jsp">Advanced Features</a>
+
+						
+						
+						
+                        
+						
+						
+						
+							
+							
+							
+							
+							
+						
+						
+					</li>
+	
+				
+				
+			
+				
+				
+				
+				
+					<li>
+						
+						
+						
+						
+						
+                        
+                        
+                        
+						
+						
+						
+                       	<a style="" target="" rel="" href="http://www.att.com/u-verse/explore/voice-plans.jsp">Voice Plans</a>
+
+						
+						
+						
+                        
+						
+						
+						
+							
+							
+							
+							
+							
+						
+						
+					</li>
+	
+				
+				
+			
+				
+				
+				
+				
+					<li>
+						
+						
+						
+						
+						
+                        
+                        
+                        
+						
+						
+						
+                       	<a style="" target="" rel="" href="http://www.att.com/u-verse/explore/international-rates.jsp">International Calling</a>
+
+						
+						
+						
+                        
+						
+						
+						
+							
+							
+							
+							
+							
+						
+						
+					</li>
+	
+				
+				
+			
+				
+				
+				
+				
+					<li>
+						
+						
+						
+						
+						
+                        
+                        
+                        
+						
+						
+						
+                       	<a style="" target="" rel="" href="http://www.att.com/u-verse/explore/911.jsp">911 Services</a>
+
+						
+						
+						
+                        
+						
+						
+						
+							
+							
+							
+							
+							
+						
+						
+					</li>
+	
+				
+				
+			
+				
+				
+				
+				
+					<li>
+						
+						
+						
+						
+						
+                        
+                        
+                        
+						
+						
+						
+                       	<a style="" target="" rel="" href="http://www.att.com/u-verse/explore/home-alarm.jsp">U-verse Voice and Home Alarms</a>
+
+						
+						
+						
+                        
+						
+						
+						
+							
+							
+							
+							
+							
+						
+						
+					</li>
+	
+				
+				
+			
+				
+				
+				
+				
+					<li>
+						
+						
+						
+						
+						
+                        
+                        
+                        
+						
+						
+						
+                       	<a style="" target="" rel="" href="http://www.att.com/u-verse/explore/battery-backup.jsp">Battery Backup</a>
+
+						
+						
+						
+                        
+						
+						
+						
+							
+							
+							
+							
+							
+						
+						
+					</li>
+	
+				
+				
+			
+				
+				
+				
+				
+					<li>
+						
+						
+						
+						
+						
+                        
+                        
+                        
+						
+						
+						
+                       	<a style="" target="" rel="" href="http://www.att.com/u-verse/explore/terminal-backup.jsp">Terminal Backup</a>
+
+						
+						
+						
+                        
+						
+						
+						
+							
+							
+							
+							
+							
+						
+						
+					</li>
+	
+				
+				
+			
+				
+				
+				
+				
+					<li>
+						
+						
+						
+						
+						
+                        
+                        
+                        
+						
+						
+						
+                       	<a style="" target="" rel="" href="http://www.att.com/u-verse/explore/battery-specifications.jsp">Battery Specifications</a>
+
+						
+						
+						
+                        
+						
+						
+						
+							
+							
+							
+							
+							
+						
+						
+					</li>
+	
+				
+				
+			
+				
+				
+				
+				
+					<li>
+						
+						
+						
+						
+						
+                        
+                        
+                        
+						
+						
+						
+                       	<a style="" target="" rel="" href="http://www.att.com/u-verse/explore/default.jsp?view=voice#/installationCategory=true/uid=id4500">Voice Installation</a>
+
+						
+						
+						
+                        
+						
+						
+						
+							
+							
+							
+							
+							
+						
+						
+					</li>
+	
+				
+				
+			
+				
+				
+				
+				
+				
+					</ul>
+					</div>
+				
+			
+			
+		
+	
+</div>
+
+									
+																			
+								</div>
+								
+										<div class="col_790 mod_d3">
+									
+																			
+							<div class="specialUverseNav">
+								<ul>
+									<li class="canIgetUverse"><a href="http://www.att.com/u-verse/availability/">Can I get AT&T U-verse?</a></li>
+									<li class="shopUverse last"><a href="../shop/index.jsp.html">Shop U-verse Now</a></li>
+								</ul>
+							</div>
+							
+									<div style="position:absolute; top:145px; width:160px; right:0px; ">
+										 
+
+
+
+
+
+
+
+
+	<!-- Begin LP Button Code-->
+	<div id="click2chatButton"></div>
+	<script type="text/javascript">
+		if(typeof(lpMTagConfig.dynButton)!="undefined"){
+			lpMTagConfig.dynButton[lpMTagConfig.dynButton.length] = {'name':"chat-"+lpUnit+"-"+lpLanguage,'pid':'click2chatButton', 'ovr':'lpMTagConfig.db1'};
+		}	
+	</script>	
+	<noscript><p>Script section containing code for Liveperson Chat Solution</p></noscript>	
+	<!-- End LP Button Code-->
+
+
+
+
+								
+									</div>
+								
+	    					
+									<h1>AT&amp;T U-verse Voice</h1>
+																			
+							
+							<table border="0" width="790">
+								<tr>
+									<td valign="top" style="font-size:11px;">
+										 
+
+
+
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+
+	 
+	
+		
+		
+			
+				
+				
+					
+						
+						
+						
+						
+						
+						
+						
+						
+		
+						
+					
+						
+						
+						
+						
+						
+						
+						
+							
+							
+
+<meta NAME="DCSext.wtSlotContent" CONTENT="1~0044GK">
+			
+		
+				
+						
+								
+										
+												
+																								
+														<img src="../../images/Wireless/SectionAssets/U-verse/Explore/txt_takeyourold_297x74_AA000LWG.gif" alt="Take your old home phone to the next level with AT&T U-verse Voice." title="Take your old home phone to the next level with AT&T U-verse Voice." border="0"/>							
+													
+											
+																						
+								
+										
+																						
+												<style>
+ 
+P
+{
+font-family:Verdana;
+font-size:12px;
+}
+.sup
+{
+position:relative;
+top:-3px;
+font-size:10px;
+}
+ 
+</style>
+<p>Enjoy the clarity and convenience of our digital home phone service. With U-verse Voice,<span class="sup">1</span> you get over 20 calling features including traditional favorites like Caller ID and Call Waiting — plus advanced features like those listed below.<br>
+Have it all for one low price!</p>
+											
+																			
+																
+											
+					
+			
+	
+
+						
+						
+		
+						
+					
+				
+					
+		
+	
+	
+
+									</td>
+									<td valign="top" width="500">
+										
+												
+														 
+
+
+
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+
+	 
+	
+		
+		
+			
+				
+				
+					
+						
+						
+						
+						
+						
+						
+						
+						
+		
+						
+					
+						
+						
+						
+						
+						
+						
+						
+							
+								
+<script type="text/javascript" src="../scripts/flash.js"></script> 
+<div id="marqueeHolder"></div> 
+<script type="text/javascript"> 
+var altFlash = '<a href="http://www.att.com/u-verse/explore/uverse-difference.jsp?wtSlotClick=1-00642V!900930-0-1" ><img src="../../images/Wireless/FlashAssets/uverse/marquees_ad_manager/ifNoflash/urock_lite_PHONE_static_AA000CJZ.gif" border="0" /></a>'; 
+var rplFlash = function () { $('marqueeHolder').innerHTML = altFlash; $('explorevoice').hide(); return true;} 
+if(flash.hasVersion(9)) { flash.embedMovie("/images/Wireless/FlashFramework/AdManager/loader/AdManager_AA0009RT_60.swf?configXML=/u-verse/marquees/en_US/phone-landing/marquee1/default.xml","500","250","#ffffff",9,'','wmode=transparent,id=explorevoice');} 
+else{ document.write(altFlash);} 
+</script> 
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+		
+	
+
+
+		
+	
+
+
+
+	
+
+
+
+
+<!-- googleoff: all --> 
+
+	
+	
+		   	
+			<div id="wtContentID1" style="display:none">00642U!900930</div>
+		
+
+<!-- googleon: all -->
+
+						
+						
+		
+						
+					
+				
+					
+		
+	
+	
+
+													
+											
+									</td>
+								</tr>
+							</table>							
+							
+									
+																					
+											<style>
+	H2 {color:#F27D00;}
+	P {
+		font-family:Verdana;
+		font-size:11px;
+	}
+	sup {
+		position:relative;
+		top:-3px;
+		font-size:9px;
+	}
+</style>
+
+<div style="position:relative;">
+	<div style="position:absolute; height:48px; width:150px; top:-75px;">
+		<a href="../shop/customize.jsp.html" target="_self"><img src="../../images/Wireless/SectionAssets/U-verse/Personal/shop_now_btn_AA000CRQ.gif" alt="Shop now" style="display:block; position:absolute; top:50%; margin:-9px 0 0 0;"></a>
+	</div>
+</div>
+
+<div id="content">
+	<div id="primary-content">
+
+		<div class="first_514">
+
+<h2>Why get AT&amp;T U-verse Voice?</h2>
+
+<ul class="bullets">
+	<li>Standard Installation is included when ordered with most AT&amp;T U-verse&reg; TV packages.<sup>2</sup> Not ordering TV, but ordering High Speed Internet? Save time and money and <a href="javascript:showPopupByFullUrl('/global/cms/u-verse/en_US/popups/voice-self-install.jsp', 'Voice Self Install', 720, 350, 'scroll')">install U-verse Voice yourself</a>.<sup>3</sup></li>
+	<li>Convenient, web-based call management and nationwide calling is included.</li>
+	<li>Bundle with U-verse TV, Internet, and/or Wireless from AT&amp;T on one convenient bill.</li>
+	<li>Enjoy low per-minute international rates with no monthly fee.<sup>4</sup></li>
+	<li>With our new AT&T U-verse Voice International plan you can save with <a href="javascript:showPopupByUrl('/u-verse/popups/international_plan.jsp', 'U-verse Voice International Plan', true, 800);">even lower rates to select International countries</a>.<sup>4</sup></li>
+	<li><a href="http://www.att.com/u-verse/explore/911.jsp">911 Service</a> and <a href="http://www.att.com/u-verse/explore/battery-backup.jsp">Battery Backup</a> are available in case of an emergency or power outage.<sup>5</sup></li>
+	<li>Use the home phones you already have.</li>
+	<li>Keep your number or get a new one.</li>
+	<li>It's compatible with many monitored home alarms and medical alert devices.</li>
+</ul>
+
+<h2>Advanced Features</h2><br />
+
+<p>With AT&amp;T U-verse, your home phone works with your TV and Internet to deliver features that make life easier.
+<br />
+<br />
+<b><span style="color:#F27D00;">NEW!</span> Caller ID on TV</b> lets you see who's calling on your TV screen without getting up. Includes a Message Waiting indicator so you know if the caller left a voicemail.<sup>6</sup>
+<br />
+<br />
+<span style="color:#F27D00;"><b>STAY ON TOP OF YOUR CALLS!</b></span> <b>Click to Call</b> lets you select a phone number in the Call History list on your TV or computer using your remote control or mouse. Pick up your phone to talk.
+<br />
+<br />
+<b><span style="color:#F27D00;">SO CONVENIENT!</span> AT&amp;T U-verse Messaging</b><sup>SM</sup> lets you manage voicemail from your home phone and your AT&amp;T wireless phone from a single mailbox, accessible from any phone or computer. Combine your U-verse voicemail and AT&amp;T's wireless voicemail and get the flexibility to check all your messages from one place anytime you want. The <b>AT&amp;T Voicemail Viewer</b> application lets you access your AT&amp;T U-verse&reg; voicemail or Unified Messaging<sup>SM</sup> voicemail from a compatible smartphone or PC gadget. Learn more at <a href="http://www.att.com/vmviewer">www.att.com/vmviewer</a>.<sup>7</sup>
+<br />
+<br />
+<b><span style="color:#F27D00;">MORE INTEGRATION!</span> Call History</b> lets you see a recent incoming and outgoing call list on your computer. You can even view a list of recent incoming calls right on your TV.
+<br />
+<br />
+<b><span style="color:#F27D00;">NEVER MISS A CALL!</span> Locate Me</b> will ring your home phone number plus up to four more when you receive an incoming call.</p>
+
+<p>&nbsp;</p>
+	</div>
+
+		<div class="col_252" style="padding-left:10px;">
+
+			<div style="width:1px; height:430px; background:#fff; float:left; padding-top:15px; padding-right:18px;">
+
+				<div style="width:1px; height:430px; background:#ccc; float:left;"></div>
+
+			</div>
+
+			<p><img src="../../images/Wireless/SectionAssets/U-verse/Explore/img_U-verseVoiceInternational_AA0012QB.jpg" alt="AT&T U-verse Voice International" />
+			<br />
+			Includes unlimited calls to anyone in the U.S., U.S. territories, Canada and <a href="javascript:showPopupByUrl('/u-verse/popups/international_plan.jsp', 'U-verse Voice International Plan', true, 800);">discounted rates on calls to select International countries.</a>
+			<br />
+			<br />
+			<img src="../../images/Wireless/SectionAssets/U-verse/Explore/img_U-verseVoiceUnlimited_ttl_AA000CFF.jpg" alt="AT&amp;T U-verse Voice Unlimited" />
+			<br />
+			Includes unlimited calls to anyone in the U.S., Canada, and Puerto Rico.
+			<br />
+			<br />
+			<img src="../../images/Wireless/SectionAssets/U-verse/Explore/img_U-verseVoice250_ttl_AA000CI4.jpg" alt="AT&amp;T U-verse Voice 250" />
+			<br />
+			Includes 250 minutes per month to anyone in the U.S. and Puerto Rico. (Additional minutes $0.05 each)
+			<br />
+			<br />
+			<b>Need two lines?</b> Add a second phone line to either plan for just $15 per month.</p>
+			
+		</div>
+
+	<div class="first_150">&nbsp;</div>
+
+	<div class="horizRule" style="width:790px; font-size:0.9em; line-height:1.4em;">
+		<ol style="list-style-type:decimal;  padding-left:8px;"><br />
+			<li>AT&amp;T U-verse Voice works with your regular touch-tone phones; however, battery backup power is required for the service, including 911 dialing, to function during a power outage.</li>
+			<li>Standard Installation Included with Most TV Packages: Offer ends 1/31/12. Credit qualified customers only. Installation not included with U-basic package.</li>
+			<li>Voice Self-Installation available in limited areas.</li>
+			<li>International calls billed at additional per-minute rates; higher rates may apply for calls terminating on mobile phones or other wireless devices.</li>
+			<li>U-verse Voice in all-fiber neighborhoods, battery backup power for the Optical Network Terminal (ONT) is also required for service to function during a power outage. (ONT &ndash; equipment box on side of home or in garage, where AT&amp;T's fiber network terminates.)</li>
+			<li>Caller ID on TV requires subscription to U-verse TV and U-verse Voice. Some call information may be blocked or otherwise not displayed, including information for some calls originating outside of AT&amp;T's network and calls carried over facilities that do not transmit Caller ID information.</li>
+			<li>Not fully compatible with all AT&amp;T wireless voicemail systems. AT&amp;T Voicemail Viewer smartphone application requires wireless phone from AT&amp;T with data plan.</li>
+		</ol> 
+	</div>
+	<p>&nbsp;</p>
+</div>
+</div>
+										
+															
+												
+								
+										</div>
+									
+																											
+										
+					</div>
+				</div>				
+			</div>
+			<div id="btmContainer"></div>
+		</div>
+		
+			
+
+
+
+
+
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="footer">
+
+<div class="prefooter"> 
+   <span class="bottomLinks fauxcontainer">
+   
+   
+   		
+        
+        	
+            
+        <a href="http://www.att.com/u-verse/att-terms-of-service.jsp">AT&T U-verse Terms of Service</a> |
+		<a href="http://www.att.com/u-verse/explore/offer-details.jsp">AT&T U-verse&reg; Offer Details</a>
+        	
+            
+        
+   		
+        
+             	
+        
+            
+           
+     
+        </span>
+      </div> 
+       
+               
+           <div class="padding">
+      <div id="attonweb">
+        <div class="attOnWeb">
+        AT&amp;T on the Web</div>
+        <div class="attCom"><a href="../../index.html">att.com</a><br/>Shop. Service. Support.</div>
+        <div class="attNet"><a href="../../../www.att.net/index.html">att.net</a><br/>E-mail - News - Weather &amp; More</div>
+</div>
+</div>
+<div class="col_100pc">
+<div class="copyright constrained">
+      			<div class="bottomLinks">
+      	<a style="padding-left:0px;" href="http://www.att.com/privacy?loc=footer">Privacy Policy</a> |      			
+      	<a href="../../../www.att.jobs/index.html">Careers</a> | 
+        <a href="http://www.att.com/gen/general?pid=1080&ltype=contactus&cdvn=landinglocalization&cookieResetted=true">Contact Us</a> | 
+        <a href="../../gen/general%3Fpid=11561.html">Terms of Use</a> | 
+        <a href="../../sitemap/index.html">Site Map</a> |
+        <a href="../../gen/general%3Fpid=10190.html">Accessibility</a>  
+   </div>     
+	
+   Geographic and service restrictions apply to AT&amp;T U-verse&reg; services. Check to see if you qualify.<br /><br />
+    	
+    
+        <a href="http://www.att.com/gen/privacy-policy?pid=2587&loc=footer">&#169;&nbsp;2011 AT&amp;T Intellectual Property.</a> All rights reserved. AT&amp;T, the AT&amp;T logo and all other AT&amp;T marks contained herein are trademarks of AT&amp;T Intellectual Property and/or AT&amp;T affiliated companies. &nbsp;&nbsp;
+         <span class="mute">AT&amp;T 36USC220506</span>
+         <br /><!-- SRCLOC --><br />
+</div>
+                  
+         <div style="clear:both;position:relative;margin-top:10px;height:1px;">&nbsp;</div>
+         
+         <div class="clear"></div>
+         <div class="logoBlock">
+<a href="../../../www.ctia.org/index.html" target="_blank"><img src="../../global/images/en/footer/CTIA.gif" alt="The first nationwide carrier to be awarded the Seal of Wireless Quality. For details, visit www.ctia.org" title="The first nationwide carrier to be awarded the Seal of Wireless Quality. For details, visit www.ctia.org" /></a>
+
+
+
+
+<a href="../../../www.bbb.org/online/consumer/cks.aspx%3Fid=110020911221.html" target="_blank" ><img src="../../global/images/en/footer/BBB.gif" border=0 alt="Click to verify BBB accreditation and to see a BBB report." title="Click to verify BBB accreditation and to see a BBB report."/></a>
+<a href="../../../clicktoverify.truste.com/pvr.php%3Fpage=validate&amp;companyName=AT&amp;T&amp;sealid=101.html" target="_blank"><img src="../../global/images/en/footer/Truste.gif" alt="This site is certified by TRUSTe" title="This site is certified by TRUSTe" /></a>
+                  <a href="../../../www.yellowpages.com/index.html" target="_blank"><img src="../../global/images/en/footer/ypcom.gif" alt="YP.com - the new yellowpages.com" title="YP.com - the new yellowpages.com" /></a>
+         <a href="../../../www.realpageslive.com/index.html" target="_blank"><img src="../../global/images/en/footer/DWYPgs.gif" alt="Digital White &amp; Yellow Pages" title="Digital White &amp; Yellow Pages" /></a> 
+         <a  href="../../../www.att.net/teamusa.html"><img class="lastLogo" src="../../global/images/en/footer/usa_sponsor.gif" alt="Proud Sponsor of the U.S. Olympic Team" /></a>
+    
+			
+		</div>
+     </div>
+</div>
+
+ 
+            
+            
+	<!-- BEGIN BAYNOTE INCLUDES -->
+	<script type="text/javascript" src="../../global/scripts/baynote.js"></script>
+	<script type="text/javascript" src="../../global/scripts/baynote-observer.js"></script>
+	<!-- END BAYNOTE INCLUDES -->
+ 
+	<!-- WebTrends tags : include only at end of page -->
+	<script src="http://www.att.com/webtrends/scripts/dcs_tag.js" type="text/javascript"></script>
+	<noscript>
+		<img border="0" name="DCSIMG" width="1" height="1" src="../../../wls.wireless.att.com/dcsw1sx8x45vbwmw7v63tbf8m_1h2f/dcs.gif%3Fdcsuri=%252FNOjavascript&amp;WT.js=no">
+	</noscript>
+<!--end WebTrends tags : include only at end of page -->
+
+
+<script src="../../global/scripts/boomerang.js" type="text/javascript"></script>
+<script type="text/javascript">
+BOOMR.init({
+beacon_url: "/scripts/boomerang_beacon.js",
+ratio: 10,
+ratiocookiename: "BCNSESS",
+BW: { enabled: false}
+});
+</script>
+
+
+	
+	
+	
+	
+	
+		
+	
+
+
+			
+		
+		<div id="mainPopupDiv" style="position:absolute; visibility:hidden; left:100px; top:100px; width:400px; z-index:100; border:#CCCCCC solid 2px;  background-color:#FFFFFF;">
+			<div style="height:37px; background-image:url(../../media/en_US/images/img/img_uverse-gradient-4x37_AA0009R6.gif); background-repeat:repeat-x; border-top:#FFFFFF solid 1px; border-left:#FFFFFF solid 1px; border-right:#FFFFFF solid 1px;">
+				<div style="padding:10px;">
+					<div style="float:left; padding-left:10px; "><h1 id="mainPopUpTitle"></h1></div>
+					<div style="text-align:right;" id="popCloseButton"><a href="javascript:closePopup()">Close</a> <img src="../../media/en_US/images/btn/btn_close-popup_red_AA0009RA.gif" onclick="closePopup();"/></div>
+				</div>
+			</div>
+			<div id="mainPopupBody" style="padding:10px; border:#CCCCCC solid 1px; margin:10px;"></div>
+			<div id="mainPopupButton" style="padding-right:10px;padding-bottom:8px;"></div>
+		</div>
+		
+        <div id="mainPopupDiv2" style="position:absolute; visibility:hidden; left:100px; top:100px; width:400px; z-index:105; border:#CCCCCC solid 2px;  background-color:#FFFFFF;">
+			
+            <div style="min-height:67px;height:37px; background-image:url(../../media/en_US/images/img/img_uverse-gradient-4x37_AA0009R6.gif); background-repeat:repeat-x; border-top:#FFFFFF solid 1px; border-left:#FFFFFF solid 1px; border-right:#FFFFFF solid 1px;">
+				
+                <div style="padding:10px;">
+                    <div style="float:left; padding-left:10px; "><h1 id="mainPopUpTitle2"></h1></div>
+                    <div style="text-align:right;" id="popCloseButton2" onClick="closePopup('2')"><a href="javascript:void(0);">Close</a> <img src="../../media/en_US/images/btn/btn_close-popup_red_AA0009RA.gif"/></div>
+                </div>
+            </div>
+            <div id="mainPopupBody2" style="padding:10px; border:#CCCCCC solid 1px; margin:10px;"></div>
+            <div id="mainPopupButton2" style="padding-right:10px;padding-bottom:8px;"></div>
+        </div>
+		
+		<div id="mainPopupDivIDM" style="position: absolute; visibility: hidden; width: 934px; top:0px; left:0px; margin: auto; z-index: 90; border: 2px solid #CCCCCC; background-color: #FFFFFF;">
+			
+            <div id="mainPopupHeaderIDM" style="height:37px; overflow: hidden; background-image:url(../../media/en_US/images/img/img_uverse-gradient-4x37_AA0009R6.gif); background-repeat:repeat-x; border-top:#FFFFFF solid 1px; border-left:#FFFFFF solid 1px; border-right:#FFFFFF solid 1px;">
+            	 
+
+
+
+
+
+    <div style="height: 37px; padding-left: 10px; padding-right: 10px; overflow: hidden;">
+    	<div style="float: left; padding-top: 10px; width: 90%;">
+			<div class="modal header-iptv" style="padding-left: 0px !important; display: none;">
+				<span class="modal-header-title">AT&T U-verse TV</span>
+				<span class="modal-header-subtitle">Complete your TV package with required and optional selections.</span>
+			</div>
+			<div class="modal header-hsia" style="padding-left: 0px !important; display: none;">
+				<span class="modal-header-title">AT&T U-verse High Speed Internet</span>
+				<span class="modal-header-subtitle">Get the speed you need - at home or on the go.</span>
+			</div>
+			<div class="modal header-voip" style="padding-left: 0px !important; display: none;">
+				<span class="modal-header-title">AT&T U-verse Voice</span>
+				<span class="modal-header-subtitle">Customize your digital home phone service in 3 steps</span>
+			</div>	
+    	</div>
+        <div style="text-align: right; padding-top: 10px;">
+	        <span onclick="if ($('modalFooterCancel')) $('modalFooterCancel').onclick();">
+	        <img style="cursor: pointer; cursor: hand;" src="../../media/en_US/images/btn/btn_close-popup_red_AA0009RA.gif"/></span></div>
+    	<div id="mainPopUpTitleIDM" style="display: none;"></div>
+    </div>
+        
+
+
+            </div>
+			<div style="clear:both;"></div>
+			<div id="mainPopupDetailsIDM" style="width: 222px; height: 516px; float: right; overflow: hidden; border: 1px solid #CCCCCC; margin: 0px; margin-right: 2px; margin-bottom: 2px;"></div>
+            <div id="mainPopupBodyIDM" style="width: 706px; height: 472px; float: left; overflow: hidden; margin: 0px;"></div>
+            <div id="mainPopupFooterIDM" style="width: 703px; height: 44px; float: right; overflow: hidden; border: 1px solid #CCCCCC; border-right: 0px; margin: 0px; margin-bottom: 2px;">
+            	 
+
+
+
+
+
+	
+	
+	
+	 
+	
+	
+		
+		
+			<div id="modalFooter" style="width:98%; height:25px; padding:10px; background: url(../../media/en_US/images/img/img_grad_modal_bottom_bkd_1x48_AA000E1B.gif) 0px -1px repeat-x;">
+						<div id="modalFooterCancel" style="float: left; cursor: pointer; cursor: hand;" class="wt Uverse___serv___Step__step___Cancel" onclick="cancelModal(undefined);" title="Cancel">
+							<img src="../../media/en_US/images/btn/btn_mrq_cancel_wht_AA000E18.gif" alt="Cancel" />
+						</div>
+				<div id="modalFooterSave" style="float:right; padding-left:10px; cursor: pointer; cursor: hand;">
+					<div title="Add to Cart"><img id="addToCartDis" style="display:none; margin-bottom: 20px;" 
+						src="../../media/en_US/images/btn/btn_Save_green_disabled_AA000IWR.gif" alt="Add to Cart"></div>
+					
+					
+					
+					
+					<div title="Add to Cart" class="wt Uverse_Cart_Add___serv___Submit"><img id="addToCartEna" style="cursor: pointer; cursor: hand; display:none; margin-bottom: 20px;" class="modal submit" onclick="var v_continue=showXPPBoltOns($(v_defaultIPTV_Name + ';Receivers')); if (!v_continue) return false; Modal.Details(); Modal.Details.submitOptions();" 
+						src="../../media/en_US/images/btn/btn_Save_green_enabled_AA000IWP.gif" alt="Add to Cart"></div>
+					
+					
+					
+					
+						
+					<div title="Return to Cart"><img id="returnToCartDis" style="display:none; margin-bottom: 20px;" 
+						src="../../media/en_US/images/btn/btn_ReturnToCart_dis.gif" alt="Return to Cart"></div>
+					<div title="Return to Cart"><img id="returnToCartEna" style="cursor: pointer; cursor: hand; display:none; margin-bottom: 20px;" class="modal submit" onclick="if (!portPhoneLineslist()) cancelModal(null);" 
+						src="../../media/en_US/images/btn/btn_ReturnToCart_grn.gif" alt="Return to Cart"></div>
+					
+					
+					<div title="Update Cart"><img id="updateCartDis" style="display:none; margin-bottom: 20px;" 
+						src="../../media/en_US/images/btn/btn_UpdateCart_dis.gif" alt="Update Cart"></div>
+				
+					
+					
+					<div title="Update Cart" class="wt Uverse_Cart_Update___serv___Submit"><img id="updateCartEna" style="cursor: pointer; cursor: hand; display:none; margin-bottom: 20px;" class="modal submit" onclick="var v_continue=showXPPBoltOns($(v_defaultIPTV_Name + ';Receivers')); if (!v_continue) return false; Modal.Details(); Modal.Details.submitOptions();" 
+						src="../../media/en_US/images/btn/btn_UpdateCart_grn.gif" alt="Update Cart"></div>
+						</div>
+						
+					
+					
+					
+						<div id="modalFooterNext" style="float:right; padding-left:10px; cursor: pointer; cursor: hand;" class="wt Uverse___serv___Step__step___Submit" onclick="showModal(undefined, -2);portPhoneLineslist();" title="Next">
+							<img src="../../media/en_US/images/btn/btn_mrq_next_blu_AA000E19.gif" alt="Next" />
+						</div>
+						<div id="modalFooterBack" style="float:right; cursor: pointer; cursor: hand;" onclick="if (showModal.curStep > 1) showModal(undefined, -1); else $('modalFooterCancel').onclick();" title="Back">
+							<img src="../../media/en_US/images/btn/btn_mrq_back_wht_AA000E17.gif" alt="Back" />
+						</div>
+					</div>
+				
+					
+        
+
+
+            </div>
+		</div>
+		
+		<div id="mainPopupDivIDM2" style="position: absolute; visibility: hidden; width: 934px; top:0px; left:0px; margin: auto; z-index: 90; border: 2px solid #CCCCCC; background-color: #FFFFFF;">
+			
+            <div id="mainPopupHeaderIDM2" style="height:37px; overflow: hidden; background-image:url(../../media/en_US/images/img/img_uverse-gradient-4x37_AA0009R6.gif); background-repeat:repeat-x; border-top:#FFFFFF solid 1px; border-left:#FFFFFF solid 1px; border-right:#FFFFFF solid 1px;">
+				<div style="height: 37px; padding-left: 10px; padding-right: 10px;">
+					<div style="text-align: right; padding-top: 10px;"><span onClick="closeIDMPopup()"><img style="cursor: pointer; cursor: hand;" src="../../media/en_US/images/btn/btn_close-popup_red_AA0009RA.gif"/></span></div>
+					<div id="mainPopUpTitleIDM2" style="display: none;"></div>
+				</div>
+            </div>
+			<div style="clear:both;"></div>
+            <div id="mainPopupBodyIDM2" style="width: 928px; height: 472px; float: left; overflow: hidden; margin: 0px;"></div>
+            <div id="mainPopupFooterIDM2" style="width: 928px; height: 44px; float: right; overflow: hidden; border: 1px solid #CCCCCC; border-right: 0px; margin: 0px; margin-bottom: 2px;">
+            	 
+
+
+
+
+
+	
+	
+	
+	 
+	
+	
+		
+		
+			<div id="modalFooter" style="width:98%; height:25px; padding:10px; background: url(../../media/en_US/images/img/img_grad_modal_bottom_bkd_1x48_AA000E1B.gif) 0px -1px repeat-x;">
+						<div id="modalFooterCancel" style="float: left; cursor: pointer; cursor: hand;" class="wt Uverse___serv___Step__step___Cancel" onclick="cancelModal(undefined);" title="Cancel">
+							<img src="../../media/en_US/images/btn/btn_mrq_cancel_wht_AA000E18.gif" alt="Cancel" />
+						</div>
+				<div id="modalFooterSave" style="float:right; padding-left:10px; cursor: pointer; cursor: hand;">
+					<div title="Add to Cart"><img id="addToCartDis" style="display:none; margin-bottom: 20px;" 
+						src="../../media/en_US/images/btn/btn_Save_green_disabled_AA000IWR.gif" alt="Add to Cart"></div>
+					
+					
+					
+					
+					<div title="Add to Cart" class="wt Uverse_Cart_Add___serv___Submit"><img id="addToCartEna" style="cursor: pointer; cursor: hand; display:none; margin-bottom: 20px;" class="modal submit" onclick="var v_continue=showXPPBoltOns($(v_defaultIPTV_Name + ';Receivers')); if (!v_continue) return false; Modal.Details(); Modal.Details.submitOptions();" 
+						src="../../media/en_US/images/btn/btn_Save_green_enabled_AA000IWP.gif" alt="Add to Cart"></div>
+					
+					
+					
+					
+						
+					<div title="Return to Cart"><img id="returnToCartDis" style="display:none; margin-bottom: 20px;" 
+						src="../../media/en_US/images/btn/btn_ReturnToCart_dis.gif" alt="Return to Cart"></div>
+					<div title="Return to Cart"><img id="returnToCartEna" style="cursor: pointer; cursor: hand; display:none; margin-bottom: 20px;" class="modal submit" onclick="if (!portPhoneLineslist()) cancelModal(null);" 
+						src="../../media/en_US/images/btn/btn_ReturnToCart_grn.gif" alt="Return to Cart"></div>
+					
+					
+					<div title="Update Cart"><img id="updateCartDis" style="display:none; margin-bottom: 20px;" 
+						src="../../media/en_US/images/btn/btn_UpdateCart_dis.gif" alt="Update Cart"></div>
+				
+					
+					
+					<div title="Update Cart" class="wt Uverse_Cart_Update___serv___Submit"><img id="updateCartEna" style="cursor: pointer; cursor: hand; display:none; margin-bottom: 20px;" class="modal submit" onclick="var v_continue=showXPPBoltOns($(v_defaultIPTV_Name + ';Receivers')); if (!v_continue) return false; Modal.Details(); Modal.Details.submitOptions();" 
+						src="../../media/en_US/images/btn/btn_UpdateCart_grn.gif" alt="Update Cart"></div>
+						</div>
+						
+					
+					
+					
+						<div id="modalFooterNext" style="float:right; padding-left:10px; cursor: pointer; cursor: hand;" class="wt Uverse___serv___Step__step___Submit" onclick="showModal(undefined, -2);portPhoneLineslist();" title="Next">
+							<img src="../../media/en_US/images/btn/btn_mrq_next_blu_AA000E19.gif" alt="Next" />
+						</div>
+						<div id="modalFooterBack" style="float:right; cursor: pointer; cursor: hand;" onclick="if (showModal.curStep > 1) showModal(undefined, -1); else $('modalFooterCancel').onclick();" title="Back">
+							<img src="../../media/en_US/images/btn/btn_mrq_back_wht_AA000E17.gif" alt="Back" />
+						</div>
+					</div>
+				
+					
+        
+
+
+            </div>
+		</div>
+		
+		<div id="sessionTimeOut" style="width:450px;display:none;" title="Session Time Out">
+			<table border="0" cellspacing="10"><tr>
+			<td valign="top"><img src="../../media/en_US/images/ico/ico_alert_AA0009QS.gif" alt="Warning Message"/></td>
+			<td valign="top">Your session has timed out. As a security measure, your session ends after 30 minutes of inactivity. Select Continue to return to the AT&T U-verse Home page.</td>
+			</tr></table>
+		</div>
+		<div id="sessionTimeOutButton" style="width:450px;display:none;" >
+			<table border="0" width="100%">
+				<tr><td align="right"><img src="../../media/en_US/images/btn/btn_continue_AA0009Q1.gif" onclick="location.href='/u-verse/shop/'" alt="Continue"></img></td></tr>
+			</table>
+		</div>		
+		
+		
+		
+		<div id="sessionTimeOutWarning" style="width:450px;display:none;" title="Session Time Out">
+			<table border="0" cellspacing="10"><tr>
+			<td valign="top"><img src="../../media/en_US/images/ico/ico_alert_AA0009QS.gif" alt="Warning Message"/></td>
+			<td valign="top"><p>As a security measure, your session will expire after 30 minutes of inactivity.</p> 
+<p>If you would like more time, click Continue.</p></td>
+			</tr></table>
+		</div>
+		<div id="sessionTimeOutWarningButton" style="width:450px;display:none;" >
+			<table border="0" width="100%">
+				<tr><td align="right"><img src="../../media/en_US/images/btn/btn_continue_AA0009Q1.gif" onclick="closePopup();keepBackAlive();setTimeOutWarning();" alt="Continue"></img></td></tr>
+			</table>
+		</div>
+		
+		<!-- BEGIN BAYNOTE INCLUDES -->
+		<script type="text/javascript" src="../../global/scripts/baynote.js"></script>
+		<script type="text/javascript" src="../../global/scripts/baynote-observer.js"></script>
+		<!-- END BAYNOTE INCLUDES -->
+			
+	
+				
+			
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+		
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+			
+
+
+
+
+	
+	
+	
+		
+		
+		
+		
+			
+		
+	
+
+
+
+
+
+
+
+
+	
+		
+		
+		
+			
+				
+					
+				
+				
+			
+		
+	
+
+
+
+
+
+
+	
+	
+		
+	
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+<meta NAME="DCSext.wtStatusCode" 			CONTENT="" />
+
+
+<meta NAME="DCSext.wtPN" 					CONTENT="" />
+<meta NAME="DCSext.sessionid" 				CONTENT="TGFlTZYWKT0pCywpk4c4ZpDk!-313946511!1322866838313" />
+<meta NAME="DCSext.flowtype" 				CONTENT="UVERSE" />
+<meta NAME="DCSext.wtCustType" 				CONTENT="Consumer">
+<meta NAME="DCSext.wtCustTypeSub"  			CONTENT="residential" />
+<meta NAME="DCSext.wtCreditClass" 			CONTENT="" />
+<meta NAME="DCSext.wtUverse_DA_User" 		CONTENT="" />
+<meta NAME="DCSext.wtUverse_CSIExcept" 		CONTENT="" />
+<meta NAME="DCSext.wtUverse_Service" 		CONTENT="" />
+<meta NAME="DCSext.wtState" 				CONTENT="" />
+<meta NAME="DCSext.wtZipCode" 				CONTENT="" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+			
+		
+
+			
+
+
+
+
+
+
+
+
+	
+	
+		
+		
+	
+
+
+
+
+
+
+
+
+<meta NAME="DCSext.wtBuyFlowType" 			CONTENT="PROVIDE" />
+<meta NAME="DCSext.wtReferral_PackageID" 	CONTENT="" />
+<meta NAME="DCSext.Referral_app_id" 		CONTENT="" />
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+<meta NAME="DCSext.wtUverse_SvcsInterested" 	CONTENT="" />
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+	
+
+
+
+
+<script>
+var reporting_ready = window.reporting_ready || new jQuery.Deferred();
+jQuery.when(reporting_ready).then(function (reporting) {
+	reporting.appname = 'u-verse';
+	reporting.errors.push('');
+	
+	reporting.map.params.uverse = {
+		DCSext$wtEmailAddr : 				'',
+		DCSext$wtAddSkuQty : 				'',
+		DCSext$wtPaperlessBill :			'',	
+		DCSext$wtAutoPay :			        ''	
+	}
+	
+	reporting.capture([
+		{selector: '[dcsuri]', type: 'wtparam', name: 'dcsuri', 
+			value: function() {
+				var dcsuri = this.attributes['dcsuri'].value;
+				return (!~dcsuri.indexOf(reporting.appname)) ? '/u-verse/virtual/' + dcsuri : dcsuri;
+			}
+		},
+		{selector: '.wtpn', type: 'wtpn',
+			name: function() {
+				return ((this.className.match(/\bwtpn\s(.+)(\s|$)/)||[])[1]||'')
+					.replace(/__serv__/g, ((window.showModal||{}).curServ||'').capitalize())
+					.replace(/__step__/g, ((window.showModal||{}).curStep||''));
+			}
+		},
+		//Bug fix ECOM 1108 - 254 
+		{selector: '.wt', type: 'wtevent', 
+			name: function() {
+			 var v_eventName = ((this.className.match(/\bwt\s(.+)(\s|$)/)||[])[1]||'')
+					.replace(/__serv__/g, ((window.showModal||{}).curServ||'').capitalize())
+					.replace(/__step__/g, ((window.showModal||{}).curStep||''));
+			 var v_stepNumber = '';
+				if (v_eventName == 'Hub_Voip_config_Initated'){
+					v_stepNumber = 'Step1';
+					v_eventName = 'Uverse_Voip_Step1_Submit';}
+				else if (v_eventName == 'Uverse_Voip_Step2_Submit')
+					v_stepNumber = 'Step2';
+				else if (v_eventName == 'Uverse_Voip_Step3_Submit')
+					v_stepNumber = 'Step3';
+					
+				if (v_eventName == 'Uverse_Voip_Step1_Submit' || v_eventName == 'Uverse_Voip_Step2_Submit' || v_eventName == 'Uverse_Voip_Step3_Submit'){
+					webTrendTag(v_eventName,0,'User','DCSext.wtPN','Uverse Spoke IPVOIP '+v_stepNumber+' Config Pg','wtBuyFlowType','PROVIDE');
+					return "";
+				}else {
+					return v_eventName;
+				}
+			}
+		},
+		{selector: '[action*=checkout] :input', type: 'wtparam', name: 'wtLastFieldInteracted', 
+			value: function() {
+				return this.name.slice(this.name.lastIndexOf('.')+1);
+			}
+		},
+		{selector: '#wrapper a:local', type: 'wtparam', name: 'wtLinkLoc', 
+			value: function() {
+				return 'Uverse' + '__' + 'Body';
+			}
+		},
+        {selector: '#paperlessBillingCheck:page(creditcard-information)', type: 'wtparam', name: 'wtPaperlessBill', 
+			value: function () {return window.wtPaperlessBill = this.checked ? 'Y' : 'N'}
+		},
+		{selector: '#nextForm:page(creditcard-information)', type: 'wtparam', name: 'wtAutoPay', 
+			value: function () {return  window.wtAutoPay = jQuery('#mybox')[0].checked ? '|Y' : '|N'}
+		},		
+		{selector: '#promoNoThanksLink:page(autopaycreditcard-information.jsp)', type: 'wtparam', name: 'wtAutoPay', 
+			value: function () {return  window.wtAutoPay = '|N'}
+		},
+		{selector: '#voluntaryNoThanksLink:page(autopaycreditcard-information.jsp)', type: 'wtparam', name: 'wtAutoPay', 
+			value: function () {return  window.wtAutoPay = '|N'}
+		},
+		{selector: '#wrapper a:local', type: 'wtparam', name: 'wtLinkName', value: function() {
+			return reporting.trim(reporting.getDynamicLinkName.apply(this,[]), '_');
+		}},
+		{selector: '#wrapper a:local', type: 'wtevent', name: '', params: 'wtLinkName,wtLinkLoc'},
+		{selector: 'head:page(service-already-exists)', type: 'wtmeta', name: 'wtStatusMsg', value: 'UV_ServiceAlreadyExists'},
+		{selector: 'head:page(check-availability-multiple-address)', type: 'wtmeta', name: 'wtStatusMsg', value: 'UV_MultipleAddress'},
+		{selector: 'head:page(address-changed)', type: 'wtmeta', name: 'wtStatusMsg', value: 'UV_AddressChanged'},
+		{selector: 'head:page(service-already-exists)', type: 'wtmeta', name: 'wtStatusMsg', value: 'UV_ServiceAlreadyExists'},
+		{selector: 'head:page(service-not-available)', type: 'wtmeta', name: 'wtStatusMsg', value: 'UV_ServiceNotAvailable'},
+		{selector: 'head:page(multiple-address)', type: 'wtmeta', name: 'wtStatusMsg', value: 'UV_MultipleAddress'},
+		{selector: 'head:page(address-changed)', type: 'wtmeta', name: 'wtStatusMsg', value: 'UV_AddressChanged'},
+		{selector: 'head:page(address-not-found)', type: 'wtmeta', name: 'wtStatusMsg', value: 'UV_AddressNotFound'},
+		{selector: 'head:page(number-not-found)', type: 'wtmeta', name: 'wtStatusMsg', value: 'UV_NumberNotFound'},
+		{selector: 'head:page(no-match-found)', type: 'wtmeta', name: 'wtStatusMsg', value: 'UV_NoMatchFound'},
+		{selector: 'head:page(caim-address-not-found)', type: 'wtmeta', name: 'wtStatusMsg', value: 'UV_Caim_Address_not_found'},
+		{selector: 'head:page(caim-multiple-address)', type: 'wtmeta', name: 'wtStatusMsg', value: 'UV_Caim_Multiple_Address_found'},
+		{selector: 'head:page(caim-out-of-footprint)', type: 'wtmeta', name: 'wtStatusMsg', value: 'UV_Caim_Zip_Address_Not_found'},
+		{selector: 'head:page(zip-outside-footprint)', type: 'wtmeta', name: 'wtStatusMsg', value: 'UV_ZipOutsideFootprint'},
+		{selector: 'a[href*=/uversesweeps/front.do]:page(check-availability-success)', type: 'wtparam', name: 'wtLinkName', value: 'CheckAvail_Get_Promo_Card'},
+		{selector: 'a[href*=/uversesweeps/front.do]:page(check-availability-success)', type: 'wtparam', name: 'wtLinkLoc', value: 'http://att.promotions.com/uversesweeps/front.do'},
+		{selector: 'a[href*=/uversesweeps/front.do]:page(check-availability-success)', type: 'wtlink', name: '', params: 'wtLinkName,wtLinkLoc', trigger: 'mousedown'},
+		{selector: 'a[href*=/uversesweeps/front.do]:page(service-not-available)', type: 'wtparam', name: 'wtLinkName', value: 'CheckAvail_Get_Promo_Card'},
+		{selector: 'a[href*=/uversesweeps/front.do]:page(service-not-available)', type: 'wtparam', name: 'wtLinkLoc', value: 'http://att.promotions.com/uversesweeps/front.do'},
+		{selector: 'a[href*=/uversesweeps/front.do]:page(service-not-available)', type: 'wtlink', name: '', params: 'wtLinkName,wtLinkLoc', trigger: 'mousedown'},
+		{selector: 'a[href*=/uversesweeps/front.do]:page(zip-outside-footprint)', type: 'wtparam', name: 'wtLinkName', value: 'CheckAvail_Get_Promo_Card'},
+		{selector: 'a[href*=/uversesweeps/front.do]:page(zip-outside-footprint)', type: 'wtparam', name: 'wtLinkLoc', value: 'http://att.promotions.com/uversesweeps/front.do'},
+		{selector: 'a[href*=/uversesweeps/front.do]:page(zip-outside-footprint)', type: 'wtlink', name: '', params: 'wtLinkName,wtLinkLoc', trigger: 'mousedown'},
+		
+		//congrats page go to saved cart button link name and link location
+		{selector: 'head:page(customize)', type: 'wtmeta', name: 'wtLinkName', value: function() {
+		var successURL = '/u-verse/shop/customize.jsp';
+		if (successURL.match('/cart/index.jsp') && successURL.match('submit=true') && '' == '')
+		return "Go_to_Saved_Cart";
+		else 
+		return "";}},
+		{selector: 'head:page(customize)', type: 'wtmeta', name: 'wtLinkLoc', value: function() {
+		var successURL = '/u-verse/shop/customize.jsp';
+		if (successURL.match('/cart/index.jsp') && successURL.match('submit=true') && '' == '')
+		return location.href+"#vucbbb";
+		else 
+		return "";}},
+		
+		//shop page build your own button link name and link location
+		{selector: 'img[src*=btn_BuildYourOwn_blue_3dot0]', type: 'wtparam', name: 'wtLinkName', value: 'Build_Your_Own'},
+		{selector: 'img[src*=btn_BuildYourOwn_blue_3dot0]', type: 'wtparam', name: 'wtLinkLoc', value: 'Uverse' + '__' + 'Body'},
+		{selector: 'img[src*=btn_BuildYourOwn_blue_3dot0]', type: 'wtlink', name: '', params: 'wtLinkName,wtLinkLoc'},
+		
+		//voip.jsp adding 2nd line user response
+		{selector: 'img[src*=btn_Save_green_enabled_AA000IWP]', type: 'wtparam', name: 'wtUserResp', 
+			value: function () {
+			if(window.secondLineCheckbox != null) {
+				if (window.secondLineCheckbox.checked) 
+				return "Add second line - Yes";
+				else
+				return "Add second line - No";
+			  } else 
+			 return "";
+			}
+		},
+		{selector: 'img[src*=btn_Save_green_enabled_AA000IWP]', type: 'wtevent', name: 'Voip_LNP_Eligibility_Check', params: 'wtUserResp'},
+		{selector: 'img[src*=btn_UpdateCart_grn]', type: 'wtparam', name: 'wtUserResp', 
+			value: function () {
+			if(window.secondLineCheckbox != null) {
+				if (window.secondLineCheckbox.checked) 
+				return "Add second line - Yes";
+				else
+				return "Add second line - No";
+			  } else 
+			 return "";
+			}
+		},
+		{selector: 'img[src*=btn_UpdateCart_grn]', type: 'wtevent', name: 'Voip_LNP_Eligibility_Check', params: 'wtUserResp'},
+
+		//apply coupon button user response and coupon sku qty
+		{selector: '#changeCouponButtonImageId', type: 'wtparam', name: 'wtUserResp',
+			value: function() {
+			return window.couponCode.value;
+			}
+		},
+		{selector: '#changeCouponButtonImageId', type: 'wtparam', name: 'wtAddSkuQty',
+			value: function() {
+			return window.appliedCouponCode.value;
+			}
+		},
+		{selector: 'img[src*=btn_Apply_wht_AA0009O]', type: 'wtevent', name: 'Coupon_Code_Submit', params: 'wtUserResp,wtAddSkuQty'},
+		
+		//config hub page continue button couponcode
+		{selector: '#updateSideCart', type: 'wtparam', name: 'wtCouponCode',
+			value: function() {
+			return window.appliedCouponName.value;
+			}
+		},
+		{selector: 'img[src*=btn_mrq_Review-Checkout_grn_AA000DZZ]', type: 'wtevent', name: 'Uverse_Cart_Save_Submit', params: 'wtCouponCode'},
+
+		//sweepstakes
+		{selector: '#sweepsEnterNowLink', type: 'wtparam', name: 'wtLinkName', value: 'EnterNow'},
+		{selector: '#sweepsEnterNowLink', type: 'wtparam', name: 'wtLinkLoc', value: 'http://att.promotions.com/uverse2/front.do'},
+		{selector: '#sweepsEnterNowLink', type: 'wtlink', name: '', params: 'wtLinkName,wtLinkLoc', trigger: 'mousedown'}
+	]);
+
+	reporting.tag.perform('inline');
+	
+	webTrendMap = reporting.map;
+	webTrendTag = reporting.tag;
+	performWebTrendTag = reporting.tag.perform;
+	logWebTrendTag = reporting.tag.log;
+});
+
+function webTrendAddParameter (param, setter, timer) {
+	if (typeof setter == 'function') window[param] = setter();
+	else window[param] = setter;
+	if (timer) setTimeout(function () {window[param] = ''}, timer);
+}
+
+function getHiddenWebTrendEvents(str) {
+	if (/\bwt.?.?\s/.test(str)) str = str.replace(/(class=.)\bwtxx\s/g, '$1wtpn ').replace(/(class=.)\bwtx\s/g, '$1wt ');
+	return str;
+}
+
+function firePopupWebTrendPageView(str, title, url) {
+	if (/class=.wtpn\s/.test(str) == false) {
+		var wtPN = 'Uverse_' + title.replace(/\W/g,'_') + '_Modal_Pg';
+		var dcsuri = url || title.replace(/\W/g,'-').toLowerCase() + '-modal.jsp';
+		if (!/class=.wtpn /.test(str) && webTrendTag) webTrendTag(wtPN, 0, 'System', 'dcsuri', dcsuri, 'wtBuyFlowType', 'PROVIDE', 'flowtype', 'UVERSE');
+		return wtPN;
+	}
+}
+
+function captureLastFieldInteracted() {
+	commonFunc.eventObserve(document, 'blur', handleLastFieldInteracted, false);
+	commonFunc.eventObserve(document, 'change', handleLastFieldInteracted, false);
+	commonFunc.eventObserve(document, 'click', handleLastFieldInteracted, false);
+	commonFunc.eventObserve(document, 'keyup', handleLastFieldInteracted, false);
+}
+
+function handleLastFieldInteracted(e) {
+	var target = commonFunc.getTarget(e);
+	if (/text|radio|checkbox|select/.test(target.type)) {
+		window.wtLastFieldInteracted = target.name.slice(target.name.lastIndexOf(".")+1);
+	}
+}
+
+</script>
+
+		</body>
+		
+	</html>
+	

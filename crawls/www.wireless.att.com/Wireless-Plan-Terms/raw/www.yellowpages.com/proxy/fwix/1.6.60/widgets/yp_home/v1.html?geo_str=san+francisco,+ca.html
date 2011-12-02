@@ -1,0 +1,35 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="styles.css"/>
+    </head>
+    <body>
+
+        <div id="page_frame">
+            <div id="weather_container" class="content weather"></div>
+            <div id="news_wrap">
+                <a href="http://fwix.com/" target="_blank" class="news">News</a>
+            </div>
+            <div id="logos_wrap">
+                <h4>by</h4>
+                <div id="logos">
+                    <a class="wunder_link weather" href="http://www.wunderground.com" target="_blank">Wunderground</a>
+                    <a class="logo" target="_blank" href="http://fwix.com/">Fwix</a>
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </div>
+        <script>
+
+            window.onload = function(){
+                var script,
+                    src;
+
+                script = document.createElement('script');
+                script.src = "http://widgets.fwix.com/yp_home/content.php"; 
+                script.type = 'text/javascript'; 
+                document.body.appendChild(script);
+            }
+        </script>
+    </body>
+</html>

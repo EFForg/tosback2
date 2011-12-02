@@ -1,0 +1,555 @@
+// name - name of the cookie
+// value - value of the cookie
+// [expires] - expiration date of the cookie (defaults to end of current session)
+// [path] - path for which the cookie is valid (defaults to path of calling document)
+// [domain] - domain for which the cookie is valid (defaults to domain of calling document)
+// [secure] - Boolean value indicating if the cookie transmission requires a secure transmission
+// * an argument defaults when it is assigned null as a placeholder
+// * a null placeholder is not required for trailing omitted arguments
+function setImportantCookie(name, value, expires, path, domain, secure) {
+	
+  var curCookie = name + "=" + escape(value) +
+      	((expires) ? "; expires=" + expires.toGMTString() : "") +
+      	((path) ? "; path=" + path : "") +
+      	((domain) ? "; domain=" + domain : "") +
+      	((secure) ? "; secure" : "");
+	document.cookie = curCookie;
+}
+
+// name - name of the desired cookie
+// * return string containing value of specified cookie or null if cookie does not exist
+function getCookie(name) {
+	var dc = document.cookie;
+	var prefix = name + "=";
+	var begin = dc.indexOf("; " + prefix);
+	if (begin == -1) {
+		begin = dc.indexOf(prefix);
+		if (begin != 0) return null;
+	} else
+    begin += 2;
+  var end = document.cookie.indexOf(";", begin);
+  if (end == -1)
+    end = dc.length;
+  return unescape(dc.substring(begin + prefix.length, end));
+}
+
+// name - name of the cookie
+// [path] - path of the cookie (must be same as path used to create cookie)
+// [domain] - domain of the cookie (must be same as domain used to create cookie)
+// * path and domain default if assigned null or omitted if no explicit argument proceeds
+function deleteCookie(name, path, domain) {
+  if (getCookie(name)) {
+    document.cookie = name + "=" +
+    ((path) ? "; path=" + path : "") +
+    ((domain) ? "; domain=" + domain : "") +
+    "; expires=Thu, 01-Jan-70 00:00:01 GMT";
+  }
+}
+
+// date - any instance of the Date object
+// * hand all instances of the Date object to this function for "repairs"
+function fixDate(date) {
+	var base = new Date(0);
+	var skew = base.getTime();
+	if (skew > 0)
+		date.setTime(date.getTime() - skew);
+}
+
+
+// create an instance of the Date object
+var now = new Date();
+// fix the bug in Navigator 2.0, Macintosh
+fixDate(now);
+// cookie expires in one year (actually, 365 days)
+// 365 days in a year
+// 24 hours in a day
+// 60 minutes in an hour
+// 60 seconds in a minute
+// 1000 milliseconds in a second
+now.setTime(now.getTime() + 365 * 24 * 60 * 60 * 1000);
+
+function callSetCookie(formName, fieldName){
+	var colamCtnCookie = getColamCookie();
+	var reset=false; 
+	var loginTypeISP = "";
+	if(document.forms[formName].loginType != undefined){
+		if(document.forms[formName].loginType != null){
+			loginTypeISP = document.forms[formName].loginType.value;
+		}
+	}
+   
+	/*Enhancement WUP00372518 Start*/
+	var forgotIdLoginType = "";
+	   
+	if(document.forms[formName].forgotLoginType != undefined){
+		if(document.forms[formName].forgotLoginType != null){
+			forgotIdLoginType = document.forms[formName].forgotLoginType.value;
+			colamCtnCookie['forgotLogintype'] = forgotIdLoginType;
+		}
+	}
+	/*Enhancement WUP00372518 End*/
+
+	if (colamCtnCookie==null) {	   
+		colamCtnCookie = new Array();
+	}
+
+	if ((document.forms[formName].rememberCtn != null) && (document.forms[formName].rememberCtn.checked == true)) {
+		if(loginTypeISP=="WIRELESS"){
+			colamCtnCookie['rme_i'] = "Y";
+		}else if(loginTypeISP=="UVERSE"){
+			colamCtnCookie['rme_u'] = "Y";
+		}else if(loginTypeISP=="TELCO"){
+			colamCtnCookie['rme_m'] = "Y";
+		}
+	}  
+	else
+	{
+		if(loginTypeISP=="WIRELESS"){
+			colamCtnCookie['rme_i'] = "N";
+		}else if(loginTypeISP=="UVERSE"){
+			colamCtnCookie['rme_u'] = "N";
+		}else if(loginTypeISP=="TELCO"){
+			colamCtnCookie['rme_m'] = "N";
+		}
+	}
+
+	if(document.forms[formName].localeInRequest != undefined){
+		var cookieLanguage = document.forms[formName].localeInRequest.value;
+		if(cookieLanguage == "E"){
+			colamCtnCookie['l'] = "en_US";
+		}else if(cookieLanguage == "S"){
+			colamCtnCookie['l'] = "es_US";
+		}else{
+			colamCtnCookie['l'] = "en_US";
+		}
+	}   
+   
+	var accountType="";
+   
+	if(document.forms[formName].elements['accountType']!=null){
+		accountType=document.forms[formName].elements['accountType'].value;
+	}
+   
+	id = document.forms[formName].elements[fieldName].value;
+   
+	colamCtnCookie['logintype'] = accountType;
+	if(id != null) {
+		if(id.indexOf("@") != -1 && loginTypeISP == "UVERSE") { //uverse
+			if (id != colamCtnCookie['u']+'@'+colamCtnCookie['ud']) {
+				reset=true;
+			}		   
+			memberId = id.split("@");
+			colamCtnCookie['u']=memberId[0];
+			colamCtnCookie['ud']=memberId[1];
+			//colamCtnCookie['u']=null;
+			//colamCtnCookie['i']=null;
+		}else if (id.length == 10 && !isNaN(id)) { //wireless
+			if (id != colamCtnCookie['i']) {
+				reset=true;
+			}		   
+			colamCtnCookie['i']=id;		   
+			//colamCtnCookie['m']=null;
+			//colamCtnCookie['d']=null;
+			//colamCtnCookie['u']=null;
+		}else if (id.indexOf("@") != -1 && (loginTypeISP == "TELCO" || loginTypeISP == "SLID")) { //ISP
+			if (id != colamCtnCookie['m']+'@'+colamCtnCookie['md']) {
+				reset=true;
+			}		   
+			memberId = id.split("@");
+			colamCtnCookie['m']=memberId[0];
+			colamCtnCookie['md']=memberId[1];
+			//colamCtnCookie['u']=null;
+			//colamCtnCookie['i']=null;
+		}else { //wireline
+			colamCtnCookie['m']=id;
+			//colamCtnCookie['i']=null;
+			//colamCtnCookie['m']=null;
+			//colamCtnCookie['d']=null;
+		}
+	}
+   
+	if (reset) {
+		colamCtnCookie['r'] = "R01";
+		colamCtnCookie['ct'] =  null;
+	}
+	colamCtnCookie['ct']=accountType;
+   
+	var cookieKeys = new Array("i","rme_i","u","ud","rme_u","m","md","rme_m","l","r","ct","logintype","forgotLogintype");
+	var cookieValue = "";   
+   
+	for(var i = 0; i < cookieKeys.length; i++) {	   
+		if (colamCtnCookie[cookieKeys[i]] != null) {
+			cookieValue = cookieValue + cookieKeys[i]+"="+colamCtnCookie[cookieKeys[i]] + ";";		   
+		}
+	}
+	cookieValue = cookieValue.slice(0, -1);
+	setImportantCookie("colam_ctn", cookieValue, now, "/", document.forms[formName].domain.value); 
+}
+
+function callGetCookie(formName, fieldName, isWelcomeBack)
+{
+	var colamCtnCookie = getColamCookie();   
+	var loginTypeForISP = document.forms[formName].elements['accountType'].value
+    
+	if (colamCtnCookie!=null) {	   
+		var forgotLoginType = colamCtnCookie['forgotLogintype'];
+		var errorPresent = "false"
+		var logType =  colamCtnCookie['logintype'];
+		var combinedBillType = "false";
+
+		//Remember Me
+		if(document.forms[formName].combinedBillAccountType != undefined){
+			if(document.forms[formName].combinedBillAccountType.value != undefined){
+				if(document.forms[formName].combinedBillAccountType.value != null){
+					if(document.forms[formName].combinedBillAccountType.value != ""){		
+						combinedBillType = "true";
+					}
+				}
+			}
+		}
+	   
+		//if(((colamCtnCookie['rme'] != null) && (colamCtnCookie['rme'] == 'N')) && (combinedBillType == "false")){
+		   
+		if(document.getElementById("errorListValue")!= undefined){
+			if(document.getElementById("errorListValue")!= null){
+				errorPresent = "true";
+			}
+		}
+		   
+		if((parent.document.location.href.indexOf('logout')!=-1) || (errorPresent == "false")){
+			document.loginActionForm.loginType.value="WIRELESS";
+			document.loginActionForm.accountType.value="WIRELESS";
+        	   
+			var myPageId = document.loginActionForm.pId;
+			var tempLogInType = "";
+			if(myPageId!=undefined && myPageId!=null && myPageId.value!=""){				   
+				if(myPageId.value.substring(0,1)=="U"){
+					document.loginActionForm.loginType.value="UVERSE";
+					document.loginActionForm.accountType.value="UVERSE";
+					tempLogInType = "UVERSE";
+				}
+				if(myPageId.value.substring(0,1)=="L"){
+					document.loginActionForm.loginType.value="TELCO";
+					document.loginActionForm.accountType.value="TELCO";
+					tempLogInType = "TELCO";
+				}				   
+			}   
+			var myCustType = document.loginActionForm.customerType;
+			if(myCustType!=undefined && myCustType!=null && myCustType.value!=""){	
+				if(myCustType.value == "UVERSE"){
+					document.loginActionForm.loginType.value="UVERSE";
+					document.loginActionForm.accountType.value="UVERSE";
+					tempLogInType = "UVERSE";
+				}
+				if(myCustType.value == "TELCO"){
+					document.loginActionForm.loginType.value="TELCO";
+					document.loginActionForm.accountType.value="TELCO";
+					tempLogInType = "TELCO";
+				}
+			}
+			   
+			var myUTarget = document.loginActionForm.uTarget;
+			if(myUTarget != undefined && myUTarget != null && myUTarget.value != ""){
+				document.loginActionForm.loginType.value="UVERSE";
+				document.loginActionForm.accountType.value="UVERSE";
+				tempLogInType = "UVERSE";
+			}
+			   
+			var myUvPkgId = document.loginActionForm.UvPkgId;
+			if(myUvPkgId != undefined && myUvPkgId != null && myUvPkgId.value != "")
+			{
+				document.loginActionForm.loginType.value="UVERSE";
+				document.loginActionForm.accountType.value="UVERSE";
+				tempLogInType = "UVERSE";
+			}
+
+			var myLTarget = document.loginActionForm.ltarget;
+			if(myLTarget != undefined && myLTarget != null && myLTarget.value != ""){
+				document.loginActionForm.loginType.value="TELCO";
+				document.loginActionForm.accountType.value="TELCO";
+				tempLogInType = "TELCO";
+			}      	      
+			
+			var combAcc = document.loginActionForm.combinedBillAccountType;
+			if(combAcc != undefined && combAcc != null && combAcc.value != "")
+			{
+				if((combAcc.value.toUpperCase())=="WIRELESS")
+				{
+					document.loginActionForm.loginType.value="WIRELESS";
+					document.loginActionForm.accountType.value="WIRELESS";
+					tempLogInType = "WIRELESS";
+				}
+				else if ((combAcc.value.toUpperCase())=="UVERSE")
+				{
+					document.loginActionForm.loginType.value="UVERSE";
+					document.loginActionForm.accountType.value="UVERSE";
+					tempLogInType = "UVERSE";
+				}
+				else if((combAcc.value.toUpperCase())=="TELCO" || (combAcc.value.toUpperCase())=="WIRELINE")
+				{
+					document.loginActionForm.loginType.value="TELCO";
+					document.loginActionForm.accountType.value="TELCO";
+					tempLogInType = "TELCO";
+				}
+			}      	      
+		}else if((parent.document.location.href.indexOf('logout')==-1) || (errorPresent == "true")){
+			if (colamCtnCookie['i'] != null && errorPresent == "false"){
+				document.loginActionForm.loginType.value="WIRELESS";
+				document.loginActionForm.accountType.value="WIRELESS";
+			}else if (errorPresent == "false" && ((colamCtnCookie['u'] != null) && (colamCtnCookie['ud'] != null) || logType== "UVERSE")) {		   
+				document.loginActionForm.loginType.value="UVERSE";
+				document.loginActionForm.accountType.value="UVERSE";    
+			}else if (errorPresent == "false" && colamCtnCookie['m'] != null){		   
+				document.loginActionForm.loginType.value="TELCO";
+				document.loginActionForm.accountType.value="TELCO";   
+			}else if (errorPresent == "false" && ((colamCtnCookie['m'] != null) && (colamCtnCookie['md'] != null) && logType == "TELCO")){
+				document.loginActionForm.loginType.value="TELCO";
+				document.loginActionForm.accountType.value="TELCO";       
+			}
+			else if(errorPresent == "true")
+			{
+				if(document.loginActionForm.loginType.value == "WIRELESS")
+				{
+					document.loginActionForm.accountType.value="WIRELESS";
+				}
+				else if(document.loginActionForm.loginType.value == "UVERSE")
+				{
+					document.loginActionForm.accountType.value="UVERSE";
+				}
+				else if(document.loginActionForm.loginType.value == "TELCO")
+				{
+					document.loginActionForm.accountType.value="TELCO";
+				}
+			}
+		}
+		//}
+	    var rmeiChecked = false;
+	    var rmemChecked = false;
+	    var rmeuChecked = false;
+	    var rememberMeChecked=false;
+	    
+		if(document.loginActionForm.loginType.value=="WIRELESS"){
+			if ((colamCtnCookie['rme_i'] != null) && (colamCtnCookie['rme_i'] == 'Y')) {
+				rmeiChecked = true;
+				document.forms[formName].rememberCtn.checked=true;
+			}else{
+				document.forms[formName].rememberCtn.checked=false;
+			}
+		}else
+		if(document.loginActionForm.loginType.value=="TELCO"){
+			if ((colamCtnCookie['rme_m'] != null) && (colamCtnCookie['rme_m'] == 'Y')) {
+				rmemChecked = true;
+				document.forms[formName].rememberCtn.checked=true;
+			}else{
+				document.forms[formName].rememberCtn.checked=false;
+			}
+		}else
+		if(document.loginActionForm.loginType.value=="UVERSE"){
+			if ((colamCtnCookie['rme_u'] != null) && (colamCtnCookie['rme_u'] == 'Y')) {
+				rmeuChecked = true;
+				document.forms[formName].rememberCtn.checked=true;
+			}else{
+				document.forms[formName].rememberCtn.checked=false;
+			}
+		}
+		
+		if(rmeiChecked || rmeuChecked || rmemChecked){
+			rememberMeChecked=true;
+		}else{
+			rememberMeChecked=false;
+		}
+		
+    	   //ID       
+		var tGuardOn = document.forms[formName].tGuardOn.value;
+		
+		
+		if(tempLogInType=="")
+		{
+				if(colamCtnCookie['rme_i']=="Y" && colamCtnCookie['i'] != null){ //wireless
+					document.loginActionForm.loginType.value="WIRELESS";
+					document.loginActionForm.accountType.value="WIRELESS";
+					if(isWelcomeBack=="N"){	   
+						isTargetFlow("WIRELESS",colamCtnCookie['i']);
+					}
+					if(rmeiChecked){	   
+						if(tGuardOn=="true"){		
+							document.forms[formName].elements["userid"].value=colamCtnCookie['i'];
+						}else{
+							document.forms[formName].elements[fieldName].value=colamCtnCookie['i'];
+						}
+					}    
+				}else if ((colamCtnCookie['rme_u']=="Y" && colamCtnCookie['u'] != null) && (colamCtnCookie['ud'] != null) || logType== "UVERSE") { // uverse
+					document.loginActionForm.loginType.value="UVERSE";
+					document.loginActionForm.accountType.value="UVERSE";        	   
+					if(isWelcomeBack=="N"){
+						isTargetFlow("UVERSE",colamCtnCookie['u']+"@"+colamCtnCookie['ud']);
+					}
+					if(rmeuChecked){
+						if(tGuardOn=="true"){
+							document.forms[formName].elements["userid"].value=colamCtnCookie['u']+"@"+colamCtnCookie['ud'];
+						}else{
+							document.forms[formName].elements[fieldName].value=colamCtnCookie['u']+"@"+colamCtnCookie['ud'];
+						} 
+					}
+				}else if (colamCtnCookie['rme_m']=="Y" && colamCtnCookie['m'] != null){ //wireline   
+					var cookieValTelco = colamCtnCookie['m'].split("@");
+					var handle = cookieValTelco[0];
+		        	   
+					document.loginActionForm.loginType.value="TELCO";
+					document.loginActionForm.accountType.value="TELCO";        	   
+					if(isWelcomeBack=="N"){
+						isTargetFlow("TELCO",handle);
+					}
+					if(rmemChecked){
+						if(tGuardOn=="true"){
+							document.forms[formName].elements["userid"].value=handle;
+						}else{
+							document.forms[formName].elements[fieldName].value=handle;
+						}
+					}
+				}else if (( colamCtnCookie['rme_m']=="Y" &&colamCtnCookie['m'] != null) && (colamCtnCookie['md'] != null) && logType == "TELCO") { // ISP    	   
+					document.loginActionForm.loginType.value="TELCO";
+					document.loginActionForm.accountType.value="TELCO";        	   
+					if(isWelcomeBack=="N"){
+						isTargetFlow("TELCO",colamCtnCookie['m']+"@"+colamCtnCookie['md']);
+					}
+					if(tGuardOn=="true"){
+						document.forms[formName].elements["userid"].value=colamCtnCookie['m']+"@"+colamCtnCookie['md'];
+					}else{
+						document.forms[formName].elements[fieldName].value=colamCtnCookie['m']+"@"+colamCtnCookie['md'];
+					} 
+				}else {
+					document.forms[formName].rememberCtn.checked=false;
+				}
+		}
+		else
+		{
+			if (tempLogInType=="UVERSE" && (colamCtnCookie['rme_u']=="Y" && colamCtnCookie['u'] != null) && (colamCtnCookie['ud'] != null) || logType== "UVERSE") 
+			{ 
+				document.loginActionForm.loginType.value="UVERSE";
+				document.loginActionForm.accountType.value="UVERSE";        	   
+				if(isWelcomeBack=="N"){
+					isTargetFlow("UVERSE",colamCtnCookie['u']+"@"+colamCtnCookie['ud']);
+				}
+				if(rmeuChecked){
+					if(tGuardOn=="true"){
+						document.forms[formName].elements["userid"].value=colamCtnCookie['u']+"@"+colamCtnCookie['ud'];
+					}else{
+						document.forms[formName].elements[fieldName].value=colamCtnCookie['u']+"@"+colamCtnCookie['ud'];
+					} 
+				}
+			}else if (tempLogInType=="TELCO" &&  colamCtnCookie['rme_m']=="Y" && colamCtnCookie['m'] != null){ //wireline   
+				var cookieValTelco = colamCtnCookie['m'].split("@");
+				var handle = cookieValTelco[0];
+	        	   
+				document.loginActionForm.loginType.value="TELCO";
+				document.loginActionForm.accountType.value="TELCO";        	   
+				if(isWelcomeBack=="N"){
+					isTargetFlow("TELCO",handle);
+				}
+				if(rmemChecked){
+					if(tGuardOn=="true"){
+						document.forms[formName].elements["userid"].value=handle;
+					}else{
+						document.forms[formName].elements[fieldName].value=handle;
+					}
+				}
+			}else if (tempLogInType=="TELCO" &&  (colamCtnCookie['rme_m']=="Y" &&colamCtnCookie['m'] != null) && (colamCtnCookie['md'] != null) && logType == "TELCO") { // ISP    	   
+				document.loginActionForm.loginType.value="TELCO";
+				document.loginActionForm.accountType.value="TELCO";        	   
+				if(isWelcomeBack=="N"){
+					isTargetFlow("TELCO",colamCtnCookie['m']+"@"+colamCtnCookie['md']);
+				}
+				if(tGuardOn=="true"){
+					document.forms[formName].elements["userid"].value=colamCtnCookie['m']+"@"+colamCtnCookie['md'];
+				}else{
+					document.forms[formName].elements[fieldName].value=colamCtnCookie['m']+"@"+colamCtnCookie['md'];
+				} 
+			}else {
+				document.forms[formName].rememberCtn.checked=false;
+			}
+	
+		}
+		/*Enhancement WUP00372518 Start*/
+		if(forgotLoginType == "UVERSE"){ 
+			document.loginActionForm.loginType.value="UVERSE";
+			document.loginActionForm.accountType.value="UVERSE";
+			if(isWelcomeBack=="N"){
+				isTargetFlow("UVERSE","");
+			}
+			if(tGuardOn=="true"){
+				document.forms[formName].elements["userid"].value="";
+			}else{
+				document.forms[formName].elements[fieldName].value="";
+			} 
+		}/*Enhancement WUP00372518 End*/
+	}
+}
+
+function getColamCookie() {  
+	  var colamCtnCookie = getCookie("colam_ctn");
+	  var cookieArray = new Hash();	  
+	  if (colamCtnCookie!=null) {
+		  if (colamCtnCookie.indexOf(";") != -1) {
+			  tmpArray = colamCtnCookie.split(";");
+			  for (var i = 0; i < tmpArray.length; i++) {
+				  keyValuePair = tmpArray[i].split("=");
+				  cookieArray[keyValuePair[0]] = keyValuePair[1];
+			  }			  
+		  } else if (colamCtnCookie.indexOf("=") != -1) {
+			  keyValuePair = colamCtnCookie.split("=");
+			  cookieArray[keyValuePair[0]] = keyValuePair[1];
+		  }
+	  }	  
+	  return cookieArray; 
+}
+
+function deleteSupportCookie(domain) {
+	
+	deleteCookie("SelfHelp", "/", domain);
+}
+
+function setUserValuesOnLogInTypeChange()
+{
+	var cookieMap = getColamCookie();
+	var ck_userId = document.loginActionForm.ck_userId;
+	var ck_userType = document.loginActionForm.ck_userType;
+	var loginType = jQuery("#accountType").val();
+	if(loginType!=null 
+			&& cookieMap !=null 
+			&& ck_userId!=null 
+			&& ck_userType!=null)
+	{
+		if(loginType=='WIRELESS' && cookieMap['rme_i']=='Y'){
+			ck_userId.value = cookieMap['i'];
+			ck_userType.value = 'WIRELESS';
+		}
+		else if(loginType=='UVERSE' && cookieMap['rme_u']=='Y'){
+			
+			ck_userId.value = cookieMap['u'];
+			if(ck_userId.value.indexOf("@")==-1 && cookieMap['ud']!=null){
+				ck_userId.value = ck_userId.value + "@" + cookieMap['ud'];
+			}
+			ck_userType.value = 'UVERSE';			
+		}
+		else if(loginType=='TELCO' && cookieMap['rme_m']=='Y'){
+			ck_userId.value = cookieMap['m'];
+			if(ck_userId.value.indexOf("@")==-1 &&  cookieMap['md']!=null){
+				ck_userId.value = ck_userId.value + "@" + cookieMap['md'];
+			}
+			ck_userType.value = 'TELCO';
+		}
+		else
+		{
+			ck_userId.value = "";
+			ck_userType.value = "";
+		}
+	}
+	else if(loginType!=null)
+	{
+		ck_userId.value = "";
+		ck_userType.value = "";
+	}
+		
+}
+

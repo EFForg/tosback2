@@ -1,0 +1,177 @@
+body {overflow: hidden; }
+* {font-family: Arial,Helvetica,sans-serif; margin: 0px; padding: 0px; font-size: 12px;  line-height: 14px; }
+
+a {
+    color: #067ab4;
+    outline: none;
+    text-decoration: none; }
+
+img {
+    border: 0px; }
+
+input:focus {
+    border: 0px; 
+    outline: 0px;}
+
+.clear {
+    clear: both;
+    margin: 0px;
+    padding: 0px; }
+
+#page_frame {
+    height: 30px;
+    position: relative; 
+    width: 322px; }
+
+
+/*********************************************************************
+ * HEADER
+*********************************************************************/
+#header {
+    border-bottom: 1px dotted #DDDDDD; 
+    padding: 6px 7px 4px 8px; }
+
+
+/*********************************************************************
+ * CONTENT PANE
+*********************************************************************/
+.content {
+    overflow: hidden; 
+    padding: 1px 2px; }
+
+
+/*********************************************************************
+ * WEATHER
+*********************************************************************/
+#weather_container {
+    position: relative;
+    height:100%; }
+
+#weather_container h3{
+    height: 32px;
+    margin-top: 8px;
+    margin-right: 2px;
+    float: left; }
+
+    #weather_container .temps { 
+        height: 32px;
+        margin-top: 8px;
+        margin-right: 10px; 
+        text-align: left;
+        float: left;}
+        
+    #weather_container .temp {
+        font-weight:bold;
+		color: #555555;
+        font-size: 11px;
+        display: inline;
+        text-align: left;
+        margin: 2px 0 0 0; }
+        
+    #weather_container .temp label { 
+        padding-right: 4px;
+        font-size: 12px; }
+    
+#weather_container .forecast {
+    position: relative;
+    text-align: left; }
+
+    #weather_container .forecast .condition {  
+        display: block;
+        float:left;
+        margin: 0px;}
+
+    
+
+/*********************************************************************
+ * CONDITIONS
+*********************************************************************/
+.condition {
+    background: url(http://www.yellowpages.com/proxy/fwix/1.6.60/widgets/yp_home/images/yp_sprite_2.png) 0 0 no-repeat; 
+    height: 25px;
+    width: 25px; }
+
+	.condition.tstorms {
+	    background-position: 0 -25px;}
+
+	.condition.snow {
+	    background-position: 0 -50px;}
+
+	.condition.sleet, .condition.flurries {
+	    background-position: 0 -75px;}
+
+	.condition.rain {
+	    background-position: 0 -100px;}
+
+	.condition.partlysunny, .condition.partlycloudy, .condition.mostlysunny {
+	    background-position: 0 -125px;}
+
+	.condition.mostlycloudy, .condition.cloudy{
+	    background-position: 0 -150px;}
+
+	.condition.hazy, .condition.fog {
+	    background-position: 0 -175px;}
+
+	.condition.chancetstorms {
+	    background-position: 0 -200px;}
+
+	.condition.chancesnow {
+	    background-position: 0 -225px;}
+
+	.condition.chancesleet, .condition.chancerain, .condition.chanceflurries {
+	    background-position: 0 -250px;}
+
+/*********************************************************************
+ * news
+*********************************************************************/
+#news_wrap{
+    position: absolute;
+    right:106px;
+    top:9px; }
+
+.news {
+    background: url(http://www.yellowpages.com/proxy/fwix/1.6.60/widgets/yp_home/images/yp_sprite_2.png) no-repeat;
+    background-position: 0 -340px;
+    padding-right: 10px;
+    font-weight: bold; }
+
+
+/*********************************************************************
+ * LOGOS
+*********************************************************************/
+#logos_wrap {
+    position: absolute;
+    right:92px; 
+    top:29px; }
+
+	#logos_wrap h4 {
+		color: #555555;
+		font-weight: normal;
+		position: absolute; 
+	    font-size: 11px;
+	    left: 0px;
+	    bottom: 6px; }
+
+#logos {
+    position: relative; }
+
+    #logos .logo {
+        position: absolute;
+        left: 17px;
+        bottom: 8px;
+        background: url(http://www.yellowpages.com/proxy/fwix/1.6.60/widgets/yp_home/images/yp_sprite_2.png) no-repeat;
+        background-position: 0 -275px;
+        display: block;
+        height: 13px;
+        text-indent: -99999px;
+        width: 33px; }
+
+    #logos .wunder_link {
+        position: absolute;
+        left: 50px;
+        bottom: 6px;
+        background: url(http://www.yellowpages.com/proxy/fwix/1.6.60/widgets/yp_home/images/yp_sprite_2.png) no-repeat;
+        background-position: 0 -325px;
+        height: 13px;
+        text-indent: -999999px;
+        width: 36px; }

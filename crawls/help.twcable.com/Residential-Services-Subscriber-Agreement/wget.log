@@ -1,0 +1,217 @@
+--2011-12-02 15:09:30--  http://help.twcable.com/html/twc_sub_agreement.html
+Resolving help.twcable.com (help.twcable.com)... 24.28.200.104
+Connecting to help.twcable.com (help.twcable.com)|24.28.200.104|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 110070 (107K) [text/html]
+Saving to: `../crawls/help.twcable.com/Residential-Services-Subscriber-Agreement/raw/help.twcable.com/html/twc_sub_agreement.html'
+
+     0K .......... .......... .......... .......... .......... 46%  215K 0s
+    50K .......... .......... .......... .......... .......... 93%  329K 0s
+   100K .......                                               100% 1.83M=0.4s
+
+2011-12-02 15:09:30 (277 KB/s) - `../crawls/help.twcable.com/Residential-Services-Subscriber-Agreement/raw/help.twcable.com/html/twc_sub_agreement.html' saved [110070/110070]
+
+--2011-12-02 15:09:30--  http://help.twcable.com/html/global/css/global2.css
+Reusing existing connection to help.twcable.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 9101 (8.9K) [text/css]
+Saving to: `../crawls/help.twcable.com/Residential-Services-Subscriber-Agreement/raw/help.twcable.com/html/global/css/global2.css'
+
+     0K ........                                              100% 2.17M=0.004s
+
+2011-12-02 15:09:30 (2.17 MB/s) - `../crawls/help.twcable.com/Residential-Services-Subscriber-Agreement/raw/help.twcable.com/html/global/css/global2.css' saved [9101/9101]
+
+--2011-12-02 15:09:30--  http://help.twcable.com/html/global/images/shell/time_warner_cable.gif
+Reusing existing connection to help.twcable.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 3854 (3.8K) [image/gif]
+Saving to: `../crawls/help.twcable.com/Residential-Services-Subscriber-Agreement/raw/help.twcable.com/html/global/images/shell/time_warner_cable.gif'
+
+     0K ...                                                   100% 1.84M=0s
+
+2011-12-02 15:09:30 (1.84 MB/s) - `../crawls/help.twcable.com/Residential-Services-Subscriber-Agreement/raw/help.twcable.com/html/global/images/shell/time_warner_cable.gif' saved [3854/3854]
+
+--2011-12-02 15:09:30--  http://help.twcable.com/html/global/images/arrowBlue.gif
+Reusing existing connection to help.twcable.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 522 [image/gif]
+Saving to: `../crawls/help.twcable.com/Residential-Services-Subscriber-Agreement/raw/help.twcable.com/html/global/images/arrowBlue.gif'
+
+     0K                                                       100%  255K=0s
+
+2011-12-02 15:09:31 (255 KB/s) - `../crawls/help.twcable.com/Residential-Services-Subscriber-Agreement/raw/help.twcable.com/html/global/images/arrowBlue.gif' saved [522/522]
+
+--2011-12-02 15:09:31--  http://help.twcable.com/html/global/images/print.gif
+Reusing existing connection to help.twcable.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1301 (1.3K) [image/gif]
+Saving to: `../crawls/help.twcable.com/Residential-Services-Subscriber-Agreement/raw/help.twcable.com/html/global/images/print.gif'
+
+     0K .                                                     100%  635K=0s
+
+2011-12-02 15:09:31 (635 KB/s) - `../crawls/help.twcable.com/Residential-Services-Subscriber-Agreement/raw/help.twcable.com/html/global/images/print.gif' saved [1301/1301]
+
+--2011-12-02 15:09:31--  http://help.twcable.com/html/global/images/arrowBlueTop.gif
+Reusing existing connection to help.twcable.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 916 [image/gif]
+Saving to: `../crawls/help.twcable.com/Residential-Services-Subscriber-Agreement/raw/help.twcable.com/html/global/images/arrowBlueTop.gif'
+
+     0K                                                       100%  447K=0s
+
+2011-12-02 15:09:31 (447 KB/s) - `../crawls/help.twcable.com/Residential-Services-Subscriber-Agreement/raw/help.twcable.com/html/global/images/arrowBlueTop.gif' saved [916/916]
+
+--2011-12-02 15:09:31--  http://help.twcable.com/html/global/images/backBtn.gif
+Reusing existing connection to help.twcable.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 3439 (3.4K) [image/gif]
+Saving to: `../crawls/help.twcable.com/Residential-Services-Subscriber-Agreement/raw/help.twcable.com/html/global/images/backBtn.gif'
+
+     0K ...                                                   100%  839K=0.004s
+
+2011-12-02 15:09:31 (839 KB/s) - `../crawls/help.twcable.com/Residential-Services-Subscriber-Agreement/raw/help.twcable.com/html/global/images/backBtn.gif' saved [3439/3439]
+
+--2011-12-02 15:09:31--  http://help.twcable.com/html/global/js/jquery-1.4.1.js
+Reusing existing connection to help.twcable.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 160712 (157K) [application/x-javascript]
+Saving to: `../crawls/help.twcable.com/Residential-Services-Subscriber-Agreement/raw/help.twcable.com/html/global/js/jquery-1.4.1.js'
+
+     0K .......... .......... .......... .......... .......... 31%  625K 0s
+    50K .......... .......... .......... .......... .......... 63%  338K 0s
+   100K .......... .......... .......... .......... .......... 95%  595K 0s
+   150K ......                                                100%  102K=0.4s
+
+2011-12-02 15:09:31 (413 KB/s) - `../crawls/help.twcable.com/Residential-Services-Subscriber-Agreement/raw/help.twcable.com/html/global/js/jquery-1.4.1.js' saved [160712/160712]
+
+--2011-12-02 15:09:31--  http://help.twcable.com/html/global/js/page.js
+Reusing existing connection to help.twcable.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 369 [application/x-javascript]
+Saving to: `../crawls/help.twcable.com/Residential-Services-Subscriber-Agreement/raw/help.twcable.com/html/global/js/page.js'
+
+     0K                                                       100%  180K=0s
+
+2011-12-02 15:09:31 (180 KB/s) - `../crawls/help.twcable.com/Residential-Services-Subscriber-Agreement/raw/help.twcable.com/html/global/js/page.js' saved [369/369]
+
+--2011-12-02 15:09:31--  http://help.twcable.com/html/global/images/header.jpg
+Reusing existing connection to help.twcable.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 23560 (23K) [image/jpeg]
+Saving to: `../crawls/help.twcable.com/Residential-Services-Subscriber-Agreement/raw/help.twcable.com/html/global/images/header.jpg'
+
+     0K .......... .......... ...                             100% 11.2M=0s
+
+2011-12-02 15:09:31 (11.2 MB/s) - `../crawls/help.twcable.com/Residential-Services-Subscriber-Agreement/raw/help.twcable.com/html/global/images/header.jpg' saved [23560/23560]
+
+--2011-12-02 15:09:31--  http://help.twcable.com/html/global/images/shell/pageCopy_border.gif
+Reusing existing connection to help.twcable.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 43 [image/gif]
+Saving to: `../crawls/help.twcable.com/Residential-Services-Subscriber-Agreement/raw/help.twcable.com/html/global/images/shell/pageCopy_border.gif'
+
+     0K                                                       100% 21.0K=0s
+
+2011-12-02 15:09:32 (21.0 KB/s) - `../crawls/help.twcable.com/Residential-Services-Subscriber-Agreement/raw/help.twcable.com/html/global/images/shell/pageCopy_border.gif' saved [43/43]
+
+--2011-12-02 15:09:32--  http://help.twcable.com/html/global/images/shell/corner_top-left.gif
+Reusing existing connection to help.twcable.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 131 [image/gif]
+Saving to: `../crawls/help.twcable.com/Residential-Services-Subscriber-Agreement/raw/help.twcable.com/html/global/images/shell/corner_top-left.gif'
+
+     0K                                                       100% 64.0K=0s
+
+2011-12-02 15:09:32 (64.0 KB/s) - `../crawls/help.twcable.com/Residential-Services-Subscriber-Agreement/raw/help.twcable.com/html/global/images/shell/corner_top-left.gif' saved [131/131]
+
+--2011-12-02 15:09:32--  http://help.twcable.com/html/global/images/shell/corner_top-right.gif
+Reusing existing connection to help.twcable.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 131 [image/gif]
+Saving to: `../crawls/help.twcable.com/Residential-Services-Subscriber-Agreement/raw/help.twcable.com/html/global/images/shell/corner_top-right.gif'
+
+     0K                                                       100% 64.0K=0s
+
+2011-12-02 15:09:32 (64.0 KB/s) - `../crawls/help.twcable.com/Residential-Services-Subscriber-Agreement/raw/help.twcable.com/html/global/images/shell/corner_top-right.gif' saved [131/131]
+
+--2011-12-02 15:09:32--  http://help.twcable.com/html/global/images/shell/corner_bottom-left.gif
+Reusing existing connection to help.twcable.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 131 [image/gif]
+Saving to: `../crawls/help.twcable.com/Residential-Services-Subscriber-Agreement/raw/help.twcable.com/html/global/images/shell/corner_bottom-left.gif'
+
+     0K                                                       100% 64.0K=0s
+
+2011-12-02 15:09:32 (64.0 KB/s) - `../crawls/help.twcable.com/Residential-Services-Subscriber-Agreement/raw/help.twcable.com/html/global/images/shell/corner_bottom-left.gif' saved [131/131]
+
+--2011-12-02 15:09:32--  http://help.twcable.com/html/global/images/shell/corner_bottom-right.gif
+Reusing existing connection to help.twcable.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 130 [image/gif]
+Saving to: `../crawls/help.twcable.com/Residential-Services-Subscriber-Agreement/raw/help.twcable.com/html/global/images/shell/corner_bottom-right.gif'
+
+     0K                                                       100% 63.5K=0s
+
+2011-12-02 15:09:32 (63.5 KB/s) - `../crawls/help.twcable.com/Residential-Services-Subscriber-Agreement/raw/help.twcable.com/html/global/images/shell/corner_bottom-right.gif' saved [130/130]
+
+--2011-12-02 15:09:32--  http://help.twcable.com/html/global/images/shopping_cart.gif
+Reusing existing connection to help.twcable.com:80.
+HTTP request sent, awaiting response... 404 Not Found
+2011-12-02 15:09:32 ERROR 404: Not Found.
+
+--2011-12-02 15:09:32--  http://help.twcable.com/html/global/images/down_arrow_on.gif
+Reusing existing connection to help.twcable.com:80.
+HTTP request sent, awaiting response... 404 Not Found
+2011-12-02 15:09:32 ERROR 404: Not Found.
+
+--2011-12-02 15:09:32--  http://help.twcable.com/html/global/images/up_arrow_on.gif
+Reusing existing connection to help.twcable.com:80.
+HTTP request sent, awaiting response... 404 Not Found
+2011-12-02 15:09:32 ERROR 404: Not Found.
+
+--2011-12-02 15:09:32--  http://help.twcable.com/html/global/images/link_arrow_l.gif
+Reusing existing connection to help.twcable.com:80.
+HTTP request sent, awaiting response... 404 Not Found
+2011-12-02 15:09:32 ERROR 404: Not Found.
+
+--2011-12-02 15:09:32--  http://help.twcable.com/html/global/images/link_arrow_r.gif
+Reusing existing connection to help.twcable.com:80.
+HTTP request sent, awaiting response... 404 Not Found
+2011-12-02 15:09:32 ERROR 404: Not Found.
+
+--2011-12-02 15:09:32--  http://help.twcable.com/html/global/images/secure.gif
+Reusing existing connection to help.twcable.com:80.
+HTTP request sent, awaiting response... 404 Not Found
+2011-12-02 15:09:32 ERROR 404: Not Found.
+
+--2011-12-02 15:09:32--  http://help.twcable.com/html/global/images/stepnav_1.gif
+Reusing existing connection to help.twcable.com:80.
+HTTP request sent, awaiting response... 404 Not Found
+2011-12-02 15:09:32 ERROR 404: Not Found.
+
+--2011-12-02 15:09:32--  http://help.twcable.com/html/global/images/stepnav_2.gif
+Reusing existing connection to help.twcable.com:80.
+HTTP request sent, awaiting response... 404 Not Found
+2011-12-02 15:09:33 ERROR 404: Not Found.
+
+--2011-12-02 15:09:33--  http://help.twcable.com/html/global/images/stepnav_3.gif
+Reusing existing connection to help.twcable.com:80.
+HTTP request sent, awaiting response... 404 Not Found
+2011-12-02 15:09:33 ERROR 404: Not Found.
+
+--2011-12-02 15:09:33--  http://help.twcable.com/html/global/images/inRoundbox_devidersBG.gif
+Reusing existing connection to help.twcable.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 124 [image/gif]
+Saving to: `../crawls/help.twcable.com/Residential-Services-Subscriber-Agreement/raw/help.twcable.com/html/global/images/inRoundbox_devidersBG.gif'
+
+     0K                                                       100% 60.5K=0s
+
+2011-12-02 15:09:33 (60.5 KB/s) - `../crawls/help.twcable.com/Residential-Services-Subscriber-Agreement/raw/help.twcable.com/html/global/images/inRoundbox_devidersBG.gif' saved [124/124]
+
+FINISHED --2011-12-02 15:09:33--
+Total wall clock time: 3.0s
+Downloaded: 16 files, 307K in 0.8s (396 KB/s)
+Converting ../crawls/help.twcable.com/Residential-Services-Subscriber-Agreement/raw/help.twcable.com/html/twc_sub_agreement.html... 329-14
+Converting ../crawls/help.twcable.com/Residential-Services-Subscriber-Agreement/raw/help.twcable.com/html/global/css/global2.css... 10-10
+Converted 2 files in 0.008 seconds.

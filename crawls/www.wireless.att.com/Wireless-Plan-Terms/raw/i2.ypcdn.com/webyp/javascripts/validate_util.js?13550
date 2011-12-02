@@ -1,0 +1,138 @@
+// TODO: move to external file
+var DOTDSignupValidator = (function (self) {
+
+  //Define default options for module
+  var options = {
+    subscribeCookieName: "ypdeals_user_email",
+    notifications: {
+      userOptout: "optout_real_deals"
+    , subscriptionSuccess: "success_subscribe_real_deals"
+    , subscriptionFailure: "fail_subscribe_real_deals"
+    , serviceFailure: "service_failure_real_deals"
+    , remoteWillStart: "remoteWillStart_real_deals"
+    , remoteDidStart: "remoteDidStart_real_deals"
+    , remoteWillEnd: "remoteWillEnd_real_deals"
+    , remoteDidEnd: "remoteDidEnd_real_deals"
+    },
+    validate_fields: [
+      { name: 'real_deals[email]', rules: 'required|valid_email' },
+      { name: 'real_deals[zip_code]', rules: 'required|callback_check_zipcode' }
+    ],
+    response_field_map: {
+      zip: 'real_deals[zip_code]',
+      email: 'real_deals[email]'
+    },
+    input_css_selector: null,
+    form: {
+      name: null,
+      url: null,
+      submit: false
+    }
+
+  }
+  self.options = options; // Make public
+
+  var set_input_css_selector = function(value){ options.input_css_selector = "#"+value+" input[type=text]"; }
+  var set_form_name = function(value){ options.form.name = value; }
+  var set_form_url = function(value){ options.form.url = value; }
+  var process_errors = function(validator, errors){
+    // iterate through fields to set any errors
+    $(options.input_css_selector).each( function(){
+
+      $this = $(this);
+      $label = $this.parent().find('label');
+      $error_span = $label.find('span');
+      if($error_span.size() < 1){//create it
+        $label.append('<span class="error" for="'+$(this).attr('name')+'"></span>')
+        $error_span = $label.find('span');
+      }
+      $error_span.hide();
+      if(validator.field_errors[$(this).attr('name')]){
+        $error_span.text(validator.field_errors[$(this).attr('name')]);
+        $error_span.prepend('<span class="arrow"></span>');
+        $error_span.show();
+      }
+    });
+  }
+
+  self.validate = function($target, override_options){
+    set_form_name($target.attr('name'));
+    set_form_url($target.attr("action"))
+    set_input_css_selector($target.attr('id'));
+
+    if(override_options){
+      $.extend(options,override_options);
+    }
+    $(options.input_css_selector).each(function(){
+      $this = $(this)
+      $this.focus(function() {
+        $this = $(this);
+        $error_span = $this.parent().find('label').find('span');
+        if($error_span.is(":visible")){
+          $error_span.toggle();
+        }
+      });
+    })
+    
+    var validator = new FormValidator(options.form.name, options.validate_fields , function(errors, events) {
+        if (errors.length > 0) {
+          process_errors(validator, errors);
+        }
+    });
+
+    // Override onsubmit
+    validator.callbacks['onsubmit'] = function(that,event){
+      var $form = $(that.form)
+      $form.trigger(options.notifications.remoteWillStart);
+      var params = $form.serializeArray();
+      if (!($.query.get('from') === null) && !($.query.get('from') === undefined) && !($.query.get('from') === "")) {
+        params.push({ name: 'from', value: $.query.get('from') });
+      }
+      
+      $.ajax({
+        type: 'POST',
+        //async: false,
+        url: options.form.url,
+        data: params,
+        success: function(resp){
+          $form.trigger(options.notifications.remoteDidEnd);
+          if(resp.status == "error"){
+            // construct error messages
+            for(error in resp.errors){
+              validator.field_errors[ options.response_field_map[error] ] = resp.errors[error].join(" and ");
+            }
+            process_errors(validator, []);
+            $form.trigger(options.notifications.subscriptionFailure, resp);
+          }
+          else{
+            $form.trigger(options.notifications.subscriptionSuccess, resp);
+          }
+        },
+        error: function(resp){
+          $form.trigger(options.notifications.serviceFailure, resp);
+        }
+      });
+
+
+      // By default, the form will not be submitted
+      // Control behavior which can be overriden by setting this to true
+      // pass: {form: {submit: true}}
+      return options.form.submit;
+    }
+
+    // Register callbacks
+    validator.registerCallback('check_zipcode', function(value) {
+      if (/^[0-9]{5}(-[0-9]{4})?$/i.test(value)) { return true; }
+      return false;
+    })
+    // Update messages
+    validator.setMessage('check_zipcode','Please enter a valid ZIP code');
+    validator.setMessage('valid_email','Please enter a valid email address');
+    validator.setFieldSpecificMessage('real_deals[email]','Please provide your email address')
+    validator.setFieldSpecificMessage('real_deals[zip_code]','Please provide your ZIP code')
+
+    // Return a reference to the main object
+    return self;
+  }
+  return self;
+})(DOTDSignupValidator || {});
